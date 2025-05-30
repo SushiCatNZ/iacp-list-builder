@@ -12,6 +12,9 @@ app.use(express.json({ limit: '2mb' }));
 // Set up multer for file uploads
 const upload = multer({ dest: 'uploads/' }); // temp upload dir
 
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, 'build')));
+
 app.post('/api/save-army', (req, res) => {
   const payload = req.body;
   const tempFile = path.join(__dirname, 'temp_payload.json');
@@ -209,6 +212,10 @@ app.post('/api/delete-vassal-txt', (req, res) => {
 
 app.get('/api/test', (req, res) => {
   res.json({ message: 'Proxy is working!' });
+});
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
 app.listen(PORT, () => {
