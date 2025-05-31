@@ -111,17 +111,12 @@ function CardList({ cards, onAdd, list, onSelect, type, iacpLogo, showIACP, fact
           card.CardGroup === "Companion" ||
           card.CardGroup === "Command"
         ) {
-          let imageName = card.Name;
-          if (card.CardClass === "Elite") imageName += " [Elite]";
-          else if (card.CardClass === "Regular") imageName += " [Regular]";
-          if (card.Variant === "IACP") imageName += " [IACP]";
-          imageName += ".png";
           let imagePath = '';
           try {
             if (card.CardGroup === "Command") {
-              imagePath = require(`../images/command/${imageName}`);
+              imagePath = require(`../images/command/${card.ImageName}`);
             } else {
-              imagePath = require(`../images/deployment/${imageName}`);
+              imagePath = require(`../images/deployment/${card.ImageName}`);
             }
           } catch (e) {
             imagePath = '';

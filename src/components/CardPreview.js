@@ -2,33 +2,15 @@ import React from 'react';
 import IALogo from '../images/icons/IA Logo.png';
 
 function getCardImageUrl(card) {
-  if (!card || !card.Name) return null;
+  if (!card || !card.ImageName) return null;
   
-  // Build the image name based on card properties
-  let imageName = card.Name;
-  
-  // Add [Elite] or [Regular] suffix
-  if (card.CardClass === "Elite") {
-    imageName += " [Elite]";
-  } else if (card.CardClass === "Regular") {
-    imageName += " [Regular]";
-  }
-  
-  // Add [IACP] suffix if card is IACP variant
-  if (card.Variant === "IACP") {
-    imageName += " [IACP]";
-  }
-  
-  // Add .png extension
-  imageName += ".png";
-
   // Get the image path based on card group
   try {
     let imagePath;
     if (card.CardGroup === "Command") {
-      imagePath = require(`../images/command/${imageName}`);
+      imagePath = require(`../images/command/${card.ImageName}`);
     } else {
-      imagePath = require(`../images/deployment/${imageName}`);
+      imagePath = require(`../images/deployment/${card.ImageName}`);
     }
     return typeof imagePath === 'string' ? imagePath : imagePath.default;
   } catch (e) {

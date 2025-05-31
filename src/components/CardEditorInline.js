@@ -265,7 +265,7 @@ function getAutoImageName(card) {
   if (card.Variant === 'IACP') {
     suffixes.push(`[IACP]`);
   }
-  return `${name}${suffixes.length ? ' ' + suffixes.join(' ') : ''}`;
+  return `${name}${suffixes.length ? ' ' + suffixes.join(' ') : ''}.png`;
 }
 
 function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setShowCardEditor, setSelectedCard, imageRefreshKey, setImageRefreshKey }) {
@@ -368,13 +368,19 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
       return;
     }
     
-    // Generate VassalName
+    // Generate VassalName and ImageName
     let vassalName = editCard.Name || '';
     if (editCard.CardClass === 'Regular' || editCard.CardClass === 'Elite') {
       vassalName += ` [${editCard.CardClass}]`;
     }
-    // Prepare card with updated VassalName and without Image
-    const { Image, ...cardToSave } = { ...editCard, VassalName: vassalName };
+    const imageName = getAutoImageName(editCard);
+    
+    // Prepare card with updated VassalName, ImageName and without Image
+    const { Image, ...cardToSave } = { 
+      ...editCard, 
+      VassalName: vassalName,
+      ImageName: imageName
+    };
 
     const payload = {
       operation: 'save',
@@ -387,6 +393,7 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'Accept': 'application/json'
         },
         body: JSON.stringify(payload),
       });
@@ -405,7 +412,7 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
         updatedCards.sort((a, b) => parseInt(a.ID, 10) - parseInt(b.ID, 10));
         setCardData(updatedCards);
         alert(`Card saved successfully! (ID: ${cardToSave.ID}, Name: ${cardToSave.Name})`);
-    } else {
+      } else {
         console.error('Failed to save card:', result.error);
         alert('Failed to save card: ' + result.error);
       }
@@ -419,25 +426,25 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
     if (!window.confirm(`Are you sure you want to delete this card? (ID: ${editCard.ID}, Name: ${editCard.Name})`)) {
       return;
     }
-    // Prepare image filename and directory for deletion BEFORE clearing any state
-    let imageName = editCard.Name || '';
-    if (editCard.CardClass === 'Regular' || editCard.CardClass === 'Elite') {
-      imageName += ` [${editCard.CardClass}]`;
+    // Use ImageName for deletion, construct it if not present
+    let imageName = editCard.ImageName;
+    if (!imageName) {
+      imageName = getAutoImageName(editCard);
     }
-    if (editCard.Variant === 'IACP') {
-      imageName += ' [IACP]';
-    }
-    imageName = imageName.trim() + '.png';
     const targetDir = (editCard.CardGroup === 'Command') ? 'command' : 'deployment';
     // Request backend to delete image
     try {
-      await fetch('/api/delete-image', {
+      const response = await fetch('/api/delete-image', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ imageName, targetDir }),
       });
+      const result = await response.json();
+      if (!result.success) {
+        console.error('Failed to delete image:', result.error);
+      }
     } catch (err) {
-      // Optionally handle error
+      console.error('Error deleting image:', err);
     }
     // Request backend to delete Vassal .txt file
     try {
@@ -522,14 +529,7 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
         alert('Only PNG files are allowed.');
         return;
       }
-      let imageName = editCard.Name || '';
-      if (editCard.CardClass === 'Regular' || editCard.CardClass === 'Elite') {
-        imageName += ` [${editCard.CardClass}]`;
-      }
-      if (editCard.Variant === 'IACP') {
-        imageName += ' [IACP]';
-      }
-      imageName = imageName.trim() + '.png';
+      const imageName = getAutoImageName(editCard);
       const targetDir = (editCard.CardGroup === 'Command') ? 'command' : 'deployment';
       const formData = new FormData();
       const renamedFile = new File([file], imageName, { type: file.type });
