@@ -169,7 +169,9 @@ function App() {
   const selectedDeploymentNames = deploymentList.map(card => card.Name);
 
   // Special deployment card checks
-  const hasJawaElite = selectedDeploymentNames.includes("Jawa Scavenger [Elite]");
+  const hasJawaElite = deploymentList.some(card => 
+    card.Name === "Jawa Scavenger" && card.CardClass === "Elite"
+  );
   const hasAphra = selectedDeploymentNames.includes("Doctor Aphra");
   const hasSaska = selectedDeploymentNames.includes("Saska Teft");
   const hasTempAllianceM = selectedDeploymentNames.includes("Temporary Alliance (M)");
