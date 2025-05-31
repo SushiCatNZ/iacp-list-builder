@@ -52,8 +52,8 @@ function ListSection({
       )}
       {commandStats && (
         <div className="command-stats-row">
-          <span><b>Cards:</b> <span style={{ color: parseInt(commandStats.cmdCards) > 15 ? '#ff0000' : 'inherit', fontWeight: parseInt(commandStats.cmdCards) > 15 ? 'bold' : 'normal' }}>{commandStats.cmdCards}</span></span>
-          <span><b>Points:</b> <span style={{ color: parseInt(commandStats.cmdPoints) > 15 ? '#ff0000' : 'inherit', fontWeight: parseInt(commandStats.cmdPoints) > 15 ? 'bold' : 'normal' }}>{commandStats.cmdPoints}</span></span>
+          <span><b>Cards:</b> <span style={{ color: parseInt(commandStats.cmdCards) > parseInt(commandStats.cmdCardLimit) ? '#ff0000' : 'inherit', fontWeight: parseInt(commandStats.cmdCards) > parseInt(commandStats.cmdCardLimit) ? 'bold' : 'normal' }}>{commandStats.cmdCards}</span></span>
+          <span><b>Points:</b> <span style={{ color: parseInt(commandStats.cmdPoints) > parseInt(commandStats.cmdPointsLimit) ? '#ff0000' : 'inherit', fontWeight: parseInt(commandStats.cmdPoints) > parseInt(commandStats.cmdPointsLimit) ? 'bold' : 'normal' }}>{commandStats.cmdPoints}</span></span>
           <button
             className="add-common-command-button"
             title="Add commonly used cards"
@@ -141,17 +141,12 @@ function ListSection({
             card.CardGroup === "Companion" ||
             card.CardGroup === "Command"
           ) {
-            let imageName = card.Name;
-            if (card.CardClass === "Elite") imageName += " [Elite]";
-            else if (card.CardClass === "Regular") imageName += " [Regular]";
-            if (card.Variant === "IACP") imageName += " [IACP]";
-            imageName += ".png";
             let imagePath = '';
             try {
               if (card.CardGroup === "Command") {
-                imagePath = require(`../images/command/${imageName}`);
+                imagePath = require(`../images/command/${card.ImageName}`);
               } else {
-                imagePath = require(`../images/deployment/${imageName}`);
+                imagePath = require(`../images/deployment/${card.ImageName}`);
               }
             } catch (e) {
               imagePath = '';

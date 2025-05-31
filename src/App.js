@@ -434,6 +434,21 @@ function App() {
       return sum + (card.Cost || 0);
     }, 0);
 
+    // Check for special skirmish upgrade cards
+    const hasNemiksManifesto = deploymentList.some(card => 
+      card.Name === "Nemiks Manifesto"
+    );
+    const hasBalanceOfTheForce = deploymentList.some(card => 
+      card.Name === "Balance of the Force"
+    );
+
+    // Calculate command limits based on special cards
+    const commandCardLimit = hasNemiksManifesto ? 18 : 15;
+    const commandPointsLimit = hasBalanceOfTheForce ? 18 : 15;
+
+    // Calculate command card count, allow it to go over the limit
+    const commandCardCount = commandList.length;
+
     return {
       totalCost: `${totalCost}/40`,
       deploymentCount: validDeployments.length,
@@ -441,8 +456,10 @@ function App() {
         sum + ((card.Health || 0) * (card.FigureCount || 1)), 0),
       figureCount,
       traitCounts,
-      commandCount: `${commandList.length}/15`,
-      commandPoints: `${commandList.reduce((sum, card) => sum + (card.Cost || 0), 0)}/15`
+      commandCount: `${commandCardCount}/${commandCardLimit}`,
+      commandPoints: `${commandList.reduce((sum, card) => sum + (card.Cost || 0), 0)}/${commandPointsLimit}`,
+      commandCardLimit,
+      commandPointsLimit
     };
   };
 
@@ -980,7 +997,9 @@ function App() {
             iacpLogo={IACPLogo}
             commandStats={!showCardEditor ? {
               cmdCards: stats.commandCount,
-              cmdPoints: stats.commandPoints
+              cmdPoints: stats.commandPoints,
+              cmdCardLimit: stats.commandCardLimit,
+              cmdPointsLimit: stats.commandPointsLimit
             } : null}
             onAddCommonCommandCards={handleAddCommonCommandCards}
           />
