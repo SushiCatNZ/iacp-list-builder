@@ -92,7 +92,7 @@ function App() {
       case "Rebel":
         return [...baseCards, "Heart of Freedom"];
       case "Mercenary":
-        return [...baseCards, "Worth Every Credit"];
+        return [...baseCards, "Worth Every Credit", "Opportunistic"];
       default:
         return baseCards;
     }
@@ -402,9 +402,9 @@ function App() {
       return counts;
     }, {});
 
-    // 1. Count the number of IACP Heavy Stormtrooper [Elite]s
+    // 1. Count the number of IACP Heavy Stormtrooper Elite
     const numIACPHeavyStormtrooperElite = deploymentList.filter(
-      card => card.Name === "Heavy Stormtrooper [Elite]" && card.Variant === "IACP"
+      card => card.Name === "Heavy Stormtrooper" && card.CardClass === "Elite" && card.Variant === "IACP"
     ).length;
 
     // 2. Gather all Skirmish and Squad Upgrades with their index in deploymentList

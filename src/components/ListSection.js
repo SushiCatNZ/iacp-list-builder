@@ -229,6 +229,9 @@ function ListSection({
             }
           }
 
+          // --- ATT button logic for Scavenged Walker special case ---
+          const isScavengedWalker = card.Name === "Scavenged Walker";
+
           return (
             <div 
               key={`${card.ID}-${index}`}
@@ -302,13 +305,20 @@ function ListSection({
                   }
                   onClick={e => {
                     e.stopPropagation();
-                    let toAdd = upgradesToAdd
-                      // Only add upgrades that match baseFaction or are Neutral
-                      .filter(upg => 
-                        (upg.Faction === baseFaction || upg.Faction === "Neutral") &&
-                        (deploymentList.filter(c => c.ID === upg.ID).length < (upg.Max || 1))
-                      );
-
+                    let toAdd;
+                    if (isScavengedWalker) {
+                      // [Special Case] Allow Scavenged Walker to add AT-ST and AT-DP regardless of faction
+                      toAdd = upgradesToAdd
+                        .filter(upg => ["AT-ST", "AT-DP"].includes(upg.Name))
+                        .filter(upg => deploymentList.filter(c => c.ID === upg.ID).length < (upg.Max || 1));
+                    } else {
+                      // [Standard Logic] Only add upgrades that match baseFaction or are Neutral
+                      toAdd = upgradesToAdd
+                        .filter(upg => 
+                          (upg.Faction === baseFaction || upg.Faction === "Neutral") &&
+                          (deploymentList.filter(c => c.ID === upg.ID).length < (upg.Max || 1))
+                        );
+                    }
                     // Special case: Doctor Aphra also adds 0-0-0 and BT-1 (these are deployment cards, not upgrades)
                     if (card.Name === "Doctor Aphra" && baseFaction === "Mercenary") {
                       const aphraBots = ["0-0-0", "BT-1"]
@@ -316,9 +326,10 @@ function ListSection({
                         .filter(c => c && !deploymentList.some(d => d.Name === c.Name));
                       toAdd = [...toAdd, ...aphraBots];
                     }
-
                     // Remove duplicates by ID
-                    toAdd = toAdd.filter((c, idx, arr) => arr.findIndex(x => x.ID === c.ID) === idx);
+                    if (toAdd) {
+                      toAdd = toAdd.filter((c, idx, arr) => arr.findIndex(x => x.ID === c.ID) === idx);
+                    }
 
                     if (toAdd.length > 0) {
                       onAddMultipleDeploymentCards(toAdd);

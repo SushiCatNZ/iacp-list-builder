@@ -3196,7 +3196,7 @@
       "Kayn Somos",
       "Thrawn",
       "Emperor Palpatine",
-      "Darth Vader"      
+      "Darth Vader"
     ],
     "AllText": "Advanced Com Systems Attachment<br>Leader Only<br>Abilities on your Deployment card that choose or affect adjacent friendly figures or friendly figures within 2 spaces can choose or affect other friendly figures within 3 spaces instead. Skirmish Upgrade None None Leader None None None    ",
     "Variant": "FFG",
@@ -3871,7 +3871,9 @@
     ],
     "TraitsRequired": [],
     "Color": "red",
-    "UnitsRequired": [],
+    "UnitsRequired": [
+      "Scavenged Walker"
+    ],
     "AllText": "AT-DP <b>Assault: </b>You can perform multiple attacks during your activation.<br><b>Charge Generators: </b>While attacking, if you have suffered fewer than 9Damage, appli +1Damage to the attack results and you may reroll 1 attack die. Vehicle Heavy Weapon None None None None None Massive +1[Dodge], +3 Ac. [Surge]: +1Damage [Surge]: Pierce 2",
     "Variant": "FFG",
     "Characteristics": [
@@ -5277,7 +5279,9 @@
     ],
     "TraitsRequired": [],
     "Color": "red",
-    "UnitsRequired": [],
+    "UnitsRequired": [
+      "Scavenged Walker"
+    ],
     "AllText": "AT-ST <b>Targeting Computer </b> Vehicle Heavy Weapon None None None None None Massive +3 Accuracy [Surge]: Blast 2 Damage [Surge]: Pierce 2",
     "Variant": "IACP",
     "Characteristics": [
@@ -16186,7 +16190,7 @@
     "CardGroup": "Command",
     "Name": "Close the Gap",
     "CardClass": null,
-    "Faction": "Mercenary",
+    "Faction": "Neutral",
     "Cost": 3,
     "FigureCount": null,
     "Max": 1,
