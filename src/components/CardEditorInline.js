@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import Select from "react-select";
+import CreatableSelect from "react-select/creatable";
 
 const FACTIONS = ["Rebel", "Empire", "Mercenary", "Neutral"];
 const CARD_GROUPS = [
@@ -744,6 +745,15 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
         </div>
         <div className="form-row" style={{ display: "flex", gap: "8px", alignItems: "center" }}>
           <div>
+            <label>Cost:</label>
+            <input
+              type="number"
+              value={safeEditCard?.Cost ?? ""}
+              onChange={e => handleFieldChange("Cost", e.target.value)}
+              style={{ width: "60px" }}
+            />
+          </div>
+          <div>
             <label>Max:</label>
             <input
               type="number"
@@ -870,7 +880,7 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
           </div>
           <div style={{ flex: 1 }}>
             <label style={{ display: "block" }}>Units Required:</label>
-            <Select
+            <CreatableSelect
               isMulti
               value={
                 Array.isArray(safeEditCard?.UnitsRequired)
@@ -884,13 +894,9 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
                 )
               }
               options={(() => {
-                // Get deployment cards matching the faction
+                // Filter to only show cards matching the current card's faction
                 const deploymentNames = cardData
-                  .filter(
-                    c =>
-                      c.CardGroup === "Deployment" &&
-                      c.Faction === (safeEditCard?.Faction || "Rebel")
-                  )
+                  .filter(c => (c.CardGroup === "Deployment" || c.CardGroup === "Skirmish Upgrade") && c.Faction === safeEditCard?.Faction)
                   .map(c => c.Name);
                 // Remove duplicates and sort alphabetically
                 const uniqueSorted = Array.from(new Set(deploymentNames)).sort((a, b) => a.localeCompare(b));
