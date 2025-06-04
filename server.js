@@ -134,13 +134,21 @@ app.post('/api/upload-image', upload.single('image'), (req, res) => {
     if (err) {
       return res.status(500).json({ success: false, error: 'Failed to save image.' });
     }
-    res.json({ success: true });
+    // Call Python thumbnail script
+    const scriptPath = path.join(__dirname, 'scripts', 'generate_thumbnail.py');
+    exec(`python "${scriptPath}" "${destPath}" "${targetDir}"`, (error, stdout, stderr) => {
+      if (error) {
+        console.error('Thumbnail generation error:', error, stderr);
+        // Still return success for image upload, but log the error
+        return res.json({ success: true, thumbnail: false, error: stderr });
+      }
+      res.json({ success: true, thumbnail: true });
+    });
   });
 });
 
 app.post('/api/delete-image', (req, res) => {
   const { imageName, targetDir } = req.body;
-  console.log('Delete image request:', req.body);
   if (!imageName || !targetDir) {
     return res.status(400).json({ success: false, error: 'Missing imageName or targetDir' });
   }
@@ -151,13 +159,21 @@ app.post('/api/delete-image', (req, res) => {
     destDir = path.join(__dirname, 'src', 'images', 'deployment');
   }
   const filePath = path.join(destDir, imageName);
-  console.log('Attempting to delete file:', filePath);
   fs.unlink(filePath, (err) => {
     if (err && err.code !== 'ENOENT') {
-      console.error('Failed to delete image:', err);
       return res.status(500).json({ success: false, error: 'Failed to delete image.' });
     }
-    res.json({ success: true });
+    // Also delete the thumbnail
+    const ext = path.extname(imageName);
+    const baseName = path.basename(imageName, ext);
+    const thumbDir = path.join(destDir, 'thumbnails');
+    const thumbPath = path.join(thumbDir, baseName + '.jpg');
+    fs.unlink(thumbPath, (thumbErr) => {
+      if (thumbErr && thumbErr.code !== 'ENOENT') {
+        return res.json({ success: true, thumbnail: false, error: thumbErr.message });
+      }
+      res.json({ success: true, thumbnail: !thumbErr });
+    });
   });
 });
 

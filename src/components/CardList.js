@@ -102,103 +102,92 @@ function CardList({ cards, onAdd, list, onSelect, type, iacpLogo, showIACP, fact
         const count = getCardCount(card.ID);
         const maxReached = count >= (card.Max || 1);
 
-        // Show card art background for all relevant card groups
+        // Use thumbnail for card art background
+        let thumbPath = '';
+        try {
+          if (card.CardGroup === "Command") {
+            thumbPath = require(`../images/command/thumbnails/${card.ImageName.replace(/\.(png|jpeg|jpg)$/i, '.jpg')}`);
+          } else {
+            thumbPath = require(`../images/deployment/thumbnails/${card.ImageName.replace(/\.(png|jpeg|jpg)$/i, '.jpg')}`);
+          }
+        } catch (e) {
+          thumbPath = '';
+        }
+
         let cardArtBg = null;
-        if (
-          card.CardGroup === "Deployment" ||
-          card.CardGroup === "Skirmish Upgrade" ||
-          card.CardGroup === "Squad Upgrade" ||
-          card.CardGroup === "Companion" ||
-          card.CardGroup === "Command"
-        ) {
-          let imagePath = '';
-          try {
-            if (card.CardGroup === "Command") {
-              imagePath = require(`../images/command/${card.ImageName}`);
-            } else {
-              imagePath = require(`../images/deployment/${card.ImageName}`);
-            }
-          } catch (e) {
-            imagePath = '';
-          }
-          let imageUrl = '';
-          if (imagePath) {
-            imageUrl = typeof imagePath === 'string' ? imagePath : imagePath.default;
-          }
-          if (imageUrl) {
-            if (card.CardGroup === "Command") {
-              cardArtBg = (
-                <div className="card-art-bg" style={{
-                  position: 'absolute',
-                  right: 0,
-                  top: 0,
-                  width: '120px',
-                  height: '100%',
-                  zIndex: 1,
-                  pointerEvents: 'none',
-                  overflow: 'hidden',
-                }}>
-                  <img
-                    src={imageUrl}
-                    alt={card.Name}
-                    style={{
-                      width: '100%',
-                      height: '100%',
-                      objectFit: 'cover',
-                      objectPosition: `center ${-30 + (card.ImageOffset || 0)}px`,
-                      display: 'block',
-                      marginLeft: 0,
-                    }}
-                  />
-                  <div
-                    style={{
-                      position: 'absolute',
-                      right: 0,
-                      top: 0,
-                      width: '100%',
-                      height: '100%',
-                      background: 'linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 70%, #fff 100%)',
-                    }}
-                  />
-                </div>
-              );
-            } else {
-              cardArtBg = (
-                <div className="card-art-bg" style={{
-                  position: 'absolute',
-                  right: 0,
-                  top: 0,
-                  width: '120px',
-                  height: '100%',
-                  zIndex: 1,
-                  pointerEvents: 'none',
-                  overflow: 'hidden',
-                }}>
-                  <img
-                    src={imageUrl}
-                    alt={card.Name}
-                    style={{
-                      width: '115%',
-                      height: '100%',
-                      objectFit: 'cover',
-                      objectPosition: `right ${-34 + (card.ImageOffset || 0)}px`,
-                      display: 'block',
-                      marginLeft: '-15%',
-                    }}
-                  />
-                  <div
-                    style={{
-                      position: 'absolute',
-                      right: 0,
-                      top: 0,
-                      width: '100%',
-                      height: '100%',
-                      background: 'linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 70%, #fff 100%)',
-                    }}
-                  />
-                </div>
-              );
-            }
+        if (thumbPath) {
+          if (card.CardGroup === "Command") {
+            cardArtBg = (
+              <div className="card-art-bg" style={{
+                position: 'absolute',
+                right: 0,
+                top: 0,
+                width: '120px',
+                height: '100%',
+                zIndex: 1,
+                pointerEvents: 'none',
+                overflow: 'hidden',
+              }}>
+                <img
+                  src={thumbPath}
+                  alt={card.Name}
+                  style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                    objectPosition: `center ${-30 + (card.ImageOffset || 0)}px`,
+                    display: 'block',
+                    marginLeft: 0,
+                  }}
+                />
+                <div
+                  style={{
+                    position: 'absolute',
+                    right: 0,
+                    top: 0,
+                    width: '100%',
+                    height: '100%',
+                    background: 'linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 70%, #fff 100%)',
+                  }}
+                />
+              </div>
+            );
+          } else {
+            cardArtBg = (
+              <div className="card-art-bg" style={{
+                position: 'absolute',
+                right: 0,
+                top: 0,
+                width: '120px',
+                height: '100%',
+                zIndex: 1,
+                pointerEvents: 'none',
+                overflow: 'hidden',
+              }}>
+                <img
+                  src={thumbPath}
+                  alt={card.Name}
+                  style={{
+                    width: '115%',
+                    height: '100%',
+                    objectFit: 'cover',
+                    objectPosition: `right ${-34 + (card.ImageOffset || 0)}px`,
+                    display: 'block',
+                    marginLeft: '-15%',
+                  }}
+                />
+                <div
+                  style={{
+                    position: 'absolute',
+                    right: 0,
+                    top: 0,
+                    width: '100%',
+                    height: '100%',
+                    background: 'linear-gradient(to left, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 70%, #fff 100%)',
+                  }}
+                />
+              </div>
+            );
           }
         }
 
