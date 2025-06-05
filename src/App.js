@@ -13,6 +13,20 @@ import './App.css';
 import Select from 'react-select';
 import CardEditorInline from "./components/CardEditorInline";
 import PasswordPrompt from './components/PasswordPrompt';
+import BrawlerIcon from './images/icons/brawler.png';
+import CreatureIcon from './images/icons/creature.png';
+import DroidIcon from './images/icons/droid.png';
+import ForceUserIcon from './images/icons/forceuser.png';
+import GuardianIcon from './images/icons/guardian.png';
+import HeavyWeaponIcon from './images/icons/heavyweapon.png';
+import HunterIcon from './images/icons/hunter.png';
+import LeaderIcon from './images/icons/leader.png';
+import SmugglerIcon from './images/icons/smuggler.png';
+import SpyIcon from './images/icons/spy.png';
+import TechnicianIcon from './images/icons/technician.png';
+import TrooperIcon from './images/icons/trooper.png';
+import VehicleIcon from './images/icons/vehicle.png';
+import WookieeIcon from './images/icons/wookiee.png';
 
 const factionIcons = {
   Rebel: RebelLogo,
@@ -21,24 +35,24 @@ const factionIcons = {
   Neutral: NeutralLogo
 };
 
-const TRAIT_ABBR = {
-  "Wookiee": "Woo",
-  "Spy": "Spy",
-  "Technician": "Tec",
-  "Trooper": "Trp",
-  "Vehicle": "Veh",
-  "Heavy Weapon": "HWp",
-  "Hunter": "Hun",
-  "Leader": "Ldr",
-  "Smuggler": "Smg",
-  "Creature": "Cre",
-  "Droid": "Dro",
-  "Force User": "FUr",
-  "Guardian": "Gua",
-  "Brawler": "Brw",
-};
+const TRAIT_NAMES = [
+  "Wookiee",
+  "Spy",
+  "Technician",
+  "Trooper",
+  "Vehicle",
+  "Heavy Weapon",
+  "Hunter",
+  "Leader",
+  "Smuggler",
+  "Creature",
+  "Droid",
+  "Force User",
+  "Guardian",
+  "Brawler"
+];
 
-const traitOptions = Object.keys(TRAIT_ABBR)
+const traitOptions = TRAIT_NAMES
   .sort((a, b) => a.localeCompare(b))
   .map(trait => ({
     value: trait,
@@ -468,10 +482,29 @@ function App() {
   // Filter out unwanted traits from traitCounts for display
   const TRAITS_TO_EXCLUDE = ["Massive", "Large", "Melee", "Mobile"];
   function getTraitAbbreviations(traitCounts) {
-    return Object.entries(traitCounts)
-      .filter(([trait]) => !TRAITS_TO_EXCLUDE.includes(trait))
-      .map(([trait, count]) => `${TRAIT_ABBR[trait] || trait} (${count})`)
-      .join(", ");
+    const traitIcons = [];
+    for (const [trait, count] of Object.entries(traitCounts)) {
+      let icon;
+      switch(trait.toLowerCase()) {
+        case 'brawler': icon = BrawlerIcon; break;
+        case 'creature': icon = CreatureIcon; break;
+        case 'droid': icon = DroidIcon; break;
+        case 'force user': icon = ForceUserIcon; break;
+        case 'guardian': icon = GuardianIcon; break;
+        case 'heavy weapon': icon = HeavyWeaponIcon; break;
+        case 'hunter': icon = HunterIcon; break;
+        case 'leader': icon = LeaderIcon; break;
+        case 'smuggler': icon = SmugglerIcon; break;
+        case 'spy': icon = SpyIcon; break;
+        case 'technician': icon = TechnicianIcon; break;
+        case 'trooper': icon = TrooperIcon; break;
+        case 'vehicle': icon = VehicleIcon; break;
+        case 'wookiee': icon = WookieeIcon; break;
+        default: continue;
+      }
+      traitIcons.push({ icon, count, trait });
+    }
+    return traitIcons;
   }
 
   const handleToggleCards = () => {
@@ -913,6 +946,9 @@ function App() {
       <div className="main-content">
         {/* Column 1: Card List */}
         <div className="left-panel">
+          <div className="section-title-box" style={{ textAlign: 'left' }}>
+            <span style={{ textTransform: 'uppercase' }}>{showDeployment ? 'Available Deployment' : 'Available Command'}</span>
+          </div>
           <div className="cards-container">
             <CardList
               cards={showDeployment ? sortedFilteredDeploymentCards : sortedFilteredCommandCards}
@@ -939,83 +975,99 @@ function App() {
           <div className={`card-preview ${selectedCard?.CardGroup === "Auxiliary" ? "auxiliary" : ""}`}>
             <CardPreview key={imageRefreshKey} card={selectedCard} />
           </div>
+          {/* Only show traits under card preview */}
+          {!showCardEditor && (
+            <div className="deployment-traits-row">
+              <span>
+                {getTraitAbbreviations(stats.traitCounts).map(({ icon, count, trait }, index) => (
+                  <span key={index} style={{ marginRight: '4px', whiteSpace: 'nowrap' }} title={trait}>
+                    <img src={icon} alt={trait} style={{ height: '20px', width: 'auto', verticalAlign: 'middle' }} />
+                    <span style={{ marginLeft: '2px' }}>{count}</span>
+                  </span>
+                ))}
+              </span>
+            </div>
+          )}
         </div>
 
         {/* Column 3: Selected List and Stats */}
         <div className="right-panel">
-          <ListSection
-            title={!showCardEditor ? "Deployment" : null}
-            cards={sortedDeploymentList}
-            onRemove={card => setDeploymentList(deploymentList.filter((c, i) => i !== deploymentList.indexOf(card)))}
-            onSelect={handleCardClick}
-            factionIcons={factionIcons}
-            iacpLogo={IACPLogo}
-            deploymentStats={!showCardEditor ? {
-              activations: stats.deploymentCount,
-              cost: stats.totalCost,
-              figures: stats.figureCount,
-              health: stats.totalHealth,
-              traits: getTraitAbbreviations(stats.traitCounts)
-            } : null}
-            commandCards={commandCards}
-            skirmishUpgradeCards={skirmishUpgradeCards}
-            squadUpgradeCards={squadUpgradeCards}
-            showIACP={false}
-            onAddCommandCard={card => setCommandList([...commandList, card])}
-            onAddSkirmishUpgrade={card => setDeploymentList([...deploymentList, card])}
-            commandList={commandList}
-            deploymentList={deploymentList}
-            allDeploymentCards={deploymentCards}
-            onAddDeploymentCard={card => setDeploymentList([...deploymentList, card])}
-            onAddMultipleDeploymentCards={cards => {
-              // Only add cards that are not already present
-              const newCards = cards.filter(
-                card => !deploymentList.some(d => d.ID === card.ID)
-              );
-              if (newCards.length > 0) {
-                setDeploymentList([...deploymentList, ...newCards]);
-              }
-            }}
-            onAddMultipleCommandCards={cards => {
-              // Only add cards that are not already present
-              const newCards = cards.filter(
-                card => !commandList.some(c => c.ID === card.ID)
-              );
-              if (newCards.length > 0) {
-                setCommandList([...commandList, ...newCards]);
-              }
-            }}
-            allCommandCards={commandCards}
-            baseFaction={baseFaction}
-          />
-          <ListSection
-            title={!showCardEditor ? "Command" : null}
-            cards={sortedCommandList}
-            onRemove={card => setCommandList(commandList.filter((c, i) => i !== commandList.indexOf(card)))}
-            onSelect={handleCardClick}
-            factionIcons={factionIcons}
-            iacpLogo={IACPLogo}
-            commandStats={!showCardEditor ? {
-              cmdCards: stats.commandCount,
-              cmdPoints: stats.commandPoints,
-              cmdCardLimit: stats.commandCardLimit,
-              cmdPointsLimit: stats.commandPointsLimit
-            } : null}
-            onAddCommonCommandCards={handleAddCommonCommandCards}
-          />
-          {showCardEditor && (
-            <div className="card-editor-inline">
-              <CardEditorInline
-                cardData={cardData}
-                setCardData={setCardData}
-                editCard={editCard}
-                setEditCard={setEditCard}
-                setShowCardEditor={setShowCardEditor}
-                setSelectedCard={setSelectedCard}
-                imageRefreshKey={imageRefreshKey}
-                setImageRefreshKey={setImageRefreshKey}
+          {!showCardEditor && (
+            <>
+              <ListSection
+                title={!showCardEditor ? "Selected Deployment" : null}
+                cards={sortedDeploymentList}
+                onRemove={card => setDeploymentList(deploymentList.filter((c, i) => i !== deploymentList.indexOf(card)))}
+                onSelect={handleCardClick}
+                factionIcons={factionIcons}
+                iacpLogo={IACPLogo}
+                deploymentStats={!showCardEditor ? {
+                  activations: stats.deploymentCount,
+                  cost: stats.totalCost,
+                  figures: stats.figureCount,
+                  health: stats.totalHealth,
+                  traits: getTraitAbbreviations(stats.traitCounts)
+                } : null}
+                commandCards={commandCards}
+                skirmishUpgradeCards={skirmishUpgradeCards}
+                squadUpgradeCards={squadUpgradeCards}
+                showIACP={false}
+                onAddCommandCard={card => setCommandList([...commandList, card])}
+                onAddSkirmishUpgrade={card => setDeploymentList([...deploymentList, card])}
+                commandList={commandList}
+                deploymentList={deploymentList}
+                allDeploymentCards={deploymentCards}
+                onAddDeploymentCard={card => setDeploymentList([...deploymentList, card])}
+                onAddMultipleDeploymentCards={cards => {
+                  // Only add cards that are not already present
+                  const newCards = cards.filter(
+                    card => !deploymentList.some(d => d.ID === card.ID) 
+                  );
+                  if (newCards.length > 0) {
+                    setDeploymentList([...deploymentList, ...newCards]);
+                  }
+                }}
+                onAddMultipleCommandCards={cards => {
+                  // Only add cards that are not already present
+                  const newCards = cards.filter(
+                    card => !commandList.some(c => c.ID === card.ID) 
+                  );
+                  if (newCards.length > 0) {
+                    setCommandList([...commandList, ...newCards]);
+                  }
+                }}
+                allCommandCards={commandCards}
+                baseFaction={baseFaction}
               />
-            </div>
+              <ListSection
+                title={!showCardEditor ? "Selected Command" : null}
+                cards={sortedCommandList}
+                onRemove={card => setCommandList(commandList.filter((c, i) => i !== commandList.indexOf(card)))}
+                onSelect={handleCardClick}
+                factionIcons={factionIcons}
+                iacpLogo={IACPLogo}
+                commandStats={!showCardEditor ? {
+                  cmdCards: stats.commandCount,
+                  cmdPoints: stats.commandPoints,
+                  cmdCardLimit: stats.commandCardLimit,
+                  cmdPointsLimit: stats.commandPointsLimit
+                } : null}
+                onAddCommonCommandCards={handleAddCommonCommandCards}
+                showAddCommonButton={true}
+              />
+            </>
+          )}
+          {showCardEditor && (
+            <CardEditorInline
+              cardData={cardData}
+              setCardData={setCardData}
+              editCard={editCard}
+              setEditCard={setEditCard}
+              setShowCardEditor={setShowCardEditor}
+              setSelectedCard={setSelectedCard}
+              imageRefreshKey={imageRefreshKey}
+              setImageRefreshKey={setImageRefreshKey}
+            />
           )}
         </div>
       </div>

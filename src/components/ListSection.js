@@ -5,6 +5,12 @@ import CompanionBlock from "../images/icons/companion_block.png";
 import SquadBlock from "../images/icons/squad_block.png";
 import AuxiliaryBlock from "../images/icons/auxiliary_block.png";
 import CommandBlock from "../images/icons/command_block.png";
+import ActivationIcon from '../images/icons/Activation.png';
+import CostIcon from '../images/icons/Cost.png';
+import FiguresIcon from '../images/icons/Figures.png';
+import HealthIcon from '../images/icons/Health.png';
+import CardsIcon from '../images/icons/Cards.png';
+import PointsIcon from '../images/icons/Points.png';
 
 function getCardClassIcon(card) {
   const group = card.CardGroup ? card.CardGroup.toLowerCase() : "";
@@ -33,27 +39,31 @@ function ListSection({
   squadUpgradeCards,
   baseFaction,
   handleCardClick,
+  showAddCommonButton = false,
 }) {
   return (
     <div className="list-section">
-      <h3>{title}</h3>
-      {deploymentStats && (
-        <>
-          <div className="deployment-stats-row">
-            <span><b>Acts:</b> {deploymentStats.activations}</span>
-            <span><b>Cost:</b> <span style={{ color: parseInt(deploymentStats.cost) > 40 ? '#ff0000' : 'inherit', fontWeight: parseInt(deploymentStats.cost) > 40 ? 'bold' : 'normal' }}>{deploymentStats.cost}</span></span>
-            <span><b>Figs:</b> {deploymentStats.figures}</span>
-            <span><b>Health:</b> {deploymentStats.health}</span>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
+        <div className="section-title-box">
+          {title && <span style={{ textTransform: 'uppercase' }}>{title}</span>}
+        </div>
+        {/* Only show stats for Selected Deployment section */}
+        {deploymentStats && (
+          <div className="deployment-stats-row" style={{ marginLeft: 'auto', marginRight: '10px', textAlign: 'right', display: 'flex', gap: '8px', fontSize: '1.05rem', fontFamily: 'Adobe Hebrew Regular, Arial, sans-serif' }}>
+            <span><img src={ActivationIcon} alt="Acts" style={{ height: '20px', width: 'auto', verticalAlign: 'middle' }} /> {deploymentStats.activations}</span>
+            <span><img src={CostIcon} alt="Cost" style={{ height: '20px', width: 'auto', verticalAlign: 'middle' }} /> <span style={{ color: parseInt(deploymentStats.cost) > 40 ? '#ff0000' : 'inherit', fontWeight: parseInt(deploymentStats.cost) > 40 ? 'bold' : 'normal' }}>{deploymentStats.cost}</span></span>
+            <span><img src={FiguresIcon} alt="Figs" style={{ height: '20px', width: 'auto', verticalAlign: 'middle' }} /> {deploymentStats.figures}</span>
+            <span><img src={HealthIcon} alt="Health" style={{ height: '20px', width: 'auto', verticalAlign: 'middle' }} /> {deploymentStats.health}</span>
           </div>
-          <div className="deployment-traits-row">
-            <span><b>Traits:</b> {deploymentStats.traits}</span>
+        )}
+        {/* Only show stats for Selected Command section */}
+        {commandStats && (
+          <div className="command-stats-row" style={{ marginLeft: 'auto', textAlign: 'right', display: 'flex', gap: '6px', fontSize: '1.05rem', fontFamily: 'Adobe Hebrew Regular, Arial, sans-serif' }}>
+            <span><img src={CardsIcon} alt="Cards" style={{ height: '20px', width: 'auto', verticalAlign: 'middle' }} /> <span style={{ color: parseInt(commandStats.cmdCards) > parseInt(commandStats.cmdCardLimit) ? '#ff0000' : 'inherit', fontWeight: parseInt(commandStats.cmdCards) > parseInt(commandStats.cmdCardLimit) ? 'bold' : 'normal' }}>{commandStats.cmdCards}</span></span>
+            <span><img src={PointsIcon} alt="Points" style={{ height: '20px', width: 'auto', verticalAlign: 'middle' }} /> <span style={{ color: parseInt(commandStats.cmdPoints) > parseInt(commandStats.cmdPointsLimit) ? '#ff0000' : 'inherit', fontWeight: parseInt(commandStats.cmdPoints) > parseInt(commandStats.cmdPointsLimit) ? 'bold' : 'normal' }}>{commandStats.cmdPoints}</span></span>
           </div>
-        </>
-      )}
-      {commandStats && (
-        <div className="command-stats-row">
-          <span><b>Cards:</b> <span style={{ color: parseInt(commandStats.cmdCards) > parseInt(commandStats.cmdCardLimit) ? '#ff0000' : 'inherit', fontWeight: parseInt(commandStats.cmdCards) > parseInt(commandStats.cmdCardLimit) ? 'bold' : 'normal' }}>{commandStats.cmdCards}</span></span>
-          <span><b>Points:</b> <span style={{ color: parseInt(commandStats.cmdPoints) > parseInt(commandStats.cmdPointsLimit) ? '#ff0000' : 'inherit', fontWeight: parseInt(commandStats.cmdPoints) > parseInt(commandStats.cmdPointsLimit) ? 'bold' : 'normal' }}>{commandStats.cmdPoints}</span></span>
+        )}
+        {showAddCommonButton && (
           <button
             className="add-common-command-button"
             title="Add commonly used cards"
@@ -61,11 +71,12 @@ function ListSection({
               e.stopPropagation();
               if (onAddCommonCommandCards) onAddCommonCommandCards();
             }}
+            style={{ marginLeft: 'auto', marginRight: '10px', padding: '0 4px' }}
           >
             ADD COMMON
           </button>
-        </div>
-      )}
+        )}
+      </div>
       <div className="selected-cards">
         {cards.map((card, index) => {
           // Find command cards that require this unit

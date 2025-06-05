@@ -23,8 +23,8 @@ function CardPreview({ card }) {
     return (
       <div className="card-preview empty">
         <div className="ia-logo-top-container">
-          <img src={IALogo} alt="Imperial Assault Logo" className="ia-logo-placeholder" />
-          <div className="skirmish-title">Skirmish List Builder</div>
+          <img src={IALogo} alt="Imperial Assault Logo" className="ia-logo-placeholder" style={{ width: '90%', maxWidth: '90%', display: 'block', marginBottom: '8px' }} />
+          <div className="colored-line"></div>
           <div className="author-credit">by 2BiT</div>
         </div>
       </div>
@@ -44,7 +44,7 @@ function CardPreview({ card }) {
       ) : (
         <div className="card-placeholder">
           <h3>{card.Name}</h3>
-          <p>Image coming soon</p>
+          <p>Image not found</p>
         </div>
       )}
     </div>

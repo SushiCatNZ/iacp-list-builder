@@ -41,6 +41,7 @@ body, html, #root, .app-container {
   background-repeat: repeat;
   background-size: auto;
   color: #f0f0f0;
+  overflow-x: hidden;
 }
 
 .app-container {
@@ -218,10 +219,13 @@ body, html, #root, .app-container {
 
 .main-content {
   display: grid;
-  grid-template-columns: minmax(360px, 600px) minmax(300px, 1fr) minmax(360px, 600px);
+  grid-template-columns: minmax(360px, 600px) minmax(200px, 300px) minmax(360px, 600px);
   gap: 12px;
   padding: 0 12px 32px 12px;
-  flex: 1;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+  width: 100%;
 }
 
 .left-panel,
@@ -250,8 +254,7 @@ body, html, #root, .app-container {
   overflow-y: auto;
   overflow-x: hidden;
   width: 100%;
-  max-height: 700px;
-  min-height: 400px;
+  max-height: 500px;
   box-sizing: border-box;
   color: #222 !important;
   margin-left: 0 !important;
@@ -306,7 +309,7 @@ body, html, #root, .app-container {
 
 .card-item.max-reached {
   opacity: 0.5;
-  pointer-events: none;
+  /* pointer-events: none; */
 }
 
 .card-item:hover,
@@ -445,20 +448,19 @@ body, html, #root, .app-container {
 }
 
 .card-preview {
-  width: 300px;
+  width: 100%;
+  min-width: 200px;
   max-width: 300px;
-  height: 465px;
+  aspect-ratio: 300 / 465;
   background: transparent;
   border-radius: 15px;
   box-shadow: 0 2px 8px #0001;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-top: 0;
-  margin-bottom: 0;
   overflow: hidden;
-  padding: 0;
   position: relative;
+  container-type: inline-size;
 }
 
 .ia-logo-top-container {
@@ -466,34 +468,31 @@ body, html, #root, .app-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  margin-top: 24px;
+  justify-content: center;
+  margin-top: 0;
 }
 
 .ia-logo-top-container .ia-logo-placeholder {
-  max-width: 90%;
-  max-height: 120px;
-  width: auto;
-  height: auto;
-  display: block;
+  position: static !important;
+  height: auto !important;
+  width: 90% !important;
+  max-width: 90% !important;
+  display: block !important;
   margin-bottom: 8px;
-}
-
-.card-preview.auxiliary {
-  height: 191px !important;
+  background: transparent !important;
 }
 
 .card-preview img {
-  box-sizing: border-box;
-}
-
-.card-preview .card-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.card-preview.auxiliary {
+  aspect-ratio: 300 / 191;
 }
 
 .card-preview.auxiliary img {
@@ -650,6 +649,7 @@ body, html, #root, .app-container {
   text-align: center;
   font-size: 0.98rem;
   margin-bottom: 8px;
+  padding-top: 8px;
 }
 
 .deployment-stats-row,
@@ -878,6 +878,7 @@ body, html, #root, .app-container {
   box-sizing: border-box;
   padding: 4px 12px 0px 4px;
   margin-left: 0 !important;
+  margin-top: 30px;
 }
 
 /* Remove border from any inner elements if present */
@@ -1068,9 +1069,14 @@ body, html, #root, .app-container {
 /* Add this new style for the preview panel */
 .preview-panel {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
   padding-top: 0px;
+  width: 100%;
+  min-width: 0;
+  max-width: none;
+  margin-top: 30px;
 }
 
 /* Update the existing card-preview styles */
@@ -1079,19 +1085,19 @@ body, html, #root, .app-container {
 }
 
 .card-preview {
-  width: 300px;
-  height: 465px;
+  width: 100%;
+  min-width: 200px;
+  max-width: 300px;
+  aspect-ratio: 300 / 465;
   background: transparent;
   border-radius: 15px;
   box-shadow: 0 2px 8px #0001;
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-top: 0;
-  margin-bottom: 0;
   overflow: hidden;
-  padding: 0;
   position: relative;
+  container-type: inline-size;
 }
 
 .ia-logo-top-container {
@@ -1099,29 +1105,23 @@ body, html, #root, .app-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
+  margin-top: 0;
 }
 
 .ia-logo-top-container .ia-logo-placeholder {
-  width: 100%;
-  max-height: 120px;
-  width: auto;
-  height: auto;
-  display: block;
-  margin-bottom: 16px;
+  position: static !important;
+  height: auto !important;
+  width: 90% !important;
+  max-width: 90% !important;
+  display: block !important;
+  margin-bottom: 8px;
   background: transparent !important;
 }
 
 /* Add these new styles for auxiliary cards */
-.card-preview.auxiliary {
-  height: 191px !important;
-}
 
 .card-preview img {
-  box-sizing: border-box;
-}
-
-.card-preview .card-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1214,6 +1214,7 @@ body, html, #root, .app-container {
   margin-left: 0 !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
+  min-height: 100px;
 }
 
 .selected-cards {
@@ -1255,12 +1256,10 @@ body, html, #root, .app-container {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 24px;
 }
 
 .ia-logo-top-container .ia-logo-placeholder {
   max-width: 90%;
-  max-height: 120px;
   width: auto;
   height: auto;
   display: block;
@@ -1268,7 +1267,7 @@ body, html, #root, .app-container {
 }
 
 .skirmish-title {
-  font-size: 3rem;
+  font-size: clamp(1.5rem, 6vw, 3rem);
   color: #fff;
   text-align: center;
   font-family: 'Nesobrite Condensed Bold', Arial, sans-serif;
@@ -1280,6 +1279,15 @@ body, html, #root, .app-container {
   padding-bottom: 2px;
 }
 
+.colored-line {
+  width: 80%;
+  height: 2px;
+  margin: 8px 0;
+  background: linear-gradient(to right, transparent, #ff0000, #0074d9, transparent);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+  border-radius: 1px;
+}
+
 .skirmish-title::after {
   content: '';
   position: absolute;
@@ -1288,8 +1296,8 @@ body, html, #root, .app-container {
   transform: translateX(-50%);
   width: 80%;
   height: 2px;
-  background: linear-gradient(to right, transparent, #ff0000, #0074d9, transparent);
-  box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+  background: none;
+  box-shadow: none;
 }
 
 .author-credit {
@@ -1310,35 +1318,44 @@ body, html, #root, .app-container {
   position: absolute;
 }
 
-@media (max-width: 1030px) and (min-width: 731px) {
+@media (max-width: 850px) and (min-width: 601px) {
   .main-content {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     gap: 8px;
   }
-  
   .left-panel {
-    order: 1;
-    grid-row: 1 / 3;
-  }
-  
-  .preview-panel {
-    order: 2;
+    grid-column: 1;
     grid-row: 1;
+    align-self: start;
   }
-  
-  .right-panel {
-    order: 3;
+  .preview-panel {
+    grid-column: 1;
     grid-row: 2;
+    margin: 8px 0;
+    align-self: start;
   }
-  
+  .right-panel {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+  }
   .left-panel,
   .right-panel {
     max-width: none;
   }
+  .cards-container {
+    max-height: 250px;
+    height: auto;
+  }
+  .card-preview {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-@media (max-width: 730px) {
+@media (max-width: 600px) {
   .main-content {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
@@ -1361,6 +1378,15 @@ body, html, #root, .app-container {
   .left-panel,
   .right-panel {
     max-width: none;
+  }
+  .cards-container {
+    max-height: 300px;
+    height: auto;
+  }
+  .card-preview {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -1427,4 +1453,46 @@ body, html, #root, .app-container {
 .password-prompt button[type="button"] {
   background-color: #f44336;
   color: white;
+}
+
+/* Section title box for list titles - compact and only top right rounded */
+.section-title-box {
+  background: #888;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-align: left;
+  padding: 2px 12px 2px 8px;
+  margin: 2px 0 0 0;
+  letter-spacing: 0.5px;
+  border-radius: 0 12px 0 0;
+  display: flex;
+  align-items: center;
+  min-height: 20px;
+  width: 133px;
+  max-width: 100%;
+  clip-path: polygon(0 0, 95% 0, 100% 100%, 0% 100%);
+  box-shadow: 0 1px 4px #0002;
+}
+.section-title-box span {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-right: 8px;
+}
+
+.ia-logo-top-container hr {
+  width: 80%;
+  border: 0;
+  border-top: 1.5px solid #fff;
+  margin: 8px 0;
+  opacity: 0.5;
+}
+
+.card-preview.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }

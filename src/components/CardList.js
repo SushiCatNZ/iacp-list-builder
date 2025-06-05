@@ -230,9 +230,10 @@ function CardList({ cards, onAdd, list, onSelect, type, iacpLogo, showIACP, fact
                   />
                 )}
               </span>
-              {count > 0 && (
+              {/* Only show card-count if Max > 1 */}
+              {card.Max > 1 && count > 0 && (
                 <span className="card-count">
-                  {count}/{card.Max || 1}
+                  {count}/{card.Max}
                 </span>
               )}
             </div>
