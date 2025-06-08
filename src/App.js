@@ -796,6 +796,54 @@ function App() {
     setShowPasswordPrompt(false);
   };
 
+  const handleShareList = async () => {
+    // Helper to format card details
+    const formatCard = (card) => {
+      let cardString = `- ${card.Name}`; 
+      return cardString;
+    };
+
+    // Deployment List details
+    const deploymentDetails = sortedDeploymentList.map(formatCard).join('\n');
+
+    // Command List details
+    const commandDetails = sortedCommandList.map(card => `- ${card.Name}`).join('\n');
+
+    // Stat details
+    const statDetails = `
+Activations: ${stats.deploymentCount}
+Figures: ${stats.figureCount}
+Health: ${stats.totalHealth}
+`;
+
+    // Traits details
+    const traitDetails = getTraitAbbreviations(stats.traitCounts)
+      .map(t => `${t.trait}: ${t.count}`)
+      .join(', ');
+
+    const listContent = `
+--- Army List: ${armyName || 'Untitled Army'} ---
+
+Deployment Cards:
+${deploymentDetails || 'None'}
+
+Command Cards:
+${commandDetails || 'None'}
+
+Stats:
+${statDetails}
+Traits: ${traitDetails || 'None'}
+    `.trim();
+
+    try {
+      await navigator.clipboard.writeText(listContent);
+      alert('Army list copied to clipboard!');
+    } catch (err) {
+      console.error('Failed to copy army list: ', err);
+      alert('Failed to copy army list. Please try again or copy manually.');
+    }
+  };
+
   return (
     <div className="app-container">
       {/*
@@ -926,6 +974,9 @@ function App() {
           </button>
           <button className="army-list-button load-button" onClick={() => document.getElementById('vsavFileInput').click()}>
             Load
+          </button>
+          <button className="army-list-button share-button" onClick={handleShareList}>
+            Share
           </button>
           <button
             className="army-list-button clear-button"
