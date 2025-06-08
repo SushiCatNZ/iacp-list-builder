@@ -439,7 +439,7 @@ function App() {
       .reduce((sum, card) => sum + (card.FigureCount || 1), 0);
 
     const traitCounts = selectedDeploymentTraits.reduce((counts, trait) => {
-      counts[trait] = (counts[trait] || 0) + 1;
+          counts[trait] = (counts[trait] || 0) + 1;
       return counts;
     }, {});
 
@@ -810,11 +810,9 @@ function App() {
     const commandDetails = sortedCommandList.map(card => `- ${card.Name}`).join('\n');
 
     // Stat details
-    const statDetails = `
-Activations: ${stats.deploymentCount}
+    const statDetails = `Activations: ${stats.deploymentCount}
 Figures: ${stats.figureCount}
-Health: ${stats.totalHealth}
-`;
+Health: ${stats.totalHealth}`;
 
     // Traits details
     const traitDetails = getTraitAbbreviations(stats.traitCounts)
@@ -822,7 +820,7 @@ Health: ${stats.totalHealth}
       .join(', ');
 
     const listContent = `
---- Army List: ${armyName || 'Untitled Army'} ---
+--- ${armyName || 'Untitled Army'} ---
 
 Deployment Cards:
 ${deploymentDetails || 'None'}
@@ -831,8 +829,7 @@ Command Cards:
 ${commandDetails || 'None'}
 
 Stats:
-${statDetails}
-Traits: ${traitDetails || 'None'}
+${statDetails}Traits: ${traitDetails || 'None'}
     `.trim();
 
     try {
