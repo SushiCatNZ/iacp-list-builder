@@ -9431,7 +9431,9 @@
     "Max": 1,
     "Health": null,
     "Speed": null,
-    "Traits": null,
+    "Traits": [
+      "Creature"
+    ],
     "TraitsRequired": [],
     "Color": null,
     "UnitsRequired": [],
