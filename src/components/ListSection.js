@@ -43,7 +43,7 @@ function ListSection({
 }) {
   return (
     <div className="list-section">
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%' }}>
+      <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', width: '100%' }}>
         <div className="section-title-box">
           {title && <span style={{ textTransform: 'uppercase' }}>{title}</span>}
         </div>
@@ -56,13 +56,6 @@ function ListSection({
             <span><img src={HealthIcon} alt="Health" style={{ height: '20px', width: 'auto', verticalAlign: 'middle' }} /> {deploymentStats.health}</span>
           </div>
         )}
-        {/* Only show stats for Selected Command section */}
-        {commandStats && (
-          <div className="command-stats-row" style={{ marginLeft: 'auto', textAlign: 'right', display: 'flex', gap: '6px', fontSize: '1.05rem', fontFamily: 'Adobe Hebrew Regular, Arial, sans-serif' }}>
-            <span><img src={CardsIcon} alt="Cards" style={{ height: '20px', width: 'auto', verticalAlign: 'middle' }} /> <span style={{ color: parseInt(commandStats.cmdCards) > parseInt(commandStats.cmdCardLimit) ? '#ff0000' : 'inherit', fontWeight: parseInt(commandStats.cmdCards) > parseInt(commandStats.cmdCardLimit) ? 'bold' : 'normal' }}>{commandStats.cmdCards}</span></span>
-            <span><img src={PointsIcon} alt="Points" style={{ height: '20px', width: 'auto', verticalAlign: 'middle' }} /> <span style={{ color: parseInt(commandStats.cmdPoints) > parseInt(commandStats.cmdPointsLimit) ? '#ff0000' : 'inherit', fontWeight: parseInt(commandStats.cmdPoints) > parseInt(commandStats.cmdPointsLimit) ? 'bold' : 'normal' }}>{commandStats.cmdPoints}</span></span>
-          </div>
-        )}
         {showAddCommonButton && (
           <button
             className="add-common-command-button"
@@ -71,10 +64,16 @@ function ListSection({
               e.stopPropagation();
               if (onAddCommonCommandCards) onAddCommonCommandCards();
             }}
-            style={{ marginLeft: 'auto', marginRight: '10px', padding: '0 4px' }}
           >
             ADD COMMON
           </button>
+        )}
+        {/* Only show stats for Selected Command section */}
+        {commandStats && (
+          <div className="command-stats-row" style={{ marginLeft: 'auto', marginRight: '10px', textAlign: 'right', display: 'flex', gap: '4px', fontSize: '1.05rem', fontFamily: 'Adobe Hebrew Regular, Arial, sans-serif' }}>
+            <span><img src={CardsIcon} alt="Cards" style={{ height: '20px', width: 'auto', verticalAlign: 'middle' }} /> <span style={{ color: parseInt(commandStats.cmdCards) > parseInt(commandStats.cmdCardLimit) ? '#ff0000' : 'inherit', fontWeight: parseInt(commandStats.cmdCards) > parseInt(commandStats.cmdCardLimit) ? 'bold' : 'normal' }}>{commandStats.cmdCards}</span></span>
+            <span><img src={PointsIcon} alt="Points" style={{ height: '20px', width: 'auto', verticalAlign: 'middle' }} /> <span style={{ color: parseInt(commandStats.cmdPoints) > parseInt(commandStats.cmdPointsLimit) ? '#ff0000' : 'inherit', fontWeight: parseInt(commandStats.cmdPoints) > parseInt(commandStats.cmdPointsLimit) ? 'bold' : 'normal' }}>{commandStats.cmdPoints}</span></span>
+          </div>
         )}
       </div>
       <div className="selected-cards">
@@ -298,12 +297,14 @@ function ListSection({
                   CMD
                 </button>
               )}
-              {(upgradesToAdd.length > 0 || card.Name === "Doctor Aphra") && onAddMultipleDeploymentCards && (
+              {(upgradesToAdd.length > 0 || card.Name === "Doctor Aphra" || (card.Name === "Wing Guard" && card.CardClass === "Elite" && card.Variant === "IACP")) && onAddMultipleDeploymentCards && (
                 <button
                   className="add-attachment-button"
                   title={
                     card.Name === "Doctor Aphra"
                       ? `Add upgrades: ${upgradesToAdd.map(u => u.Name).join(', ')}${upgradesToAdd.length > 0 ? ', ' : ''}0-0-0, BT-1`
+                      : card.Name === "Wing Guard" && card.CardClass === "Elite" && card.Variant === "IACP"
+                      ? `Add: Lando Calrissian${upgradesToAdd.length > 0 ? `, ${upgradesToAdd.map(u => u.Name).join(', ')}` : ''}`
                       : `Add upgrades: ${upgradesToAdd.map(u => u.Name).join(', ')}`
                   }
                   onClick={e => {
@@ -329,6 +330,13 @@ function ListSection({
                         .filter(c => c && !deploymentList.some(d => d.Name === c.Name));
                       toAdd = [...toAdd, ...aphraBots];
                     }
+                    // Special case: IACP Wing Guard [Elite] adds Lando Calrissian
+                    if (card.Name === "Wing Guard" && card.CardClass === "Elite" && card.Variant === "IACP") {
+                      const lando = allDeploymentCards.find(c => c.Name === "Lando Calrissian");
+                      if (lando && !deploymentList.some(d => d.Name === lando.Name)) {
+                        toAdd = [...toAdd, lando];
+                      }
+                    }
                     // Remove duplicates by ID
                     if (toAdd) {
                       toAdd = toAdd.filter((c, idx, arr) => arr.findIndex(x => x.ID === c.ID) === idx);
@@ -341,20 +349,6 @@ function ListSection({
                   style={{ position: 'relative', zIndex: 3 }}
                 >
                   ATT
-                </button>
-              )}
-              {card.Name === "Wing Guard [Elite]" && card.Variant === "IACP" && (
-                <button
-                  className="add-attachment-button"
-                  onClick={() => {
-                    const toAdd = [allDeploymentCards.find(c => c.Name === "Lando Calrissian")]
-                      .filter(c => c && !deploymentList.some(d => d.Name === c.Name));
-                    if (toAdd.length > 0) {
-                      onAddMultipleDeploymentCards(toAdd);
-                    }
-                  }}
-                >
-                  LANDO
                 </button>
               )}
               {card.AssociatedDeploymentCards && card.AssociatedDeploymentCards.length > 0 && (

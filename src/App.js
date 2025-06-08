@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import initialCardData from "./data/cards.json";
 import CardList from "./components/CardList";
 import ListSection from "./components/ListSection";
@@ -10,7 +10,6 @@ import NeutralLogo from "./images/icons/Neutral.png";
 import IACPLogo from "./images/icons/IACP Logo.png";
 import IALogo from "./images/icons/IA Logo.png";
 import './App.css';
-import Select from 'react-select';
 import CardEditorInline from "./components/CardEditorInline";
 import PasswordPrompt from './components/PasswordPrompt';
 import BrawlerIcon from './images/icons/brawler.png';
@@ -36,28 +35,21 @@ const factionIcons = {
 };
 
 const TRAIT_NAMES = [
-  "Wookiee",
-  "Spy",
-  "Technician",
-  "Trooper",
-  "Vehicle",
-  "Heavy Weapon",
-  "Hunter",
-  "Leader",
-  "Smuggler",
+  "Brawler",
   "Creature",
   "Droid",
   "Force User",
   "Guardian",
-  "Brawler"
+  "Heavy Weapon",
+  "Hunter",
+  "Leader",
+  "Smuggler",
+  "Spy",
+  "Technician",
+  "Trooper",
+  "Vehicle",
+  "Wookiee"
 ];
-
-const traitOptions = TRAIT_NAMES
-  .sort((a, b) => a.localeCompare(b))
-  .map(trait => ({
-    value: trait,
-    label: trait
-  }));
 
 function sortCards(cards) {
   return [...cards].sort((a, b) => {
@@ -89,6 +81,25 @@ function App() {
   const [imageRefreshKey, setImageRefreshKey] = useState(0);
   const [isCardEditorAuthenticated, setIsCardEditorAuthenticated] = useState(false);
   const [showPasswordPrompt, setShowPasswordPrompt] = useState(false);
+  const [showTraitsGrid, setShowTraitsGrid] = useState(false);
+
+  // Ref for the traits dropdown container
+  const traitsDropdownRef = useRef(null);
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (traitsDropdownRef.current && !traitsDropdownRef.current.contains(event.target)) {
+        setShowTraitsGrid(false);
+      }
+    }
+
+    // Attach the event listener to the document
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      // Clean up the event listener on component unmount
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [traitsDropdownRef]);
 
   const getCommonCommandCardNames = () => {
     const baseCards = [
@@ -213,7 +224,7 @@ function App() {
 
     // 1. Unhide Lando Calrissian if IACP Wing Guard [Elite] is selected
     const hasIacpWingGuardElite = deploymentList.some(
-      c => c.Name === "Wing Guard [Elite]" && c.Variant === "IACP"
+      c => c.Name === "Wing Guard" && c.Variant === "IACP"
     );
     if (
       hasIacpWingGuardElite &&
@@ -500,11 +511,12 @@ function App() {
         case 'trooper': icon = TrooperIcon; break;
         case 'vehicle': icon = VehicleIcon; break;
         case 'wookiee': icon = WookieeIcon; break;
-        default: continue;
+        default: icon = null; // Fallback for unknown traits
       }
       traitIcons.push({ icon, count, trait });
     }
-    return traitIcons;
+    // Sort traits by count in descending order
+    return traitIcons.sort((a, b) => b.count - a.count);
   }
 
   const handleToggleCards = () => {
@@ -530,12 +542,16 @@ function App() {
     // Use standard prefix and faction in square brackets
     const prefix = "IA List";
     const faction = baseFaction;
-    const prefixPattern = new RegExp(`^IA List \[${faction}\] - `, 'i');
+    // Check for any existing IA List prefix with any faction
+    const prefixPattern = new RegExp(`^IA List \\[[^\\]]+\\] - `, 'i');
 
     // Only add prefix if not already present
     let finalArmyName = armyName.trim();
     if (!prefixPattern.test(finalArmyName)) {
       finalArmyName = `${prefix} [${faction}] - ${finalArmyName}`;
+    } else {
+      // If prefix exists but faction is different, update the faction
+      finalArmyName = finalArmyName.replace(/^IA List \[[^\]]+\] - /i, `${prefix} [${faction}] - `);
     }
 
     const cards_to_process = allSelectedCards.map(card => {
@@ -721,8 +737,6 @@ function App() {
         setBaseFaction(loadedDeployment[0].Faction);
       }
     }
-
-    alert(`Army list "${loadedArmyName}" loaded!`);
   };
 
   const handleClearAll = () => {
@@ -833,70 +847,55 @@ function App() {
             onChange={e => setSearch(e.target.value)}
             placeholder="Search cards..."
           />
-          <div className="trait-filters">
-            <Select
-              isMulti
-              name="traits"
-              options={traitOptions}
-              className="trait-dropdown"
-              classNamePrefix="select"
-              placeholder="Filter by traits..."
-              value={traitOptions.filter(option => selectedTraits.includes(option.value))}
-              onChange={selected => setSelectedTraits(selected ? selected.map(opt => opt.value) : [])}
-              menuPortalTarget={document.body}
-              closeMenuOnSelect={false}
-              maxMenuHeight={600}
-              styles={{
-                menuPortal: base => ({ ...base, zIndex: 9999 }),
-                menu: base => ({ ...base, zIndex: 9999, color: '#111', background: '#fff' }),
-                option: base => ({ ...base, color: '#111', background: '#fff' }),
-                multiValueLabel: base => ({ ...base, color: '#111' }),
-                control: base => ({
-                  ...base,
-                  color: '#111',
-                  background: '#fff',
-                  minHeight: 32,
-                  height: 32,
-                  fontSize: '1rem',
-                  fontFamily: 'Nesobrite Condensed Bold, Arial, sans-serif',
-                  overflow: 'hidden',
-                }),
-                valueContainer: base => ({
-                  ...base,
-                  minHeight: 32,
-                  height: 32,
-                  padding: '0 8px',
-                  overflow: 'hidden',
-                }),
-                input: base => ({
-                  ...base,
-                  minHeight: 32,
-                  height: 32,
-                  color: '#111',
-                  margin: 0,
-                  padding: 0,
-                }),
-                indicatorsContainer: base => ({
-                  ...base,
-                  height: 32,
-                  minHeight: 32,
-                }),
-                dropdownIndicator: base => ({
-                  ...base,
-                  padding: 2,
-                  width: 18,
-                  height: 18,
-                  minHeight: 18,
-                }),
-                clearIndicator: base => ({
-                  ...base,
-                  padding: 2,
-                  width: 18,
-                  height: 18,
-                  minHeight: 18,
-                }),
-              }}
-            />
+          <div className="trait-filters" ref={traitsDropdownRef}>
+            <button 
+              className="traits-button"
+              onClick={() => setShowTraitsGrid(prev => !prev)}
+            >
+              <span className={selectedTraits.length > 0 ? 'active' : ''}>TRAITS</span>
+            </button>
+            {showTraitsGrid && (
+              <div className="trait-grid-dropdown">
+                <div className="trait-grid">
+                  {TRAIT_NAMES.map(trait => {
+                    let icon;
+                    switch(trait.toLowerCase()) {
+                      case 'brawler': icon = BrawlerIcon; break;
+                      case 'creature': icon = CreatureIcon; break;
+                      case 'droid': icon = DroidIcon; break;
+                      case 'force user': icon = ForceUserIcon; break;
+                      case 'guardian': icon = GuardianIcon; break;
+                      case 'heavy weapon': icon = HeavyWeaponIcon; break;
+                      case 'hunter': icon = HunterIcon; break;
+                      case 'leader': icon = LeaderIcon; break;
+                      case 'smuggler': icon = SmugglerIcon; break;
+                      case 'spy': icon = SpyIcon; break;
+                      case 'technician': icon = TechnicianIcon; break;
+                      case 'trooper': icon = TrooperIcon; break;
+                      case 'vehicle': icon = VehicleIcon; break;
+                      case 'wookiee': icon = WookieeIcon; break;
+                      default: icon = null; // Fallback for unknown traits
+                    }
+                    return (
+                      <button
+                        key={trait}
+                        className={`trait-button ${selectedTraits.includes(trait) ? 'selected' : ''}`}
+                        onClick={() => {
+                          setSelectedTraits(prev => 
+                            prev.includes(trait) 
+                              ? prev.filter(t => t !== trait)
+                              : [...prev, trait]
+                          );
+                        }}
+                        title={trait}
+                      >
+                        <img src={icon} alt={trait} />
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
           </div>
           <input
             type="text"
