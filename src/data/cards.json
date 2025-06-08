@@ -4749,7 +4749,9 @@
     "Max": 2,
     "Health": 8,
     "Speed": 4,
-    "Traits": [],
+    "Traits": [
+      "Trooper"
+    ],
     "TraitsRequired": [],
     "Color": "red",
     "UnitsRequired": [],

@@ -187,8 +187,28 @@ function App() {
     cardData.filter(card => card.CardGroup === "Squad Upgrade")
   );
 
-  // Helper: get all traits from selected deployment cards
-  const selectedDeploymentTraits = deploymentList.flatMap(card => card.Traits || []);
+  // Helper: get all traits from selected deployment cards, including Mara Jade's dynamic traits
+  const selectedDeploymentTraits = deploymentList.flatMap(card => {
+    let traits = card.Traits || [];
+    if (card.Name === "Mara Jade") {
+      switch (baseFaction) {
+        case "Rebel":
+          traits = [...traits, "Guardian"];
+          break;
+        case "Empire":
+          traits = [...traits, "Hunter"];
+          break;
+        case "Mercenary":
+          traits = [...traits, "Smuggler"];
+          break;
+        default:
+          // No additional trait for other factions or if baseFaction is not set
+          break;
+      }
+    }
+    return traits;
+  });
+
   const selectedDeploymentClasses = deploymentList.map(card => card.CardClass);
   const selectedDeploymentCharacteristics = deploymentList.flatMap(card => card.Characteristics || []);
   const selectedDeploymentNames = deploymentList.map(card => card.Name);
@@ -418,12 +438,8 @@ function App() {
       .filter(card => card.CardGroup === "Deployment" || card.CardGroup === "Squad Upgrade")
       .reduce((sum, card) => sum + (card.FigureCount || 1), 0);
 
-    const traitCounts = deploymentList.reduce((counts, card) => {
-      if (card.Traits) {
-        card.Traits.forEach(trait => {
-          counts[trait] = (counts[trait] || 0) + 1;
-        });
-      }
+    const traitCounts = selectedDeploymentTraits.reduce((counts, trait) => {
+      counts[trait] = (counts[trait] || 0) + 1;
       return counts;
     }, {});
 
