@@ -3183,9 +3183,7 @@
     "Health": 0,
     "Speed": 0,
     "Traits": [],
-    "TraitsRequired": [
-      "Leader"
-    ],
+    "TraitsRequired": [],
     "Color": "gray",
     "UnitsRequired": [
       "Imperial Officer",
@@ -5234,9 +5232,7 @@
     "Max": 1,
     "Health": 0,
     "Speed": 0,
-    "Traits": [
-      "Leader"
-    ],
+    "Traits": [],
     "TraitsRequired": [],
     "Color": "gray",
     "UnitsRequired": [
@@ -5272,7 +5268,7 @@
     "Faction": "Empire",
     "Cost": 10,
     "FigureCount": 1,
-    "Max": 4,
+    "Max": 2,
     "Health": 15,
     "Speed": 4,
     "Traits": [
