@@ -2,6 +2,30 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Versioning and Releases
+
+This project follows [Semantic Versioning](https://semver.org/) for version numbers and [Keep a Changelog](https://keepachangelog.com/) for documenting changes.
+
+### Version Numbers
+- MAJOR version for incompatible API changes
+- MINOR version for backwards-compatible functionality
+- PATCH version for backwards-compatible bug fixes
+
+### Release Process
+1. Update version number in `package.json`
+2. Update `CHANGELOG.md` with changes
+3. Create a Git tag for the release
+4. Create a release branch if needed
+5. Deploy the changes
+
+### Git Workflow
+- Use feature branches for new development
+- Follow conventional commit messages:
+  - `feat:` for new features
+  - `fix:` for bug fixes
+  - `docs:` for documentation
+  - `chore:` for maintenance
+
 ## Available Scripts
 
 In the project directory, you can run:
