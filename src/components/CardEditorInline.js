@@ -502,7 +502,6 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
           Speed: 0,
           FigureCount: 1,
           Traits: [],
-          Image: "",
           CardClass: "",
           TraitsRequired: [],
           Color: "",

@@ -1,0 +1,3082 @@
+[
+  {
+    "ID": 1,
+    "Name": "Luke Skywalker (HotR)",
+    "NameES": "Luke Skywalker (Hotr)"
+  },
+  {
+    "ID": 2,
+    "Name": "Han Solo",
+    "NameES": "Han Solo"
+  },
+  {
+    "ID": 3,
+    "Name": "Rebel Saboteur",
+    "NameES": "Saboteador rebelde"
+  },
+  {
+    "ID": 4,
+    "Name": "Rebel Trooper",
+    "NameES": "Soldado rebelde"
+  },
+  {
+    "ID": 5,
+    "Name": "Gideon Argus",
+    "NameES": "Gideon Argus"
+  },
+  {
+    "ID": 6,
+    "Name": "General Weiss",
+    "NameES": "General Weiss"
+  },
+  {
+    "ID": 7,
+    "Name": "Agent Blaise",
+    "NameES": "Agente Blaise"
+  },
+  {
+    "ID": 8,
+    "Name": "Alliance Ranger",
+    "NameES": "Guardabosques"
+  },
+  {
+    "ID": 9,
+    "Name": "Alliance Ranger",
+    "NameES": "Guardabosques"
+  },
+  {
+    "ID": 10,
+    "Name": "Alliance Smuggler",
+    "NameES": "Contrabandista de la alianza"
+  },
+  {
+    "ID": 11,
+    "Name": "Alliance Smuggler",
+    "NameES": "Contrabandista de la alianza"
+  },
+  {
+    "ID": 12,
+    "Name": "Bantha Rider",
+    "NameES": "Bancha jinete"
+  },
+  {
+    "ID": 13,
+    "Name": "Boba Fett",
+    "NameES": "Boba Fett"
+  },
+  {
+    "ID": 14,
+    "Name": "Bossk",
+    "NameES": "Bossk"
+  },
+  {
+    "ID": 15,
+    "Name": "Captain Terro",
+    "NameES": "Capitán Terro"
+  },
+  {
+    "ID": 16,
+    "Name": "Dewback Rider",
+    "NameES": "Jinete de retroceso"
+  },
+  {
+    "ID": 17,
+    "Name": "Chewbacca",
+    "NameES": "Mascacca"
+  },
+  {
+    "ID": 18,
+    "Name": "AT-ST",
+    "NameES": "At-st"
+  },
+  {
+    "ID": 19,
+    "Name": "Darth Vader",
+    "NameES": "Darth Vader"
+  },
+  {
+    "ID": 20,
+    "Name": "Diala Passil",
+    "NameES": "Pasil de diala"
+  },
+  {
+    "ID": 21,
+    "Name": "E-Web Engineer",
+    "NameES": "Ingeniero E-Web"
+  },
+  {
+    "ID": 22,
+    "Name": "E-Web Engineer",
+    "NameES": "Ingeniero E-Web"
+  },
+  {
+    "ID": 23,
+    "Name": "Fenn Signis",
+    "NameES": "Fenn Signis"
+  },
+  {
+    "ID": 24,
+    "Name": "Gaarkhan",
+    "NameES": "Gaarkhan"
+  },
+  {
+    "ID": 25,
+    "Name": "Imperial Officer",
+    "NameES": "Oficial imperial"
+  },
+  {
+    "ID": 26,
+    "Name": "Imperial Officer",
+    "NameES": "Oficial imperial"
+  },
+  {
+    "ID": 27,
+    "Name": "Jyn Odan",
+    "NameES": "Jyn Odan"
+  },
+  {
+    "ID": 28,
+    "Name": "Mak Eshka'rey",
+    "NameES": "Mak eshka'rey"
+  },
+  {
+    "ID": 29,
+    "Name": "Nexu",
+    "NameES": "Nexo"
+  },
+  {
+    "ID": 30,
+    "Name": "Nexu",
+    "NameES": "Nexo"
+  },
+  {
+    "ID": 31,
+    "Name": "Probe Droid",
+    "NameES": "Droide de sonda"
+  },
+  {
+    "ID": 32,
+    "Name": "Royal Guard",
+    "NameES": "Guardia real"
+  },
+  {
+    "ID": 33,
+    "Name": "Stormtrooper",
+    "NameES": "Tormenta de asalto"
+  },
+  {
+    "ID": 34,
+    "Name": "Stormtrooper",
+    "NameES": "Tormenta de asalto"
+  },
+  {
+    "ID": 35,
+    "Name": "Trandoshan Hunter",
+    "NameES": "Cazador de trandoshan"
+  },
+  {
+    "ID": 36,
+    "Name": "Trandoshan Hunter",
+    "NameES": "Cazador de trandoshan"
+  },
+  {
+    "ID": 38,
+    "Name": "Echo Base Trooper",
+    "NameES": "Echo Base Trooper"
+  },
+  {
+    "ID": 39,
+    "Name": "Echo Base Trooper",
+    "NameES": "Echo Base Trooper"
+  },
+  {
+    "ID": 40,
+    "Name": "General Sorin",
+    "NameES": "General Sorin"
+  },
+  {
+    "ID": 41,
+    "Name": "Greedo",
+    "NameES": "Greedo"
+  },
+  {
+    "ID": 42,
+    "Name": "Hired Gun",
+    "NameES": "Pistola alquilada"
+  },
+  {
+    "ID": 43,
+    "Name": "Hired Gun",
+    "NameES": "Pistola alquilada"
+  },
+  {
+    "ID": 44,
+    "Name": "IG-88",
+    "NameES": "IG-88"
+  },
+  {
+    "ID": 45,
+    "Name": "ISB Infiltrator",
+    "NameES": "Infiltrado de ISB"
+  },
+  {
+    "ID": 46,
+    "Name": "ISB Infiltrator",
+    "NameES": "Infiltrado de ISB"
+  },
+  {
+    "ID": 47,
+    "Name": "Gamorrean Guard",
+    "NameES": "Guardia gamorrean"
+  },
+  {
+    "ID": 48,
+    "Name": "Gamorrean Guard",
+    "NameES": "Guardia gamorrean"
+  },
+  {
+    "ID": 49,
+    "Name": "Jet Trooper",
+    "NameES": "Soldado"
+  },
+  {
+    "ID": 50,
+    "Name": "Jet Trooper",
+    "NameES": "Soldado"
+  },
+  {
+    "ID": 51,
+    "Name": "Onar Koma",
+    "NameES": "ONAR KOMA"
+  },
+  {
+    "ID": 52,
+    "Name": "Rancor",
+    "NameES": "Rencor"
+  },
+  {
+    "ID": 53,
+    "Name": "Shyla Varad",
+    "NameES": "Shyla Varad"
+  },
+  {
+    "ID": 54,
+    "Name": "Vinto Hreeda",
+    "NameES": "Vinto hreeda"
+  },
+  {
+    "ID": 55,
+    "Name": "Weequay Pirate",
+    "NameES": "Weequay Pirate"
+  },
+  {
+    "ID": 56,
+    "Name": "Weequay Pirate",
+    "NameES": "Weequay Pirate"
+  },
+  {
+    "ID": 57,
+    "Name": "Kayn Somos",
+    "NameES": "Kayn Somos"
+  },
+  {
+    "ID": 58,
+    "Name": "Lando Calrissian",
+    "NameES": "Lando Calrissian"
+  },
+  {
+    "ID": 59,
+    "Name": "Leia Organa",
+    "NameES": "Leia Organa"
+  },
+  {
+    "ID": 60,
+    "Name": "Luke Skywalker (Jedi)",
+    "NameES": "Luke Skywalker (Jedi)"
+  },
+  {
+    "ID": 61,
+    "Name": "Obi-Wan Kenobi",
+    "NameES": "Obi-wan kenobi"
+  },
+  {
+    "ID": 62,
+    "Name": "C-3P0",
+    "NameES": "C-3P0"
+  },
+  {
+    "ID": 63,
+    "Name": "R2-D2",
+    "NameES": "R2-D2"
+  },
+  {
+    "ID": 64,
+    "Name": "Rebel Saboteur",
+    "NameES": "Saboteador rebelde"
+  },
+  {
+    "ID": 65,
+    "Name": "Rebel Trooper",
+    "NameES": "Soldado rebelde"
+  },
+  {
+    "ID": 66,
+    "Name": "HK Assassin Droid",
+    "NameES": "HK Assassin Droid"
+  },
+  {
+    "ID": 67,
+    "Name": "HK Assassin Droid",
+    "NameES": "HK Assassin Droid"
+  },
+  {
+    "ID": 68,
+    "Name": "Loku Kanoloa",
+    "NameES": "Loku kanoloa"
+  },
+  {
+    "ID": 69,
+    "Name": "MHD-19",
+    "NameES": "MHD-19"
+  },
+  {
+    "ID": 70,
+    "Name": "SC2-M Repulsor Tank",
+    "NameES": "Tanque repulsor SC2-M"
+  },
+  {
+    "ID": 71,
+    "Name": "Snowtrooper",
+    "NameES": "Pícaro de nieve"
+  },
+  {
+    "ID": 72,
+    "Name": "Snowtrooper",
+    "NameES": "Pícaro de nieve"
+  },
+  {
+    "ID": 73,
+    "Name": "Verena Talos",
+    "NameES": "Verena Talos"
+  },
+  {
+    "ID": 74,
+    "Name": "Wampa",
+    "NameES": "Wampa"
+  },
+  {
+    "ID": 75,
+    "Name": "Wampa",
+    "NameES": "Wampa"
+  },
+  {
+    "ID": 76,
+    "Name": "Royal Guard Champion",
+    "NameES": "Campeón de la guardia real"
+  },
+  {
+    "ID": 77,
+    "Name": "Davith Elso",
+    "NameES": "Davith Elso"
+  },
+  {
+    "ID": 78,
+    "Name": "Murne Rin",
+    "NameES": "Murne rin"
+  },
+  {
+    "ID": 79,
+    "Name": "Ugnaught Tinkerer",
+    "NameES": "Ugneted Tinkerer"
+  },
+  {
+    "ID": 80,
+    "Name": "Ugnaught Tinkerer",
+    "NameES": "Ugneted Tinkerer"
+  },
+  {
+    "ID": 81,
+    "Name": "Wing Guard",
+    "NameES": "Guardia del ala"
+  },
+  {
+    "ID": 82,
+    "Name": "Wing Guard",
+    "NameES": "Guardia del ala"
+  },
+  {
+    "ID": 83,
+    "Name": "The Grand Inquisitor",
+    "NameES": "El gran inquisidor"
+  },
+  {
+    "ID": 84,
+    "Name": "Biv Bodhrik",
+    "NameES": "Biv Bodhrik"
+  },
+  {
+    "ID": 85,
+    "Name": "Heavy Stormtrooper",
+    "NameES": "Stormtrooper pesado"
+  },
+  {
+    "ID": 86,
+    "Name": "Heavy Stormtrooper",
+    "NameES": "Stormtrooper pesado"
+  },
+  {
+    "ID": 87,
+    "Name": "Saska Teft",
+    "NameES": "Saska Teft"
+  },
+  {
+    "ID": 88,
+    "Name": "Tusken Raider",
+    "NameES": "Tusken Raider"
+  },
+  {
+    "ID": 89,
+    "Name": "Tusken Raider",
+    "NameES": "Tusken Raider"
+  },
+  {
+    "ID": 90,
+    "Name": "Wookiee Warrior",
+    "NameES": "Wookiee Warrior"
+  },
+  {
+    "ID": 91,
+    "Name": "Wookiee Warrior",
+    "NameES": "Wookiee Warrior"
+  },
+  {
+    "ID": 92,
+    "Name": "Zillo Technique",
+    "NameES": "Técnica Zillo"
+  },
+  {
+    "ID": 93,
+    "Name": "Survivalist",
+    "NameES": "Sobreviviente"
+  },
+  {
+    "ID": 94,
+    "Name": "Smugglers Run",
+    "NameES": "Running de contrabandistas"
+  },
+  {
+    "ID": 95,
+    "Name": "Beast Tamer",
+    "NameES": "Domador de bestias"
+  },
+  {
+    "ID": 97,
+    "Name": "Headhunter",
+    "NameES": "Cazador"
+  },
+  {
+    "ID": 98,
+    "Name": "Feeding Frenzy",
+    "NameES": "Frenesí de alimentación"
+  },
+  {
+    "ID": 99,
+    "Name": "Balance of the Force",
+    "NameES": "Equilibrio de la fuerza"
+  },
+  {
+    "ID": 100,
+    "Name": "Devious Scheme",
+    "NameES": "Esquema tortuoso"
+  },
+  {
+    "ID": 101,
+    "Name": "First Strike",
+    "NameES": "Primera huelga"
+  },
+  {
+    "ID": 102,
+    "Name": "Rebel High Command",
+    "NameES": "Rebel High Command"
+  },
+  {
+    "ID": 103,
+    "Name": "Temporary Alliance (E)",
+    "NameES": "Alianza temporal (E)"
+  },
+  {
+    "ID": 104,
+    "Name": "Temporary Alliance (M)",
+    "NameES": "Alianza temporal (M)"
+  },
+  {
+    "ID": 105,
+    "Name": "Vaders Finest",
+    "NameES": "Las vaqueras más finas"
+  },
+  {
+    "ID": 106,
+    "Name": "Punishing Strike",
+    "NameES": "Castigo"
+  },
+  {
+    "ID": 107,
+    "Name": "Combat Suit",
+    "NameES": "Traje de combate"
+  },
+  {
+    "ID": 108,
+    "Name": "The Generals Ranks",
+    "NameES": "Los rango de los generales"
+  },
+  {
+    "ID": 109,
+    "Name": "Prey on the Weak",
+    "NameES": "Presa de los débiles"
+  },
+  {
+    "ID": 110,
+    "Name": "Last Resort",
+    "NameES": "Último recurso"
+  },
+  {
+    "ID": 111,
+    "Name": "Cross-Training",
+    "NameES": "Entrenamiento cruzado"
+  },
+  {
+    "ID": 112,
+    "Name": "Rule by Fear",
+    "NameES": "Regla por miedo"
+  },
+  {
+    "ID": 113,
+    "Name": "On a Diplomatic Mission",
+    "NameES": "En una misión diplomática"
+  },
+  {
+    "ID": 114,
+    "Name": "Channel the Force",
+    "NameES": "Canalizar la fuerza"
+  },
+  {
+    "ID": 115,
+    "Name": "Targeting Computer",
+    "NameES": "Informatoria"
+  },
+  {
+    "ID": 116,
+    "Name": "Under Duress",
+    "NameES": "Bajo coacción"
+  },
+  {
+    "ID": 117,
+    "Name": "Advanced Com Systems",
+    "NameES": "Sistemas COM avanzados"
+  },
+  {
+    "ID": 118,
+    "Name": "Fury of Kashyyyk",
+    "NameES": "Furia de Kashyyyk"
+  },
+  {
+    "ID": 120,
+    "Name": "Jabba the Hutt",
+    "NameES": "Jabba el hutt"
+  },
+  {
+    "ID": 121,
+    "Name": "Black Market",
+    "NameES": "Mercado negro"
+  },
+  {
+    "ID": 122,
+    "Name": "Heroic Effort",
+    "NameES": "Esfuerzo heroico"
+  },
+  {
+    "ID": 123,
+    "Name": "Probe Droid",
+    "NameES": "Droide de sonda"
+  },
+  {
+    "ID": 124,
+    "Name": "Indentured Jester",
+    "NameES": "Bufón con contrato"
+  },
+  {
+    "ID": 125,
+    "Name": "Royal Guard",
+    "NameES": "Guardia real"
+  },
+  {
+    "ID": 126,
+    "Name": "Unshakable",
+    "NameES": "Inquebrantable"
+  },
+  {
+    "ID": 127,
+    "Name": "Salacious B. Crumb",
+    "NameES": "Salacious B. Crumb"
+  },
+  {
+    "ID": 128,
+    "Name": "Motivation",
+    "NameES": "Motivación"
+  },
+  {
+    "ID": 129,
+    "Name": "Hera Syndulla",
+    "NameES": "Hera Syndulla"
+  },
+  {
+    "ID": 130,
+    "Name": "Scavenged Weaponry",
+    "NameES": "Armamento"
+  },
+  {
+    "ID": 131,
+    "Name": "BT-1",
+    "NameES": "BT-1"
+  },
+  {
+    "ID": 132,
+    "Name": "C1-10P",
+    "NameES": "C1-10P"
+  },
+  {
+    "ID": 133,
+    "Name": "0-0-0",
+    "NameES": "0-0-0"
+  },
+  {
+    "ID": 134,
+    "Name": "Jawa Scavenger",
+    "NameES": "Carroñero de jawa"
+  },
+  {
+    "ID": 135,
+    "Name": "Focused on the Kill",
+    "NameES": "Centrado en la muerte"
+  },
+  {
+    "ID": 136,
+    "Name": "Jawa Scavenger",
+    "NameES": "Carroñero de jawa"
+  },
+  {
+    "ID": 138,
+    "Name": "Ko-Tun Feralo",
+    "NameES": "Ko-Tun Feralo"
+  },
+  {
+    "ID": 139,
+    "Name": "Driven by Hatred",
+    "NameES": "Impulsado por el odio"
+  },
+  {
+    "ID": 140,
+    "Name": "Maul",
+    "NameES": "Mazo"
+  },
+  {
+    "ID": 141,
+    "Name": "Emperor Palpatine",
+    "NameES": "Emperador Palpatino"
+  },
+  {
+    "ID": 142,
+    "Name": "Ahsoka Tano",
+    "NameES": "Ahsoka tano"
+  },
+  {
+    "ID": 143,
+    "Name": "Trusted Ally",
+    "NameES": "Aliado de confianza"
+  },
+  {
+    "ID": 144,
+    "Name": "AT-DP",
+    "NameES": "AT-DP"
+  },
+  {
+    "ID": 145,
+    "Name": "Sentry Droid",
+    "NameES": "Centinela droide"
+  },
+  {
+    "ID": 146,
+    "Name": "Clawdite Shapeshifter",
+    "NameES": "Cambiagua"
+  },
+  {
+    "ID": 147,
+    "Name": "Drokkatta",
+    "NameES": "Drokkatta"
+  },
+  {
+    "ID": 148,
+    "Name": "Jarrod Kelvin",
+    "NameES": "Jarrod Kelvin"
+  },
+  {
+    "ID": 149,
+    "Name": "Rogue Smuggler",
+    "NameES": "Contrabandista"
+  },
+  {
+    "ID": 150,
+    "Name": "Wookiee Avenger",
+    "NameES": "Wookiee Avenger"
+  },
+  {
+    "ID": 151,
+    "Name": "Riot Trooper",
+    "NameES": "Soldado"
+  },
+  {
+    "ID": 152,
+    "Name": "Clawdite Shapeshifter",
+    "NameES": "Cambiagua"
+  },
+  {
+    "ID": 153,
+    "Name": "Riot Trooper",
+    "NameES": "Soldado"
+  },
+  {
+    "ID": 154,
+    "Name": "Sentry Droid",
+    "NameES": "Centinela droide"
+  },
+  {
+    "ID": 156,
+    "Name": "J4X-7",
+    "NameES": "J4X-7"
+  },
+  {
+    "ID": 157,
+    "Name": "Zeb Orrelios",
+    "NameES": "Zeb Orrelios"
+  },
+  {
+    "ID": 158,
+    "Name": "Tress Hacnua",
+    "NameES": "Hacnua"
+  },
+  {
+    "ID": 159,
+    "Name": "Loth-cat",
+    "NameES": "Gato"
+  },
+  {
+    "ID": 161,
+    "Name": "CT-1701",
+    "NameES": "CT-1701"
+  },
+  {
+    "ID": 162,
+    "Name": "Death Trooper",
+    "NameES": "Soldado de la muerte"
+  },
+  {
+    "ID": 163,
+    "Name": "Death Trooper",
+    "NameES": "Soldado de la muerte"
+  },
+  {
+    "ID": 164,
+    "Name": "Kanan Jarrus",
+    "NameES": "Kanan Jarrus"
+  },
+  {
+    "ID": 165,
+    "Name": "Ezra Bridger",
+    "NameES": "Bridger de Ezra"
+  },
+  {
+    "ID": 166,
+    "Name": "Doubt",
+    "NameES": "Duda"
+  },
+  {
+    "ID": 167,
+    "Name": "Sabine Wren",
+    "NameES": "Sabine Wren"
+  },
+  {
+    "ID": 169,
+    "Name": "Extra Armor",
+    "NameES": "Armadura extra"
+  },
+  {
+    "ID": 170,
+    "Name": "Hondo Ohnaka",
+    "NameES": "Hondo Ohnaka"
+  },
+  {
+    "ID": 171,
+    "Name": "Lie in Ambush",
+    "NameES": "Estar en una emboscada"
+  },
+  {
+    "ID": 172,
+    "Name": "Spectre Cell",
+    "NameES": "Celda de espectro"
+  },
+  {
+    "ID": 173,
+    "Name": "Thrawn",
+    "NameES": "Plegable"
+  },
+  {
+    "ID": 174,
+    "Name": "Heavy Fire",
+    "NameES": "Fuego pesado"
+  },
+  {
+    "ID": 175,
+    "Name": "Ahsoka Tano",
+    "NameES": "Ahsoka tano"
+  },
+  {
+    "ID": 176,
+    "Name": "BT-1",
+    "NameES": "BT-1"
+  },
+  {
+    "ID": 177,
+    "Name": "Diala Passil",
+    "NameES": "Pasil de diala"
+  },
+  {
+    "ID": 178,
+    "Name": "Echo Base Trooper",
+    "NameES": "Echo Base Trooper"
+  },
+  {
+    "ID": 179,
+    "Name": "Gamorrean Guard",
+    "NameES": "Guardia gamorrean"
+  },
+  {
+    "ID": 180,
+    "Name": "Kanan Jarrus",
+    "NameES": "Kanan Jarrus"
+  },
+  {
+    "ID": 181,
+    "Name": "Kayn Somos",
+    "NameES": "Kayn Somos"
+  },
+  {
+    "ID": 182,
+    "Name": "Ko-Tun Feralo",
+    "NameES": "Ko-Tun Feralo"
+  },
+  {
+    "ID": 183,
+    "Name": "Leia Organa",
+    "NameES": "Leia Organa"
+  },
+  {
+    "ID": 184,
+    "Name": "Luke Skywalker (HotR)",
+    "NameES": "Luke Skywalker (Hotr)"
+  },
+  {
+    "ID": 186,
+    "Name": "Maul",
+    "NameES": "Mazo"
+  },
+  {
+    "ID": 187,
+    "Name": "Probe Droid",
+    "NameES": "Droide de sonda"
+  },
+  {
+    "ID": 188,
+    "Name": "Rancor",
+    "NameES": "Rencor"
+  },
+  {
+    "ID": 189,
+    "Name": "Rebel Trooper",
+    "NameES": "Soldado rebelde"
+  },
+  {
+    "ID": 190,
+    "Name": "Sentry Droid",
+    "NameES": "Centinela droide"
+  },
+  {
+    "ID": 191,
+    "Name": "Shyla Varad",
+    "NameES": "Shyla Varad"
+  },
+  {
+    "ID": 192,
+    "Name": "Stormtrooper",
+    "NameES": "Tormenta de asalto"
+  },
+  {
+    "ID": 193,
+    "Name": "The Grand Inquisitor",
+    "NameES": "El gran inquisidor"
+  },
+  {
+    "ID": 194,
+    "Name": "Wing Guard",
+    "NameES": "Guardia del ala"
+  },
+  {
+    "ID": 195,
+    "Name": "Wookiee Warrior",
+    "NameES": "Wookiee Warrior"
+  },
+  {
+    "ID": 196,
+    "Name": "Advanced Com Systems",
+    "NameES": "Sistemas COM avanzados"
+  },
+  {
+    "ID": 197,
+    "Name": "AT-ST",
+    "NameES": "At-st"
+  },
+  {
+    "ID": 198,
+    "Name": "Boba Fett",
+    "NameES": "Boba Fett"
+  },
+  {
+    "ID": 201,
+    "Name": "Fenn Signis",
+    "NameES": "Fenn Signis"
+  },
+  {
+    "ID": 202,
+    "Name": "Gaarkhan",
+    "NameES": "Gaarkhan"
+  },
+  {
+    "ID": 203,
+    "Name": "General Weiss",
+    "NameES": "General Weiss"
+  },
+  {
+    "ID": 204,
+    "Name": "Imperial Retrofitting",
+    "NameES": "Modernización imperial"
+  },
+  {
+    "ID": 205,
+    "Name": "Jyn Odan",
+    "NameES": "Jyn Odan"
+  },
+  {
+    "ID": 207,
+    "Name": "Royal Guard Champion",
+    "NameES": "Campeón de la guardia real"
+  },
+  {
+    "ID": 208,
+    "Name": "Suppressive Fire",
+    "NameES": "Incendio supresivo"
+  },
+  {
+    "ID": 209,
+    "Name": "4-LOM",
+    "NameES": "4-más"
+  },
+  {
+    "ID": 210,
+    "Name": "Biv Bodhrik",
+    "NameES": "Biv Bodhrik"
+  },
+  {
+    "ID": 211,
+    "Name": "Dengar",
+    "NameES": "Dengar"
+  },
+  {
+    "ID": 212,
+    "Name": "Zuckuss",
+    "NameES": "Zuckuss"
+  },
+  {
+    "ID": 214,
+    "Name": "Obi-Wan Kenobi",
+    "NameES": "Obi-wan kenobi"
+  },
+  {
+    "ID": 215,
+    "Name": "Royal Guard",
+    "NameES": "Guardia real"
+  },
+  {
+    "ID": 216,
+    "Name": "Saska Teft",
+    "NameES": "Saska Teft"
+  },
+  {
+    "ID": 217,
+    "Name": "SC2-M Repulsor Tank",
+    "NameES": "Tanque repulsor SC2-M"
+  },
+  {
+    "ID": 218,
+    "Name": "Scout Trooper",
+    "NameES": "Soldado"
+  },
+  {
+    "ID": 219,
+    "Name": "Yoda",
+    "NameES": "Yoda"
+  },
+  {
+    "ID": 220,
+    "Name": "Tusken Raider",
+    "NameES": "Tusken Raider"
+  },
+  {
+    "ID": 221,
+    "Name": "ISB Infiltrator",
+    "NameES": "Infiltrado de ISB"
+  },
+  {
+    "ID": 222,
+    "Name": "Agent Blaise",
+    "NameES": "Agente Blaise"
+  },
+  {
+    "ID": 223,
+    "Name": "AT-RT",
+    "NameES": "AT-RT"
+  },
+  {
+    "ID": 224,
+    "Name": "Bossk",
+    "NameES": "Bossk"
+  },
+  {
+    "ID": 225,
+    "Name": "Jyn Erso",
+    "NameES": "Jyn erso"
+  },
+  {
+    "ID": 226,
+    "Name": "Director Krennic",
+    "NameES": "Director krennic"
+  },
+  {
+    "ID": 227,
+    "Name": "IG-11",
+    "NameES": "IG-11"
+  },
+  {
+    "ID": 228,
+    "Name": "The Mandalorian",
+    "NameES": "El mandaloriano"
+  },
+  {
+    "ID": 230,
+    "Name": "Clan of Two",
+    "NameES": "Clan de dos"
+  },
+  {
+    "ID": 231,
+    "Name": "E-Web Engineer",
+    "NameES": "Ingeniero E-Web"
+  },
+  {
+    "ID": 232,
+    "Name": "General Sorin",
+    "NameES": "General Sorin"
+  },
+  {
+    "ID": 233,
+    "Name": "Lando Calrissian",
+    "NameES": "Lando Calrissian"
+  },
+  {
+    "ID": 234,
+    "Name": "Loku Kanoloa",
+    "NameES": "Loku kanoloa"
+  },
+  {
+    "ID": 235,
+    "Name": "Shoretrooper",
+    "NameES": "Shoretrooper"
+  },
+  {
+    "ID": 236,
+    "Name": "Mortar Trooper",
+    "NameES": "Soldado de mortero"
+  },
+  {
+    "ID": 237,
+    "Name": "Overwatch",
+    "NameES": "Engaño"
+  },
+  {
+    "ID": 238,
+    "Name": "Rebel Pathfinder",
+    "NameES": "Pathfinder rebelde"
+  },
+  {
+    "ID": 239,
+    "Name": "Rebel Saboteur",
+    "NameES": "Saboteador rebelde"
+  },
+  {
+    "ID": 240,
+    "Name": "The Darksaber",
+    "NameES": "El Darksaber"
+  },
+  {
+    "ID": 241,
+    "Name": "Trandoshan Hunter",
+    "NameES": "Cazador de trandoshan"
+  },
+  {
+    "ID": 242,
+    "Name": "Verena Talos",
+    "NameES": "Verena Talos"
+  },
+  {
+    "ID": 243,
+    "Name": "Agent Kallus",
+    "NameES": "Agente Kallus"
+  },
+  {
+    "ID": 244,
+    "Name": "Captain Terro",
+    "NameES": "Capitán Terro"
+  },
+  {
+    "ID": 245,
+    "Name": "Cassian Andor",
+    "NameES": "Cassian Andor"
+  },
+  {
+    "ID": 247,
+    "Name": "Davith Elso",
+    "NameES": "Davith Elso"
+  },
+  {
+    "ID": 248,
+    "Name": "Doctor Aphra",
+    "NameES": "Doctor Aphra"
+  },
+  {
+    "ID": 249,
+    "Name": "Heavy Stormtrooper",
+    "NameES": "Stormtrooper pesado"
+  },
+  {
+    "ID": 250,
+    "Name": "HK-47",
+    "NameES": "HK-47"
+  },
+  {
+    "ID": 251,
+    "Name": "Iden Versio",
+    "NameES": "IDEN VERSIO"
+  },
+  {
+    "ID": 252,
+    "Name": "K-2SO",
+    "NameES": "K-2SO"
+  },
+  {
+    "ID": 253,
+    "Name": "Luke Skywalker (Jedi)",
+    "NameES": "Luke Skywalker (Jedi)"
+  },
+  {
+    "ID": 254,
+    "Name": "Mara Jade",
+    "NameES": "Mara Jade"
+  },
+  {
+    "ID": 255,
+    "Name": "Murne Rin",
+    "NameES": "Murne rin"
+  },
+  {
+    "ID": 256,
+    "Name": "Wampa",
+    "NameES": "Wampa"
+  },
+  {
+    "ID": 257,
+    "Name": "Fury of Kashyyyk",
+    "NameES": "Furia de Kashyyyk"
+  },
+  {
+    "ID": 258,
+    "Name": "The Generals Ranks",
+    "NameES": "Los rango de los generales"
+  },
+  {
+    "ID": 259,
+    "Name": "Under Duress",
+    "NameES": "Bajo coacción"
+  },
+  {
+    "ID": 260,
+    "Name": "Cara Dune",
+    "NameES": "Dune Cara"
+  },
+  {
+    "ID": 261,
+    "Name": "Bib Fortuna",
+    "NameES": "Fortuna de babero"
+  },
+  {
+    "ID": 262,
+    "Name": "CT-1701",
+    "NameES": "CT-1701"
+  },
+  {
+    "ID": 263,
+    "Name": "Dark Trooper Mk III",
+    "NameES": "Dark Trooper Mk III"
+  },
+  {
+    "ID": 264,
+    "Name": "Dewback Rider",
+    "NameES": "Jinete de retroceso"
+  },
+  {
+    "ID": 265,
+    "Name": "First Strike",
+    "NameES": "Primera huelga"
+  },
+  {
+    "ID": 266,
+    "Name": "Flametrooper",
+    "NameES": "Flametrooper"
+  },
+  {
+    "ID": 267,
+    "Name": "Migs Mayfeld",
+    "NameES": "MIGS Mayfeld"
+  },
+  {
+    "ID": 268,
+    "Name": "Moff Gideon",
+    "NameES": "Moff Gedeon"
+  },
+  {
+    "ID": 269,
+    "Name": "Snowtrooper",
+    "NameES": "Pícaro de nieve"
+  },
+  {
+    "ID": 270,
+    "Name": "Z-6 Trooper",
+    "NameES": "Z-6 soldado"
+  },
+  {
+    "ID": 272,
+    "Name": "Cad Bane",
+    "NameES": "Bane cad"
+  },
+  {
+    "ID": 273,
+    "Name": "Hired Gun",
+    "NameES": "Pistola alquilada"
+  },
+  {
+    "ID": 274,
+    "Name": "HK Assassin Droid",
+    "NameES": "HK Assassin Droid"
+  },
+  {
+    "ID": 275,
+    "Name": "Purge Commander",
+    "NameES": "Purga comandante"
+  },
+  {
+    "ID": 276,
+    "Name": "Purge Trooper",
+    "NameES": "Soldado"
+  },
+  {
+    "ID": 277,
+    "Name": "Saw Gerrera",
+    "NameES": "Vio a Gerrera"
+  },
+  {
+    "ID": 278,
+    "Name": "Zeb Orrelios",
+    "NameES": "Zeb Orrelios"
+  },
+  {
+    "ID": 279,
+    "Name": "Taron Malicos",
+    "NameES": "Taron malicos"
+  },
+  {
+    "ID": 281,
+    "Name": "Punishing Strike",
+    "NameES": "Castigo"
+  },
+  {
+    "ID": 282,
+    "Name": "Smuggling Compartment",
+    "NameES": "Compartimento de contrabando"
+  },
+  {
+    "ID": 283,
+    "Name": "Dio",
+    "NameES": "Dio"
+  },
+  {
+    "ID": 284,
+    "Name": "Electrobatons",
+    "NameES": "Electrobatones"
+  },
+  {
+    "ID": 285,
+    "Name": "Electrohammer",
+    "NameES": "Electrohamero"
+  },
+  {
+    "ID": 286,
+    "Name": "Electrostaff",
+    "NameES": "Electrostaff"
+  },
+  {
+    "ID": 287,
+    "Name": "Junk Droid",
+    "NameES": "Droide basura"
+  },
+  {
+    "ID": 288,
+    "Name": "Scout",
+    "NameES": "Explorar"
+  },
+  {
+    "ID": 289,
+    "Name": "Scout",
+    "NameES": "Explorar"
+  },
+  {
+    "ID": 290,
+    "Name": "Senator",
+    "NameES": "Senador"
+  },
+  {
+    "ID": 291,
+    "Name": "Senator",
+    "NameES": "Senador"
+  },
+  {
+    "ID": 292,
+    "Name": "Soldier",
+    "NameES": "Soldado"
+  },
+  {
+    "ID": 293,
+    "Name": "Streetrat",
+    "NameES": "Ratón"
+  },
+  {
+    "ID": 294,
+    "Name": "Baze Malbus",
+    "NameES": "Baze Malbus"
+  },
+  {
+    "ID": 295,
+    "Name": "Cal Kestis",
+    "NameES": "Cal Kestis"
+  },
+  {
+    "ID": 296,
+    "Name": "Chirrut Imwe",
+    "NameES": "Chirrut Imwe"
+  },
+  {
+    "ID": 297,
+    "Name": "Del Meeko",
+    "NameES": "Del Meeko"
+  },
+  {
+    "ID": 298,
+    "Name": "Gar Saxon",
+    "NameES": "Gar Saxon"
+  },
+  {
+    "ID": 299,
+    "Name": "Kuiil",
+    "NameES": "Kuiil"
+  },
+  {
+    "ID": 300,
+    "Name": "Nexu",
+    "NameES": "Nexo"
+  },
+  {
+    "ID": 301,
+    "Name": "Orbital Bombardment",
+    "NameES": "Bombardeo orbital"
+  },
+  {
+    "ID": 302,
+    "Name": "Second Sister",
+    "NameES": "Segunda hermana"
+  },
+  {
+    "ID": 303,
+    "Name": "Super Commando",
+    "NameES": "Super Commando"
+  },
+  {
+    "ID": 304,
+    "Name": "Technician Training",
+    "NameES": "Capacitación técnica"
+  },
+  {
+    "ID": 305,
+    "Name": "Vaders Finest",
+    "NameES": "Las vaqueras más finas"
+  },
+  {
+    "ID": 306,
+    "Name": "BD-1",
+    "NameES": "Bd-1"
+  },
+  {
+    "ID": 308,
+    "Name": "Ewok Warrior",
+    "NameES": "Ewok Guerrero"
+  },
+  {
+    "ID": 309,
+    "Name": "A New Hope",
+    "NameES": "Una nueva esperanza"
+  },
+  {
+    "ID": 310,
+    "Name": "Bodhi Rook",
+    "NameES": "Bodhi Rook"
+  },
+  {
+    "ID": 311,
+    "Name": "Fennec Shand",
+    "NameES": "Fennec Shand"
+  },
+  {
+    "ID": 312,
+    "Name": "Fifth Brother",
+    "NameES": "Quinto hermano"
+  },
+  {
+    "ID": 313,
+    "Name": "Imperial Officer",
+    "NameES": "Oficial imperial"
+  },
+  {
+    "ID": 314,
+    "Name": "Krrsantan",
+    "NameES": "Krrsantano"
+  },
+  {
+    "ID": 315,
+    "Name": "Tauntaun Rider",
+    "NameES": "Jinete de tauntaun"
+  },
+  {
+    "ID": 316,
+    "Name": "Tress Hacnua",
+    "NameES": "Hacnua"
+  },
+  {
+    "ID": 317,
+    "Name": "Nemiks Manifesto",
+    "NameES": "Manifiesto nemiks"
+  },
+  {
+    "ID": 318,
+    "Name": "Rogue One",
+    "NameES": "Pícaro uno"
+  },
+  {
+    "ID": 319,
+    "Name": "74-Z Speeder Bike",
+    "NameES": "Bicicleta de velocidad 74-Z"
+  },
+  {
+    "ID": 320,
+    "Name": "Cross-Training",
+    "NameES": "Entrenamiento cruzado"
+  },
+  {
+    "ID": 321,
+    "Name": "Paz Vizsla",
+    "NameES": "Paz Vizsla"
+  },
+  {
+    "ID": 322,
+    "Name": "Explosive Armaments",
+    "NameES": "Armamentos explosivos"
+  },
+  {
+    "ID": 323,
+    "Name": "Imperial Citadel",
+    "NameES": "Ciudadela imperial"
+  },
+  {
+    "ID": 324,
+    "Name": "Mak Eshka'rey",
+    "NameES": "Mak eshka'rey"
+  },
+  {
+    "ID": 325,
+    "Name": "The Armorer",
+    "NameES": "El armero"
+  },
+  {
+    "ID": 326,
+    "Name": "Asajj Ventress",
+    "NameES": "Asajj ventress"
+  },
+  {
+    "ID": 327,
+    "Name": "Dr. Royce Hemlock",
+    "NameES": "Dr. Royce Hemlock"
+  },
+  {
+    "ID": 1001,
+    "Name": "Heart of Freedom",
+    "NameES": "Corazón de la libertad"
+  },
+  {
+    "ID": 1002,
+    "Name": "Self-Defense",
+    "NameES": "Autodefensa"
+  },
+  {
+    "ID": 1004,
+    "Name": "Espionage Mastery",
+    "NameES": "Dominio de espionaje"
+  },
+  {
+    "ID": 1005,
+    "Name": "Intelligence Leak",
+    "NameES": "Fuga de inteligencia"
+  },
+  {
+    "ID": 1006,
+    "Name": "Smuggled Supplies",
+    "NameES": "Suministros de contrabando"
+  },
+  {
+    "ID": 1007,
+    "Name": "Smugglers Tricks",
+    "NameES": "Trucos de los contrabandistas"
+  },
+  {
+    "ID": 1008,
+    "Name": "Crush",
+    "NameES": "Aplastar"
+  },
+  {
+    "ID": 1009,
+    "Name": "Jundland Terror",
+    "NameES": "Terror de Jundland"
+  },
+  {
+    "ID": 1010,
+    "Name": "Opportunistic",
+    "NameES": "Oportunista"
+  },
+  {
+    "ID": 1011,
+    "Name": "Parting Blow",
+    "NameES": "Golpe de separación"
+  },
+  {
+    "ID": 1012,
+    "Name": "Capture the Weary",
+    "NameES": "Captura el cansado"
+  },
+  {
+    "ID": 1013,
+    "Name": "Mandalorian Tactics",
+    "NameES": "Tácticas mandalorianas"
+  },
+  {
+    "ID": 1014,
+    "Name": "Disorient",
+    "NameES": "Desorientar"
+  },
+  {
+    "ID": 1015,
+    "Name": "Grisly Contest",
+    "NameES": "Concurso espeluznante"
+  },
+  {
+    "ID": 1016,
+    "Name": "Trandoshan Terror",
+    "NameES": "Terror de Trandoshan"
+  },
+  {
+    "ID": 1017,
+    "Name": "Adrenaline",
+    "NameES": "Adrenalina"
+  },
+  {
+    "ID": 1018,
+    "Name": "Debts Repaid",
+    "NameES": "Deudas reembolsas"
+  },
+  {
+    "ID": 1019,
+    "Name": "Hold Ground",
+    "NameES": "Mantenerse en tierra"
+  },
+  {
+    "ID": 1020,
+    "Name": "Roar",
+    "NameES": "Rugido"
+  },
+  {
+    "ID": 1022,
+    "Name": "Burst Fire",
+    "NameES": "Estallar"
+  },
+  {
+    "ID": 1023,
+    "Name": "Celebration",
+    "NameES": "Celebración"
+  },
+  {
+    "ID": 1024,
+    "Name": "Close the Gap",
+    "NameES": "Cerrar la brecha"
+  },
+  {
+    "ID": 1025,
+    "Name": "Covering Fire",
+    "NameES": "Cubriendo el fuego"
+  },
+  {
+    "ID": 1026,
+    "Name": "Deadeye",
+    "NameES": "Vigota"
+  },
+  {
+    "ID": 1027,
+    "Name": "Deflection",
+    "NameES": "Desviación"
+  },
+  {
+    "ID": 1028,
+    "Name": "Element of Surprise",
+    "NameES": "Elemento de sorpresa"
+  },
+  {
+    "ID": 1029,
+    "Name": "Expose Weakness",
+    "NameES": "Exponer la debilidad"
+  },
+  {
+    "ID": 1030,
+    "Name": "Ferocity",
+    "NameES": "Ferocidad"
+  },
+  {
+    "ID": 1031,
+    "Name": "Fleet Footed",
+    "NameES": "Flota"
+  },
+  {
+    "ID": 1032,
+    "Name": "Force Lightning",
+    "NameES": "Lightning de fuerza"
+  },
+  {
+    "ID": 1033,
+    "Name": "Furious Charge",
+    "NameES": "Carga furiosa"
+  },
+  {
+    "ID": 1034,
+    "Name": "Guardian Stance",
+    "NameES": "Postura guardiana"
+  },
+  {
+    "ID": 1035,
+    "Name": "Hunter Protocol",
+    "NameES": "Protocolo de cazador"
+  },
+  {
+    "ID": 1036,
+    "Name": "Knowledge and Defense",
+    "NameES": "Conocimiento y defensa"
+  },
+  {
+    "ID": 1037,
+    "Name": "Lord of the Sith",
+    "NameES": "Señor de los Sith"
+  },
+  {
+    "ID": 1038,
+    "Name": "Lure of the Dark Side",
+    "NameES": "Tarro del lado oscuro"
+  },
+  {
+    "ID": 1039,
+    "Name": "Marksman",
+    "NameES": "Tirador escondido"
+  },
+  {
+    "ID": 1040,
+    "Name": "Maximum Firepower",
+    "NameES": "Potencia de fuego máxima"
+  },
+  {
+    "ID": 1041,
+    "Name": "Meditation",
+    "NameES": "Meditación"
+  },
+  {
+    "ID": 1042,
+    "Name": "One in a Million",
+    "NameES": "Uno en un millón"
+  },
+  {
+    "ID": 1043,
+    "Name": "Planning",
+    "NameES": "Planificación"
+  },
+  {
+    "ID": 1044,
+    "Name": "Price on Their Heads",
+    "NameES": "Precio en sus cabezas"
+  },
+  {
+    "ID": 1045,
+    "Name": "Pummel",
+    "NameES": "Aporrear"
+  },
+  {
+    "ID": 1046,
+    "Name": "Rally",
+    "NameES": "Reunión"
+  },
+  {
+    "ID": 1047,
+    "Name": "Recovery",
+    "NameES": "Recuperación"
+  },
+  {
+    "ID": 1048,
+    "Name": "Regroup",
+    "NameES": "Reagruparse"
+  },
+  {
+    "ID": 1049,
+    "Name": "Shadow Ops",
+    "NameES": "Ops de sombra"
+  },
+  {
+    "ID": 1050,
+    "Name": "Sit Tight",
+    "NameES": "Estarse quieto"
+  },
+  {
+    "ID": 1051,
+    "Name": "Son of Skywalker",
+    "NameES": "Hijo de Skywalker"
+  },
+  {
+    "ID": 1052,
+    "Name": "Take Cover",
+    "NameES": "Refugiarse"
+  },
+  {
+    "ID": 1053,
+    "Name": "Take Initiative",
+    "NameES": "Tomar iniciativa"
+  },
+  {
+    "ID": 1054,
+    "Name": "Take it Down",
+    "NameES": "Retirarlo"
+  },
+  {
+    "ID": 1055,
+    "Name": "Telekinetic Throw",
+    "NameES": "Lanzamiento telequinético"
+  },
+  {
+    "ID": 1056,
+    "Name": "To the Limit",
+    "NameES": "Al límite"
+  },
+  {
+    "ID": 1057,
+    "Name": "Urgency",
+    "NameES": "Urgencia"
+  },
+  {
+    "ID": 1058,
+    "Name": "Brace Yourself",
+    "NameES": "Prepárate"
+  },
+  {
+    "ID": 1059,
+    "Name": "Dangerous Bargains",
+    "NameES": "Gangas peligrosas"
+  },
+  {
+    "ID": 1060,
+    "Name": "Payback",
+    "NameES": "Reverencia"
+  },
+  {
+    "ID": 1061,
+    "Name": "Against the Odds",
+    "NameES": "Contra las probabilidades"
+  },
+  {
+    "ID": 1062,
+    "Name": "Efficient Travel",
+    "NameES": "Viaje eficiente"
+  },
+  {
+    "ID": 1063,
+    "Name": "Hit and Run",
+    "NameES": "Golpear y correr"
+  },
+  {
+    "ID": 1064,
+    "Name": "Field Tactician",
+    "NameES": "Táctico de campo"
+  },
+  {
+    "ID": 1065,
+    "Name": "Fuel Upgrade",
+    "NameES": "Actualización de combustible"
+  },
+  {
+    "ID": 1066,
+    "Name": "Optimal Bombardment",
+    "NameES": "Bombardeo óptimo"
+  },
+  {
+    "ID": 1067,
+    "Name": "Endless Reserves",
+    "NameES": "Reservas sin fin"
+  },
+  {
+    "ID": 1068,
+    "Name": "Explosive Weaponry",
+    "NameES": "Armamento explosivo"
+  },
+  {
+    "ID": 1069,
+    "Name": "Heavy Armor",
+    "NameES": "Armadura pesada"
+  },
+  {
+    "ID": 1070,
+    "Name": "New Orders",
+    "NameES": "Nuevos pedidos"
+  },
+  {
+    "ID": 1071,
+    "Name": "Overrun",
+    "NameES": "Invadir"
+  },
+  {
+    "ID": 1072,
+    "Name": "In the Shadows",
+    "NameES": "En las sombras"
+  },
+  {
+    "ID": 1073,
+    "Name": "Primary Target",
+    "NameES": "Objetivo principal"
+  },
+  {
+    "ID": 1074,
+    "Name": "Stroke of Brilliance",
+    "NameES": "Golpe de brillo"
+  },
+  {
+    "ID": 1075,
+    "Name": "Disable",
+    "NameES": "Desactivar"
+  },
+  {
+    "ID": 1076,
+    "Name": "I Make My Own Luck",
+    "NameES": "Hago mi propia suerte"
+  },
+  {
+    "ID": 1077,
+    "Name": "Inspiring Speech",
+    "NameES": "Discurso inspirador"
+  },
+  {
+    "ID": 1078,
+    "Name": "Reposition",
+    "NameES": "Reposición"
+  },
+  {
+    "ID": 1079,
+    "Name": "Slippery Target",
+    "NameES": "Objetivo resbaladizo"
+  },
+  {
+    "ID": 1080,
+    "Name": "Of No Importance",
+    "NameES": "Sin importancia"
+  },
+  {
+    "ID": 1081,
+    "Name": "Blaze of Glory",
+    "NameES": "Resplandor de gloria"
+  },
+  {
+    "ID": 1083,
+    "Name": "Merciless",
+    "NameES": "Despiadado"
+  },
+  {
+    "ID": 1084,
+    "Name": "Overdrive",
+    "NameES": "Sobremarcha"
+  },
+  {
+    "ID": 1085,
+    "Name": "Repair",
+    "NameES": "Reparar"
+  },
+  {
+    "ID": 1086,
+    "Name": "Comm Disruption",
+    "NameES": "Disrupción de comunicación"
+  },
+  {
+    "ID": 1087,
+    "Name": "Data Theft",
+    "NameES": "Robo de datos"
+  },
+  {
+    "ID": 1088,
+    "Name": "Strategic Shift",
+    "NameES": "Cambio estratégico"
+  },
+  {
+    "ID": 1089,
+    "Name": "Rally the Troops",
+    "NameES": "Reunir a las tropas"
+  },
+  {
+    "ID": 1090,
+    "Name": "Rank and File",
+    "NameES": "Tropa"
+  },
+  {
+    "ID": 1091,
+    "Name": "Squad Swarm",
+    "NameES": "Enjambre de escuadrón"
+  },
+  {
+    "ID": 1092,
+    "Name": "Black Market Prices",
+    "NameES": "Precios de mercado negro"
+  },
+  {
+    "ID": 1093,
+    "Name": "Cheat to Win",
+    "NameES": "Trampa para ganar"
+  },
+  {
+    "ID": 1094,
+    "Name": "Stall for Time",
+    "NameES": "Puesto por tiempo"
+  },
+  {
+    "ID": 1095,
+    "Name": "Behind Enemy Lines",
+    "NameES": "Detrás de las líneas enemigas"
+  },
+  {
+    "ID": 1096,
+    "Name": "I Can Feel It",
+    "NameES": "Puedo sentirlo"
+  },
+  {
+    "ID": 1097,
+    "Name": "There is Another",
+    "NameES": "Hay otro"
+  },
+  {
+    "ID": 1098,
+    "Name": "A Powerful Influence",
+    "NameES": "Una poderosa influencia"
+  },
+  {
+    "ID": 1099,
+    "Name": "Force Surge",
+    "NameES": "Sobresaliente"
+  },
+  {
+    "ID": 1100,
+    "Name": "I Must Go Alone",
+    "NameES": "Debo ir solo"
+  },
+  {
+    "ID": 1101,
+    "Name": "Devotion",
+    "NameES": "Devoción"
+  },
+  {
+    "ID": 1102,
+    "Name": "Etiquette and Protocol",
+    "NameES": "Etiqueta y protocolo"
+  },
+  {
+    "ID": 1103,
+    "Name": "Hard to Hit",
+    "NameES": "Difícil de golpear"
+  },
+  {
+    "ID": 1104,
+    "Name": "Single Purpose",
+    "NameES": "Único propósito"
+  },
+  {
+    "ID": 1105,
+    "Name": "Terminal Network",
+    "NameES": "Red terminal"
+  },
+  {
+    "ID": 1106,
+    "Name": "Change of Plans",
+    "NameES": "Cambio de planes"
+  },
+  {
+    "ID": 1107,
+    "Name": "Collect Intel",
+    "NameES": "Recoger Intel"
+  },
+  {
+    "ID": 1108,
+    "Name": "Emergency Aid",
+    "NameES": "Ayuda de emergencia"
+  },
+  {
+    "ID": 1109,
+    "Name": "Hide in Plain Sight",
+    "NameES": "Esconderse"
+  },
+  {
+    "ID": 1110,
+    "Name": "Lock On",
+    "NameES": "Acoplarse"
+  },
+  {
+    "ID": 1111,
+    "Name": "Focus",
+    "NameES": "Enfocar"
+  },
+  {
+    "ID": 1112,
+    "Name": "Grenadier",
+    "NameES": "Granadero"
+  },
+  {
+    "ID": 1113,
+    "Name": "Reinforcements",
+    "NameES": "Refuerzos"
+  },
+  {
+    "ID": 1114,
+    "Name": "Strength in Numbers",
+    "NameES": "Fuerza en los números"
+  },
+  {
+    "ID": 1115,
+    "Name": "Coordinated Attack",
+    "NameES": "Ataque coordinado"
+  },
+  {
+    "ID": 1116,
+    "Name": "Harsh Environment",
+    "NameES": "Ambiente áspero"
+  },
+  {
+    "ID": 1117,
+    "Name": "Master Operative",
+    "NameES": "Operativo maestro"
+  },
+  {
+    "ID": 1118,
+    "Name": "Miracle Worker",
+    "NameES": "Trabajador milagroso"
+  },
+  {
+    "ID": 1119,
+    "Name": "Negation",
+    "NameES": "Negación"
+  },
+  {
+    "ID": 1120,
+    "Name": "Overcharged Weapons",
+    "NameES": "Armas sobrecargadas"
+  },
+  {
+    "ID": 1121,
+    "Name": "Set a Trap",
+    "NameES": "Tender un lazo"
+  },
+  {
+    "ID": 1123,
+    "Name": "Survival Instincts",
+    "NameES": "Instintos de supervivencia"
+  },
+  {
+    "ID": 1124,
+    "Name": "Bodyguard",
+    "NameES": "Guardaespaldas"
+  },
+  {
+    "ID": 1125,
+    "Name": "Counter Attack",
+    "NameES": "Contraataque"
+  },
+  {
+    "ID": 1126,
+    "Name": "Cripple",
+    "NameES": "Lisiado"
+  },
+  {
+    "ID": 1127,
+    "Name": "Flurry of Blades",
+    "NameES": "Ráfaga de cuchillas"
+  },
+  {
+    "ID": 1128,
+    "Name": "Set for Stun",
+    "NameES": "Establecido para aturdir"
+  },
+  {
+    "ID": 1129,
+    "Name": "Stealth Tactics",
+    "NameES": "Tácticas de sigilo"
+  },
+  {
+    "ID": 1130,
+    "Name": "Camouflage",
+    "NameES": "Camuflaje"
+  },
+  {
+    "ID": 1131,
+    "Name": "Fatal Deception",
+    "NameES": "Engaño fatal"
+  },
+  {
+    "ID": 1132,
+    "Name": "Force Illusion",
+    "NameES": "Ilusión de la fuerza"
+  },
+  {
+    "ID": 1133,
+    "Name": "Vanish",
+    "NameES": "Desaparecer"
+  },
+  {
+    "ID": 1134,
+    "Name": "Deadly Precision",
+    "NameES": "Precisión mortal"
+  },
+  {
+    "ID": 1135,
+    "Name": "Force Rush",
+    "NameES": "Fuerza de fuerza"
+  },
+  {
+    "ID": 1136,
+    "Name": "Hunt Them Down",
+    "NameES": "Cazarlos"
+  },
+  {
+    "ID": 1137,
+    "Name": "Cruel Strike",
+    "NameES": "Huelga cruel"
+  },
+  {
+    "ID": 1138,
+    "Name": "Hidden Trap",
+    "NameES": "Trampa oculta"
+  },
+  {
+    "ID": 1139,
+    "Name": "Stay Down",
+    "NameES": "Permanecer abajo"
+  },
+  {
+    "ID": 1140,
+    "Name": "Improvised Weapons",
+    "NameES": "Armas improvisadas"
+  },
+  {
+    "ID": 1141,
+    "Name": "Wild Fury",
+    "NameES": "Furia salvaje"
+  },
+  {
+    "ID": 1142,
+    "Name": "Shoot the Messenger",
+    "NameES": "Disparar al mensajero"
+  },
+  {
+    "ID": 1143,
+    "Name": "Assassinate",
+    "NameES": "Asesinar"
+  },
+  {
+    "ID": 1144,
+    "Name": "Blood Feud",
+    "NameES": "Enemistad de sangre"
+  },
+  {
+    "ID": 1145,
+    "Name": "Jump Jets",
+    "NameES": "Salto de salto"
+  },
+  {
+    "ID": 1146,
+    "Name": "Tough Luck",
+    "NameES": "Suerte"
+  },
+  {
+    "ID": 1147,
+    "Name": "Wild Attack",
+    "NameES": "Ataque salvaje"
+  },
+  {
+    "ID": 1148,
+    "Name": "Call the Vanguard",
+    "NameES": "Llame a la vanguardia"
+  },
+  {
+    "ID": 1149,
+    "Name": "Heightened Reflexes",
+    "NameES": "Reflejos elevados"
+  },
+  {
+    "ID": 1150,
+    "Name": "Mitigate",
+    "NameES": "Mitigar"
+  },
+  {
+    "ID": 1151,
+    "Name": "Battlefield Awareness",
+    "NameES": "Conciencia del campo de batalla"
+  },
+  {
+    "ID": 1153,
+    "Name": "Feral Swipes",
+    "NameES": "Swunkes salvajes"
+  },
+  {
+    "ID": 1154,
+    "Name": "Blitz",
+    "NameES": "Bombardeo aéreo"
+  },
+  {
+    "ID": 1155,
+    "Name": "Parry",
+    "NameES": "Parar"
+  },
+  {
+    "ID": 1156,
+    "Name": "Positioning Advantage",
+    "NameES": "Ventaja de posicionamiento"
+  },
+  {
+    "ID": 1157,
+    "Name": "On the Lam",
+    "NameES": "En el lam"
+  },
+  {
+    "ID": 1158,
+    "Name": "Tools for the Job",
+    "NameES": "Herramientas para el trabajo"
+  },
+  {
+    "ID": 1159,
+    "Name": "Stimulants",
+    "NameES": "Estimulantes"
+  },
+  {
+    "ID": 1160,
+    "Name": "Pickpocket",
+    "NameES": "Carterista"
+  },
+  {
+    "ID": 1161,
+    "Name": "Toxic Dart",
+    "NameES": "Dardo tóxico"
+  },
+  {
+    "ID": 1162,
+    "Name": "Glory of the Kill",
+    "NameES": "Gloria de la muerte"
+  },
+  {
+    "ID": 1163,
+    "Name": "Run for Cover",
+    "NameES": "Correr para cubrir"
+  },
+  {
+    "ID": 1164,
+    "Name": "Draw",
+    "NameES": "Dibujar"
+  },
+  {
+    "ID": 1165,
+    "Name": "Extra Protection",
+    "NameES": "Protección adicional"
+  },
+  {
+    "ID": 1166,
+    "Name": "Bladestorm",
+    "NameES": "Tormenta de muesca"
+  },
+  {
+    "ID": 1167,
+    "Name": "Sarlacc Sweep",
+    "NameES": "Barrido sarlacc"
+  },
+  {
+    "ID": 1168,
+    "Name": "Provoke",
+    "NameES": "Provocar"
+  },
+  {
+    "ID": 1169,
+    "Name": "Shared Experience",
+    "NameES": "Experiencia compartida"
+  },
+  {
+    "ID": 1170,
+    "Name": "Ballistics Matrix",
+    "NameES": "Matriz balística"
+  },
+  {
+    "ID": 1171,
+    "Name": "Triangulate",
+    "NameES": "Triangulado"
+  },
+  {
+    "ID": 1172,
+    "Name": "On a Mission",
+    "NameES": "En una misión"
+  },
+  {
+    "ID": 1174,
+    "Name": "Eerie Visage",
+    "NameES": "Misterioso rostro"
+  },
+  {
+    "ID": 1175,
+    "Name": "Utinni",
+    "NameES": "Utinni"
+  },
+  {
+    "ID": 1176,
+    "Name": "Navigation Upgrade",
+    "NameES": "Actualización de navegación"
+  },
+  {
+    "ID": 1177,
+    "Name": "Advance Warning",
+    "NameES": "Advertencia anticipada"
+  },
+  {
+    "ID": 1178,
+    "Name": "Targeting Network",
+    "NameES": "Red de orientación"
+  },
+  {
+    "ID": 1179,
+    "Name": "Evacuate",
+    "NameES": "Evacuar"
+  },
+  {
+    "ID": 1180,
+    "Name": "Looking for a Fight",
+    "NameES": "Buscando una pelea"
+  },
+  {
+    "ID": 1181,
+    "Name": "Cut Lines",
+    "NameES": "Cortar líneas"
+  },
+  {
+    "ID": 1182,
+    "Name": "Brace for Impact",
+    "NameES": "Brace for Impact"
+  },
+  {
+    "ID": 1183,
+    "Name": "Take Position",
+    "NameES": "Tomar posición"
+  },
+  {
+    "ID": 1184,
+    "Name": "Battle Scars",
+    "NameES": "Cicatrices de batalla"
+  },
+  {
+    "ID": 1185,
+    "Name": "Collateral Damage",
+    "NameES": "Daño colateral"
+  },
+  {
+    "ID": 1186,
+    "Name": "Field Supply",
+    "NameES": "Suministro de campo"
+  },
+  {
+    "ID": 1187,
+    "Name": "Heavy Ordnance",
+    "NameES": "Artillería pesada"
+  },
+  {
+    "ID": 1188,
+    "Name": "Ready Weapons",
+    "NameES": "Armas listas"
+  },
+  {
+    "ID": 1189,
+    "Name": "Terminal Protocol",
+    "NameES": "Protocolo terminal"
+  },
+  {
+    "ID": 1190,
+    "Name": "Take Position",
+    "NameES": "Tomar posición"
+  },
+  {
+    "ID": 1191,
+    "Name": "Balancing Force",
+    "NameES": "Fuerza de equilibrio"
+  },
+  {
+    "ID": 1192,
+    "Name": "Fool Me Once",
+    "NameES": "Engañarme una vez"
+  },
+  {
+    "ID": 1193,
+    "Name": "Force Jump",
+    "NameES": "Salto de la fuerza"
+  },
+  {
+    "ID": 1194,
+    "Name": "Force Push",
+    "NameES": "Fuerza de fuerza"
+  },
+  {
+    "ID": 1195,
+    "Name": "Right Back At Ya",
+    "NameES": "De vuelta a ti"
+  },
+  {
+    "ID": 1196,
+    "Name": "Chaotic Force",
+    "NameES": "Fuerza caótica"
+  },
+  {
+    "ID": 1197,
+    "Name": "Deathblow",
+    "NameES": "Bloque de la muerte"
+  },
+  {
+    "ID": 1198,
+    "Name": "Face to Face",
+    "NameES": "Cara a cara"
+  },
+  {
+    "ID": 1200,
+    "Name": "Wreak Vengeance",
+    "NameES": "Vengarse de uno"
+  },
+  {
+    "ID": 1201,
+    "Name": "Corrupting Force",
+    "NameES": "Fuerza corrupta"
+  },
+  {
+    "ID": 1202,
+    "Name": "Dark Energy",
+    "NameES": "Energía oscura"
+  },
+  {
+    "ID": 1203,
+    "Name": "Prepared for Battle",
+    "NameES": "Preparado para la batalla"
+  },
+  {
+    "ID": 1204,
+    "Name": "Unlimited Power",
+    "NameES": "Poder ilimitado"
+  },
+  {
+    "ID": 1205,
+    "Name": "Arcing Shot",
+    "NameES": "Disparo"
+  },
+  {
+    "ID": 1206,
+    "Name": "Armed Escort",
+    "NameES": "Escolta armada"
+  },
+  {
+    "ID": 1207,
+    "Name": "Concentrated Fire",
+    "NameES": "Fuego concentrado"
+  },
+  {
+    "ID": 1208,
+    "Name": "Droid Mastery",
+    "NameES": "Dominio del droide"
+  },
+  {
+    "ID": 1209,
+    "Name": "Forward March",
+    "NameES": "Marcha delantera"
+  },
+  {
+    "ID": 1210,
+    "Name": "Officer's Training",
+    "NameES": "Capacitación de los oficiales"
+  },
+  {
+    "ID": 1211,
+    "Name": "Spinning Kick",
+    "NameES": "Patada giratoria"
+  },
+  {
+    "ID": 1212,
+    "Name": "Wild Fire",
+    "NameES": "Incendio forestal"
+  },
+  {
+    "ID": 1214,
+    "Name": "Second Chance",
+    "NameES": "Segunda oportunidad"
+  },
+  {
+    "ID": 1215,
+    "Name": "Protect the Old Ways",
+    "NameES": "Proteger las viejas formas"
+  },
+  {
+    "ID": 1216,
+    "Name": "Learn by Example",
+    "NameES": "Aprender con el ejemplo"
+  },
+  {
+    "ID": 1217,
+    "Name": "Hour of Need",
+    "NameES": "Hora de necesidad"
+  },
+  {
+    "ID": 1218,
+    "Name": "Dying Lunge",
+    "NameES": "Lunge moribundo"
+  },
+  {
+    "ID": 1219,
+    "Name": "Karabast",
+    "NameES": "Quarabast"
+  },
+  {
+    "ID": 1220,
+    "Name": "Rebel Graffiti",
+    "NameES": "Graffiti rebelde"
+  },
+  {
+    "ID": 1221,
+    "Name": "Veteran Instincts",
+    "NameES": "Instintos veteranos"
+  },
+  {
+    "ID": 1222,
+    "Name": "Hostile Negotiation",
+    "NameES": "Negociación hostil"
+  },
+  {
+    "ID": 1223,
+    "Name": "Lets Make a Deal",
+    "NameES": "Hagamos un trato"
+  },
+  {
+    "ID": 1224,
+    "Name": "Out of Time",
+    "NameES": "Fuera de tiempo"
+  },
+  {
+    "ID": 1225,
+    "Name": "Worth Every Credit",
+    "NameES": "Vale la pena cada crédito"
+  },
+  {
+    "ID": 1226,
+    "Name": "Marked Territory",
+    "NameES": "Territorio marcado"
+  },
+  {
+    "ID": 1227,
+    "Name": "Pack Alpha",
+    "NameES": "Alfa de embalaje"
+  },
+  {
+    "ID": 1228,
+    "Name": "Induce Rage",
+    "NameES": "Inducir rabia"
+  },
+  {
+    "ID": 1229,
+    "Name": "Price of Glory",
+    "NameES": "Precio de la gloria"
+  },
+  {
+    "ID": 1230,
+    "Name": "Foresee",
+    "NameES": "Prever"
+  },
+  {
+    "ID": 1231,
+    "Name": "Combat Resupply",
+    "NameES": "Reabastecimiento de combate"
+  },
+  {
+    "ID": 1232,
+    "Name": "Escalating Hostility",
+    "NameES": "Hostilidad creciente"
+  },
+  {
+    "ID": 1235,
+    "Name": "On the Lam",
+    "NameES": "En el lam"
+  },
+  {
+    "ID": 1236,
+    "Name": "Deflection",
+    "NameES": "Desviación"
+  },
+  {
+    "ID": 1238,
+    "Name": "Mandalorian Tactics",
+    "NameES": "Tácticas mandalorianas"
+  },
+  {
+    "ID": 1239,
+    "Name": "Knowledge and Defense",
+    "NameES": "Conocimiento y defensa"
+  },
+  {
+    "ID": 1240,
+    "Name": "Close and Personal",
+    "NameES": "Cercano y personal"
+  },
+  {
+    "ID": 1241,
+    "Name": "Findsman Meditation",
+    "NameES": "Meditación de Findsman"
+  },
+  {
+    "ID": 1242,
+    "Name": "Get Behind Me",
+    "NameES": "Ponte detrás de mí"
+  },
+  {
+    "ID": 1243,
+    "Name": "Parry",
+    "NameES": "Parar"
+  },
+  {
+    "ID": 1244,
+    "Name": "Preservation Protocol",
+    "NameES": "Protocolo de preservación"
+  },
+  {
+    "ID": 1246,
+    "Name": "There Is No Try",
+    "NameES": "No hay intento"
+  },
+  {
+    "ID": 1248,
+    "Name": "Built on Hope",
+    "NameES": "Construido sobre la esperanza"
+  },
+  {
+    "ID": 1249,
+    "Name": "Deploy the Garrison",
+    "NameES": "Desplegar la guarnición"
+  },
+  {
+    "ID": 1250,
+    "Name": "Guild Programming",
+    "NameES": "Programación de gremios"
+  },
+  {
+    "ID": 1251,
+    "Name": "Whistling Birds",
+    "NameES": "Pájaros silbidos"
+  },
+  {
+    "ID": 1252,
+    "Name": "Apex Predator",
+    "NameES": "Depredador de apex"
+  },
+  {
+    "ID": 1253,
+    "Name": "Blend In",
+    "NameES": "Mezclarse con"
+  },
+  {
+    "ID": 1254,
+    "Name": "Cavalry Charge",
+    "NameES": "Carga de caballería"
+  },
+  {
+    "ID": 1255,
+    "Name": "Definition Love",
+    "NameES": "Definición de amor"
+  },
+  {
+    "ID": 1256,
+    "Name": "Face Me",
+    "NameES": "Enfréntame"
+  },
+  {
+    "ID": 1257,
+    "Name": "Feint",
+    "NameES": "Finta"
+  },
+  {
+    "ID": 1258,
+    "Name": "Overwhelming Impact",
+    "NameES": "Impacto abrumador"
+  },
+  {
+    "ID": 1259,
+    "Name": "Rapid Recalibration",
+    "NameES": "Recalibración rápida"
+  },
+  {
+    "ID": 1260,
+    "Name": "Reactive Loyalties",
+    "NameES": "Lealtades reactivas"
+  },
+  {
+    "ID": 1261,
+    "Name": "Rest in Peace",
+    "NameES": "Que descanse en paz"
+  },
+  {
+    "ID": 1262,
+    "Name": "Sniper Configuration",
+    "NameES": "Configuración de francotirador"
+  },
+  {
+    "ID": 1263,
+    "Name": "Static Pulse",
+    "NameES": "Pulso estático"
+  },
+  {
+    "ID": 1264,
+    "Name": "Windfall",
+    "NameES": "Ganancia inesperada"
+  },
+  {
+    "ID": 1266,
+    "Name": "Ambush",
+    "NameES": "Emboscada"
+  },
+  {
+    "ID": 1267,
+    "Name": "Covering Fire",
+    "NameES": "Cubriendo el fuego"
+  },
+  {
+    "ID": 1268,
+    "Name": "Expose Weakness",
+    "NameES": "Exponer la debilidad"
+  },
+  {
+    "ID": 1269,
+    "Name": "Honoring the Fallen",
+    "NameES": "Honrando a los caídos"
+  },
+  {
+    "ID": 1270,
+    "Name": "Demoralizing Monologue",
+    "NameES": "Monólogo desmoralizador"
+  },
+  {
+    "ID": 1272,
+    "Name": "Assassinate",
+    "NameES": "Asesinar"
+  },
+  {
+    "ID": 1273,
+    "Name": "De Wanna Wanga",
+    "NameES": "De wanna wanga"
+  },
+  {
+    "ID": 1274,
+    "Name": "Wild Fire",
+    "NameES": "Incendio forestal"
+  },
+  {
+    "ID": 1275,
+    "Name": "Forbidden Knowledge",
+    "NameES": "Conocimiento prohibido"
+  },
+  {
+    "ID": 1276,
+    "Name": "Guerilla Warfare",
+    "NameES": "Guerra de guerrillas"
+  },
+  {
+    "ID": 1277,
+    "Name": "Karabast",
+    "NameES": "Quarabast"
+  },
+  {
+    "ID": 1278,
+    "Name": "Lure of the Dark Side",
+    "NameES": "Tarro del lado oscuro"
+  },
+  {
+    "ID": 1279,
+    "Name": "Of No Importance",
+    "NameES": "Sin importancia"
+  },
+  {
+    "ID": 1280,
+    "Name": "There is Another",
+    "NameES": "Hay otro"
+  },
+  {
+    "ID": 1281,
+    "Name": "Reduce to Rubble",
+    "NameES": "Reducir a los escombros"
+  },
+  {
+    "ID": 1282,
+    "Name": "Savage Vigor",
+    "NameES": "Vigor salvaje"
+  },
+  {
+    "ID": 1283,
+    "Name": "Triangulate",
+    "NameES": "Triangulado"
+  },
+  {
+    "ID": 1285,
+    "Name": "All in a Days Work",
+    "NameES": "Todo en un día de trabajo"
+  },
+  {
+    "ID": 1286,
+    "Name": "Desperate Escape",
+    "NameES": "Escape desesperado"
+  },
+  {
+    "ID": 1287,
+    "Name": "Cals Buddy",
+    "NameES": "Compañero de cal."
+  },
+  {
+    "ID": 1288,
+    "Name": "Choose a Side",
+    "NameES": "Elige un lado"
+  },
+  {
+    "ID": 1289,
+    "Name": "Disable",
+    "NameES": "Desactivar"
+  },
+  {
+    "ID": 1290,
+    "Name": "Double or Nothing",
+    "NameES": "Doble o nada"
+  },
+  {
+    "ID": 1291,
+    "Name": "Elusive",
+    "NameES": "Elusivo"
+  },
+  {
+    "ID": 1292,
+    "Name": "Field Promotion",
+    "NameES": "Promoción de campo"
+  },
+  {
+    "ID": 1293,
+    "Name": "Final Stand",
+    "NameES": "Stand final"
+  },
+  {
+    "ID": 1294,
+    "Name": "Force Drain",
+    "NameES": "Desagüe"
+  },
+  {
+    "ID": 1295,
+    "Name": "Just Business",
+    "NameES": "Solo negocios"
+  },
+  {
+    "ID": 1296,
+    "Name": "Lightbow",
+    "NameES": "Aro"
+  },
+  {
+    "ID": 1297,
+    "Name": "Personal Energy Shield",
+    "NameES": "Escudo de energía personal"
+  },
+  {
+    "ID": 1298,
+    "Name": "Repair",
+    "NameES": "Reparar"
+  },
+  {
+    "ID": 1299,
+    "Name": "Reverse Engineer",
+    "NameES": "Ingeniería inversa"
+  },
+  {
+    "ID": 1300,
+    "Name": "Set the Charges",
+    "NameES": "Establecer los cargos"
+  },
+  {
+    "ID": 1301,
+    "Name": "Supercharge",
+    "NameES": "Sobrealimentar"
+  },
+  {
+    "ID": 1302,
+    "Name": "Support Specialist",
+    "NameES": "Especialista en apoyo"
+  },
+  {
+    "ID": 1303,
+    "Name": "Trandoshan Terror",
+    "NameES": "Terror de Trandoshan"
+  },
+  {
+    "ID": 1304,
+    "Name": "Disarm",
+    "NameES": "Desarmar"
+  },
+  {
+    "ID": 1305,
+    "Name": "Meditation",
+    "NameES": "Meditación"
+  },
+  {
+    "ID": 1307,
+    "Name": "Retaliation",
+    "NameES": "Represalias"
+  },
+  {
+    "ID": 1308,
+    "Name": "Transmit the Plans",
+    "NameES": "Transmitir los planes"
+  },
+  {
+    "ID": 1309,
+    "Name": "You Will Not Deny Me",
+    "NameES": "No me negarás"
+  },
+  {
+    "ID": 1310,
+    "Name": "Dangerous Prey",
+    "NameES": "Presa peligrosa"
+  },
+  {
+    "ID": 1311,
+    "Name": "Beatdown",
+    "NameES": "Paliza"
+  },
+  {
+    "ID": 1312,
+    "Name": "Capitalize",
+    "NameES": "Capitalizar"
+  },
+  {
+    "ID": 1313,
+    "Name": "Close the Gap",
+    "NameES": "Cerrar la brecha"
+  },
+  {
+    "ID": 1314,
+    "Name": "Smoke Grenade",
+    "NameES": "Granada de humo"
+  },
+  {
+    "ID": 1315,
+    "Name": "Take Position",
+    "NameES": "Tomar posición"
+  },
+  {
+    "ID": 1316,
+    "Name": "Overheated",
+    "NameES": "Sobrecalentado"
+  },
+  {
+    "ID": 1317,
+    "Name": "Cloned Reinforcements",
+    "NameES": "Refuerzos clonados"
+  },
+  {
+    "ID": 1318,
+    "Name": "Disengage",
+    "NameES": "Desacoplar"
+  },
+  {
+    "ID": 1319,
+    "Name": "Lord of the Sith",
+    "NameES": "Señor de los Sith"
+  },
+  {
+    "ID": 1320,
+    "Name": "Mandalorian Steel",
+    "NameES": "Acero mandaloriano"
+  },
+  {
+    "ID": 1321,
+    "Name": "No Cheating",
+    "NameES": "Sin trampas"
+  },
+  {
+    "ID": 1322,
+    "Name": "Paid in Beskar",
+    "NameES": "Pagado en Beskar"
+  },
+  {
+    "ID": 1323,
+    "Name": "Self-Augmentation",
+    "NameES": "Auto-augmentación"
+  }
+]

@@ -16013,31 +16013,6 @@
     "ImageName": "Disarm [IACP].png"
   },
   {
-    "ID": 1305,
-    "CardGroup": "Command",
-    "Name": "Meditation",
-    "CardClass": null,
-    "Faction": "Rebel",
-    "Cost": 3,
-    "FigureCount": null,
-    "Max": 1,
-    "Health": null,
-    "Speed": null,
-    "Traits": null,
-    "TraitsRequired": [
-      "Force User"
-    ],
-    "Color": null,
-    "UnitsRequired": [],
-    "AllText": "Meditation Once Force User None  ",
-    "Variant": "IACP",
-    "Characteristics": null,
-    "VassalName": "Meditation",
-    "VassalID": "C card--Meditation.jpg",
-    "ImageOffset": 0,
-    "ImageName": "Meditation [IACP].png"
-  },
-  {
     "ID": 1307,
     "CardGroup": "Command",
     "Name": "Retaliation",
