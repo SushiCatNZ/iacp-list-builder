@@ -302,6 +302,25 @@ app.get('/api/test', (req, res) => {
   res.json({ message: 'Proxy is working!' });
 });
 
+app.get('/api/cards', (req, res) => {
+  console.log('[CARDS API] Loading cards.json from server');
+  const cardsJsonPath = path.join(__dirname, 'src', 'data', 'cards.json');
+  
+  try {
+    if (!fs.existsSync(cardsJsonPath)) {
+      console.log('[CARDS API] ERROR: Cards.json not found');
+      return res.status(404).json({ error: 'Cards data not found' });
+    }
+    
+    const cardsData = JSON.parse(fs.readFileSync(cardsJsonPath, 'utf-8'));
+    console.log(`[CARDS API] Loaded ${cardsData.length} cards from server`);
+    res.json(cardsData);
+  } catch (error) {
+    console.error('[CARDS API] Error loading cards:', error);
+    res.status(500).json({ error: 'Failed to load cards data' });
+  }
+});
+
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });

@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import initialCardData from "./data/cards.json";
 import CardList from "./components/CardList";
 import ListSection from "./components/ListSection";
 import CardPreview from "./components/CardPreview";
@@ -75,7 +74,8 @@ function App() {
   const baseFactions = ["Rebel", "Empire", "Mercenary"];
   const [baseFaction, setBaseFaction] = useState("Rebel");
   const [autoFilter, setAutoFilter] = useState(true);
-  const [cardData, setCardData] = useState(initialCardData);
+  const [cardData, setCardData] = useState([]);
+  const [isLoadingCards, setIsLoadingCards] = useState(true);
   const [showCardEditor, setShowCardEditor] = useState(false);
   const [editCard, setEditCard] = useState(null); // For editing/creating a card
   const [imageRefreshKey, setImageRefreshKey] = useState(0);
@@ -85,6 +85,30 @@ function App() {
 
   // Ref for the traits dropdown container
   const traitsDropdownRef = useRef(null);
+
+  // Load cards from server on component mount
+  useEffect(() => {
+    const loadCards = async () => {
+      try {
+        console.log('[APP] Loading cards from server...');
+        const response = await fetch('/api/cards');
+        if (!response.ok) {
+          throw new Error(`Failed to load cards: ${response.status}`);
+        }
+        const cards = await response.json();
+        console.log(`[APP] Loaded ${cards.length} cards from server`);
+        setCardData(cards);
+        setIsLoadingCards(false);
+      } catch (error) {
+        console.error('[APP] Error loading cards:', error);
+        // Fallback to empty array if server fails
+        setCardData([]);
+        setIsLoadingCards(false);
+      }
+    };
+
+    loadCards();
+  }, []);
 
   useEffect(() => {
     function handleClickOutside(event) {
@@ -840,6 +864,24 @@ ${statDetails}Traits: ${traitDetails || 'None'}
       alert('Failed to copy army list. Please try again or copy manually.');
     }
   };
+
+  // Show loading indicator while cards are being loaded
+  if (isLoadingCards) {
+    return (
+      <div className="app-container">
+        <div style={{ 
+          display: 'flex', 
+          justifyContent: 'center', 
+          alignItems: 'center', 
+          height: '100vh',
+          fontSize: '18px',
+          color: '#666'
+        }}>
+          Loading cards...
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="app-container">
