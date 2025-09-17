@@ -340,6 +340,19 @@ app.listen(PORT, () => {
   console.log(`[STARTUP] Scripts directory exists: ${fs.existsSync(scriptsDir)}`);
   console.log(`[STARTUP] Images directory exists: ${fs.existsSync(imagesDir)}`);
   
+  // Debug: List what's actually in the working directory
+  console.log(`[STARTUP] Contents of working directory:`);
+  try {
+    const contents = fs.readdirSync(__dirname);
+    contents.forEach(item => {
+      const itemPath = path.join(__dirname, item);
+      const isDir = fs.statSync(itemPath).isDirectory();
+      console.log(`[STARTUP]   ${isDir ? 'DIR' : 'FILE'}: ${item}`);
+    });
+  } catch (err) {
+    console.log(`[STARTUP] Error listing directory contents: ${err.message}`);
+  }
+  
   if (fs.existsSync(cardsJsonPath)) {
     const stats = fs.statSync(cardsJsonPath);
     console.log(`[STARTUP] Cards.json size: ${stats.size} bytes`);
