@@ -67,22 +67,70 @@ app.post('/api/save-list', (req, res) => {
 });
 
 app.post('/api/save-card', (req, res) => {
+  console.log('[CARD SAVE] Starting card save operation');
+  console.log('[CARD SAVE] Payload received:', JSON.stringify(req.body, null, 2));
+  
   const payload = req.body;
   const tempFile = path.join(__dirname, 'temp_card.json');
   const scriptPath = path.join(__dirname, 'scripts', 'modify_cards.py');
+  const cardsJsonPath = path.join(__dirname, 'src', 'data', 'cards.json');
+
+  // Log file paths
+  console.log('[CARD SAVE] Temp file path:', tempFile);
+  console.log('[CARD SAVE] Script path:', scriptPath);
+  console.log('[CARD SAVE] Cards.json path:', cardsJsonPath);
+
+  // Check if cards.json exists and log its size
+  try {
+    if (fs.existsSync(cardsJsonPath)) {
+      const stats = fs.statSync(cardsJsonPath);
+      console.log('[CARD SAVE] Cards.json exists, size:', stats.size, 'bytes');
+    } else {
+      console.log('[CARD SAVE] WARNING: Cards.json does not exist!');
+    }
+  } catch (err) {
+    console.log('[CARD SAVE] Error checking cards.json:', err.message);
+  }
 
   // Write payload to temp file
-  fs.writeFileSync(tempFile, JSON.stringify(payload, null, 2), 'utf-8');
+  try {
+    fs.writeFileSync(tempFile, JSON.stringify(payload, null, 2), 'utf-8');
+    console.log('[CARD SAVE] Temp file written successfully');
+  } catch (err) {
+    console.error('[CARD SAVE] Error writing temp file:', err);
+    return res.status(500).json({ success: false, error: 'Failed to write temp file' });
+  }
 
   // Run the Python script
+  console.log('[CARD SAVE] Executing Python script...');
   exec(`python "${scriptPath}" "${tempFile}"`, (error, stdout, stderr) => {
     // Clean up temp file
-    fs.unlinkSync(tempFile);
+    try {
+      fs.unlinkSync(tempFile);
+      console.log('[CARD SAVE] Temp file cleaned up');
+    } catch (cleanupErr) {
+      console.log('[CARD SAVE] Warning: Could not clean up temp file:', cleanupErr.message);
+    }
 
     if (error) {
-      console.error('Error:', error);
+      console.error('[CARD SAVE] Python script error:', error);
+      console.error('[CARD SAVE] Python stderr:', stderr);
       return res.status(500).json({ success: false, error: stderr || error.message });
     }
+
+    console.log('[CARD SAVE] Python script stdout:', stdout);
+    console.log('[CARD SAVE] Card save operation completed successfully');
+    
+    // Check if cards.json was modified
+    try {
+      if (fs.existsSync(cardsJsonPath)) {
+        const stats = fs.statSync(cardsJsonPath);
+        console.log('[CARD SAVE] Cards.json after save, size:', stats.size, 'bytes');
+      }
+    } catch (err) {
+      console.log('[CARD SAVE] Error checking cards.json after save:', err.message);
+    }
+
     res.json({ success: true, output: stdout });
   });
 });
@@ -109,9 +157,18 @@ app.post('/api/delete-card', (req, res) => {
 });
 
 app.post('/api/upload-image', upload.single('image'), (req, res) => {
+  console.log('[IMAGE UPLOAD] Starting image upload operation');
+  console.log('[IMAGE UPLOAD] File received:', req.file ? {
+    originalname: req.file.originalname,
+    size: req.file.size,
+    mimetype: req.file.mimetype
+  } : 'No file');
+  console.log('[IMAGE UPLOAD] Target directory:', req.body.targetDir);
+
   const file = req.file;
   const targetDir = req.body.targetDir;
   if (!file || !targetDir) {
+    console.log('[IMAGE UPLOAD] Missing file or targetDir');
     return res.status(400).json({ success: false, error: 'Missing file or targetDir' });
   }
 
@@ -123,25 +180,40 @@ app.post('/api/upload-image', upload.single('image'), (req, res) => {
     destDir = path.join(__dirname, 'src', 'images', 'deployment');
   }
 
+  console.log('[IMAGE UPLOAD] Destination directory:', destDir);
+
   // Ensure directory exists
   if (!fs.existsSync(destDir)) {
+    console.log('[IMAGE UPLOAD] Creating directory:', destDir);
     fs.mkdirSync(destDir, { recursive: true });
+  } else {
+    console.log('[IMAGE UPLOAD] Directory already exists');
   }
 
   // Move and rename the file
   const destPath = path.join(destDir, file.originalname);
+  console.log('[IMAGE UPLOAD] Moving file to:', destPath);
+  
   fs.rename(file.path, destPath, (err) => {
     if (err) {
+      console.error('[IMAGE UPLOAD] Error moving file:', err);
       return res.status(500).json({ success: false, error: 'Failed to save image.' });
     }
+    
+    console.log('[IMAGE UPLOAD] File moved successfully, generating thumbnail...');
+    
     // Call Python thumbnail script
     const scriptPath = path.join(__dirname, 'scripts', 'generate_thumbnail.py');
+    console.log('[IMAGE UPLOAD] Thumbnail script path:', scriptPath);
+    
     exec(`python "${scriptPath}" "${destPath}" "${targetDir}"`, (error, stdout, stderr) => {
       if (error) {
-        console.error('Thumbnail generation error:', error, stderr);
+        console.error('[IMAGE UPLOAD] Thumbnail generation error:', error, stderr);
         // Still return success for image upload, but log the error
         return res.json({ success: true, thumbnail: false, error: stderr });
       }
+      
+      console.log('[IMAGE UPLOAD] Thumbnail generated successfully:', stdout);
       res.json({ success: true, thumbnail: true });
     });
   });
@@ -236,4 +308,30 @@ app.get('*', (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`Express server running on http://localhost:${PORT}`);
+  console.log(`[STARTUP] Node.js version: ${process.version}`);
+  console.log(`[STARTUP] Working directory: ${__dirname}`);
+  console.log(`[STARTUP] Environment: ${process.env.NODE_ENV || 'development'}`);
+  
+  // Check critical files and directories
+  const cardsJsonPath = path.join(__dirname, 'src', 'data', 'cards.json');
+  const scriptsDir = path.join(__dirname, 'scripts');
+  const imagesDir = path.join(__dirname, 'src', 'images');
+  
+  console.log(`[STARTUP] Cards.json exists: ${fs.existsSync(cardsJsonPath)}`);
+  console.log(`[STARTUP] Scripts directory exists: ${fs.existsSync(scriptsDir)}`);
+  console.log(`[STARTUP] Images directory exists: ${fs.existsSync(imagesDir)}`);
+  
+  if (fs.existsSync(cardsJsonPath)) {
+    const stats = fs.statSync(cardsJsonPath);
+    console.log(`[STARTUP] Cards.json size: ${stats.size} bytes`);
+  }
+  
+  // Check Python availability
+  exec('python --version', (error, stdout, stderr) => {
+    if (error) {
+      console.log(`[STARTUP] Python check failed: ${error.message}`);
+    } else {
+      console.log(`[STARTUP] Python version: ${stdout.trim()}`);
+    }
+  });
 }); 
