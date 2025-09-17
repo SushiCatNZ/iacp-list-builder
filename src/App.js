@@ -1071,6 +1071,7 @@ ${statDetails}Traits: ${traitDetails || 'None'}
               selectedTraits={selectedTraits}
               onCardClick={handleCardClick}
               showCardEditor={showCardEditor}
+              imageRefreshKey={imageRefreshKey}
             />
           </div>
         </div>
@@ -1143,6 +1144,7 @@ ${statDetails}Traits: ${traitDetails || 'None'}
                 }}
                 allCommandCards={commandCards}
                 baseFaction={baseFaction}
+                imageRefreshKey={imageRefreshKey}
               />
               <ListSection
                 title={!showCardEditor ? "Selected Command" : null}
@@ -1159,6 +1161,7 @@ ${statDetails}Traits: ${traitDetails || 'None'}
                 } : null}
                 onAddCommonCommandCards={handleAddCommonCommandCards}
                 showAddCommonButton={true}
+                imageRefreshKey={imageRefreshKey}
               />
             </>
           )}

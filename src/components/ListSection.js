@@ -40,6 +40,7 @@ function ListSection({
   baseFaction,
   handleCardClick,
   showAddCommonButton = false,
+  imageRefreshKey = 0,
 }) {
   return (
     <div className="list-section">
@@ -142,16 +143,11 @@ function ListSection({
             ? `Add: ${associatedCommandCards.map(cmd => cmd.Name).join(", ")}`
             : "No associated command cards";
 
-          // Use thumbnail for card art background
+          // Use thumbnail for card art background - dynamic API loading with refresh key
           let thumbPath = '';
-          try {
-            if (card.CardGroup === "Command") {
-              thumbPath = require(`../images/command/thumbnails/${card.ImageName.replace(/\.(png|jpeg|jpg)$/i, '.jpg')}`);
-            } else {
-              thumbPath = require(`../images/deployment/thumbnails/${card.ImageName.replace(/\.(png|jpeg|jpg)$/i, '.jpg')}`);
-            }
-          } catch (e) {
-            thumbPath = '';
+          if (card.ImageName) {
+            const cardGroup = card.CardGroup === "Command" ? "command" : "deployment";
+            thumbPath = `/api/thumbnails/${cardGroup}/${card.ImageName}?refresh=${imageRefreshKey}`;
           }
 
           let cardArtBg = null;

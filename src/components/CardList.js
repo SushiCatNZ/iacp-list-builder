@@ -35,7 +35,7 @@ function displayCardName(name) {
   return name.replace(/\s*\[Elite\]$/, "");
 }
 
-function CardList({ cards, onAdd, list, onSelect, type, iacpLogo, showIACP, factionIcons: parentFactionIcons, activeFactions, search, selectedTraits, onCardClick, showCardEditor }) {
+function CardList({ cards, onAdd, list, onSelect, type, iacpLogo, showIACP, factionIcons: parentFactionIcons, activeFactions, search, selectedTraits, onCardClick, showCardEditor, imageRefreshKey = 0 }) {
   const sortedCards = [...cards].sort((a, b) => {
     if (showCardEditor) {
       // When card editor is enabled, sort by ID in descending order
@@ -102,11 +102,11 @@ function CardList({ cards, onAdd, list, onSelect, type, iacpLogo, showIACP, fact
         const count = getCardCount(card.ID);
         const maxReached = count >= (card.Max || 1);
 
-        // Use thumbnail for card art background - dynamic API loading
+        // Use thumbnail for card art background - dynamic API loading with refresh key
         let thumbPath = '';
         if (card.ImageName) {
           const cardGroup = card.CardGroup === "Command" ? "command" : "deployment";
-          thumbPath = `/api/thumbnails/${cardGroup}/${card.ImageName}`;
+          thumbPath = `/api/thumbnails/${cardGroup}/${card.ImageName}?refresh=${imageRefreshKey}`;
         }
 
         let cardArtBg = null;
