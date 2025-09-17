@@ -19,6 +19,7 @@
     "AllText": "Luke Skywalker (HotR) [Action]<b>Saber Strike:</b> Perform a melee attack using 1 red and 1 yellow die. This attack gains Pierce 3.<br><b>Inspiring:</b> While another friendly figure within 3 spaces is attacking, it may reroll 1 die. Force User None None None None None None +1 Defense [Surge]: +2 Damage [Surge]: Recover 2 Damage [Surge]: +2 Accuracy",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Luke Skywalker (HotR)",
@@ -49,6 +50,7 @@
     "AllText": "Han Solo <b>Return Fire:</b> After an attack targeting you is resolved, if you did not suffer any Damage, you can interrupt to perform an attack targeting that attacker. Limit once per round.<br><b>Distracting:</b> While a friendly figure is defending, and you are adjacent to the targeted space, apply +1Evade to the defense results.<br><br> Cunning:</b> While defending, apply +1Block to the defense results for each Evade result. Smuggler Leader None None None None None Surge: +2 Accuracy, +1 Damage Surge: +2 Damage  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Han Solo",
@@ -77,6 +79,7 @@
     "AllText": "Rebel Saboteur <b>Overload: </b>You can trigger the same [Surge] ability up to twice per attack.<br><b>Priority Target: </b>Figures do not block line of sight for this figure's attacks. Spy Heavy Weapon None None None None None +3 Accuracy [Surge]: Pierce 2 [Surge]: Stun [Surge]: Blast 2 Damage",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Rebel Saboteur [Elite]",
@@ -104,6 +107,7 @@
     "AllText": "Rebel Trooper <b>Aim: </b>If you have not exited your space during this activation, apply +1 Damage and +2 Accuracy to your attack results.<br>[Action][Action]<b>Get Into Position: </b> Gain 4 movement points and become Focused. Trooper None None None None None None [Surge]: Pierce 2 [Surge]: +2 Accuracy  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Rebel Trooper [Elite]",
@@ -131,6 +135,7 @@
     "AllText": "Gideon Argus [Action]<b>Tactical Maneuver: </b>Choose another friendly figure in your line of sight. That figure gains 2 movement points.<br>[Action]<b>On My Mark: </b>Choose another friendly figure in your line of sight. That figure becomes Focused. Leader None None None None None None [Surge]: Focus [Surge]: +2 Damage  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Gideon Argus",
@@ -189,6 +194,7 @@
     "AllText": "Agent Blaise <b>Adapt: </b>The first time your opponent plays a Command card each round, choose 1 Spy or Trooper. That figure becomes Hidden.<br>[Surge]<b>Interrogate: </b>Look at your opponent's hand and choose a command card. You may discard a card of equal or greater cost from your hand to discard the chosen card. Spy Leader None None None None None [Surge]: +1 Damage [Surge]: +1 Damage [Surge]: Pierce 2 [Surge]: +3 Accuracy",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Agent Blaise",
@@ -217,6 +223,7 @@
     "AllText": "Alliance Ranger <b>Guerrilla: </b>After you resolve an attack, if the defender was defeated, become Hidden.<br><b>Elite Sniper: </b>While attacking, if the target space is 5 or more spaces away, you may reroll up to 2 attack dice. Trooper Hunter None None None None None +1 Ac., Pierce 1 [Surge]: +2 Damage [Surge]: Pierce 1 [Surge]: +3 Accuracy",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Alliance Ranger [Elite]",
@@ -245,6 +252,7 @@
     "AllText": "Alliance Ranger <b>Guerrilla: </b>After you resolve an attack, if the defender was defeated, become Hidden.<br><b>Sniper: </b>While attacking, if the target space is 5 or more spaces away, you may reroll 1 attack die. Trooper Hunter None None None None None +1 Accuracy [Surge]: +2 Damage [Surge]: Pierce 1 [Surge]: +2 Accuracy",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Alliance Ranger [Regular]",
@@ -272,6 +280,7 @@
     "AllText": "Alliance Smuggler [Action]<b>Improved Smuggler's Instincts: </b>Perform an interact, then move up to 3 spaces.<br><b>Slippery: </b>While defending, apply -2 Accuracy to the attack results. After an attack targeting you resolves, gain 2 movement points. Smuggler None None None None None None [Surge]: Stun [Surge]: Focus [Surge]: Pierce 2 [Surge]: +3 Accuracy",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Alliance Smuggler [Elite]",
@@ -299,6 +308,7 @@
     "AllText": "Alliance Smuggler [Action]<b>Smuggler's Instincts: </b>Perform an interact, then move up to 2 spaces.<br><b>Slippery: </b>While defending, apply -2 Accuracy to the attack results. After an attack targeting you resolves, gain 2 movement points. Smuggler None None None None None None [Surge]: Stun [Surge]: Pierce 1 [Surge]: +2 Accuracy ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Alliance Smuggler [Regular]",
@@ -356,6 +366,7 @@
     "AllText": "Boba Fett <b>Battle Presence: </b> After a hostile figure voluntarily exits a space adjacent to you, that figure suffers 1 [Strain]. Limit once per figure per round.<br><b>Battle Discipline: </b>When you declare an attack, choose 1 of the following abilities to apply to that attack: <br>+2 Ac.| [Surge]: +2 Damage | [Surge]: Recover 2 Damage Hunter None None None None None None +1 [Block], +1 [Evade] Mobile [Surge]: Pierce 1 [Surge]: Weaken",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Mobile",
       "Ranged"
     ],
@@ -385,6 +396,7 @@
     "AllText": "Bossk [Action]<b>Indiscriminate Fire: </b>Choose a space within 3 spaces and in your line of sight. Then, roll 1 green die. Each figure on or adjacent to that space suffers Damage equal to the Damage results and [Strain] equal to the [Surge] results.<br><b>Regenerate: </b> At the end of each round, recover 2 Damage and discard all Harmful conditions. Hunter Brawler None None None None None +1 [Block] +2 Damage +2 Accuracy [Surge]: Pierce 2",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Bossk",
@@ -476,6 +488,7 @@
     "AllText": "Chewbacca [Action]<b>Slam: </b>Choose 1 adjacent hostile figure and roll 1 red die. That figure suffers Damage equal to the Damage results. Then, if it is a small figure, you may push it 1 space.<br><b>Protector: </b>While a friendly figure is defending, and you are adjacent to the targeted space, apply +1 [Block] to the defense results. Limit 1 Protector ability used per attack. Technician Smuggler Wookiee Guardian None None None None [Surge]: +2 Damage [Surge]: Stun [Surge]: +2 Accuracy None",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Chewbacca",
@@ -535,6 +548,7 @@
     "AllText": "Darth Vader [Action]<b>Brutality: </b>Perform 2 attacks. Each attack must have a different target.<br>[Action]<b>Force Choke: </b>Choose a hostile figure in your line of sight. That figure suffers 2 Damage and 1 [Strain].<br><b>Foresight: </b>While defending, you may reroll 1 defense die. Force User Leader Brawler None None None None [Surge]: Pierce 3 [Surge]: +2 Damage  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Darth Vader",
@@ -563,6 +577,7 @@
     "AllText": "Diala Passil <b>Shattering Blow: </b>When you declare an attack, you may discard 1 Command card from your hand to choose and remove 1 die from the target's defense pool.<br><b>Foresight: </b>While defending, you may reroll 1 defense die. Force User Brawler None None None None None [Surge]: Recover 2 Damage [Surge]: Pierce 3 [Surge]: Cleave 2 Damage ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Diala Passil",
@@ -651,6 +666,7 @@
     "AllText": "Fenn Signis <b>Assault: </b> You can perform multiple attacks each activation.<br><b>Trooper Assault: </b>After a friendly Trooper within 3 spaces resolves an attack, it may gain Assault. Limit once per round. Trooper Leader None None None None None [Surge]: Blast 1 Damage [Surge]: +1 Damage [Surge]: +1 Accuracy ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Fenn Signis",
@@ -680,6 +696,7 @@
     "AllText": "Gaarkhan <b>Enraged: </b>If you have suffered at least 1 Damage, you can perform multiple attacks each activation.<br>[Action]<b>Charge: </b>Move a number of spaces up to your Speed. Then, you may perform an attack. Wookiee Guardian Brawler None None None None +1 [Block] [Surge]: Pierce 1, Bleed [Surge]: Focus ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Gaarkhan",
@@ -707,6 +724,7 @@
     "AllText": "Imperial Officer [Action]<b>Executive Order: </b>Choose another friendly figure within 2 spaces. That figure may interrupt to perform a move or attack.<br><b>Cower: </b>While defending, while adjacent to a friendly figure, you may reroll 1 defense die. Leader None None None None None None [Surge]: Focus [Surge]: Stun [Surge]: +1 Damage [Surge]: +3 Accuracy",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Imperial Officer [Elite]",
@@ -734,6 +752,7 @@
     "AllText": "Imperial Officer [Action]<b>Order: </b>Choose another friendly figure within 2 spaces. During a campaign, that figure may interrupt to perform a move. During a skirmish, that figure gains 2 movement points.<br><b>Cower: </b>While defending, while adjacent to a friendly figure, you may reroll 1 defense die. Leader None None None None None None [Surge]: Focus [Surge]: +1 Damage [Surge]: +2 Accuracy ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Imperial Officer [Regular]",
@@ -761,6 +780,7 @@
     "AllText": "Jyn Odan <b>Hair Trigger: </b>At the start of a hostile figure's activation, you may interrupt to perform an attack that targets that figure. Limit once per round.<br><b>Nimble: </b>After an attack targeting you is resolved, gain 2 movement points for each of your [Evade] results.<br><b>Cunning: </b>While defending, apply +1 [Block] to the defense results for each [Evade] result. Smuggler None None None None None None [Surge]: Stun, Pierce 1 [Surge]: +2 Ac., +2 Damage  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Jyn Odan",
@@ -789,6 +809,7 @@
     "AllText": "Mak Eshka'rey <b>Priority Target: </b>Figures do not block line of sight for your attacks.<br>[Surge]<b>Critical Hit: </b>This attack gains Pierce 2. If this attack defeats a hostile figure, your opponent must discard 1 random Command card from his hand. Spy Technician None None None None None [Surge]: +2 Accuracy [Surge]: +1 Damage None None",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Mak Eshka'rey",
@@ -876,6 +897,7 @@
     "AllText": "Probe Droid <b>Self-Destruct: </b>At the end of a round, you may roll 1 die. Each adjacent figure and object suffers Damage equal to the Damage results. Then, you are defeated. Droid None None None None None None Mobile [Surge]: +1 Damage [Surge]: Pierce 1 [Surge]: Recover 1 Damage",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Mobile",
       "Ranged"
     ],
@@ -905,6 +927,7 @@
     "AllText": "Royal Guard <b>Sentinel: </b>While a friendly non-Guardian figure is defending, and you are adjacent to the targeted space, apply +1 [Block] to the defense results. Limit 1 Sentinel or Protector ability used per attack.<br><b>Vengeance: </b>When an adjacent, friendly, non-Guardian figure is defeated, you become focused. Guardian Brawler None None None None None Reach [Surge]: Stun [Surge]: Pierce 1 ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee",
       "Reach"
     ],
@@ -933,6 +956,7 @@
     "AllText": "Stormtrooper <b>Squad Training: </b>While attacking, while adjacent to another friendly Trooper, you may reroll 1 attack die.<br><b>Last Stand: </b>When you are defeated, choose another figure in your group. That figure becomes focused. Trooper None None None None None None [Surge]: +2 Damage [Surge]: +3 Accuracy  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Stormtrooper [Elite]",
@@ -960,6 +984,7 @@
     "AllText": "Stormtrooper <b>Squad Training: </b>While attacking, while adjacent to another friendly Trooper, you may reroll 1 attack die. Trooper None None None None None None [Surge]: +1 Damage [Surge]: +2 Accuracy  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Stormtrooper [Regular]",
@@ -988,6 +1013,7 @@
     "AllText": "Trandoshan Hunter <b>Relentless: </b>When you declare an attack targeting a figure within 3 spaces, that figure suffers 1 [Strain].<br><b>ACP Scattergun: </b>While attacking, if you are adjacent to the target, apply +2 Damage to the attack results. Hunter Brawler None None None None None [Surge]: Focus [Surge]: Bleed [Surge]: Pierce 2 ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Trandoshan Hunter [Elite]",
@@ -1016,6 +1042,7 @@
     "AllText": "Trandoshan Hunter <b>Relentless: </b>When you declare an attack targeting a figure within 3 spaces, that figure suffers 1 [Strain].<br><b>ACP Scattergun: </b>While attacking, if you are adjacent to the target, apply +2 Damage to the attack results. Hunter Brawler None None None None None [Surge]: Bleed [Surge]: Pierce 2  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Trandoshan Hunter [Regular]",
@@ -1043,6 +1070,7 @@
     "AllText": "Dengar <b>Contempt: </b>While attacking, if the target does not have a Harmful condition, apply +1[Surge] to the attack results.<br>[Surge]<b>Punishment: </b>After the attack resolves, if the target suffered 1 or more Damage, choose 1 Harmful condition. The target gains that condition. This ability can be triggered multiple times in the same attack. Hunter None None None None None None +2 Accuracy [Surge]: +2 Damage  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Dengar",
@@ -1070,6 +1098,7 @@
     "AllText": "Echo Base Trooper <b>Front Line: </b>While attacking, if the target is within 3 spaces of you, you may replace 1 blue die in your attack pool with 1 red die.<br><b>Efficient Travel: </b>You ignore additional movement point costs for difficult terrain and hostile figures.<br><b>Combat Suit: </b>While you are defending, reduce the Pierce value of the attack results by 1, to a minimum of 0. Trooper None None None None None None [Surge]: +2 Damage [Surge]: +3 Accuracy  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Echo Base Trooper [Elite]",
@@ -1097,6 +1126,7 @@
     "AllText": "Echo Base Trooper <b>Front Line: </b>While attacking, if the target is within 3 spaces of you, you may replace 1 blue die in your attack pool with 1 red die.<br><b>Efficient Travel: </b>You ignore additional movement point costs for difficult terrain and hostile figures. Trooper None None None None None None [Surge]: +1 Damage [Surge]: +2 Accuracy  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Echo Base Trooper [Regular]",
@@ -1125,6 +1155,7 @@
     "AllText": "General Sorin [Action]<b>Bombardment: </b>Choose an adjacent friendly figure. That figure may interrupt to perform an attack. The attack gains Blast 1 Damage.<br><b>Advance Firepower: </b>Adjacent friendly Droids and Vehicles can use your surge abilities. Leader Technician None None None None None [Surge]: +1 Damage [Surge]: Stun [Surge]: Focus None",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "General Sorin",
@@ -1153,6 +1184,7 @@
     "AllText": "Greedo <b>Slow on the Draw: </b>When you declare an attack, the target may interrupt to perform an attack targeting you. <br><b>Parting Shot: </b>When you have suffered Damage equal to your Health, before you are defeated, you may interrupt to perform an attack. Then, you are defeated. Hunter Smuggler None None None None None +1 Ac., +1 Damage [Surge]: Bleed [Surge]: +2 Damage [Surge]: +3 Accuracy",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Greedo",
@@ -1180,6 +1212,7 @@
     "AllText": "Hired Gun <b>Parting Shot: </b>When you have suffered Damage equal to your Health, before you are defeated, you may interrupt to perform an attack.<br><b>Disposable: </b>While defending, apply -1 [Dodge] to your defense results. Smuggler None None None None None None +1 [Evade] +1 Accuracy [Surge]: +1 Damage [Surge]: +1 Damage",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Hired Gun [Elite]",
@@ -1207,6 +1240,7 @@
     "AllText": "Hired Gun <b>Parting Shot: </b>When you have suffered Damage equal to your Health, before you are defeated, you may interrupt to perform an attack.<br><b>Disposable: </b>While defending, apply -1 [Dodge] to your defense results. Smuggler None None None None None None [Surge]: +1 Damage [Surge]: Pierce 1 [Surge]: +1 Accuracy ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Hired Gun [Regular]",
@@ -1235,6 +1269,7 @@
     "AllText": "IG-88 <b>Arsenal: </b>Your attack pool consists of any combination of 2 attack dice.<br><b>Relentless: </b>When you declare an attack targeting a figure within 3 spaces, that figure suffers 1 [Strain].<br><b>Assault: </b>You can perform multiple attacks each activation. Droid Hunter None None None None None +1 [Block] +2 Accuracy [Surge]: Recover 3 Damage [Surge]: +2 Damage",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "IG-88",
@@ -1262,6 +1297,7 @@
     "AllText": "ISB Infiltrator [Action]<b>Coordinated Raid: </b>Another figure in your group may interrupt to perform an attack targeting a hostile figure in your line of sight. Limit once per group per round.<br>[Surge]<b>Deadly: </b>Apply -1 [Dodge] to the defense results. Spy None None None None None None [Surge]: Pierce 1, Hide [Surge]: +2 Damage [Surge]: Pierce 1, +2 Accuracy ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "ISB Infiltrator [Elite]",
@@ -1289,6 +1325,7 @@
     "AllText": "ISB Infiltrator [Action]<b>Coordinated Raid: </b>Another figure in your group may interrupt to perform an attack targeting a hostile figure in your line of sight. Limit once per group per round. Spy None None None None None None [Surge]: Hide [Surge]: +1 Damage [Surge]: +2 Accuracy ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "ISB Infiltrator [Regular]",
@@ -1317,6 +1354,7 @@
     "AllText": "Gamorrean Guard <b>Gamorrean Honor Guard: </b>While defending during a [Ranged] attack, apply +1 [Block] to the defense results.<br><b>Professional: </b>While attacking, you may reroll 1 attack die. Brawler Guardian None None None None None Reach [Surge]: Cleave 2 Damage  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee",
       "Reach"
     ],
@@ -1346,6 +1384,7 @@
     "AllText": "Gamorrean Guard <b>Gamorrean Honor: <b>While defending during a [Ranged] attack, you may reroll 1 defense die.<br><b>Labored Attack: </b>While attacking, you may suffer 1 [Strain] to reroll 1 attack die. Brawler Guardian None None None None None Reach -1 Damage [Surge]: Cleave 1 Damage ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee",
       "Reach"
     ],
@@ -1375,6 +1414,7 @@
     "AllText": "Jet Trooper <b>Agile: </b> While defending, you may convert 1 [Block] to 1 [Evade].<br><b>Fly-By: </b>When you declare an attack, if the target space is within 2 spaces, add 1 blue die to your attack pool. After the attack resolves, gain 2 movement points. Trooper Vehicle None None None None None Mobile [Surge]: +2 Damage [Surge]: +3 Accuracy ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Jet Trooper [Elite]",
@@ -1403,6 +1443,7 @@
     "AllText": "Jet Trooper <b>Agile: </b> While defending, you may convert 1 [Block] to 1 [Evade].<br><b>Jets: </b>After you resolve an attack, if the target space is within 2 spaces, gain 1 movement point. Trooper Vehicle None None None None None Mobile [Surge]: +1 Damage [Surge]: +2 Accuracy ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Jet Trooper [Regular]",
@@ -1431,6 +1472,7 @@
     "AllText": "Onar Koma [Action]<b>Rush: </b>Move up to 4 spaces, then you may push an adjacent, small figure up to 1 space. If you do, you and that figure suffer 1 Damage.<br><b>Get Down: </b>While a small figure within 2 spaces is defending, you may apply +1 [Block] or +1 [Evade] to the defense results. Limit once per round.<br><b>Immune: </b>You cannot gain Harmful conditions. Guardian Hunter None None None None None [Surge]: +2 Damage, -2 Ac. [Surge]: +1 Damage, -1 Ac.  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Onar Koma",
@@ -1490,6 +1532,7 @@
     "AllText": "Shyla Varad [Action]<b>Mandalorian Whip: </b>Choose a small, hostile figure within 3 spaces and line of sight. Push that figure up to 3 spaces to a space adjacent to you. Then, perform an attack targeting that figure.<br><b>Responsive: </b>At the start of your activation, you may gain 1 movement point or recover 1 Damage. Brawler Hunter None None None None None +1 [Evade] [Surge]: +2 Damage [Surge]: Pierce 2 [Surge]: Cleave 2 Damage",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Shyla Varad",
@@ -1518,6 +1561,7 @@
     "AllText": "Vinto Hreeda [Action]<b>Rapid Fire: </b>Perform 2 attacks.<br><b>Boltslinger: </b>After you resolve an attack during your activation, you may choose a hostile figure other than the defender in your line of sight and within 3 spaces of you. That figure suffers 1 Damage. Hunter Smuggler None None None None None [Surge]: +1 Damage, Weaken [Surge]: Pierce 2, Bleed [Surge]: +2 Accuracy, Hide ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Vinto Hreeda",
@@ -1546,6 +1590,7 @@
     "AllText": "Weequay Pirate [Action]<b>Prowl: </b>You become Hidden.<br><b>Raider: </b>While attacking, you may choose 1 die. The player that rolled that die must reroll that die. Hunter Smuggler None None None None None +2 Accuracy [Surge]: +2 Damage [Surge]: Pierce 1 [Surge]: +2 Accuracy",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Weequay Pirate [Elite]",
@@ -1574,6 +1619,7 @@
     "AllText": "Weequay Pirate <b>Raider: </b>While attacking, you may choose 1 die. The player that rolled that die must reroll that die. Hunter Smuggler None None None None None +1 Accuracy [Surge]: +1 Damage [Surge]: +1 Accuracy ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Weequay Pirate [Regular]",
@@ -1602,6 +1648,7 @@
     "AllText": "Kayn Somos [Action]<b>Firing Squad: </b>Choose up to 2 adjacent friendly Troopers. Each of those figures may interrupt to perform an attack targeting the same figure.<br>[Surge]<b>Squad Command: </b>Choose an adjacent friendly Trooper. That figure becomes Focused. Trooper Leader None None None None None [Surge]: +1 Damage [Surge]: Pierce 1  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Kayn Somos",
@@ -1630,6 +1677,7 @@
     "AllText": "Lando Calrissian <b>Resourceful: </b>While attacking or defending, you may reroll 1 of your attack or defense dice.<br><b>Gambit: </b>Before you reroll a die, you may replace it with another die of the same type. After rolling, the new die is considered rerolled. Leader Smuggler None None None None None +2 Accuracy [Surge]: Hide, Stun [Surge]: +2 Damage ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Lando Calrissian",
@@ -1658,6 +1706,7 @@
     "AllText": "Leia Organa [Action]<b>Battlefield Leadership: </b>Perform an attack, then choose a friendly figure within 3 spaces. That figure may interrupt to perform an attack with the same target.<br>[Surge]<b>Military Efficiency: </b>Choose 1 command card in your discard pile and shuffle it into your Command deck. Leader Spy None None None None None +1 [Evade] [Surge]: +2 Damage [Surge]: Recover 2 Damage [Surge]: +3 Accuracy",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Leia Organa",
@@ -1687,6 +1736,7 @@
     "AllText": "Luke Skywalker (Jedi) <b>Deflect: </b>After a [Ranged] attack targeting you or an adjacent friendly figure resolves, a hostile figure of choice in your line of sight suffers 1 Damage.<br><b>Heroic: </b>Once during your activation, you may perform an attack without spending an action. Force User Leader Brawler None None None None +1 Damage +1 [Evade] [Surge]: +1 Damage [Surge]: Pierce 3",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Luke Skywalker (Jedi)",
@@ -1714,6 +1764,7 @@
     "AllText": "Obi-Wan Kenobi <b>Alter Mind: </b>Hostile figures with a figure cost of 6 or less within 3 spaces of you cannot interact and are not counted for the purposes of control.<br><b>Into the Force: </b>When you are defeated, choose another friendly figure. That figure becomes Focused. Force User None None None None None None +1 [Evade] [Surge]: +2 Damage [Surge]: Pierce 3 ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Obi-Wan Kenobi",
@@ -1743,6 +1794,7 @@
     "AllText": "C-3P0 [Action]<b>Inform: </b>Choose an adjacent friendly figure. That figure becomes Focused.<br><b>Cower: </b>While defending, while adjacent to a friendly figure, you may reroll 1 defense die.<br><b>Distracting: <b>While a friendly figure is defending, and you are adjacent to the targeted space, apply +1 [Evade] to the defense results.<br><b>Non-Combatant: </b>You cannot attack. Droid None None None None None None    ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Non-Combatant"
     ],
     "VassalName": "C-3P0",
@@ -1773,6 +1825,7 @@
     "AllText": "R2-D2 [Action]<b>Scomp Link: </b>If you are adjacent to a terminal, your player draws 1 Command card.<br>[Action]<b>Service: </b>You or an adjacent friendly Droid or Vehicle recovers 1 Damage.<br><b>Lucky: </b>While defending, if you roll a blank result, add +1 [Evade] to the defense results. Droid Technician None None None None None +2 Ac., +1 [Surge] [Surge]: Pierce 2 [Surge]: Stun [Surge]: Weaken",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "R2-D2",
@@ -1801,6 +1854,7 @@
     "AllText": "Rebel Saboteur <b>Overload: </b>You can trigger the same [Surge] ability up to twice per attack. Spy Heavy Weapon None None None None None +2 Accuracy [Surge]: Pierce 1 [Surge]: Stun [Surge]: Blast 1 Damage",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Rebel Saboteur [Regular]",
@@ -1828,6 +1882,7 @@
     "AllText": "Rebel Trooper <b>Aim: </b>If you have not exited your space during this activation, apply +1 Damage and +2 Accuracy to your attack results. Trooper None None None None None None [Surge]: Pierce 1 [Surge]: +1 Accuracy  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Rebel Trooper [Regular]",
@@ -1856,6 +1911,7 @@
     "AllText": "HK Assassin Droid <b>Versatile Weaponry: </b>While attacking, you may force the defender to reroll 1 defence die.<br><b>Targeting Computer: </b>While attacking, you may reroll 1 attack die.<br><b>Priority Target: </b>Figures do not block line of sight for your attacks. Droid Hunter None None None None None [Surge]: Weaken [Surge]: +1 Damage [Surge]: +1 Damage [Surge]: Pierce 1",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "HK Assassin Droid [Elite]",
@@ -1884,6 +1940,7 @@
     "AllText": "HK Assassin Droid <b>Versatile Weaponry: </b>While attacking, you may force the defender to reroll 1 defence die. Droid Hunter None None None None None [Surge]: Weaken [Surge]: +1 Damage [Surge]: Pierce 1 ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "HK Assassin Droid [Regular]",
@@ -1911,6 +1968,7 @@
     "AllText": "Loku Kanoloa [Action][Action]: <b>Set Your Sights: </b>Perform an attack. Figures do not block line of sight for this attack. Apply +2 Accuracy to the attack results.<br><b>Mon Cala Special Forces: </b>When you defeat a figure while using Set Your Sights, you become Focused. Spy None None None None None None +2 Accuracy [Surge]: +1 Damage [Surge]: Pierce 1 ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Loku Kanoloa",
@@ -1938,6 +1996,7 @@
     "AllText": "MHD-19 [Action]<b>Medical Loadout: </b>You or an adjacent friendly figure recovers 3 Damage.<br>[Action]<b>Improper Procedure: </b>Choose an adjacent hostile figure. That figure suffers 1 Damage and becomes Weakened. Droid None None None None None None [Surge]: Focus [Surge]: +1 Damage [Surge]: Recover 2 Damage ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "MHD-19",
@@ -1994,6 +2053,7 @@
     "AllText": "Snowtrooper [Action]<b>Environmental Recovery Gear: </b>You and each adjacent friendly Trooper may either recover 1 Damage or discard 1 Harmful condition.<br><b>Efficient Travel: </b>You ignore additional movement point costs for difficult terrain and hostile figures. Trooper None None None None None None [Surge]: Pierce 2 [Surge]: +3 Accuracy [Surge]: Focus, Weaken ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Snowtrooper [Elite]",
@@ -2021,6 +2081,7 @@
     "AllText": "Snowtrooper [Action]<b>Environmental Recovery Gear: </b>You and each adjacent friendly Trooper may either recover 1 Damage or discard 1 Harmful condition. Trooper None None None None None None [Surge]: Weaken [Surge]: Pierce 1 [Surge]: +2 Accuracy ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Snowtrooper [Regular]",
@@ -2049,6 +2110,7 @@
     "AllText": "Verena Talos [Action]<b>Close Quarters: </b>Perform an attack targeting an adjacent hostile figure using that figure's attack type and attack pool.<br>[Surge]<b>Fighting Knife: </b>After this attack resolves, perform an additional [Melee] attack using 1 red die. Apply +1 Damage to that attack's results. Limit once per round. Spy Brawler None None None None None +1 [Evade] [Surge]: +2 Damage [Surge]: Pierce 1 ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged",
       "Melee"
     ],
@@ -2136,6 +2198,7 @@
     "AllText": "Royal Guard Champion [Action]<b>Brutality: </b>Perform 2 attacks. Each attack must have a different target.<br><b>Executor: </b>When a friendly figure within 3 spaces is defeated, this figure may interrupt to move up to 2 spaces and then perform an attack. Limit once per round. Guardian Brawler None None None None None [Surge]: Bleed [Surge]: Pierce 2 [Surge]: +2 Damage ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee",
       "Reach"
     ],
@@ -2165,6 +2228,7 @@
     "AllText": "Davith Elso <b>Stealthy: </b> At the start of each mission, become Hidden.<br><b>Cut and Run: </b>When you exit a space containing a hostile figure, that figure suffers 1 Damage. Limit once per figure per round.<br>[Surge][Surge]<b>Fell Swoop: </b>After this attack resolves, become Hidden, move up to 2 spaces, then perform another attack. Limit once per round. Spy Force User None None None None None [Surge]: +1 Damage, Hide [Surge]: Pierce 3  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Davith Elso",
@@ -2193,6 +2257,7 @@
     "AllText": "Murne Rin [Action]<b>False Orders: </b>Choose a hostile figure with a figure cost of 3 or less within 3 spaces. Perform a move or attack with that figure.<br><b>Field Report: </b>At the end of yoru activation, if you have more Command cards in your hand than your opponent does in his, you and another friendly figure within 3 spaces may become Hidden. Leader Spy None None None None None [Surge]: +2 Damage [Surge]: +2 Accuracy  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Murne Rin",
@@ -2221,6 +2286,7 @@
     "AllText": "Ugnaught Tinkerer [Action]<b>Spot Weld: </b>Place the Junk Droid companion in the adjacent space.<br>[Action]<b>Overclock: </b>The Junk Droid may interrupt to perform a move or attack.<br><b>Scrap Batallion: </b>The Junk Droid readies at the start of your activation. It activates as though it was part of your group and may use your surge abilities. Smuggler Technician None None None None None [Surge]: Bleed [Surge]: Pierce 2 None None",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Ugnaught Tinkerer [Elite]",
@@ -2249,6 +2315,7 @@
     "AllText": "Ugnaught Tinkerer [Action]<b>Spot Weld: </b>Place the Junk Droid companion in the adjacent space.<br><b>Scrap Batallion: </b>The Junk Droid readies at the start of your activation. It activates as though it was part of your group and may use your surge abilities. Smuggler Technician None None None None None [Surge]: Bleed [Surge]: Pierce 1 None None",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Ugnaught Tinkerer [Regular]",
@@ -2277,6 +2344,7 @@
     "AllText": "Wing Guard <b>Keep the Peace: </b>When a hostile figure declares an attack targeting a space adjacent to you, if that space does not contain a friendly Guardian, you may suffer 1 [Strain]. If you do, the attacker suffers 1 [Strain]. Limit 1 Keep the Peace ability used per attack.<br><b>Squad Training: </b>While attacking, while adjacent to another friendly Trooper, you may reroll 1 attack die. Guardian Trooper None None None None None [Surge]: +2 Damage [Surge]: Recover 2 Damage  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Wing Guard [Elite]",
@@ -2305,6 +2373,7 @@
     "AllText": "Wing Guard <b>Keep the Peace: </b>When a hostile figure declares an attack targeting a space adjacent to you, if that space does not contain a friendly Guardian, you may suffer 1 [Strain]. If you do, the attacker suffers 1 [Strain]. Limit 1 Keep the Peace ability used per attack. Guardian Trooper None None None None None [Surge]: +1 Damage [Surge]: Recover 1 Damage  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Wing Guard [Regular]",
@@ -2333,6 +2402,7 @@
     "AllText": "The Grand Inquisitor [Action]<b>Lightsaber Throw: </b>Perform a [Ranged] attack using 1 red and 1 yellow die. Apply +3 Accuracy to the attack results.<br>[Surge]<b>Deadly: </b>Apply -1 [Evade] to the defense results.<br><b>Defensive: </b>While defending, if you did not roll a [Block] result, apply +1 [Block] to the defense results. Force User Hunter None None None None None [Surge]: +1 Damage [Surge]: Pierce 3 [Surge]: Cleave 3 Damage ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "The Grand Inquisitor",
@@ -2361,6 +2431,7 @@
     "AllText": "Biv Bodhrik [Action]<b>Close and Personal: </b>Perform a [Melee] attack using 1 red and 1 yellow die. Then, if the target was not defeated, perform your [Ranged] attack with the same target.<br><b>Into the Fray: </b>While defending, if you are within 3 spaces of 2 or more hostile figures, apply +1 [Block] to the defense results. Hunter Brawler None None None None None [Surge]: +2 Ac., +1 Damage [Surge]: +1 Damage  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Biv Bodhrik",
@@ -2389,6 +2460,7 @@
     "AllText": "Heavy Stormtrooper <b>Composite Plating: </b>While defending, if the attacker is 4 or more spaces away, apply +1 [Block] to the defense results. Trooper Heavy Weapon None None None None None +2 Accuracy [Surge]: +2 Damage [Surge]: Blast 2 Damage ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Heavy Stormtrooper [Elite]",
@@ -2417,6 +2489,7 @@
     "AllText": "Heavy Stormtrooper <b>Composite Plating: </b>While defending, if the attacker is 4 or more spaces away, apply +1 [Block] to the defense results. Trooper Heavy Weapon None None None None None +2 Accuracy [Surge]: +1 Damage [Surge]: Blast 1 Damage ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Heavy Stormtrooper [Regular]",
@@ -2445,6 +2518,7 @@
     "AllText": "Saska Teft [Action]<b>Unstable Device: </b>Choose a space within 3 spaces and roll 1 yellow die. Each figure on or adjacent to that space suffers Damage equal to the Damage results. Then, you suffer 1 Damage.<br><b>Shady Contacts: </b>You may include up to 1 non-upgrade [Mercenary] Deployment card in your army. Smuggler Spy None None None None None +1 Accuracy [Surge]: +1 Ac., +1 Damage [Surge]: Pierce 1, Weaken [Surge]: +1 Damage",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Saska Teft",
@@ -2472,6 +2546,7 @@
     "AllText": "Tusken Raider [Action]<b>Tusken Cycler: </b>Perform a [Ranged] attack using 1 blue and 1 red die. You cannot use abilities during this attack. Brawler None None None None None None +1 Damage [Surge]: Weaken [Surge]: Cleave 1 Damage Habitat: Desert",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee",
       "Ranged"
     ],
@@ -2500,6 +2575,7 @@
     "AllText": "Tusken Raider [Action]<b>Tusken Cycler: </b>Perform a [Ranged] attack using 1 blue and 1 red die. You cannot use abilities during this attack. Brawler None None None None None None [Surge]: Weaken [Surge]: Cleave 1 Damage Habitat: Desert ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee",
       "Ranged"
     ],
@@ -2529,6 +2605,7 @@
     "AllText": "Wookiee Warrior <b>Fury: </b>While attacking, if you have suffered 5 or more Damage, apply +1 [Surge] to the attack results. Brawler Wookiee None None None None None [Surge]: +2 Damage [Surge]: Bleed [Surge]: Cleave 2 Damage ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Wookiee Warrior [Elite]",
@@ -2557,6 +2634,7 @@
     "AllText": "Wookiee Warrior <b>Fury: </b>While attacking, if you have suffered 5 or more Damage, apply +1 [Surge] to the attack results. Brawler Wookiee None None None None None [Surge]: +1 Damage [Surge]: Bleed [Surge]: Cleave 2 Damage ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Wookiee Warrior [Regular]",
@@ -3327,6 +3405,7 @@
     "AllText": "Probe Droid <b>Targeting Computer: </b>While attacking, you may reroll 1 attack die.<br><b>Self-Destruct: </b>At the end of a round, you m ay roll 1 red die. Each adjacent figure and object suffers Damage equal to the Damage results. Then, you are defeated. Droid None None None None None None Mobile [Surge]: +2 Damage [Surge]: Pierce 2 [Surge]: Recover 2 Damage",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Mobile",
       "Ranged"
     ],
@@ -3381,6 +3460,7 @@
     "AllText": "Royal Guard <b>Sentinel: </b>While a friendly non-Guardian figure is defending, and you are adjacent to the targeted space, apply +1 [Block] to the defense results. Limit 1 Sentinel or Protector ability used per attack.<br><b>Forward Vengeance: </b>When an adjacent, friendly, non-Guardian figure is defeated, you become focused and may move 1 space. Guardian Brawler None None None None None Reach +1 [Evade] [Surge]: Stun [Surge]: +2 Damage",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee",
       "Reach"
     ],
@@ -3434,6 +3514,7 @@
     "AllText": "Salacious B. Crumb <b>Swipe: </b>When you activate in or enter a space containing a hostile figure, it suffers 1 Damage. Limit once per figure per round.<br><b>Scratch: </b>Choose an adjacent hostile figure. That figure suffers 1 Damage.<br><I>Note: This card is part of the Indentured Jester card and can not be added on its own. I put it here so you can see the card when considering Indentured Jester</i> Brawler None None None None None None    ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Non-Combatant"
     ],
     "VassalName": "Salacious B. Crumb",
@@ -3487,6 +3568,7 @@
     "AllText": "Hera Syndulla <b>Call the Shot: </b>While another friendly figure within 3 spaces is attacking, you may apply +2 Accuracy, +1 Damage, or +1[Surge] to the attack results. Limit once per round.<br><b>Smooth Landing: </b>After deployment, you and each adjacent friendly figure gains 1 movement point. Leader Smuggler None None None None None [Surge]: +1 Damage [Surge][Surge]: Pierce 2  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Hera Syndulla",
@@ -3542,6 +3624,7 @@
     "AllText": "BT-1 [Action]<b>Missile Salvo: </b>Perform up to 3 [Ranged] attacks with different targets using 1 blue, red, or yellow die. Limit once per die. Apply +3 Accuracy to each of these attacks.<br><b>Assassin: </b>Before you declare an attack, become focused. Droid Heavy Weapon Hunter None None None None [Surge]: Pierce 2 [Surge]: Blast 1 Damage [Surge]: Recover 1 Damage ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "BT-1",
@@ -3572,6 +3655,7 @@
     "AllText": "C1-10P [Action]<b>Ram: </b>Move up to 2 spaces, then choose an adjacent figure. If that figure is hostile, roll 1 green die. It suffers Damage equal to the Damage results. Then, if that figure is small, push it up to 1 space.<br>[Action]<b>System Shock: </b>Use while on or adjacent to a terminal. Choose a figure on or adjacent to any terminal. that figure suffers 2 Damage and 1[Strain] Droid Technician None None None None None [Surge]: Pierce 2 [Surge]: Recover 1 Damage None None",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "C1-10P",
@@ -3599,6 +3683,7 @@
     "AllText": "0-0-0 [Surge]<b>Shocking Palm: </b>The attack misses and the defender becomes Stunned.<br>[Action]<b>Invasive Procecure: </b>An adjacent figure suffers 1 Damage, 1[Strain], and becomes Bleeding. You become focused.<br><b>Unnerving: </b>At the end of your activation, each adjacent hostile figure becomes Weakened. Droid None None None None None None [Surge]: Pierce 2 [Surge]: Recover 2 Damage  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "0-0-0",
@@ -3627,6 +3712,7 @@
     "AllText": "Jawa Scavenger [Surge]<b>Harass: </b>After the attack resolves, if it did not miss, the defender suffers 1[Strain].<br><b>Take Cover: </b>While dfending, you may apply +1[Dodge] and -1[Evade] to the defense results. Smuggler Technician None None None None None +2 Accuracy [Surge]: +2 Damage [Surge]: +2 Accuracy None",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Jawa Scavenger [Regular]",
@@ -3681,6 +3767,7 @@
     "AllText": "Jawa Scavenger [Surge]<b>Haggle: </b>Spend 1 VP to roll 1 green die. For each Damage result, gain 1 VP.<br><b>Motivators: </b>You may include up to 3 [Rebel] or [Empire] Droid Deployment cards in your army.<br><b>Take Cover: </b>While defending, you may apply +1[Dodge] and -1[Evade] to the defense results. Smuggler Leader Technician None None None None +2 Accuracy [Surge]: +2 Damage [Surge]: Pierce 3 [Surge]: +2 Accuracy",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Jawa Scavenger [Elite]",
@@ -3709,6 +3796,7 @@
     "AllText": "Ko-Tun Feralo <b>Arms Distribution: </b>At the start of your activation, you may choose another friendly figure within 3 spaces. That figure gains 1[Dmg Token] or 1 [Block Token].<br><b>Dead Precise: </b>When another friendly figure within 3 spaces spends a power token while attacking, apply -1[Evade] to the defense results.<br><b>Professional: </b>While attacking, you may reroll 1 attack die. Leader Trooper None None None None None [Surge]: +2 Damage [Surge]: +1 Accuracy  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Ko-Tun Feralo",
@@ -3762,6 +3850,7 @@
     "AllText": "Maul <b>Dual-Bladed Fury: </b>Before you declare an attack, choose one: This attack gains Reach and Cleave 2Damage or you become Focused.<br>[Surge]<b>Stalk Prey: </b>After this attack resolves, you gain 2 movement points and 1[Dmg Token].<br><b>Sustained by Rage: </b>You cannot recover Damage. If you have not resolved an activation this round, you cannot be defeated. Force User Brawler None None None None None +1 Damage [Surge]: Pierce 3  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee",
       "Reach"
     ],
@@ -3791,6 +3880,7 @@
     "AllText": "Emperor Palpatine <b>Emperor: </b>Once during your activation, you may choose another figure within 4 spaces. That figure interrupts to perform an attack.<br><b>Tempt: </b>At the start of your activation, a figure of your choice suffers 1Damge and gains 1[Dmg Token].<br>[Action]<b>Force Lightning: </b>Choose a figure within 4 spaces and line of sight. That figure suffers 3Damage and becomes Weakened. Each figure adjacent to that figure suffers 1Damage. Force User Leader None None None None None Pierce 3 [Surge]: +1 Damage  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Emperor Palpatine",
@@ -3820,6 +3910,7 @@
     "AllText": "Ahsoka Tano [Action]<b>Force Leap: </b>Place your figure in an empty space within 6 spaces.<br><b>Vigor: </b>At the start of your activation, you may gain 2 movement points or 1[Block Token].<br><b>Twin Sabers: </b>While attacking, you may reroll all attack dice or force the defender to reroll all defense dice. Force User Leader Spy None None None None [Surge]: +2 Damage [Surge]: Pierce 3 [Surge]: Gain 1[Dmg Token] ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Ahsoka Tano",
@@ -3906,6 +3997,7 @@
     "AllText": "Sentry Droid [Action] <b>Multi-Fire: </b>Perform 2 attacks. Each attack must have a different target. Apply -1Damage to each attack's results.<br>[Action]<b>Charged Shot: </b>Perform an attack. Apply +2 Accuracy to the attack results.<br><b>Targeting Computer: </b>While attacking, you may reroll 1 attack die. Droid Trooper Guardian None None None None [Surge]: +1 Damage [Surge]: Pierce 2 [Surge]: +1 Accuracy ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Sentry Droid [Regular]",
@@ -3934,6 +4026,7 @@
     "AllText": "Clawdite Shapeshifter <b>Shape: </b>When you are deployed, you may gain 1 Form card of your choice from the supply.<br><b>Shift: </b>At the start of each round, you may switch your Form card with 1 other Form card of your choice. Hunter Spy None None None None None    ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Clawdite Shapeshifter [Regular]",
@@ -3962,6 +4055,7 @@
     "AllText": "Drokkatta <b>Demolish: </b>Once during your activation, you may choose a space within 3 spaces and line of sight. Each figure on or adjacent to the space suffers 1 Damage. Then, place a rubble token in that space and you suffer 1[Strain].<br>[Surge]<b>Shrapnel: </b>Choose one: This attack gains Blast 2 Damage, or after this attack resolves, if it did not miss, each figure and object within 2 spaces of the target space suffers 1 Damage. Wookiee Heavy Weapon None None None None None +1 Damage, +1 Ac., +1 [Dodge] [Surge]: +2 Damage  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Drokkatta",
@@ -3992,6 +4086,7 @@
     "AllText": "Jarrod Kelvin [Action]<br>Leaping Slash: </b>Move up to 2 spaces, then perform an attack.<br><b>Droid Master: </b>At the start of the mission, put J4X-7 into play in an adjacent space. J4X-7 activates at the start or end of your activation. J4X-7 is not counted for the purposes of control. Technician Brawler Leader Spy None None None None +1 Damage, +1[Evade] [Surge]: +2 Damage [Surge]: Pierce 2 [Surge]: Gain 1",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Jarrod Kelvin",
@@ -4071,6 +4166,7 @@
     "AllText": "Riot Trooper <b>Stun Batons: </b>After you resolve an attack, if the target suffered any Damage, it also suffers 1[Strain].<br><b>Shield: </b>At the end of your activation, if you have no [Dodge], gain [Dodge]. Trooper Brawler Guardian None None None None [Surge]: +1 Damage [Surge]: +1 Damage  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Riot Trooper [Regular]",
@@ -4099,6 +4195,7 @@
     "AllText": "Clawdite Shapeshifter <b>Shape: </b>When you are deployed, you may gain 1 Form card of your choice from the supply.<br><b>Shift: </b>At the start of each round, you may switch your Form card with 1 other Form card of your choice. Hunter Spy None None None None None    ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Clawdite Shapeshifter [Elite]",
@@ -4128,6 +4225,7 @@
     "AllText": "Riot Trooper <b>Stun Batons: </b>After you resolve an attack, if the target suffered any Damage, it also suffers 1[Strain].<br><b>Shield: </b>At the end of your activation, if you have no [Dodge], gain [Dodge].<br><b>Professional: </b>While attacking, you may reroll 1 attack die. Trooper Brawler Guardian None None None None Weaken [Surge]: +2 Damage [Surge]: +1 Damage ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Riot Trooper [Elite]",
@@ -4157,6 +4255,7 @@
     "AllText": "Sentry Droid [Action]<b> Multi-Fire: </b>Perform 2 attacks. Each attack must have a different target. Apply -1 Damage to each attack's results.<br>[Action] <b>Charged Shot: </b>Perform an attack. Apply +2 Accuracy to the attack results.<br><b>Targeting Computer: </b>While attacking, you may reroll 1 attack die. Droid Trooper Guardian None None None None [Surge]: +1 Damage [Surge]: Pierce 2 [Surge]: +2 Accuracy ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Sentry Droid [Elite]",
@@ -4186,6 +4285,7 @@
     "AllText": "J4X-7 <b>Supporting Fire: </b>While another friendly figure is attacking a figure adjacent to you, apply Pierce 1 to the attack results. Limit once per activation. None Droid None None None None None Pierce 1 [Surge]: +1 Damage  ",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "J4X-7",
@@ -4216,6 +4316,7 @@
     "AllText": "Zeb Orrelios <b>Bo-Rifle Staff Strike: </b>Once during your activation, you may perform a [Melee] attack using 2 red dice without spending an action. Brawler Guardian None None None None None +3 Accuracy [Surge]: +2 Damage [Surge]: +2 Accuracy, Recover 1 Dam None",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged",
       "Melee"
     ],
@@ -4244,6 +4345,7 @@
     "AllText": "Tress Hacnua <b>Krayt Dragon Fury: </b>While attacking, X equals the number of [Surge] rolled. Brawler None None None None None None [Surge]: Cleave X Damage [Surge]: Recover X Damage [Surge]: Stun [Surge]: Weaken",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Tress Hacnua",
@@ -4271,6 +4373,7 @@
     "AllText": "Loth-cat [Action]Pounce: Place your figure in an empty space within 3 spaces. Then, you may perform an attack.<br>[Action]Fresh Catch: You or an adjacent Creature gains 1[?].<br>Curious: After you interact, suffer 1[Strain] Creature None None None None None None Pierce 1 [Surge]: +2Damage None None",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Loth-cat [Elite]",
@@ -4298,6 +4401,7 @@
     "AllText": "Loth-cat [Action]Pounce: Place your figure in an empty space within 3 spaces. Then, you may perform an attack.<br>[Action]Rat Catcher: You or an adjacent Creature gains 1[Dodge].<br>Curious: After you interact, suffer 1[Strain] Creature None None None None None None Pierce 1 [Surge]: +1Damage None None",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Loth-cat [Regular]",
@@ -4326,6 +4430,7 @@
     "AllText": "CT-1701 [Action]Barrage: Performs 2 attacks. The target of the second attack must be within 3 spaces of the first target space and adds 1 white die to the defense pool.<br>Pin Them Down: After you resolve an attack, if it did not miss, you may discard 1 condition or power token from the target. Trooper Guardian None None None None None [Surge]: +1 Damage [Surge]: Gain 1 [] [Surge]: +2 Accuracy, Weaken None",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "CT-1701",
@@ -4354,6 +4459,7 @@
     "AllText": "Death Trooper Security Detail: After deployment, a friendly Leader gains 1 [Dodge]. Field tactics: After your activation, you may immediately activate a friendly Trooper or Leader group with cost 6 or less. That group loses Field Tactics this round. Trooper Guardian None None None None None +3 Accuracy [Surge]: +1Damage [Surge]: +2 Accuracy, Pierce 1 None",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Death Trooper [Regular]",
@@ -4382,6 +4488,7 @@
     "AllText": "Death Trooper [Squad Captain]: Once during your activation, an adjacent friendly Trooper or Leader may gain 1[?]<br>Field Tactics: After your activation, you may immediately activate a friendly Trooper or Leader group with cost 6 or less. That group loses Field Tactics this round. Trooper Guardian None None None None None +4 Accuracy [Surge]: +2 Damage [Surge]: +2 Accuracy, Pierce 1 None",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Death Trooper [Elite]",
@@ -4410,6 +4517,7 @@
     "AllText": "Kanan Jarrus <b>Force Vision: </b>At the start of your activation, your opponent chooses one of his or her ready groups and must activate it next if able.<br><b>Soresu Form: </b>While a friendly figure within 3 spaces is defending, it may reroll 1 defense die. If it does, convert each [Evade] result to 2 [Dodge] and 1[Circle] and, if that figure is not a Force User, you suffer 1 [Strain]. Force User Leader None None None None None [Surge]: +2 Damage [Surge]: Pierce 3 None None",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Kanan Jarrus",
@@ -4440,6 +4548,7 @@
     "AllText": "Ezra Bridger <b>Brash: </b>At the start of each round, move up to 4 spaces.<br><b>Much to Learn: </b>While attacking, if there is another friendly unique figure within 3 spaces, you may reroll 1 attack die. If that figure is a Force User, you may turn that attack die to any side instead. Force User Smuggler None None None None None +1 [Dodge] [Surge]: +2 Damage [Surge]: Pierce 3 [Surge]: Recover 2 Damage",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Ezra Bridger",
@@ -4493,6 +4602,7 @@
     "AllText": "Sabine Wren [Action]<b>Evasive Maneuver: </b>Move up to 2 spaces, then recover 2 Damage.<br><b>Parting Gift: </b>Once during your activation, you may choose a space within 3 spaces and roll 1 green die. Each other figure and object on or adjacent to that space suffers Damage equal to the Damage results. Hunter Vehicle None None None None None Mobile [Surge]: Pierce 2 [Surge]: +1 Damage, Blast 1 Damage None",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Sabine Wren",
@@ -4544,6 +4654,7 @@
     "AllText": "Hondo Ohnaka <b>Negotiate: </b>When you declare an attack, apply +2Damage to the attack results unless the defender pays you 2 VPs.<br><b>Whats Yours is Mine: </b>At the end of a round, if you are in an opponents deployment zone, that opponent loses 2 VPs and you gain 2 VPs. Limit once per mission. Smuggler Leader None None None None None [Surge]: +1 Damage [Surge]: +2 Accuracy None None",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Hondo Ohnaka",
@@ -4617,6 +4728,7 @@
     "AllText": "Thrawn <b>Long-Laid Plans: </b>At the start of your activation, distribute among friendly figures different [Question Mark] equal to the current round number.<br><b>Strategize: </b>At the start of your activation, look at the top Command card of each players deck. You may discard one of those cards. Leader None None None None None None +2 Accurary [Surge][Surge]: +3 Damage [Surge]: Pierce 1 None",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Thrawn",
@@ -4672,6 +4784,7 @@
     "AllText": "Ahsoka Tano [Action]Force Leap: Place your figure in an empty spade within 6 spaces.<br><b>Vigor: </b>At the start of your activation, you may gain 2 movement points or 1 [Dodge token].<br><b>Twin Sabers: </b>While attacking, you may reroll all attack dice or force the defender to reroll all defense dice. Force User Leader Spy None None None None [Surge]: +2 Damage None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Ahsoka Tano",
@@ -4701,6 +4814,7 @@
     "AllText": "BT-1 [Missile Salve]: Droid Heavy Weapon Hunter None None None None [Surge]: Pierce 2 None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "BT-1",
@@ -4729,6 +4843,7 @@
     "AllText": "Diala Passil Battle Meditation Force User Brawler None None None None None [Surge]: Recover 2 Damage None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Diala Passil",
@@ -4756,6 +4871,7 @@
     "AllText": "Echo Base Trooper Front Line None None None None None None None [Surge]: +2 Damage None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Echo Base Trooper [Elite]",
@@ -4784,6 +4900,7 @@
     "AllText": "Gamorrean Guard Gamorrean Honor Guard Guardian Brawler None None None None None Reach None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee",
       "Reach"
     ],
@@ -4815,6 +4932,7 @@
     "AllText": "Kanan Jarrus Force Vision Force User Leader None None None None None [Surge]: +2 Damage None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Kanan Jarrus",
@@ -4843,6 +4961,7 @@
     "AllText": "Kayn Somos [Action]Firing Squad Trooper Leader None None None None None [Suge]: +1 Damage None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Kayn Somos",
@@ -4871,6 +4990,7 @@
     "AllText": "Ko-Tun Feralo Arms Distribution Leader Trooper None None None None None [Surge]: +2 Damage +1 Accuracy None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Ko-Tun Feralo",
@@ -4902,6 +5022,7 @@
     "AllText": "Leia Organa [Action]Battlefield Leadership Leader Spy Force User None None None None None None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Leia Organa",
@@ -4931,6 +5052,7 @@
     "AllText": "Luke Skywalker (HotR) [Action]<b>Saber Strike:</b> Perform a melee attack using 1 red and 1 yellow die. This attack gains Pierce 3.<br><b>Inspiring:</b> While another friendly figure within 3 spaces is attacking, it may reroll 1 die. Force User None None None None None None +1 Defense [Surge]: +2 Damage [Surge]: Recover 2 Damage [Surge]: +2 Accuracy",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Luke Skywalker (HotR)",
@@ -4959,6 +5081,7 @@
     "AllText": "Maul Dual-Bladed Force User Brawler None None None None None +1 Damage None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee",
       "Reach"
     ],
@@ -4987,6 +5110,7 @@
     "AllText": "Probe Droid Targ Droid None None None None None None Mobile None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Mobile",
       "Ranged"
     ],
@@ -5046,6 +5170,7 @@
     "AllText": "Rebel Trooper Aim Trooper None None None None None None None None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Rebel Trooper [Elite]",
@@ -5075,6 +5200,7 @@
     "AllText": "Sentry Droid [Action] Trooper Droid Guardian None None None None None None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Sentry Droid [Elite]",
@@ -5103,6 +5229,7 @@
     "AllText": "Shyla Varad [Action] Manda Brawler Hunter None None None None None None None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Shyla Varad",
@@ -5130,6 +5257,7 @@
     "AllText": "Stormtrooper Squad Trooper None None None None None None None None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Stormtrooper [Elite]",
@@ -5158,6 +5286,7 @@
     "AllText": "The Grand Inquisitor [Action] Lightsaber Throw Force User Hunter None None None None None None None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "The Grand Inquisitor",
@@ -5186,6 +5315,7 @@
     "AllText": "Wing Guard Keep the Peace Guardian Trooper None None None None None None None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Wing Guard [Elite]",
@@ -5214,6 +5344,7 @@
     "AllText": "Wookiee Warrior Fury Brawler Wookiee None None None None None None None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Wookiee Warrior [Elite]",
@@ -5313,6 +5444,7 @@
     "AllText": "Boba Fett EE-3 Carbine Hunter Vehicle None None None None None Mobile None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Mobile",
       "Ranged"
     ],
@@ -5342,6 +5474,7 @@
     "AllText": "Fenn Signis <b>Havoc Shot: </b> Trooper Leader None None None None None +1 Acc. Pierce 1 None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Fenn Signis",
@@ -5371,6 +5504,7 @@
     "AllText": "Gaarkhan <b>Brutal Cleave: </b>After you resolve Wookiee Guardian Brawler None None None None +1 Dodge None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee",
       "Reach"
     ],
@@ -5457,6 +5591,7 @@
     "AllText": "Jyn Odan <b>Hair Trigger: </b> Smuggler None None None None None None +1 Accuracy None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Jyn Odan",
@@ -5485,6 +5620,7 @@
     "AllText": "Brutality: Perform 2 attacks. Each attack must have a different target. Executor: When a friendly figure within 3 space is defeated, you may interrupt to move up to 2 spaces and then perform an attack. Limit once per round. Overpower: While attacking, you may reroll 1 red die. While defending, you may reroll 1 black die.",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee",
       "Reach"
     ],
@@ -5539,6 +5675,7 @@
     "AllText": "4-LOM <b>Programming Override: </b>At the start of each round, choose one Trait. You gain that trait until the end of the round. <br>[Surge] Concussive Bolt: After this attack resolves, if you are targeting a small figure and it did not miss, you may push that figure 1 space.<br><b>Shared Intuition: </b>While attacking, if another friendly Hunter within 3 spaces has line of sight to the target, apply +1 Damage to your attack results. Droid None None None None None None +2 Accuracy [Surge]: Blast 1 Damage [Surge]: +1 Damage, +1 Acc [Surge]: Weaken",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "4-LOM",
@@ -5567,6 +5704,7 @@
     "AllText": "Biv Bodhrik [] Hunter Brawler None None None None None +2 Accuracy, +1 Dodge [Surge]: +2 Damage [Surge]: Blast 1 Damage None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Biv Bodhrik",
@@ -5594,6 +5732,7 @@
     "AllText": "[surge] Spread the Pain: Choose a Harmful condition you have not already chosen during this attack. After this attack resolves, if it did not miss, you may have a figure on or adjacent to the target space gain the chosen condition. This ability can be used multiple times per attack.",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Dengar",
@@ -5622,6 +5761,7 @@
     "AllText": "Zuckuss <b>Mystic Hunter: </b>When you Hunter Technician None None None None None +2 Accuracy [Surge]: +3 Accuracy [Surge]: +2 Damage [Surge]: Pierce 2",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Zuckuss",
@@ -5652,6 +5792,7 @@
     "AllText": "Obi-Wan Kenobi Alter Mind Force User Guardian None None None None None +1 [Surge]: +2 Damage [Surge]: Pierce 3 None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Obi-Wan Kenobi",
@@ -5680,6 +5821,7 @@
     "AllText": "Royal Guard adf Guardian Brawler None None None None None Reach, Pierce 1 [Surge]: Stun +1 [Surge]: +2 Damage",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee",
       "Reach"
     ],
@@ -5710,6 +5852,7 @@
     "AllText": "Saska Teft asdf Smuggler Spy Technician None None None None +2 Accuracy [Surge]: Weaken, Stun [Surge]: +1 Damage, +1 Acc [Surge]: +1 Damage",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Saska Teft",
@@ -5737,6 +5880,7 @@
     "AllText": "SC2-M Repulsor Tank adsf Vehicle None None None None None None Massive [Surge]: +2 Damage +2 Accuracy [Surge]: Blast 1 Damage",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Massive",
       "Ranged"
     ],
@@ -5766,6 +5910,7 @@
     "AllText": "Scout Trooper dlah Spy Trooper None None None None None +3 Accuracy [Surge]: +2 Damage [Surge]: +3 Accuracy None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Scout Trooper [Elite]",
@@ -5794,6 +5939,7 @@
     "AllText": "Yoda Calm Force User Leader None None None None None +1 Dodge, +1 Evade [Surge]: Recover 2 Damage None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Non-Combatant"
     ],
     "VassalName": "Yoda",
@@ -5821,6 +5967,7 @@
     "AllText": "Tusken Raider dhl Brawler None None None None None None +1 Damage [Surge]: Pierce 1 [Surge]: Weaken None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee",
       "Ranged"
     ],
@@ -5849,6 +5996,7 @@
     "AllText": "ISB Infiltrator [Action] Coor Spy None None None None None None [Surge]: Pierce 1, Hide [Surge]: +2 Damage [Surge]: Pierce 1, +2 Acc. None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "ISB Infiltrator [Elite]",
@@ -5877,6 +6025,7 @@
     "AllText": "Agent Blaise Adapt Spy Leader None None None None None [Surge]: +1`Damage [Surge]: Pierce 2 [Surge]: +1 Damage [Surge]: +3 Accuracy",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Agent Blaise",
@@ -5935,6 +6084,7 @@
     "AllText": "Bossk Indiscriminate Fire Hunter Brawler None None None None None +1 Dodge +2 Accuracy +2 Damage [Surge]: Pierce 2",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Bossk",
@@ -5965,6 +6115,7 @@
     "AllText": "Jyn Erso Trust Goes Both Ways Leader Brawler None None None None None Pierce 1 [Surge]: +1 Accuracy, +1 Damage [Surge]: +1 Damage None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Jyn Erso",
@@ -5992,6 +6143,7 @@
     "AllText": "Director Krennic Advanced Weapons Research Leader None None None None None None +1 Surge [Surge]: Pierce 1 [Surge]: +2 Damage, +1 Accuracy [Surge]: +1 Damage, +2 Accuracy",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Director Krennic",
@@ -6020,6 +6172,7 @@
     "AllText": "IG-11 Rapid Fire Droid Guardian None None None None None +1 Damage, +1 Dodge [Surge]: +2 Damage [Surge]: +3 Accuracy None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "IG-11",
@@ -6048,6 +6201,7 @@
     "AllText": "The Mandalorian Beskar Hunter Guardian None None None None None [Surge]: +2 Damage [Surge]: +2 Accuracy, Pierce 1 [Surge]: Gain 1 Dodge Token None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "The Mandalorian",
@@ -6077,6 +6231,7 @@
     "AllText": "The Child asdf Force User None None None None None None None None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Non-Combatant"
     ],
     "VassalName": "The Child",
@@ -6160,6 +6315,7 @@
     "AllText": "General Sorin Bombardment Leader Technician None None None None None [Surge]: +1`Damage [Surge]: Focus [Surge]: Stun None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "General Sorin",
@@ -6188,6 +6344,7 @@
     "AllText": "Lando Calrissian Resourceful Leader Smuggler None None None None None [Surge]: +2 Accuracy [Surge]: +2 Damage [Surge]: Pierce 1, Hide None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Lando Calrissian",
@@ -6216,6 +6373,7 @@
     "AllText": "Loku Kanoloa Set Spy Hunter None None None None None +4 Accuracy None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Loku Kanoloa",
@@ -6243,6 +6401,7 @@
     "AllText": "Shoretrooper Squad Training Trooper None None None None None None +2 Accuracy [Surge]: +2 Accuracy [Surge]: +2 Damage None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Shoretrooper [Elite]",
@@ -6325,6 +6484,7 @@
     "AllText": "Rebel Pathfinder Infiltration Trooper None None None None None None +1 Accuracy [Surge]: +3 Accuracy [Surge]: +2 Damage None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Rebel Pathfinder [Elite]",
@@ -6353,6 +6513,7 @@
     "AllText": "Rebel Saboteur Overload Spy Heavy Weapon None None None None None +4 Accuracy [Surge]: Stun [Surge]: Pierce 2 [Surge]: Blast 2 Damage",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Rebel Saboteur [Elite]",
@@ -6407,6 +6568,7 @@
     "AllText": "Trandoshan Hunter Relentless Hunter Brawler None None None None None [Surge]: Focus [Surge]: +1 Damage, Bleed [Surge]: Pierce 2 None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Trandoshan Hunter [Elite]",
@@ -6435,6 +6597,7 @@
     "AllText": "Verena Talos Close Quarters Spy Brawler None None None None None +1 [Surge]: +2 Damage [Surge]: Pierce 1 None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged",
       "Melee"
     ],
@@ -6465,6 +6628,7 @@
     "AllText": "Agent Kallus sdkag Spy Leader Brawler None None None None [Surge]: Pierce 2 None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged",
       "Melee"
     ],
@@ -6526,6 +6690,7 @@
     "AllText": "Cassian Andor as Leader Spy None None None None None af None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Cassian Andor",
@@ -6554,6 +6719,7 @@
     "AllText": "Davith Elso as Spy Force User None None None None None [Surge]: +2 Damage, Hide None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Davith Elso",
@@ -6582,6 +6748,7 @@
     "AllText": "Doctor Aphra adfs Smuggler Technician None None None None None [Surge]: Pierce 2 None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Doctor Aphra",
@@ -6610,6 +6777,7 @@
     "AllText": "Heavy Stormtrooper ads Trooper Heavy Weapon None None None None None +3 Accuracy None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Heavy Stormtrooper [Elite]",
@@ -6638,6 +6806,7 @@
     "AllText": "HK-47 adsf Droid Hunter None None None None None [Surge]: +2 Accuracy None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "HK-47",
@@ -6667,6 +6836,7 @@
     "AllText": "Iden Versio a Trooper Leader Spy None None None None [Surge]: +2 Acc, +2 Damage None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Iden Versio",
@@ -6698,6 +6868,7 @@
     "AllText": "K-2SO asfd Droid Brawler Spy None None None None asdf None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "K-2SO",
@@ -6729,6 +6900,7 @@
     "AllText": "Luke Skywalker (Jedi) a Force User Leader Brawler None None None None asd None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Luke Skywalker (Jedi)",
@@ -6757,6 +6929,7 @@
     "AllText": "Mara Jade asdf Force User Brawler None None None None None asd None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Mara Jade",
@@ -6785,6 +6958,7 @@
     "AllText": "Murne Rin as Leader Spy None None None None None as None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Murne Rin",
@@ -6919,6 +7093,7 @@
     "AllText": "Cara Dune asdf Trooper Brawler Heavy Weapon None None None None +1 Accuracy, +1 Dodge None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Cara Dune",
@@ -6947,6 +7122,7 @@
     "AllText": "Bib Fortuna D Smuggler Leader None None None None None +1 Accuracy None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Bib Fortuna",
@@ -6975,6 +7151,7 @@
     "AllText": "CT-1701 Barrage Trooper Guardian None None None None None [Surge]: +1 Damage None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "CT-1701",
@@ -7003,6 +7180,7 @@
     "AllText": "Dark Trooper Mk III Adv Droid Trooper None None None None None [Surge]: +2 Damage None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Dark Trooper Mk III [Elite]",
@@ -7082,7 +7260,9 @@
     "UnitsRequired": [],
     "AllText": "Flametrooper No Trooper Heavy Weapon Squad Upgrade None None None None Priority Target None None None",
     "Variant": "IACP",
-    "Characteristics": [],
+    "Characteristics": [
+      "Small"
+    ],
     "VassalName": "Flametrooper [Elite]",
     "VassalID": "IACP_D card-Imp--Flametrooper.png",
     "ImageOffset": 18,
@@ -7109,6 +7289,7 @@
     "AllText": "Migs Mayfeld Droid Smuggler Trooper None None None None None +1 Acc None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Migs Mayfeld",
@@ -7136,6 +7317,7 @@
     "AllText": "Moff Gideon ISB Leader Spy None None None None None [Surge]: +2 Damage None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Moff Gideon",
@@ -7163,6 +7345,7 @@
     "AllText": "Snowtrooper Disruptor Trooper None None None None None None Efficient Travel None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Snowtrooper [Elite]",
@@ -7190,7 +7373,9 @@
     "UnitsRequired": [],
     "AllText": "Z-6 Trooper Non Trooper Heavy Weapon Squad Upgrade None None None None Blast 1 Damage None None None",
     "Variant": "IACP",
-    "Characteristics": [],
+    "Characteristics": [
+      "Small"
+    ],
     "VassalName": "Z-6 Trooper [Elite]",
     "VassalID": "IACP_D card-Reb--Z-6 Trooper.png",
     "ImageOffset": 15,
@@ -7217,6 +7402,7 @@
     "AllText": "Cad Bane Flawless Hunter Leader None None None None None Mobile None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Cad Bane",
@@ -7244,6 +7430,7 @@
     "AllText": "Hired Gun Self-pres Smuggler None None None None None None +2 Accuracy None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Hired Gun [Elite]",
@@ -7272,6 +7459,7 @@
     "AllText": "HK Assassin Droid Targeting Computer Droid Hunter None None None None None Priority Target None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "HK Assassin Droid [Elite]",
@@ -7301,6 +7489,7 @@
     "AllText": "Shock Grenade: Choose a space within 3 spaces and roll 1 green die. Each other figure on or adjacent to that space suffers [damage] equal to the [damage] results. If you rolled a [surge], those figures become Weakened. Coordinated Hunt: While you or a friendly Hunter in your line of sight is attacking, it may reroll 1 attack die. Limit one 'Coordinated Hunt' per attack.",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Purge Commander [Elite]",
@@ -7330,6 +7519,7 @@
     "AllText": "Purge Trooper Imperial Brawler Hunter Trooper None None None None None None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Purge Trooper [Elite]",
@@ -7357,6 +7547,7 @@
     "AllText": "Saw Gerrera Brutal Leader None None None None None None +2 Acc None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Saw Gerrera",
@@ -7387,6 +7578,7 @@
     "AllText": "Zeb Orrelios Bo-Rifle Brawler Guardian None None None None None +3 Accuracy None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged",
       "Melee"
     ],
@@ -7416,6 +7608,7 @@
     "AllText": "Taron Malicos Fallen Master Force User Leader None None None None None +1 None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Taron Malicos",
@@ -7517,6 +7710,7 @@
     "AllText": "Dio Attached Droid None None None None None Iden Versio None None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Mobile",
       "Ranged"
     ],
@@ -7624,6 +7818,7 @@
     "AllText": "Junk Droid a Droid None None None None None None None None None None",
     "Variant": "FFG",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Junk Droid [Regular]",
@@ -7804,6 +7999,7 @@
     "AllText": "Baze Malbus abc Guardian Heavy Weapon None None None None None +2 Accuracy None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Baze Malbus",
@@ -7832,6 +8028,7 @@
     "AllText": "Cal Kestis asb Force User Technician None None None None None [Surge]: +2 Damage None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Cal Kestis",
@@ -7862,6 +8059,7 @@
     "AllText": "Chirrut Imwe abc Brawler Guardian None None None None None Reach None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee",
       "Reach"
     ],
@@ -7892,6 +8090,7 @@
     "AllText": "Del Meeko abc Technician Trooper Spy None None None None [Surge]: +2 Damage None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Del Meeko",
@@ -7921,6 +8120,7 @@
     "AllText": "Gar Saxon Airborne Vehicle Leader Trooper None None None None Mobile None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Mobile",
       "Ranged"
     ],
@@ -8036,6 +8236,7 @@
     "AllText": "Second Sister ab Force User Hunter Technician None None None None +1 [Surge] None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Second Sister",
@@ -8065,6 +8266,7 @@
     "AllText": "Super Commando a Trooper Vehicle Hunter None None None None Mobile None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Mobile",
       "Ranged"
     ],
@@ -8157,6 +8359,7 @@
     "AllText": "BD-1 a Droid Technician None None None None None a None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Non-Combatant"
     ],
     "VassalName": "BD-1",
@@ -8207,6 +8410,7 @@
     "AllText": "Ewok Warrior Ambush Brawler None None None None None None +2 Accuracy, None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee",
       "Ranged"
     ],
@@ -8260,6 +8464,7 @@
     "AllText": "Bodhi Rook Smooth Technician None None None None None None +1 Accuracy None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Bodhi Rook",
@@ -8288,6 +8493,7 @@
     "AllText": "Fennec Shand Bounty Hunter Guardian None None None None None None None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Fennec Shand",
@@ -8317,6 +8523,7 @@
     "AllText": "Fifth Brother Vigor Force User Hunter Brawler None None None None None None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Fifth Brother",
@@ -8344,6 +8551,7 @@
     "AllText": "Imperial Officer Exec Leader None None None None None None None None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Imperial Officer [Elite]",
@@ -8373,6 +8581,7 @@
     "AllText": "Krrsantan Full of Rage Wookiee Brawler Hunter None None None None None None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Krrsantan",
@@ -8429,6 +8638,7 @@
     "AllText": "Tress Hacnua Krayt Brawler None None None None None None Cleave None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Tress Hacnua",
@@ -8560,6 +8770,7 @@
     "AllText": "Paz Vizsla He Vehicle Heavy Weapon Brawler None None None None None None None None",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Mobile",
       "Ranged"
     ],
@@ -8638,6 +8849,7 @@
     "AllText": "Critical Hit: This attack gains Pierce 2. If the target figure suffered 1 or more damage during this attack, the target figure may not play command cards during this round. Camoflage: Hostile figures 4 or more spaces away cannot draw line of sight to you. You do not block line of sight for those figures.",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Mak Eshka'rey",
@@ -8666,6 +8878,7 @@
     "AllText": "Beskar Armor: After deployment, you gain 2 [block tokens]. This is the Way: When another friendly figure resolves an attack, if the defender was defeated, the figure gains 1 [block token]. Survival is Strength: While a friendly figure within 3 spaces is defending, if it spent a [block token] during this attack, it may reroll one attack die.",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "The Armorer",
@@ -8694,6 +8907,7 @@
     "AllText": "Nimble: After an attack targeting you is resolved, gain 2 movement points for each of your [evade] results. Consider It My Payment: At the start of your activation, your opponent reveals a Command card from his hand. During this round, if the next Command card played by that player does not have the same name as the revealed card, that player discards a copy of the revealed card, or revelas a hand without any copies of that card.",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Melee"
     ],
     "VassalName": "Asajj Ventress",
@@ -8722,12 +8936,33 @@
     "AllText": "Neurotoxin: Choose a space within 3 spaces and roll 1 yellow die. All hostile figures on or adjacent to that space become Weakened and suffer [damage] equal to the [damage] results. Neurostim: Choose an adjacent friendly figure and roll 1 yellow die. If you rolled a [damage], that figure gains a [damage token]. Then, if you rolled a [surge], that figure gains a [surge token].",
     "Variant": "IACP",
     "Characteristics": [
+      "Small",
       "Ranged"
     ],
     "VassalName": "Dr. Royce Hemlock",
     "VassalID": "IACP11_D card-Imp--Dr Royce Hemlock.png",
     "ImageOffset": 3,
     "ImageName": "Dr. Royce Hemlock [IACP].png"
+  },
+  {
+    "ID": 328,
+    "CardGroup": "Deployment",
+    "Name": "Test",
+    "CardClass": "Unique",
+    "Faction": "Rebel",
+    "Cost": 0,
+    "FigureCount": 1,
+    "Max": 1,
+    "Health": 0,
+    "Speed": 0,
+    "Traits": [],
+    "TraitsRequired": [],
+    "Color": "",
+    "UnitsRequired": [],
+    "AllText": "",
+    "Variant": "IACP",
+    "VassalName": "Test",
+    "ImageName": "Test [IACP].png"
   },
   {
     "ID": 1001,

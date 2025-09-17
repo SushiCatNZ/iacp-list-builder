@@ -102,16 +102,11 @@ function CardList({ cards, onAdd, list, onSelect, type, iacpLogo, showIACP, fact
         const count = getCardCount(card.ID);
         const maxReached = count >= (card.Max || 1);
 
-        // Use thumbnail for card art background
+        // Use thumbnail for card art background - dynamic API loading
         let thumbPath = '';
-        try {
-          if (card.CardGroup === "Command") {
-            thumbPath = require(`../images/command/thumbnails/${card.ImageName.replace(/\.(png|jpeg|jpg)$/i, '.jpg')}`);
-          } else {
-            thumbPath = require(`../images/deployment/thumbnails/${card.ImageName.replace(/\.(png|jpeg|jpg)$/i, '.jpg')}`);
-          }
-        } catch (e) {
-          thumbPath = '';
+        if (card.ImageName) {
+          const cardGroup = card.CardGroup === "Command" ? "command" : "deployment";
+          thumbPath = `/api/thumbnails/${cardGroup}/${card.ImageName}`;
         }
 
         let cardArtBg = null;

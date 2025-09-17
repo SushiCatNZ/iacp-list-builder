@@ -1078,7 +1078,7 @@ ${statDetails}Traits: ${traitDetails || 'None'}
         {/* Column 2: Card Preview */}
         <div className="preview-panel">
           <div className={`card-preview ${selectedCard?.CardGroup === "Auxiliary" ? "auxiliary" : ""}`}>
-            <CardPreview key={imageRefreshKey} card={selectedCard} />
+            <CardPreview key={imageRefreshKey} card={selectedCard} imageRefreshKey={imageRefreshKey} />
           </div>
           {/* Only show traits under card preview */}
           {!showCardEditor && (

@@ -1,24 +1,15 @@
 import React from 'react';
 import IALogo from '../images/icons/IA Logo.png';
 
-function getCardImageUrl(card) {
+function getCardImageUrl(card, imageRefreshKey) {
   if (!card || !card.ImageName) return null;
   
-  // Get the image path based on card group
-  try {
-    let imagePath;
-    if (card.CardGroup === "Command") {
-      imagePath = require(`../images/command/${card.ImageName}`);
-    } else {
-      imagePath = require(`../images/deployment/${card.ImageName}`);
-    }
-    return typeof imagePath === 'string' ? imagePath : imagePath.default;
-  } catch (e) {
-    return null;
-  }
+  // Use dynamic API endpoint instead of static require
+  const cardGroup = card.CardGroup === "Command" ? "command" : "deployment";
+  return `/api/images/${cardGroup}/${card.ImageName}?refresh=${imageRefreshKey || 0}`;
 }
 
-function CardPreview({ card }) {
+function CardPreview({ card, imageRefreshKey = 0 }) {
   if (!card) {
     return (
       <div className="card-preview empty">
@@ -31,7 +22,7 @@ function CardPreview({ card }) {
     );
   }
 
-  let cardImage = getCardImageUrl(card);
+  let cardImage = getCardImageUrl(card, imageRefreshKey);
 
   return (
     <div className={`card-preview ${card.CardGroup === "Auxiliary" ? "auxiliary" : ""}`}>

@@ -321,6 +321,37 @@ app.get('/api/cards', (req, res) => {
   }
 });
 
+// Serve card images dynamically
+app.get('/api/images/:cardGroup/:imageName', (req, res) => {
+  const { cardGroup, imageName } = req.params;
+  console.log(`[IMAGE API] Serving image: ${cardGroup}/${imageName}`);
+  
+  const imagePath = path.join(__dirname, 'src', 'images', cardGroup, imageName);
+  
+  if (!fs.existsSync(imagePath)) {
+    console.log(`[IMAGE API] Image not found: ${imagePath}`);
+    return res.status(404).json({ error: 'Image not found' });
+  }
+  
+  res.sendFile(imagePath);
+});
+
+// Serve card thumbnails dynamically
+app.get('/api/thumbnails/:cardGroup/:imageName', (req, res) => {
+  const { cardGroup, imageName } = req.params;
+  const thumbnailName = imageName.replace(/\.(png|jpeg|jpg)$/i, '.jpg');
+  console.log(`[THUMBNAIL API] Serving thumbnail: ${cardGroup}/${thumbnailName}`);
+  
+  const thumbnailPath = path.join(__dirname, 'src', 'images', cardGroup, 'thumbnails', thumbnailName);
+  
+  if (!fs.existsSync(thumbnailPath)) {
+    console.log(`[THUMBNAIL API] Thumbnail not found: ${thumbnailPath}`);
+    return res.status(404).json({ error: 'Thumbnail not found' });
+  }
+  
+  res.sendFile(thumbnailPath);
+});
+
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
