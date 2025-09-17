@@ -73,7 +73,7 @@ app.post('/api/save-card', (req, res) => {
   const payload = req.body;
   const tempFile = path.join(__dirname, 'temp_card.json');
   const scriptPath = path.join(__dirname, 'scripts', 'modify_cards.py');
-  const cardsJsonPath = path.join(__dirname, 'data', 'cards.json');
+  const cardsJsonPath = path.join(__dirname, 'src', 'data', 'cards.json');
 
   // Log file paths
   console.log('[CARD SAVE] Temp file path:', tempFile);
@@ -304,7 +304,7 @@ app.get('/api/test', (req, res) => {
 
 app.get('/api/cards', (req, res) => {
   console.log('[CARDS API] Loading cards.json from server');
-  const cardsJsonPath = path.join(__dirname, 'data', 'cards.json');
+  const cardsJsonPath = path.join(__dirname, 'src', 'data', 'cards.json');
   
   try {
     if (!fs.existsSync(cardsJsonPath)) {
@@ -332,9 +332,9 @@ app.listen(PORT, () => {
   console.log(`[STARTUP] Environment: ${process.env.NODE_ENV || 'development'}`);
   
   // Check critical files and directories
-  const cardsJsonPath = path.join(__dirname, 'data', 'cards.json');
+  const cardsJsonPath = path.join(__dirname, 'src', 'data', 'cards.json');
   const scriptsDir = path.join(__dirname, 'scripts');
-  const imagesDir = path.join(__dirname, 'images');
+  const imagesDir = path.join(__dirname, 'src', 'images');
   
   console.log(`[STARTUP] Cards.json exists: ${fs.existsSync(cardsJsonPath)}`);
   console.log(`[STARTUP] Scripts directory exists: ${fs.existsSync(scriptsDir)}`);
