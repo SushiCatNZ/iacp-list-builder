@@ -38,7 +38,8 @@ def modify_cards(payload_filename):
         # Get the path to cards.json
         script_dir = Path(os.path.dirname(os.path.abspath(__file__)))
         project_root = script_dir.parent
-        cards_json_path = project_root / 'src' / 'data' / 'cards.json'
+        # The script is in src/scripts/, so project_root is already the src directory
+        cards_json_path = project_root / 'data' / 'cards.json'
         
         print(f"[PYTHON SCRIPT] Script directory: {script_dir}", file=sys.stderr)
         print(f"[PYTHON SCRIPT] Project root: {project_root}", file=sys.stderr)
