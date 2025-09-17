@@ -358,12 +358,30 @@ app.listen(PORT, () => {
     console.log(`[STARTUP] Cards.json size: ${stats.size} bytes`);
   }
   
-  // Check Python availability
+  // Check Python availability and installed packages
   exec('python --version', (error, stdout, stderr) => {
     if (error) {
       console.log(`[STARTUP] Python check failed: ${error.message}`);
     } else {
       console.log(`[STARTUP] Python version: ${stdout.trim()}`);
+    }
+  });
+
+  // Check if Pillow is installed
+  exec('python -c "import PIL; print(f\'PIL version: {PIL.__version__}\')"', (error, stdout, stderr) => {
+    if (error) {
+      console.log(`[STARTUP] PIL/Pillow not available: ${error.message}`);
+    } else {
+      console.log(`[STARTUP] ${stdout.trim()}`);
+    }
+  });
+
+  // Check pip list for Pillow
+  exec('pip list | grep -i pillow', (error, stdout, stderr) => {
+    if (error) {
+      console.log(`[STARTUP] Pillow not found in pip list: ${error.message}`);
+    } else {
+      console.log(`[STARTUP] Pillow packages: ${stdout.trim()}`);
     }
   });
 }); 
