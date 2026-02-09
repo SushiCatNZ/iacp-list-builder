@@ -821,17 +821,24 @@ function App() {
   };
 
   const handleShareList = async () => {
-    // Helper to format card details
-    const formatCard = (card) => {
-      let cardString = `- ${card.Name}`; 
-      return cardString;
+    // Helper to format deployment cards: cost prefix, name, [E]/[R], IACP suffix
+    const formatDeploymentCard = (card) => {
+      const classSuffix = card.CardClass === 'Elite' ? ' [E]' : card.CardClass === 'Regular' ? ' [R]' : '';
+      const variantSuffix = card.Variant === 'IACP' ? ' IACP' : '';
+      return `- ${card.Cost} ${card.Name}${classSuffix}${variantSuffix}`;
+    };
+
+    // Helper to format command cards: name + optional IACP suffix
+    const formatCommandCard = (card) => {
+      const variantSuffix = card.Variant === 'IACP' ? ' IACP' : '';
+      return `- ${card.Name}${variantSuffix}`;
     };
 
     // Deployment List details
-    const deploymentDetails = sortedDeploymentList.map(formatCard).join('\n');
+    const deploymentDetails = sortedDeploymentList.map(formatDeploymentCard).join('\n');
 
     // Command List details
-    const commandDetails = sortedCommandList.map(card => `- ${card.Name}`).join('\n');
+    const commandDetails = sortedCommandList.map(formatCommandCard).join('\n');
 
     // Stat details
     const statDetails = `Activations: ${stats.deploymentCount}
@@ -853,7 +860,8 @@ Command Cards:
 ${commandDetails || 'None'}
 
 Stats:
-${statDetails}Traits: ${traitDetails || 'None'}
+${statDetails}
+Traits: ${traitDetails || 'None'}
     `.trim();
 
     try {

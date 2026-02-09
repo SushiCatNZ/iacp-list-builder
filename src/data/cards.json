@@ -7314,7 +7314,7 @@
     "TraitsRequired": [],
     "Color": "red",
     "UnitsRequired": [],
-    "AllText": "Moff Gideon ISB Leader Spy None None None None None [Surge]: +2 Damage None None None",
+    "AllText": "Moff Gideon ISB Leader None None None None None [Surge]: +2 Damage None None None",
     "Variant": "IACP",
     "Characteristics": [
       "Small",
@@ -8484,8 +8484,7 @@
     "Health": 8,
     "Speed": 4,
     "Traits": [
-      "Hunter",
-      "Guardian"
+      "Hunter"
     ],
     "TraitsRequired": [],
     "Color": "red",
@@ -8858,64 +8857,6 @@
     "ImageName": "Mak Eshka'rey [IACP].png"
   },
   {
-    "ID": 325,
-    "CardGroup": "Deployment",
-    "Name": "The Armorer",
-    "CardClass": "Unique",
-    "Faction": "Mercenary",
-    "Cost": 6,
-    "FigureCount": 1,
-    "Max": 1,
-    "Health": 10,
-    "Speed": 4,
-    "Traits": [
-      "Guardian",
-      "Leader"
-    ],
-    "TraitsRequired": [],
-    "Color": "red",
-    "UnitsRequired": [],
-    "AllText": "Beskar Armor: After deployment, you gain 2 [block tokens]. This is the Way: When another friendly figure resolves an attack, if the defender was defeated, the figure gains 1 [block token]. Survival is Strength: While a friendly figure within 3 spaces is defending, if it spent a [block token] during this attack, it may reroll one attack die.",
-    "Variant": "IACP",
-    "Characteristics": [
-      "Small",
-      "Melee"
-    ],
-    "VassalName": "The Armorer",
-    "VassalID": "IACP11_D card-Merc--The Armorer.png",
-    "ImageOffset": 3,
-    "ImageName": "The Armorer [IACP].png"
-  },
-  {
-    "ID": 326,
-    "CardGroup": "Deployment",
-    "Name": "Asajj Ventress",
-    "CardClass": "Unique",
-    "Faction": "Mercenary",
-    "Cost": 7,
-    "FigureCount": 1,
-    "Max": 1,
-    "Health": 12,
-    "Speed": 5,
-    "Traits": [
-      "Force User",
-      "Hunter"
-    ],
-    "TraitsRequired": [],
-    "Color": "red",
-    "UnitsRequired": [],
-    "AllText": "Nimble: After an attack targeting you is resolved, gain 2 movement points for each of your [evade] results. Consider It My Payment: At the start of your activation, your opponent reveals a Command card from his hand. During this round, if the next Command card played by that player does not have the same name as the revealed card, that player discards a copy of the revealed card, or revelas a hand without any copies of that card.",
-    "Variant": "IACP",
-    "Characteristics": [
-      "Small",
-      "Melee"
-    ],
-    "VassalName": "Asajj Ventress",
-    "VassalID": "IACP11_D card-Merc--Asajj Ventress.png",
-    "ImageOffset": 3,
-    "ImageName": "Asajj Ventress [IACP].png"
-  },
-  {
     "ID": 327,
     "CardGroup": "Deployment",
     "Name": "Dr. Royce Hemlock",
@@ -8943,26 +8884,6 @@
     "VassalID": "IACP11_D card-Imp--Dr Royce Hemlock.png",
     "ImageOffset": 3,
     "ImageName": "Dr. Royce Hemlock [IACP].png"
-  },
-  {
-    "ID": 328,
-    "CardGroup": "Deployment",
-    "Name": "Test",
-    "CardClass": "Unique",
-    "Faction": "Rebel",
-    "Cost": 0,
-    "FigureCount": 1,
-    "Max": 1,
-    "Health": 0,
-    "Speed": 0,
-    "Traits": [],
-    "TraitsRequired": [],
-    "Color": "",
-    "UnitsRequired": [],
-    "AllText": "",
-    "Variant": "IACP",
-    "VassalName": "Test",
-    "ImageName": "Test [IACP].png"
   },
   {
     "ID": 1001,
@@ -16573,56 +16494,6 @@
     "VassalID": "C card--Lord of the Sith.jpg",
     "ImageOffset": 0,
     "ImageName": "Lord of the Sith [IACP].png"
-  },
-  {
-    "ID": 1320,
-    "CardGroup": "Command",
-    "Name": "Mandalorian Steel",
-    "CardClass": null,
-    "Faction": "Mercenary",
-    "Cost": 2,
-    "FigureCount": null,
-    "Max": 1,
-    "Health": null,
-    "Speed": null,
-    "Traits": null,
-    "TraitsRequired": [],
-    "Color": null,
-    "UnitsRequired": [
-      "The Armorer"
-    ],
-    "AllText": "Use a the start of the round. During this round, after an attack resolves targeting a friendly figure, if it spent a [block token] during that attack, it recovers 1[damage].",
-    "Variant": "IACP",
-    "Characteristics": null,
-    "VassalName": "Mandalorian Steel",
-    "VassalID": "IACP11_C card--Mandalorian Steel.png",
-    "ImageOffset": 0,
-    "ImageName": "Mandalorian Steel [IACP].png"
-  },
-  {
-    "ID": 1321,
-    "CardGroup": "Command",
-    "Name": "No Cheating",
-    "CardClass": null,
-    "Faction": "Mercenary",
-    "Cost": 1,
-    "FigureCount": null,
-    "Max": 1,
-    "Health": null,
-    "Speed": null,
-    "Traits": null,
-    "TraitsRequired": [],
-    "Color": null,
-    "UnitsRequired": [
-      "Asajj Ventress"
-    ],
-    "AllText": "Use at the start of the activation of a hostile figure in your line of sight. During this round, that figure's attack type becomes [Melee], and when it declares an attack, it removes one attack die from its attack pool.",
-    "Variant": "IACP",
-    "Characteristics": null,
-    "VassalName": "No Cheating",
-    "VassalID": "IACP11_C card--No Cheating.png",
-    "ImageOffset": 0,
-    "ImageName": "No Cheating [IACP].png"
   },
   {
     "ID": 1322,
