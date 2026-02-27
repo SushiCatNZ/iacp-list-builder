@@ -50,13 +50,48 @@ function CardList({ cards, onAdd, list, onSelect, type, iacpLogo, showIACP, fact
       // Search filter
       if (search) {
         const searchLower = search.toLowerCase();
-        const nameMatch = typeof card.Name === "string" && card.Name.toLowerCase().includes(searchLower);
-        const traitsMatch = Array.isArray(card.Traits) && card.Traits.some(trait => typeof trait === "string" && trait.toLowerCase().includes(searchLower));
-        const allTextMatch = typeof card.AllText === "string" && card.AllText.toLowerCase().includes(searchLower);
-        const characteristicsMatch = Array.isArray(card.Characteristics) && card.Characteristics.some(
-          char => typeof char === "string" && char.toLowerCase().includes(searchLower)
-        );
-        if (!(nameMatch || traitsMatch || allTextMatch || characteristicsMatch)) return false;
+        const matchStringOrArray = (field) => {
+          if (typeof field === "string") {
+            return field.toLowerCase().includes(searchLower);
+          }
+          if (Array.isArray(field)) {
+            return field.some(
+              v => typeof v === "string" && v.toLowerCase().includes(searchLower)
+            );
+          }
+          return false;
+        };
+        const nameMatch =
+          typeof card.Name === "string" &&
+          card.Name.toLowerCase().includes(searchLower);
+        const traitsMatch =
+          Array.isArray(card.Traits) &&
+          card.Traits.some(
+            trait =>
+              typeof trait === "string" &&
+              trait.toLowerCase().includes(searchLower)
+          );
+        const textMatch = matchStringOrArray(card.Text);
+        const abilitiesMatch = matchStringOrArray(card.Abilities);
+        const specialAbilitiesMatch = matchStringOrArray(card.SpecialAbilities);
+        const characteristicsMatch =
+          Array.isArray(card.Characteristics) &&
+          card.Characteristics.some(
+            char =>
+              typeof char === "string" &&
+              char.toLowerCase().includes(searchLower)
+          );
+        if (
+          !(
+            nameMatch ||
+            traitsMatch ||
+            textMatch ||
+            abilitiesMatch ||
+            specialAbilitiesMatch ||
+            characteristicsMatch
+          )
+        )
+          return false;
       }
       // Trait filter
       if (selectedTraits && selectedTraits.length > 0) {
