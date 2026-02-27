@@ -1188,8 +1188,7 @@
     "Variant": "FFG",
     "Characteristics": [
       "Small",
-      "Melee",
-      "Reach"
+      "Melee"
     ],
     "VassalName": "Royal Guard [Regular]",
     "VassalID": "D card-Imp--Royal Guard regular.jpg",
@@ -1732,8 +1731,7 @@
     "Variant": "FFG",
     "Characteristics": [
       "Small",
-      "Melee",
-      "Reach"
+      "Melee"
     ],
     "VassalName": "Gamorrean Guard [Elite]",
     "VassalID": "IACP_D card-Merc--Gamorrean Guard elite.jpg",
@@ -1769,8 +1767,7 @@
     "Variant": "FFG",
     "Characteristics": [
       "Small",
-      "Melee",
-      "Reach"
+      "Melee"
     ],
     "VassalName": "Gamorrean Guard [Regular]",
     "VassalID": "D card-Merc--Gamorrean Guard regular.jpg",
@@ -1918,9 +1915,7 @@
     "Variant": "FFG",
     "Characteristics": [
       "Large",
-      "Massive",
-      "Melee",
-      "Reach"
+      "Melee"
     ],
     "VassalName": "Rancor [Elite]",
     "VassalID": "D card-Merc--Rancor.jpg",
@@ -2815,8 +2810,7 @@
     "Variant": "FFG",
     "Characteristics": [
       "Small",
-      "Melee",
-      "Reach"
+      "Melee"
     ],
     "VassalName": "Royal Guard Champion",
     "VassalID": "IACP_D card-Imp--Royal Guard Champion.jpg",
@@ -4312,8 +4306,7 @@
     "Variant": "FFG",
     "Characteristics": [
       "Small",
-      "Melee",
-      "Reach"
+      "Melee"
     ],
     "VassalName": "Royal Guard [Elite]",
     "VassalID": "D card-Imp--Royal Guard elite.jpg",
@@ -4790,8 +4783,7 @@
     "Variant": "FFG",
     "Characteristics": [
       "Small",
-      "Melee",
-      "Reach"
+      "Melee"
     ],
     "VassalName": "Maul",
     "VassalID": "IACP_D card-Merc--Maul.jpg",
@@ -6098,8 +6090,7 @@
     "Variant": "IACP",
     "Characteristics": [
       "Small",
-      "Melee",
-      "Reach"
+      "Melee"
     ],
     "VassalName": "Gamorrean Guard [Elite]",
     "VassalID": "IACP_D card-Merc--Gamorrean Guard elite.jpg",
@@ -6327,8 +6318,7 @@
     "Variant": "IACP",
     "Characteristics": [
       "Small",
-      "Melee",
-      "Reach"
+      "Melee"
     ],
     "VassalName": "Maul",
     "VassalID": "IACP_D card-Merc--Maul.jpg",
@@ -6404,8 +6394,7 @@
     "Characteristics": [
       "Large",
       "Massive",
-      "Melee",
-      "Reach"
+      "Melee"
     ],
     "VassalName": "Rancor [Elite]",
     "VassalID": "D card-Merc--Rancor.jpg",
@@ -6855,8 +6844,7 @@
     "Variant": "IACP",
     "Characteristics": [
       "Small",
-      "Melee",
-      "Reach"
+      "Melee"
     ],
     "VassalName": "Gaarkhan",
     "VassalID": "IACP_D card-Reb--Gaarkhan.jpg",
@@ -7004,8 +6992,7 @@
     "Variant": "IACP",
     "Characteristics": [
       "Small",
-      "Melee",
-      "Reach"
+      "Melee"
     ],
     "VassalName": "Royal Guard Champion",
     "VassalID": "IACP_D card-Imp--Royal Guard Champion.jpg",
@@ -7262,8 +7249,7 @@
     "Variant": "IACP",
     "Characteristics": [
       "Small",
-      "Melee",
-      "Reach"
+      "Melee"
     ],
     "VassalName": "Royal Guard [Elite]",
     "VassalID": "D card-Imp--Royal Guard elite.jpg",
@@ -8754,8 +8740,7 @@
     "Variant": "IACP",
     "Characteristics": [
       "Large",
-      "Melee",
-      "Reach"
+      "Melee"
     ],
     "VassalName": "Wampa [Elite]",
     "VassalID": "D card-Merc--Wampa elite.jpg",
@@ -8791,9 +8776,7 @@
     "Color": "gray",
     "UnitsRequired": [],
     "Variant": "IACP",
-    "Characteristics": [
-      "Reach"
-    ],
+    "Characteristics": [],
     "VassalName": "Fury of Kashyyyk",
     "VassalID": "D card-Reb--Fury Of Kashyyyk.jpg",
     "ImageOffset": 15,
@@ -9761,9 +9744,7 @@
       "Purge Trooper"
     ],
     "Variant": "IACP",
-    "Characteristics": [
-      "Reach"
-    ],
+    "Characteristics": [],
     "VassalName": "Electrostaff [Regular]",
     "VassalID": null,
     "ImageOffset": 0,
@@ -10110,8 +10091,7 @@
     "Variant": "IACP",
     "Characteristics": [
       "Small",
-      "Melee",
-      "Reach"
+      "Melee"
     ],
     "VassalName": "Chirrut Imwe",
     "VassalID": "IACP_D card-Reb--Chirrut Imwe.png",
@@ -10646,8 +10626,7 @@
     "Health": 8,
     "Speed": 4,
     "Traits": [
-      "Hunter",
-      "Guardian"
+      "Hunter"
     ],
     "TraitsRequired": [],
     "Color": "red",
@@ -11117,83 +11096,6 @@
     "SpecialAbilities": [
       "[SURGE] Critical Hit: This attack gains Pierce 2. If the target figure suffered 1 or more [DAMAGE] during this attack, the target figure may not play command cards during this round.",
       "Camouflage: Hostile figures 4 or may spaces away cannot draw line of sight to you. You do not block line of sight for those figures."
-    ]
-  },
-  {
-    "ID": 325,
-    "CardGroup": "Deployment",
-    "Name": "The Armorer",
-    "CardClass": "Unique",
-    "Faction": "Mercenary",
-    "Cost": 6,
-    "FigureCount": 1,
-    "Max": 1,
-    "Health": 10,
-    "Speed": 4,
-    "Traits": [
-      "Guardian",
-      "Leader"
-    ],
-    "TraitsRequired": [],
-    "Color": "red",
-    "UnitsRequired": [],
-    "Variant": "IACP",
-    "Characteristics": [
-      "Small",
-      "Melee"
-    ],
-    "VassalName": "The Armorer",
-    "VassalID": "IACP11_D card-Merc--The Armorer.png",
-    "ImageOffset": 3,
-    "ImageName": "The Armorer [IACP].png",
-    "Abilities": [
-      "[SURGE]: Cleave 2[DAMAGE]",
-      "[SURGE]: +1[DAMAGE], Pierce 1",
-      "[SURGE]: Gain 1[BLOCK TOKEN]"
-    ],
-    "SpecialAbilities": [
-      "Beskar Armor: After deployment, you gain 2[BLOCK TOKEN].",
-      "This is the Way: When another friendly figure resolves an attack, if the defender was defeated, the figure gains 1[BLOCK TOKEN].",
-      "Survival is Strength: While a friendly figure within 3 spaces is defending, if it spent a [BLOCK TOKEN] during this attack, it may reroll one attack die."
-    ]
-  },
-  {
-    "ID": 326,
-    "CardGroup": "Deployment",
-    "Name": "Asajj Ventress",
-    "CardClass": "Unique",
-    "Faction": "Mercenary",
-    "Cost": 7,
-    "FigureCount": 1,
-    "Max": 1,
-    "Health": 12,
-    "Speed": 5,
-    "Traits": [
-      "Force User",
-      "Hunter"
-    ],
-    "TraitsRequired": [],
-    "Color": "red",
-    "UnitsRequired": [],
-    "Variant": "IACP",
-    "Characteristics": [
-      "Small",
-      "Melee"
-    ],
-    "VassalName": "Asajj Ventress",
-    "VassalID": "IACP11_D card-Merc--Asajj Ventress.png",
-    "ImageOffset": 3,
-    "ImageName": "Asajj Ventress [IACP].png",
-    "Abilities": [
-      "[SURGE]: Gain 1[EVADE TOKEN]",
-      "Professional",
-      "[SURGE]: +2[DAMAGE]",
-      "[SURGE]: +2[DAMAGE]",
-      "[SURGE]: Pierce 3"
-    ],
-    "SpecialAbilities": [
-      "Nimble: After an attack targeting you is resolved, gain 2 movement points for each of your [EVADE] results.",
-      "Consider It My Payment: At the start of your activation, your opponent reveals a Command card from his hand. During this round, if the next Command card played by that player does not have the same name as the revealed card, that player discards a copy of the revealed card, or reveals a hand without any copies of that card."
     ]
   },
   {
