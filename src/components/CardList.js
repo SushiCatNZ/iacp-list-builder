@@ -74,6 +74,8 @@ function CardList({ cards, onAdd, list, onSelect, type, iacpLogo, showIACP, fact
         const textMatch = matchStringOrArray(card.Text);
         const abilitiesMatch = matchStringOrArray(card.Abilities);
         const specialAbilitiesMatch = matchStringOrArray(card.SpecialAbilities);
+        const unitsRequiredMatch = matchStringOrArray(card.UnitsRequired);
+        const traitsRequiredMatch = matchStringOrArray(card.TraitsRequired);
         const characteristicsMatch =
           Array.isArray(card.Characteristics) &&
           card.Characteristics.some(
@@ -88,6 +90,8 @@ function CardList({ cards, onAdd, list, onSelect, type, iacpLogo, showIACP, fact
             textMatch ||
             abilitiesMatch ||
             specialAbilitiesMatch ||
+            unitsRequiredMatch ||
+            traitsRequiredMatch ||
             characteristicsMatch
           )
         )

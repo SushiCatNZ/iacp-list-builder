@@ -8,7 +8,7 @@ def get_ordered_card(card):
     # Define the canonical field order
     field_order = [
         "ID", "CardGroup", "Name", "CardClass", "Faction", "Cost", "FigureCount", "Max", "Health", "Speed",
-        "Traits", "TraitsRequired", "Color", "UnitsRequired", "AllText", "Variant", "Characteristics", "VassalName", "VassalID"
+        "Traits", "TraitsRequired", "Color", "UnitsRequired", "Text", "Abilities", "SpecialAbilities", "Variant", "Characteristics", "VassalName", "VassalID"
     ]
     # Build an OrderedDict with the canonical order, including only present fields
     ordered = OrderedDict()

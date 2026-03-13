@@ -40,7 +40,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **cards.json:** Removed "Guardian" trait from Fennec. Removed The Armorer deployment card and its associated command card. Removed Asajj Ventress deployment card and its associated command card.
 - Updated images for: You Will Not Deny Me [IACP], Moff Gideon [IACP], Purge Commander [Elite] [IACP].
 - Updated image for Rancor [Elite] [IACP] deployment card.
- - Updated search logic so the card search box matches against `Name`, `Traits`, `Characteristics`, and the new structured card text fields (`Text`, `Abilities`, `SpecialAbilities`) instead of the legacy `AllText` field.
+- **Search:** Updated search logic so the card search box matches against `Name`, `Traits`, `Characteristics`, and the structured card text fields (`Text`, `Abilities`, `SpecialAbilities`) instead of the legacy `AllText` field. Also includes `UnitsRequired` and `TraitsRequired` in search matches.
+- **Card editor:** Replaced `AllText` with `Text`, `Abilities`, and `SpecialAbilities`. Fixed multiline editing so spaces/newlines are preserved while typing, and normalized whitespace on save.
+- **Card editor:** Normalize numeric fields on save so `ID`, `Cost`, `FigureCount`, `Max`, `Health`, `Speed`, and `ImageOffset` are stored as numbers (not strings).
+- **App:** Normalize numeric fields when loading cards from the server to prevent string concatenation issues in point totals.
 
 ### Removed
 - The Armorer deployment card and command card; Ventress deployment card and command card; Test [IACP] deployment image and thumbnail.
+- Removed a duplicate FFG version of \"Take Position\" from `cards.json`.

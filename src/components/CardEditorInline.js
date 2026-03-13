@@ -269,10 +269,25 @@ function getAutoImageName(card) {
   return `${name}${suffixes.length ? ' ' + suffixes.join(' ') : ''}.png`;
 }
 
+// Helpers for array-of-strings fields (Text, Abilities, SpecialAbilities): edit as one string per line
+function arrayToTextarea(arr) {
+  if (!Array.isArray(arr)) return "";
+  return arr.map(s => (s != null ? String(s) : "")).join("\n");
+}
+// Preserve newlines and spaces while editing (no trim/filter)
+function textareaToArray(str) {
+  if (str == null || str === "") return [];
+  return str.split("\n");
+}
+// Normalize for save: trim each line and remove empty strings
+function normalizeArrayForSave(arr) {
+  if (!Array.isArray(arr)) return [];
+  return arr.map(s => (s != null ? String(s) : "").trim()).filter(Boolean);
+}
+
 function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setShowCardEditor, setSelectedCard, imageRefreshKey, setImageRefreshKey }) {
   const safeEditCard = editCard || {};
   const fileInputRef = useRef();
-  const allTextRef = useRef();
   const vassalFileInputRef = useRef();
 
   const isCardSaved = (card) => {
@@ -296,7 +311,9 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
       Color: "",
       UnitsRequired: [],
       Max: 1,
-      AllText: "",
+      Text: [],
+      Abilities: [],
+      SpecialAbilities: [],
       Variant: "IACP",
     });
   }, []); // Empty dependency array means this runs once on mount
@@ -325,7 +342,9 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
       Color: "",
       UnitsRequired: [],
       Max: 1,
-      AllText: "",
+      Text: [],
+      Abilities: [],
+      SpecialAbilities: [],
       Variant: "IACP",
     });
   }
@@ -376,9 +395,30 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
     }
     const imageName = getAutoImageName(editCard);
     
+    const toInt = (value, fallback) => {
+      if (value === null || value === undefined || value === "") return fallback;
+      const n = Number(value);
+      return Number.isFinite(n) ? Math.trunc(n) : fallback;
+    };
+
+    // Normalize Text, Abilities, SpecialAbilities for save (trim and remove empty lines)
+    const normalizedCard = {
+      ...editCard,
+      ID: toInt(editCard.ID, editCard.ID),
+      Cost: toInt(editCard.Cost, 0),
+      FigureCount: toInt(editCard.FigureCount, 1),
+      Max: toInt(editCard.Max, 1),
+      Health: toInt(editCard.Health, 0),
+      Speed: toInt(editCard.Speed, 0),
+      ImageOffset: toInt(editCard.ImageOffset, 0),
+      Text: normalizeArrayForSave(editCard.Text),
+      Abilities: normalizeArrayForSave(editCard.Abilities),
+      SpecialAbilities: normalizeArrayForSave(editCard.SpecialAbilities),
+    };
+    
     // Prepare card with updated VassalName, ImageName and without Image
     const { Image, ...cardToSave } = { 
-      ...editCard, 
+      ...normalizedCard, 
       VassalName: vassalName,
       ImageName: imageName
     };
@@ -507,7 +547,9 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
           Color: "",
           UnitsRequired: [],
           Max: 1,
-          AllText: "",
+          Text: [],
+          Abilities: [],
+          SpecialAbilities: [],
           Variant: "IACP",
         });
         if (typeof setSelectedCard === 'function') setSelectedCard(null);
@@ -909,17 +951,37 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
         </div>
         <div className="form-row">
           <div style={{ flex: 1 }}>
-            <label style={{ display: "block" }}>AllText:</label>
+            <label style={{ display: "block" }}>Text (one line per entry):</label>
             <textarea
-              ref={allTextRef}
-              value={safeEditCard?.AllText || ""}
-              onChange={e => handleFieldChange("AllText", e.target.value)}
-              onInput={e => {
-                e.target.style.height = 'auto';
-                e.target.style.height = e.target.scrollHeight + 'px';
-              }}
-              placeholder="Searchable card text"
-              style={{ width: "100%", overflow: "hidden", resize: "none" }}
+              value={arrayToTextarea(safeEditCard?.Text)}
+              onChange={e => handleFieldChange("Text", textareaToArray(e.target.value))}
+              onKeyDown={e => e.key === "Enter" && e.stopPropagation()}
+              placeholder="Command card text; one paragraph or line per row"
+              style={{ width: "100%", minHeight: "60px" }}
+            />
+          </div>
+        </div>
+        <div className="form-row">
+          <div style={{ flex: 1 }}>
+            <label style={{ display: "block" }}>Abilities (one per line):</label>
+            <textarea
+              value={arrayToTextarea(safeEditCard?.Abilities)}
+              onChange={e => handleFieldChange("Abilities", textareaToArray(e.target.value))}
+              onKeyDown={e => e.key === "Enter" && e.stopPropagation()}
+              placeholder="e.g. [SURGE]: +2 Damage, Professional"
+              style={{ width: "100%", minHeight: "80px" }}
+            />
+          </div>
+        </div>
+        <div className="form-row">
+          <div style={{ flex: 1 }}>
+            <label style={{ display: "block" }}>SpecialAbilities (one per line):</label>
+            <textarea
+              value={arrayToTextarea(safeEditCard?.SpecialAbilities)}
+              onChange={e => handleFieldChange("SpecialAbilities", textareaToArray(e.target.value))}
+              onKeyDown={e => e.key === "Enter" && e.stopPropagation()}
+              placeholder="e.g. Professional: While attacking, you may reroll 1 attack die."
+              style={{ width: "100%", minHeight: "80px" }}
             />
           </div>
         </div>

@@ -96,8 +96,28 @@ function App() {
           throw new Error(`Failed to load cards: ${response.status}`);
         }
         const cards = await response.json();
-        console.log(`[APP] Loaded ${cards.length} cards from server`);
-        setCardData(cards);
+
+        // Normalize numeric fields (cards.json may contain numbers as strings)
+        const toNumberIfNumeric = (v) => {
+          if (v === null || v === undefined || v === "") return v;
+          const n = Number(v);
+          return Number.isFinite(n) ? n : v;
+        };
+        const normalizedCards = Array.isArray(cards)
+          ? cards.map(card => ({
+              ...card,
+              ID: toNumberIfNumeric(card.ID),
+              Cost: toNumberIfNumeric(card.Cost),
+              FigureCount: toNumberIfNumeric(card.FigureCount),
+              Max: toNumberIfNumeric(card.Max),
+              Health: toNumberIfNumeric(card.Health),
+              Speed: toNumberIfNumeric(card.Speed),
+              ImageOffset: toNumberIfNumeric(card.ImageOffset),
+            }))
+          : [];
+
+        console.log(`[APP] Loaded ${normalizedCards.length} cards from server`);
+        setCardData(normalizedCards);
         setIsLoadingCards(false);
       } catch (error) {
         console.error('[APP] Error loading cards:', error);
