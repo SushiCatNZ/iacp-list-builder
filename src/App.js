@@ -74,6 +74,7 @@ function App() {
   const baseFactions = ["Rebel", "Empire", "Mercenary"];
   const [baseFaction, setBaseFaction] = useState("Rebel");
   const [autoFilter, setAutoFilter] = useState(true);
+  const [ptFilter, setPtFilter] = useState(false);
   const [cardData, setCardData] = useState([]);
   const [isLoadingCards, setIsLoadingCards] = useState(true);
   const [showCardEditor, setShowCardEditor] = useState(false);
@@ -204,8 +205,12 @@ function App() {
     });
   };
 
+  // Apply playtest filter when PT button is on
+  const applyPlaytestFilter = (cards) =>
+    ptFilter ? cards.filter(card => card.Playtest === "Yes") : cards;
+
   // 1. Define deploymentCards and commandCards first
-  const deploymentCards = filterIACPCards(
+  const deploymentCards = applyPlaytestFilter(filterIACPCards(
     cardData.filter(card => 
       card.CardGroup === "Deployment" ||
       card.CardGroup === "Skirmish Upgrade" ||
@@ -213,23 +218,23 @@ function App() {
       card.CardGroup === "Companion" ||
       card.CardGroup === "Squad Upgrade"
     )
-  ).sort((a, b) => b.Cost - a.Cost);
+  )).sort((a, b) => b.Cost - a.Cost);
 
-  const commandCards = filterIACPCards(
+  const commandCards = applyPlaytestFilter(filterIACPCards(
     cardData.filter(card => card.CardGroup === "Command")
-  ).sort((a, b) => b.Cost - a.Cost);
+  )).sort((a, b) => b.Cost - a.Cost);
 
-  const skirmishUpgradeCards = filterIACPCards(
+  const skirmishUpgradeCards = applyPlaytestFilter(filterIACPCards(
     cardData.filter(card => 
       card.CardGroup === "Skirmish Upgrade" ||
       card.CardGroup === "Auxiliary" ||
       card.CardGroup === "Companion"
     )
-  );
+  ));
 
-  const squadUpgradeCards = filterIACPCards(
+  const squadUpgradeCards = applyPlaytestFilter(filterIACPCards(
     cardData.filter(card => card.CardGroup === "Squad Upgrade")
-  );
+  ));
 
   // Helper: get all traits from selected deployment cards, including Mara Jade's dynamic traits
   const selectedDeploymentTraits = deploymentList.flatMap(card => {
@@ -970,6 +975,19 @@ Traits: ${traitDetails || 'None'}
             <span className={iacpMode === "IACP" ? "toggle-active" : ""}>IACP</span>
             <span style={{ margin: "0 6px" }}>|</span>
             <span className={iacpMode === "ALL" ? "toggle-active" : ""}>ALL</span>
+          </button>
+          <button
+            className="pt-filter-button"
+            title="Isolate Playtesting Cards"
+            onClick={() => {
+              setPtFilter(prev => {
+                const next = !prev;
+                setAutoFilter(!next);
+                return next;
+              });
+            }}
+          >
+            <span className={ptFilter ? "pt-active" : ""}>PT</span>
           </button>
           <input
             className="search-box"

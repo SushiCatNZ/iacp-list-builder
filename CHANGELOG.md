@@ -36,6 +36,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added structured card rules fields (`Text`, `Abilities`, `SpecialAbilities`) to `cards.json` to support richer search over card text.
 - Added internal documentation describing options for separating card text into a dedicated JSON file and for adding a simple view counter.
 - **Playtest indicator:** `Playtest` field on all cards (Yes/No). Cards with Playtest "Yes" show a green ring and "Playtesting" tooltip on the IACP logo in the available and selected card lists. Card editor includes a Playtest checkbox (last row, beside Image Offset).
+- **PT filter button:** Toggle beside FFG/IACP/ALL to show only playtest cards; turns AUTO off when enabled and restores AUTO when disabled. Tooltip: "Isolate Playtesting Cards".
 
 ### Changed
 - **Share:** Share output now includes cost prefix for deployment cards; [E]/[R] suffix for Elite/Regular; IACP suffix for IACP variant cards (deployment and command); Traits on its own line (no blank line above).

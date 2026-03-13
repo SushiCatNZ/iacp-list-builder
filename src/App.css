@@ -877,6 +877,39 @@ body, html, #root, .app-container {
   transition: background 0.2s;
 }
 
+.pt-filter-button {
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  font-size: 1.05rem;
+  font-family: 'Nesobrite Condensed Bold', Arial, sans-serif;
+  font-weight: 700;
+  padding: 0px 4px;
+  border: 1.5px solid #222;
+  background: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  transition: background 0.2s, color 0.2s;
+}
+
+.pt-filter-button .pt-active {
+  background: #2ecc40;
+  color: #fff;
+  border-radius: 4px;
+  padding: 1px 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.pt-filter-button:hover {
+  background: #e0eaff;
+  transition: background 0.2s;
+}
+
 .card-editor-inline {
   background: #e8e8e8;
   border: 4px solid #c00;
