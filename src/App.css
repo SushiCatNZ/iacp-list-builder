@@ -178,6 +178,20 @@ body, html, #root, .app-container {
   vertical-align: middle;
 }
 
+.card-iacp-icon {
+  width: 18px;
+  height: 18px;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+.card-iacp-icon.playtest {
+  border-radius: 50%;
+  border: 2px solid #00c853;
+  box-shadow: 0 0 6px 2px rgba(0, 200, 83, 0.9);
+  background-color: #ffffff;
+}
+
 .iacp-button {
   width: 90px;
   min-width: 90px;

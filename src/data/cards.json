@@ -34,7 +34,8 @@
     "VassalName": "Luke Skywalker (HotR)",
     "VassalID": "D card-Reb--Luke Skywalker.jpg",
     "ImageOffset": 0,
-    "ImageName": "Luke Skywalker (HotR).png"
+    "ImageName": "Luke Skywalker (HotR).png",
+    "Playtest": "No"
   },
   {
     "ID": 2,
@@ -73,7 +74,8 @@
     "VassalName": "Han Solo",
     "VassalID": "D card-Reb--Han Solo.jpg",
     "ImageOffset": 0,
-    "ImageName": "Han Solo.png"
+    "ImageName": "Han Solo.png",
+    "Playtest": "No"
   },
   {
     "ID": 3,
@@ -111,7 +113,8 @@
     "VassalName": "Rebel Saboteur [Elite]",
     "VassalID": "IACP_D card-Reb--Rebel Saboteur.jpg",
     "ImageOffset": 0,
-    "ImageName": "Rebel Saboteur [Elite].png"
+    "ImageName": "Rebel Saboteur [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 4,
@@ -146,7 +149,8 @@
     "VassalName": "Rebel Trooper [Elite]",
     "VassalID": "IACP12_D card-Reb--Rebel Trooper.png",
     "ImageOffset": 0,
-    "ImageName": "Rebel Trooper [Elite].png"
+    "ImageName": "Rebel Trooper [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 5,
@@ -181,7 +185,8 @@
     "VassalName": "Gideon Argus",
     "VassalID": "D card-Reb--Gideon Argus.jpg",
     "ImageOffset": 0,
-    "ImageName": "Gideon Argus.png"
+    "ImageName": "Gideon Argus.png",
+    "Playtest": "No"
   },
   {
     "ID": 6,
@@ -220,7 +225,8 @@
     "VassalName": "General Weiss",
     "VassalID": "IACP_D card-Imp--General Weiss.jpg",
     "ImageOffset": 0,
-    "ImageName": "General Weiss.png"
+    "ImageName": "General Weiss.png",
+    "Playtest": "No"
   },
   {
     "ID": 7,
@@ -258,7 +264,8 @@
     "VassalName": "Agent Blaise",
     "VassalID": "IACP_D card-Imp--Agent Blaise.jpg",
     "ImageOffset": 0,
-    "ImageName": "Agent Blaise.png"
+    "ImageName": "Agent Blaise.png",
+    "Playtest": "No"
   },
   {
     "ID": 8,
@@ -296,7 +303,8 @@
     "VassalName": "Alliance Ranger [Elite]",
     "VassalID": "D card-Reb--Alliance Ranger elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Alliance Ranger [Elite].png"
+    "ImageName": "Alliance Ranger [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 9,
@@ -334,7 +342,8 @@
     "VassalName": "Alliance Ranger [Regular]",
     "VassalID": "D card-Reb--Alliance Ranger regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Alliance Ranger [Regular].png"
+    "ImageName": "Alliance Ranger [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 10,
@@ -371,7 +380,8 @@
     "VassalName": "Alliance Smuggler [Elite]",
     "VassalID": "D card-Reb--Alliance Smuggler elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Alliance Smuggler [Elite].png"
+    "ImageName": "Alliance Smuggler [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 11,
@@ -407,7 +417,8 @@
     "VassalName": "Alliance Smuggler [Regular]",
     "VassalID": "D card-Reb--Alliance Smuggler regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Alliance Smuggler [Regular].png"
+    "ImageName": "Alliance Smuggler [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 12,
@@ -447,7 +458,8 @@
     "VassalName": "Bantha Rider [Elite]",
     "VassalID": "IACP12_D card-Merc--Bantha Rider.png",
     "ImageOffset": 0,
-    "ImageName": "Bantha Rider [Elite].png"
+    "ImageName": "Bantha Rider [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 13,
@@ -485,7 +497,8 @@
     "VassalName": "Boba Fett",
     "VassalID": "IACP_D card-Merc--Boba Fett.jpg",
     "ImageOffset": 0,
-    "ImageName": "Boba Fett.png"
+    "ImageName": "Boba Fett.png",
+    "Playtest": "No"
   },
   {
     "ID": 14,
@@ -523,7 +536,8 @@
     "VassalName": "Bossk",
     "VassalID": "D card-Merc--Bossk.jpg",
     "ImageOffset": 5,
-    "ImageName": "Bossk.png"
+    "ImageName": "Bossk.png",
+    "Playtest": "No"
   },
   {
     "ID": 15,
@@ -560,7 +574,8 @@
     "VassalName": "Captain Terro",
     "VassalID": "D card-Imp--Captain Terro.jpg",
     "ImageOffset": 0,
-    "ImageName": "Captain Terro.png"
+    "ImageName": "Captain Terro.png",
+    "Playtest": "No"
   },
   {
     "ID": 16,
@@ -597,7 +612,8 @@
     "VassalName": "Dewback Rider [Elite]",
     "VassalID": "D card-Imp--Dewback Rider.jpg",
     "ImageOffset": 0,
-    "ImageName": "Dewback Rider [Elite].png"
+    "ImageName": "Dewback Rider [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 17,
@@ -638,7 +654,8 @@
     "VassalName": "Chewbacca",
     "VassalID": "D card-Reb--Chewbacca.jpg",
     "ImageOffset": 0,
-    "ImageName": "Chewbacca.png"
+    "ImageName": "Chewbacca.png",
+    "Playtest": "No"
   },
   {
     "ID": 18,
@@ -677,7 +694,8 @@
     "VassalName": "AT-ST [Elite]",
     "VassalID": "D card-Imp--AT-ST.jpg",
     "ImageOffset": 0,
-    "ImageName": "AT-ST [Elite].png"
+    "ImageName": "AT-ST [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 19,
@@ -715,7 +733,8 @@
     "VassalName": "Darth Vader",
     "VassalID": "D card-Imp--Darth Vader.jpg",
     "ImageOffset": 0,
-    "ImageName": "Darth Vader.png"
+    "ImageName": "Darth Vader.png",
+    "Playtest": "No"
   },
   {
     "ID": 20,
@@ -752,7 +771,8 @@
     "VassalName": "Diala Passil",
     "VassalID": "D card-Reb--Diala Passil.jpg",
     "ImageOffset": 0,
-    "ImageName": "Diala Passil.png"
+    "ImageName": "Diala Passil.png",
+    "Playtest": "No"
   },
   {
     "ID": 21,
@@ -791,7 +811,8 @@
     "VassalName": "E-Web Engineer [Elite]",
     "VassalID": "D card-Imp--E-Web Engineer elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "E-Web Engineer [Elite].png"
+    "ImageName": "E-Web Engineer [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 22,
@@ -829,7 +850,8 @@
     "VassalName": "E-Web Engineer [Regular]",
     "VassalID": "D card-Imp--E-Web Engineer regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "E-Web Engineer [Regular].png"
+    "ImageName": "E-Web Engineer [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 23,
@@ -866,7 +888,8 @@
     "VassalName": "Fenn Signis",
     "VassalID": "IACP_D card-Reb--Fenn Signis.jpg",
     "ImageOffset": 0,
-    "ImageName": "Fenn Signis.png"
+    "ImageName": "Fenn Signis.png",
+    "Playtest": "No"
   },
   {
     "ID": 24,
@@ -904,7 +927,8 @@
     "VassalName": "Gaarkhan",
     "VassalID": "IACP_D card-Reb--Gaarkhan.jpg",
     "ImageOffset": 0,
-    "ImageName": "Gaarkhan.png"
+    "ImageName": "Gaarkhan.png",
+    "Playtest": "No"
   },
   {
     "ID": 25,
@@ -941,7 +965,8 @@
     "VassalName": "Imperial Officer [Elite]",
     "VassalID": "D card-Imp--Imperial Officer elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Imperial Officer [Elite].png"
+    "ImageName": "Imperial Officer [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 26,
@@ -977,7 +1002,8 @@
     "VassalName": "Imperial Officer [Regular]",
     "VassalID": "D card-Imp--Imperial Officer regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Imperial Officer [Regular].png"
+    "ImageName": "Imperial Officer [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 27,
@@ -1013,7 +1039,8 @@
     "VassalName": "Jyn Odan",
     "VassalID": "IACP_D card-Reb--Jyn Odan.jpg",
     "ImageOffset": 0,
-    "ImageName": "Jyn Odan.png"
+    "ImageName": "Jyn Odan.png",
+    "Playtest": "No"
   },
   {
     "ID": 28,
@@ -1049,7 +1076,8 @@
     "VassalName": "Mak Eshka'rey",
     "VassalID": "D card-Reb--Mak Eshka'rey.jpg",
     "ImageOffset": 0,
-    "ImageName": "Mak Eshka'rey.png"
+    "ImageName": "Mak Eshka'rey.png",
+    "Playtest": "No"
   },
   {
     "ID": 29,
@@ -1089,7 +1117,8 @@
     "VassalName": "Nexu [Elite]",
     "VassalID": "D card-Merc--Nexu elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Nexu [Elite].png"
+    "ImageName": "Nexu [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 30,
@@ -1129,7 +1158,8 @@
     "VassalName": "Nexu [Regular]",
     "VassalID": "D card-Merc--Nexu regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Nexu [Regular].png"
+    "ImageName": "Nexu [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 31,
@@ -1166,7 +1196,8 @@
     "VassalName": "Probe Droid [Regular]",
     "VassalID": "D card-Imp--Probe Droid regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Probe Droid [Regular].png"
+    "ImageName": "Probe Droid [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 32,
@@ -1203,7 +1234,8 @@
     "VassalName": "Royal Guard [Regular]",
     "VassalID": "D card-Imp--Royal Guard regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Royal Guard [Regular].png"
+    "ImageName": "Royal Guard [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 33,
@@ -1238,7 +1270,8 @@
     "VassalName": "Stormtrooper [Elite]",
     "VassalID": "IACP_D card-Imp--Stormtrooper elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Stormtrooper [Elite].png"
+    "ImageName": "Stormtrooper [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 34,
@@ -1272,7 +1305,8 @@
     "VassalName": "Stormtrooper [Regular]",
     "VassalID": "D card-Imp--Stormtrooper regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Stormtrooper [Regular].png"
+    "ImageName": "Stormtrooper [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 35,
@@ -1309,7 +1343,8 @@
     "VassalName": "Trandoshan Hunter [Elite]",
     "VassalID": "IACP_D card-Merc--Trandoshan Hunter.jpg",
     "ImageOffset": 0,
-    "ImageName": "Trandoshan Hunter [Elite].png"
+    "ImageName": "Trandoshan Hunter [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 36,
@@ -1345,7 +1380,8 @@
     "VassalName": "Trandoshan Hunter [Regular]",
     "VassalID": "D card-Merc--Trandoshan Hunter regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Trandoshan Hunter [Regular].png"
+    "ImageName": "Trandoshan Hunter [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 37,
@@ -1380,7 +1416,8 @@
     "VassalName": "Dengar",
     "VassalID": "D card-Merc--Dengar.jpg",
     "ImageOffset": 5,
-    "ImageName": "Dengar.png"
+    "ImageName": "Dengar.png",
+    "Playtest": "No"
   },
   {
     "ID": 38,
@@ -1416,7 +1453,8 @@
     "VassalName": "Echo Base Trooper [Elite]",
     "VassalID": "D card-Reb--Echo Base Trooper elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Echo Base Trooper [Elite].png"
+    "ImageName": "Echo Base Trooper [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 39,
@@ -1451,7 +1489,8 @@
     "VassalName": "Echo Base Trooper [Regular]",
     "VassalID": "D card-Reb--Echo Base Trooper regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Echo Base Trooper [Regular].png"
+    "ImageName": "Echo Base Trooper [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 40,
@@ -1488,7 +1527,8 @@
     "VassalName": "General Sorin",
     "VassalID": "D card-Imp--General Sorin.jpg",
     "ImageOffset": 0,
-    "ImageName": "General Sorin.png"
+    "ImageName": "General Sorin.png",
+    "Playtest": "No"
   },
   {
     "ID": 41,
@@ -1526,7 +1566,8 @@
     "VassalName": "Greedo",
     "VassalID": "D card-Merc--Greedo.jpg",
     "ImageOffset": 0,
-    "ImageName": "Greedo.png"
+    "ImageName": "Greedo.png",
+    "Playtest": "No"
   },
   {
     "ID": 42,
@@ -1563,7 +1604,8 @@
     "VassalName": "Hired Gun [Elite]",
     "VassalID": "IACP_D card-Merc--Hired Gun.png",
     "ImageOffset": 0,
-    "ImageName": "Hired Gun [Elite].png"
+    "ImageName": "Hired Gun [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 43,
@@ -1599,7 +1641,8 @@
     "VassalName": "Hired Gun [Regular]",
     "VassalID": "D card-Merc--Hired Gun regular.png",
     "ImageOffset": 0,
-    "ImageName": "Hired Gun [Regular].png"
+    "ImageName": "Hired Gun [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 44,
@@ -1638,7 +1681,8 @@
     "VassalName": "IG-88",
     "VassalID": "D card-Merc--IG-88.jpg",
     "ImageOffset": 0,
-    "ImageName": "IG-88.png"
+    "ImageName": "IG-88.png",
+    "Playtest": "No"
   },
   {
     "ID": 45,
@@ -1674,7 +1718,8 @@
     "VassalName": "ISB Infiltrator [Elite]",
     "VassalID": "IACP_D card-Imp--ISB Infiltrator.jpg",
     "ImageOffset": 0,
-    "ImageName": "ISB Infiltrator [Elite].png"
+    "ImageName": "ISB Infiltrator [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 46,
@@ -1709,7 +1754,8 @@
     "VassalName": "ISB Infiltrator [Regular]",
     "VassalID": "D card-Imp--ISB Infiltrator regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "ISB Infiltrator [Regular].png"
+    "ImageName": "ISB Infiltrator [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 47,
@@ -1745,7 +1791,8 @@
     "VassalName": "Gamorrean Guard [Elite]",
     "VassalID": "IACP_D card-Merc--Gamorrean Guard elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Gamorrean Guard [Elite].png"
+    "ImageName": "Gamorrean Guard [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 48,
@@ -1782,7 +1829,8 @@
     "VassalName": "Gamorrean Guard [Regular]",
     "VassalID": "D card-Merc--Gamorrean Guard regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Gamorrean Guard [Regular].png"
+    "ImageName": "Gamorrean Guard [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 49,
@@ -1819,7 +1867,8 @@
     "VassalName": "Jet Trooper [Elite]",
     "VassalID": "D card-Imp--Jet Trooper elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Jet Trooper [Elite].png"
+    "ImageName": "Jet Trooper [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 50,
@@ -1856,7 +1905,8 @@
     "VassalName": "Jet Trooper [Regular]",
     "VassalID": "D card-Imp--Jet Trooper regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Jet Trooper [Regular].png"
+    "ImageName": "Jet Trooper [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 51,
@@ -1893,7 +1943,8 @@
     "VassalName": "Onar Koma",
     "VassalID": "D card-Merc--Onar Koma.jpg",
     "ImageOffset": 0,
-    "ImageName": "Onar Koma.png"
+    "ImageName": "Onar Koma.png",
+    "Playtest": "No"
   },
   {
     "ID": 52,
@@ -1932,7 +1983,8 @@
     "VassalName": "Rancor [Elite]",
     "VassalID": "D card-Merc--Rancor.jpg",
     "ImageOffset": 0,
-    "ImageName": "Rancor [Elite].png"
+    "ImageName": "Rancor [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 53,
@@ -1970,7 +2022,8 @@
     "VassalName": "Shyla Varad",
     "VassalID": "IACP_D card-Merc--Shyla Varad.jpg",
     "ImageOffset": 0,
-    "ImageName": "Shyla Varad.png"
+    "ImageName": "Shyla Varad.png",
+    "Playtest": "No"
   },
   {
     "ID": 54,
@@ -2007,7 +2060,8 @@
     "VassalName": "Vinto Hreeda",
     "VassalID": "D card-Merc--Vinto Hreeda.jpg",
     "ImageOffset": 0,
-    "ImageName": "Vinto Hreeda.png"
+    "ImageName": "Vinto Hreeda.png",
+    "Playtest": "No"
   },
   {
     "ID": 55,
@@ -2045,7 +2099,8 @@
     "VassalName": "Weequay Pirate [Elite]",
     "VassalID": "D card-Merc--Weequay Pirate elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Weequay Pirate [Elite].png"
+    "ImageName": "Weequay Pirate [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 56,
@@ -2081,7 +2136,8 @@
     "VassalName": "Weequay Pirate [Regular]",
     "VassalID": "D card-Merc--Weequay Pirate regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Weequay Pirate [Regular].png"
+    "ImageName": "Weequay Pirate [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 57,
@@ -2117,7 +2173,8 @@
     "VassalName": "Kayn Somos",
     "VassalID": "IACP_D card-Imp--Kayn Somos.jpg",
     "ImageOffset": 0,
-    "ImageName": "Kayn Somos.png"
+    "ImageName": "Kayn Somos.png",
+    "Playtest": "No"
   },
   {
     "ID": 58,
@@ -2154,7 +2211,8 @@
     "VassalName": "Lando Calrissian",
     "VassalID": "D card-Reb--Lando Calrissian.jpg",
     "ImageOffset": 0,
-    "ImageName": "Lando Calrissian.png"
+    "ImageName": "Lando Calrissian.png",
+    "Playtest": "No"
   },
   {
     "ID": 59,
@@ -2192,7 +2250,8 @@
     "VassalName": "Leia Organa",
     "VassalID": "IACP12_D card-Reb--Leia Organa.png",
     "ImageOffset": 0,
-    "ImageName": "Leia Organa.png"
+    "ImageName": "Leia Organa.png",
+    "Playtest": "No"
   },
   {
     "ID": 60,
@@ -2231,7 +2290,8 @@
     "VassalName": "Luke Skywalker (Jedi)",
     "VassalID": "D card-Reb--Luke Skywalker (Jedi Knight).jpg",
     "ImageOffset": 0,
-    "ImageName": "Luke Skywalker (Jedi).png"
+    "ImageName": "Luke Skywalker (Jedi).png",
+    "Playtest": "No"
   },
   {
     "ID": 61,
@@ -2267,7 +2327,8 @@
     "VassalName": "Obi-Wan Kenobi",
     "VassalID": "IACP_D card-Reb--Obi-Wan Kenobi.jpg",
     "ImageOffset": 0,
-    "ImageName": "Obi-Wan Kenobi.png"
+    "ImageName": "Obi-Wan Kenobi.png",
+    "Playtest": "No"
   },
   {
     "ID": 62,
@@ -2303,7 +2364,8 @@
     "VassalName": "C-3P0",
     "VassalID": "D card-Reb--C3P0.jpg",
     "ImageOffset": 0,
-    "ImageName": "C-3P0.png"
+    "ImageName": "C-3P0.png",
+    "Playtest": "No"
   },
   {
     "ID": 63,
@@ -2344,7 +2406,8 @@
     "VassalName": "R2-D2",
     "VassalID": "D card-Reb--R2D2.jpg",
     "ImageOffset": 0,
-    "ImageName": "R2-D2.png"
+    "ImageName": "R2-D2.png",
+    "Playtest": "No"
   },
   {
     "ID": 64,
@@ -2381,7 +2444,8 @@
     "VassalName": "Rebel Saboteur [Regular]",
     "VassalID": "D card-Reb--Rebel Saboteur regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Rebel Saboteur [Regular].png"
+    "ImageName": "Rebel Saboteur [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 65,
@@ -2415,7 +2479,8 @@
     "VassalName": "Rebel Trooper [Regular]",
     "VassalID": "D card-Reb--Rebel Trooper regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Rebel Trooper [Regular].png"
+    "ImageName": "Rebel Trooper [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 66,
@@ -2454,7 +2519,8 @@
     "VassalName": "HK Assassin Droid [Elite]",
     "VassalID": "D card-Merc--HK Assassin Driod elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "HK Assassin Droid [Elite].png"
+    "ImageName": "HK Assassin Droid [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 67,
@@ -2491,7 +2557,8 @@
     "VassalName": "HK Assassin Droid [Regular]",
     "VassalID": "D card-Merc--HK Assassin Droid regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "HK Assassin Droid [Regular].png"
+    "ImageName": "HK Assassin Droid [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 68,
@@ -2527,7 +2594,8 @@
     "VassalName": "Loku Kanoloa",
     "VassalID": "IACP_D card-Reb--Loku Kanoloa.jpg",
     "ImageOffset": 0,
-    "ImageName": "Loku Kanoloa.png"
+    "ImageName": "Loku Kanoloa.png",
+    "Playtest": "No"
   },
   {
     "ID": 69,
@@ -2563,7 +2631,8 @@
     "VassalName": "MHD-19",
     "VassalID": "D card-Reb--MHD-19.jpg",
     "ImageOffset": 2,
-    "ImageName": "MHD-19.png"
+    "ImageName": "MHD-19.png",
+    "Playtest": "No"
   },
   {
     "ID": 70,
@@ -2601,7 +2670,8 @@
     "VassalName": "SC2-M Repulsor Tank [Elite]",
     "VassalID": "IACP_D card-Imp--SC2-M Repulsor Tank.jpg",
     "ImageOffset": 0,
-    "ImageName": "SC2-M Repulsor Tank [Elite].png"
+    "ImageName": "SC2-M Repulsor Tank [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 71,
@@ -2637,7 +2707,8 @@
     "VassalName": "Snowtrooper [Elite]",
     "VassalID": "D card-Imp--Snowtrooper elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Snowtrooper [Elite].png"
+    "ImageName": "Snowtrooper [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 72,
@@ -2672,7 +2743,8 @@
     "VassalName": "Snowtrooper [Regular]",
     "VassalID": "D card-Imp--Snowtrooper regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Snowtrooper [Regular].png"
+    "ImageName": "Snowtrooper [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 73,
@@ -2710,7 +2782,8 @@
     "VassalName": "Verena Talos",
     "VassalID": "D card-Reb--Verena Talos.jpg",
     "ImageOffset": 0,
-    "ImageName": "Verena Talos.png"
+    "ImageName": "Verena Talos.png",
+    "Playtest": "No"
   },
   {
     "ID": 74,
@@ -2749,7 +2822,8 @@
     "VassalName": "Wampa [Elite]",
     "VassalID": "D card-Merc--Wampa elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Wampa [Elite].png"
+    "ImageName": "Wampa [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 75,
@@ -2788,7 +2862,8 @@
     "VassalName": "Wampa [Regular]",
     "VassalID": "D card-Merc--Wampa regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Wampa [Regular].png"
+    "ImageName": "Wampa [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 76,
@@ -2825,7 +2900,8 @@
     "VassalName": "Royal Guard Champion",
     "VassalID": "IACP_D card-Imp--Royal Guard Champion.jpg",
     "ImageOffset": 0,
-    "ImageName": "Royal Guard Champion.png"
+    "ImageName": "Royal Guard Champion.png",
+    "Playtest": "No"
   },
   {
     "ID": 77,
@@ -2862,7 +2938,8 @@
     "VassalName": "Davith Elso",
     "VassalID": "D card-Reb--Davith Elso.jpg",
     "ImageOffset": 0,
-    "ImageName": "Davith Elso.png"
+    "ImageName": "Davith Elso.png",
+    "Playtest": "No"
   },
   {
     "ID": 78,
@@ -2898,7 +2975,8 @@
     "VassalName": "Murne Rin",
     "VassalID": "D card-Reb--Murne Rin.jpg",
     "ImageOffset": 0,
-    "ImageName": "Murne Rin.png"
+    "ImageName": "Murne Rin.png",
+    "Playtest": "No"
   },
   {
     "ID": 79,
@@ -2935,7 +3013,8 @@
     "VassalName": "Ugnaught Tinkerer [Elite]",
     "VassalID": "D card-Merc--Ugnaught Tinkerer elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Ugnaught Tinkerer [Elite].png"
+    "ImageName": "Ugnaught Tinkerer [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 80,
@@ -2971,7 +3050,8 @@
     "VassalName": "Ugnaught Tinkerer [Regular]",
     "VassalID": "D card-Merc--Ugnaught Tinkerer regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Ugnaught Tinkerer [Regular].png"
+    "ImageName": "Ugnaught Tinkerer [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 81,
@@ -3007,7 +3087,8 @@
     "VassalName": "Wing Guard [Elite]",
     "VassalID": "D card-Merc--Wing Guard elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Wing Guard [Elite].png"
+    "ImageName": "Wing Guard [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 82,
@@ -3042,7 +3123,8 @@
     "VassalName": "Wing Guard [Regular]",
     "VassalID": "D card-Merc--Wing Guard regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Wing Guard [Regular].png"
+    "ImageName": "Wing Guard [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 83,
@@ -3080,7 +3162,8 @@
     "VassalName": "The Grand Inquisitor",
     "VassalID": "D card-Imp--The Grand Inquisitor.jpg",
     "ImageOffset": 0,
-    "ImageName": "The Grand Inquisitor.png"
+    "ImageName": "The Grand Inquisitor.png",
+    "Playtest": "No"
   },
   {
     "ID": 84,
@@ -3116,7 +3199,8 @@
     "VassalName": "Biv Bodhrik",
     "VassalID": "D card-Reb--Biv Bodhrik.jpg",
     "ImageOffset": 0,
-    "ImageName": "Biv Bodhrik.png"
+    "ImageName": "Biv Bodhrik.png",
+    "Playtest": "No"
   },
   {
     "ID": 85,
@@ -3152,7 +3236,8 @@
     "VassalName": "Heavy Stormtrooper [Elite]",
     "VassalID": "D card-Imp--Heavy Stormtrooper elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Heavy Stormtrooper [Elite].png"
+    "ImageName": "Heavy Stormtrooper [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 86,
@@ -3188,7 +3273,8 @@
     "VassalName": "Heavy Stormtrooper [Regular]",
     "VassalID": "D card-Imp--Heavy Stormtrooper regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Heavy Stormtrooper [Regular].png"
+    "ImageName": "Heavy Stormtrooper [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 87,
@@ -3226,7 +3312,8 @@
     "VassalName": "Saska Teft",
     "VassalID": "D card-Reb--Saska Teft.jpg",
     "ImageOffset": 0,
-    "ImageName": "Saska Teft.png"
+    "ImageName": "Saska Teft.png",
+    "Playtest": "No"
   },
   {
     "ID": 88,
@@ -3263,7 +3350,8 @@
     "VassalName": "Tusken Raider [Elite]",
     "VassalID": "IACP_D card-Merc--Tusken Raider.jpg",
     "ImageOffset": 0,
-    "ImageName": "Tusken Raider [Elite].png"
+    "ImageName": "Tusken Raider [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 89,
@@ -3299,7 +3387,8 @@
     "VassalName": "Tusken Raider [Regular]",
     "VassalID": "D card-Merc--Tuskan Raider regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Tusken Raider [Regular].png"
+    "ImageName": "Tusken Raider [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 90,
@@ -3336,7 +3425,8 @@
     "VassalName": "Wookiee Warrior [Elite]",
     "VassalID": "IACP_D card-Reb--Wookiee Warrior elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Wookiee Warrior [Elite].png"
+    "ImageName": "Wookiee Warrior [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 91,
@@ -3373,7 +3463,8 @@
     "VassalName": "Wookiee Warrior [Regular]",
     "VassalID": "D card-Reb--Wookiee Warrior regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Wookiee Warrior [Regular].png"
+    "ImageName": "Wookiee Warrior [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 92,
@@ -3400,7 +3491,8 @@
     "VassalName": "Zillo Technique",
     "VassalID": "D card-Imp--Zillo Technique.jpg",
     "ImageOffset": 0,
-    "ImageName": "Zillo Technique.png"
+    "ImageName": "Zillo Technique.png",
+    "Playtest": "No"
   },
   {
     "ID": 93,
@@ -3430,7 +3522,8 @@
     "VassalName": "Survivalist [Regular]",
     "VassalID": "D card-Neut--Survivalist.jpg",
     "ImageOffset": 0,
-    "ImageName": "Survivalist [Regular].png"
+    "ImageName": "Survivalist [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 94,
@@ -3458,7 +3551,8 @@
     "VassalName": "Smugglers Run",
     "VassalID": "D card-Reb--Smuggler's Run.jpg",
     "ImageOffset": -10,
-    "ImageName": "Smugglers Run.png"
+    "ImageName": "Smugglers Run.png",
+    "Playtest": "No"
   },
   {
     "ID": 95,
@@ -3487,7 +3581,8 @@
     "VassalName": "Beast Tamer",
     "VassalID": "D card-Merc--Beast Tamer.jpg",
     "ImageOffset": 0,
-    "ImageName": "Beast Tamer.png"
+    "ImageName": "Beast Tamer.png",
+    "Playtest": "No"
   },
   {
     "ID": 96,
@@ -3516,7 +3611,8 @@
     "VassalName": "Explosive Armaments",
     "VassalID": "D card-Merc--Explosive Armaments.jpg",
     "ImageOffset": 0,
-    "ImageName": "Explosive Armaments.png"
+    "ImageName": "Explosive Armaments.png",
+    "Playtest": "No"
   },
   {
     "ID": 97,
@@ -3542,7 +3638,8 @@
     "VassalName": "Headhunter",
     "VassalID": "D card-Merc--Headhunter.jpg",
     "ImageOffset": 0,
-    "ImageName": "Headhunter.png"
+    "ImageName": "Headhunter.png",
+    "Playtest": "No"
   },
   {
     "ID": 98,
@@ -3571,7 +3668,8 @@
     "VassalName": "Feeding Frenzy [Elite]",
     "VassalID": "D card-Neut--Feeding Frenzy.jpg",
     "ImageOffset": -10,
-    "ImageName": "Feeding Frenzy [Elite].png"
+    "ImageName": "Feeding Frenzy [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 99,
@@ -3597,7 +3695,8 @@
     "VassalName": "Balance of the Force",
     "VassalID": "D card-Reb--Balance of the Force.jpg",
     "ImageOffset": -10,
-    "ImageName": "Balance of the Force.png"
+    "ImageName": "Balance of the Force.png",
+    "Playtest": "No"
   },
   {
     "ID": 100,
@@ -3623,7 +3722,8 @@
     "VassalName": "Devious Scheme",
     "VassalID": "D card-Merc--Devious Scheme.jpg",
     "ImageOffset": 0,
-    "ImageName": "Devious Scheme.png"
+    "ImageName": "Devious Scheme.png",
+    "Playtest": "No"
   },
   {
     "ID": 101,
@@ -3649,7 +3749,8 @@
     "VassalName": "First Strike",
     "VassalID": "D card-Merc--First Strike.jpg",
     "ImageOffset": 0,
-    "ImageName": "First Strike.png"
+    "ImageName": "First Strike.png",
+    "Playtest": "No"
   },
   {
     "ID": 102,
@@ -3675,7 +3776,8 @@
     "VassalName": "Rebel High Command",
     "VassalID": "D card-Reb--Rebel High Command.jpg",
     "ImageOffset": -10,
-    "ImageName": "Rebel High Command.png"
+    "ImageName": "Rebel High Command.png",
+    "Playtest": "No"
   },
   {
     "ID": 103,
@@ -3701,7 +3803,8 @@
     "VassalName": "Temporary Alliance (E)",
     "VassalID": "D card-Imp--Temporary Alliance.jpg",
     "ImageOffset": 0,
-    "ImageName": "Temporary Alliance (E).png"
+    "ImageName": "Temporary Alliance (E).png",
+    "Playtest": "No"
   },
   {
     "ID": 104,
@@ -3727,7 +3830,8 @@
     "VassalName": "Temporary Alliance (M)",
     "VassalID": "D card-Merc--Temporary Alliance.jpg",
     "ImageOffset": 0,
-    "ImageName": "Temporary Alliance (M).png"
+    "ImageName": "Temporary Alliance (M).png",
+    "Playtest": "No"
   },
   {
     "ID": 105,
@@ -3757,7 +3861,8 @@
     "VassalName": "Vaders Finest [Regular]",
     "VassalID": ",Icon_Special Ability.png",
     "ImageOffset": 0,
-    "ImageName": "Vaders Finest [Regular].png"
+    "ImageName": "Vaders Finest [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 106,
@@ -3783,7 +3888,8 @@
     "VassalName": "Punishing Strike",
     "VassalID": "D card-Merc--Punishing Strike.jpg",
     "ImageOffset": 0,
-    "ImageName": "Punishing Strike.png"
+    "ImageName": "Punishing Strike.png",
+    "Playtest": "No"
   },
   {
     "ID": 107,
@@ -3813,7 +3919,8 @@
     "VassalName": "Combat Suit [Regular]",
     "VassalID": "D card-Reb--Combat Suit.jpg",
     "ImageOffset": 0,
-    "ImageName": "Combat Suit [Regular].png"
+    "ImageName": "Combat Suit [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 108,
@@ -3840,7 +3947,8 @@
     "VassalName": "The Generals Ranks",
     "VassalID": "D card-Imp--The General's Ranks.jpg",
     "ImageOffset": 0,
-    "ImageName": "The Generals Ranks.png"
+    "ImageName": "The Generals Ranks.png",
+    "Playtest": "No"
   },
   {
     "ID": 109,
@@ -3868,7 +3976,8 @@
     "VassalName": "Prey on the Weak",
     "VassalID": "D card-Merc--Prey On The Weak.jpg",
     "ImageOffset": 0,
-    "ImageName": "Prey on the Weak.png"
+    "ImageName": "Prey on the Weak.png",
+    "Playtest": "No"
   },
   {
     "ID": 110,
@@ -3894,7 +4003,8 @@
     "VassalName": "Last Resort [Regular]",
     "VassalID": "D card-Merc--Last Resort.jpg",
     "ImageOffset": 0,
-    "ImageName": "Last Resort [Regular].png"
+    "ImageName": "Last Resort [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 111,
@@ -3924,7 +4034,8 @@
     "VassalName": "Cross-Training [Elite]",
     "VassalID": "D card-Imp--Cross-Training.jpg",
     "ImageOffset": 0,
-    "ImageName": "Cross-Training [Elite].png"
+    "ImageName": "Cross-Training [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 112,
@@ -3950,7 +4061,8 @@
     "VassalName": "Rule by Fear",
     "VassalID": "D card-Imp--Rule By Fear.jpg",
     "ImageOffset": 0,
-    "ImageName": "Rule by Fear.png"
+    "ImageName": "Rule by Fear.png",
+    "Playtest": "No"
   },
   {
     "ID": 113,
@@ -3978,7 +4090,8 @@
     "VassalName": "On a Diplomatic Mission",
     "VassalID": "D card-Reb--On A Diplomatic Mission.jpg",
     "ImageOffset": -10,
-    "ImageName": "On a Diplomatic Mission.png"
+    "ImageName": "On a Diplomatic Mission.png",
+    "Playtest": "No"
   },
   {
     "ID": 114,
@@ -4006,7 +4119,8 @@
     "VassalName": "Channel the Force",
     "VassalID": "D card-Neut--Channel The Force.jpg",
     "ImageOffset": 0,
-    "ImageName": "Channel the Force.png"
+    "ImageName": "Channel the Force.png",
+    "Playtest": "No"
   },
   {
     "ID": 115,
@@ -4036,7 +4150,8 @@
     "VassalName": "Targeting Computer [Regular]",
     "VassalID": "D card-Neut--Targeting Computer.jpg",
     "ImageOffset": 0,
-    "ImageName": "Targeting Computer [Regular].png"
+    "ImageName": "Targeting Computer [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 116,
@@ -4062,7 +4177,8 @@
     "VassalName": "Under Duress",
     "VassalID": "D card-Merc--Under Duress.jpg",
     "ImageOffset": 0,
-    "ImageName": "Under Duress.png"
+    "ImageName": "Under Duress.png",
+    "Playtest": "No"
   },
   {
     "ID": 117,
@@ -4098,7 +4214,8 @@
     "VassalName": "Advanced Com Systems",
     "VassalID": "IACP_D card-Imp--Advanced Com Systems.jpg",
     "ImageOffset": 0,
-    "ImageName": "Advanced Com Systems.png"
+    "ImageName": "Advanced Com Systems.png",
+    "Playtest": "No"
   },
   {
     "ID": 118,
@@ -4126,7 +4243,8 @@
     "VassalName": "Fury of Kashyyyk [Regular]",
     "VassalID": "D card-Reb--Fury Of Kashyyyk.jpg",
     "ImageOffset": 0,
-    "ImageName": "Fury of Kashyyyk [Regular].png"
+    "ImageName": "Fury of Kashyyyk [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 120,
@@ -4163,7 +4281,8 @@
     "VassalName": "Jabba the Hutt",
     "VassalID": "D card-Merc--Jabba The Hutt.jpg",
     "ImageOffset": 0,
-    "ImageName": "Jabba the Hutt.png"
+    "ImageName": "Jabba the Hutt.png",
+    "Playtest": "No"
   },
   {
     "ID": 121,
@@ -4191,7 +4310,8 @@
     "VassalName": "Black Market",
     "VassalID": "D card-Merc--Black Market.jpg",
     "ImageOffset": 0,
-    "ImageName": "Black Market.png"
+    "ImageName": "Black Market.png",
+    "Playtest": "No"
   },
   {
     "ID": 122,
@@ -4218,7 +4338,8 @@
     "VassalName": "Heroic Effort",
     "VassalID": "D card-Reb--Heroic Effort.jpg",
     "ImageOffset": 0,
-    "ImageName": "Heroic Effort.png"
+    "ImageName": "Heroic Effort.png",
+    "Playtest": "No"
   },
   {
     "ID": 123,
@@ -4256,7 +4377,8 @@
     "VassalName": "Probe Droid [Elite]",
     "VassalID": "IACP_D card-Imp--Probe Droid elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Probe Droid [Elite].png"
+    "ImageName": "Probe Droid [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 124,
@@ -4284,7 +4406,8 @@
     "VassalName": "Indentured Jester",
     "VassalID": "D card-Merc--Indentured Jester.jpg",
     "ImageOffset": 0,
-    "ImageName": "Indentured Jester.png"
+    "ImageName": "Indentured Jester.png",
+    "Playtest": "No"
   },
   {
     "ID": 125,
@@ -4322,7 +4445,8 @@
     "VassalName": "Royal Guard [Elite]",
     "VassalID": "D card-Imp--Royal Guard elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Royal Guard [Elite].png"
+    "ImageName": "Royal Guard [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 126,
@@ -4348,7 +4472,8 @@
     "VassalName": "Unshakable",
     "VassalID": "D card-Neut--Unshakable.jpg",
     "ImageOffset": 0,
-    "ImageName": "Unshakable.png"
+    "ImageName": "Unshakable.png",
+    "Playtest": "No"
   },
   {
     "ID": 127,
@@ -4382,7 +4507,8 @@
     "VassalName": "Salacious B. Crumb",
     "VassalID": null,
     "ImageOffset": -2,
-    "ImageName": "Salacious B. Crumb.png"
+    "ImageName": "Salacious B. Crumb.png",
+    "Playtest": "No"
   },
   {
     "ID": 128,
@@ -4408,7 +4534,8 @@
     "VassalName": "Motivation",
     "VassalID": "D card-Neut--Motivation.jpg",
     "ImageOffset": -20,
-    "ImageName": "Motivation.png"
+    "ImageName": "Motivation.png",
+    "Playtest": "No"
   },
   {
     "ID": 129,
@@ -4446,7 +4573,8 @@
     "VassalName": "Hera Syndulla",
     "VassalID": "D card-Reb--Hera Syndulla.jpg",
     "ImageOffset": 0,
-    "ImageName": "Hera Syndulla.png"
+    "ImageName": "Hera Syndulla.png",
+    "Playtest": "No"
   },
   {
     "ID": 130,
@@ -4475,7 +4603,8 @@
     "VassalName": "Scavenged Weaponry",
     "VassalID": "D card-Neut--Scavenged Weaponry.jpg",
     "ImageOffset": -10,
-    "ImageName": "Scavenged Weaponry.png"
+    "ImageName": "Scavenged Weaponry.png",
+    "Playtest": "No"
   },
   {
     "ID": 131,
@@ -4513,7 +4642,8 @@
     "VassalName": "BT-1",
     "VassalID": "IACP_D card-Imp--BT-1.jpg",
     "ImageOffset": 0,
-    "ImageName": "BT-1.png"
+    "ImageName": "BT-1.png",
+    "Playtest": "No"
   },
   {
     "ID": 132,
@@ -4551,7 +4681,8 @@
     "VassalName": "C1-10P",
     "VassalID": "D card-Reb--C1-10P Chopper.jpg",
     "ImageOffset": 0,
-    "ImageName": "C1-10P.png"
+    "ImageName": "C1-10P.png",
+    "Playtest": "No"
   },
   {
     "ID": 133,
@@ -4587,7 +4718,8 @@
     "VassalName": "0-0-0",
     "VassalID": "D card-Imp--0-0-0.jpg",
     "ImageOffset": 0,
-    "ImageName": "0-0-0.png"
+    "ImageName": "0-0-0.png",
+    "Playtest": "No"
   },
   {
     "ID": 134,
@@ -4624,7 +4756,8 @@
     "VassalName": "Jawa Scavenger [Regular]",
     "VassalID": "D card-Merc--Jawa Scavenger regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Jawa Scavenger [Regular].png"
+    "ImageName": "Jawa Scavenger [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 135,
@@ -4654,7 +4787,8 @@
     "VassalName": "Focused on the Kill",
     "VassalID": "D card-Merc--IG-88 Focused on the Kill.jpg",
     "ImageOffset": 0,
-    "ImageName": "Focused on the Kill.png"
+    "ImageName": "Focused on the Kill.png",
+    "Playtest": "No"
   },
   {
     "ID": 136,
@@ -4694,7 +4828,8 @@
     "VassalName": "Jawa Scavenger [Elite]",
     "VassalID": "D card-Merc--Jawa Scavenger elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Jawa Scavenger [Elite].png"
+    "ImageName": "Jawa Scavenger [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 138,
@@ -4731,7 +4866,8 @@
     "VassalName": "Ko-Tun Feralo",
     "VassalID": "D card-Reb--Ko-Tun Feralo.jpg",
     "ImageOffset": 0,
-    "ImageName": "Ko-Tun Feralo.png"
+    "ImageName": "Ko-Tun Feralo.png",
+    "Playtest": "No"
   },
   {
     "ID": 139,
@@ -4761,7 +4897,8 @@
     "VassalName": "Driven by Hatred",
     "VassalID": "D card-Imp--Darth Vader Driven by Hatred.jpg",
     "ImageOffset": 0,
-    "ImageName": "Driven by Hatred.png"
+    "ImageName": "Driven by Hatred.png",
+    "Playtest": "No"
   },
   {
     "ID": 140,
@@ -4798,7 +4935,8 @@
     "VassalName": "Maul",
     "VassalID": "IACP_D card-Merc--Maul.jpg",
     "ImageOffset": 0,
-    "ImageName": "Maul.png"
+    "ImageName": "Maul.png",
+    "Playtest": "No"
   },
   {
     "ID": 141,
@@ -4835,7 +4973,8 @@
     "VassalName": "Emperor Palpatine",
     "VassalID": "D card-Imp--Emperor Palpatine.jpg",
     "ImageOffset": 0,
-    "ImageName": "Emperor Palpatine.png"
+    "ImageName": "Emperor Palpatine.png",
+    "Playtest": "No"
   },
   {
     "ID": 142,
@@ -4874,7 +5013,8 @@
     "VassalName": "Ahsoka Tano",
     "VassalID": "IACP_D card-Reb--Ahsoka.jpg",
     "ImageOffset": 0,
-    "ImageName": "Ahsoka Tano.png"
+    "ImageName": "Ahsoka Tano.png",
+    "Playtest": "No"
   },
   {
     "ID": 143,
@@ -4903,7 +5043,8 @@
     "VassalName": "Trusted Ally",
     "VassalID": "D card-Neut--Trusted Ally.jpg",
     "ImageOffset": 0,
-    "ImageName": "Trusted Ally.png"
+    "ImageName": "Trusted Ally.png",
+    "Playtest": "No"
   },
   {
     "ID": 144,
@@ -4944,7 +5085,8 @@
     "VassalName": "AT-DP [Elite]",
     "VassalID": "D card-Imp--AT-DP.jpg",
     "ImageOffset": 5,
-    "ImageName": "AT-DP [Elite].png"
+    "ImageName": "AT-DP [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 145,
@@ -4983,7 +5125,8 @@
     "VassalName": "Sentry Droid [Regular]",
     "VassalID": "D card-Imp--Sentry Droid regular.jpg",
     "ImageOffset": 5,
-    "ImageName": "Sentry Droid [Regular].png"
+    "ImageName": "Sentry Droid [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 146,
@@ -5016,7 +5159,8 @@
     "VassalName": "Clawdite Shapeshifter [Regular]",
     "VassalID": "D card-Merc--Clawdite Shapeshifter regular.png",
     "ImageOffset": 0,
-    "ImageName": "Clawdite Shapeshifter [Regular].png"
+    "ImageName": "Clawdite Shapeshifter [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 147,
@@ -5052,7 +5196,8 @@
     "VassalName": "Drokkatta",
     "VassalID": "D card-Reb--Drokkatta.jpg",
     "ImageOffset": 0,
-    "ImageName": "Drokkatta.png"
+    "ImageName": "Drokkatta.png",
+    "Playtest": "No"
   },
   {
     "ID": 148,
@@ -5092,7 +5237,8 @@
     "VassalName": "Jarrod Kelvin",
     "VassalID": "D card-Reb--Jarrod Kelvin.jpg",
     "ImageOffset": 0,
-    "ImageName": "Jarrod Kelvin.png"
+    "ImageName": "Jarrod Kelvin.png",
+    "Playtest": "No"
   },
   {
     "ID": 149,
@@ -5122,7 +5268,8 @@
     "VassalName": "Rogue Smuggler",
     "VassalID": "D card-Reb--Han Solo Rogue Smuggler.jpg",
     "ImageOffset": 0,
-    "ImageName": "Rogue Smuggler.png"
+    "ImageName": "Rogue Smuggler.png",
+    "Playtest": "No"
   },
   {
     "ID": 150,
@@ -5154,7 +5301,8 @@
     "VassalName": "Wookiee Avenger",
     "VassalID": "D card-Reb--Chewbacca Wookiee Avenger.jpg",
     "ImageOffset": 0,
-    "ImageName": "Wookiee Avenger.png"
+    "ImageName": "Wookiee Avenger.png",
+    "Playtest": "No"
   },
   {
     "ID": 151,
@@ -5191,7 +5339,8 @@
     "VassalName": "Riot Trooper [Regular]",
     "VassalID": "D card-Imp--Riot Trooper regular.jpg",
     "ImageOffset": 0,
-    "ImageName": "Riot Trooper [Regular].png"
+    "ImageName": "Riot Trooper [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 152,
@@ -5224,7 +5373,8 @@
     "VassalName": "Clawdite Shapeshifter [Elite]",
     "VassalID": "D card-Merc--Clawdite Shapeshifter elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Clawdite Shapeshifter [Elite].png"
+    "ImageName": "Clawdite Shapeshifter [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 153,
@@ -5263,7 +5413,8 @@
     "VassalName": "Riot Trooper [Elite]",
     "VassalID": "D card-Imp--Riot Trooper elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Riot Trooper [Elite].png"
+    "ImageName": "Riot Trooper [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 154,
@@ -5302,7 +5453,8 @@
     "VassalName": "Sentry Droid [Elite]",
     "VassalID": "IACP_D card-Imp--Sentry Droid elite.jpg",
     "ImageOffset": 5,
-    "ImageName": "Sentry Droid [Elite].png"
+    "ImageName": "Sentry Droid [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 156,
@@ -5335,7 +5487,8 @@
     "VassalName": "J4X-7",
     "VassalID": null,
     "ImageOffset": -5,
-    "ImageName": "J4X-7.png"
+    "ImageName": "J4X-7.png",
+    "Playtest": "No"
   },
   {
     "ID": 157,
@@ -5374,7 +5527,8 @@
     "VassalName": "Zeb Orrelios",
     "VassalID": "IACP_D card-Reb--Zeb Orrelios.png",
     "ImageOffset": 0,
-    "ImageName": "Zeb Orrelios.png"
+    "ImageName": "Zeb Orrelios.png",
+    "Playtest": "No"
   },
   {
     "ID": 158,
@@ -5411,7 +5565,8 @@
     "VassalName": "Tress Hacnua",
     "VassalID": "006 Tress Hacnua Final.png",
     "ImageOffset": 0,
-    "ImageName": "Tress Hacnua.png"
+    "ImageName": "Tress Hacnua.png",
+    "Playtest": "No"
   },
   {
     "ID": 159,
@@ -5447,7 +5602,8 @@
     "VassalName": "Loth-cat [Elite]",
     "VassalID": "D card-Merc--Loth-cat elite.png",
     "ImageOffset": 0,
-    "ImageName": "Loth-cat [Elite].png"
+    "ImageName": "Loth-cat [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 160,
@@ -5483,7 +5639,8 @@
     "VassalName": "Loth-cat [Regular]",
     "VassalID": "D card-Merc--Loth-cat regular.png",
     "ImageOffset": 0,
-    "ImageName": "Loth-cat [Regular].png"
+    "ImageName": "Loth-cat [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 161,
@@ -5520,7 +5677,8 @@
     "VassalName": "CT-1701",
     "VassalID": "IACP12_D card-Reb--CT-1701.png",
     "ImageOffset": 0,
-    "ImageName": "CT-1701.png"
+    "ImageName": "CT-1701.png",
+    "Playtest": "No"
   },
   {
     "ID": 162,
@@ -5557,7 +5715,8 @@
     "VassalName": "Death Trooper [Regular]",
     "VassalID": "D card-Imp--Death Trooper regular.png",
     "ImageOffset": 0,
-    "ImageName": "Death Trooper [Regular].png"
+    "ImageName": "Death Trooper [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 163,
@@ -5594,7 +5753,8 @@
     "VassalName": "Death Trooper [Elite]",
     "VassalID": "D card-Imp--Death Trooper elite.png",
     "ImageOffset": 0,
-    "ImageName": "Death Trooper [Elite].png"
+    "ImageName": "Death Trooper [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 164,
@@ -5630,7 +5790,8 @@
     "VassalName": "Kanan Jarrus",
     "VassalID": "IACP_D card-Reb--Kanan Jarrus.jpg",
     "ImageOffset": 0,
-    "ImageName": "Kanan Jarrus.png"
+    "ImageName": "Kanan Jarrus.png",
+    "Playtest": "No"
   },
   {
     "ID": 165,
@@ -5670,7 +5831,8 @@
     "VassalName": "Ezra Bridger",
     "VassalID": "D card-Reb--Ezra Bridger.png",
     "ImageOffset": 0,
-    "ImageName": "Ezra Bridger.png"
+    "ImageName": "Ezra Bridger.png",
+    "Playtest": "No"
   },
   {
     "ID": 166,
@@ -5697,7 +5859,8 @@
     "VassalName": "Doubt",
     "VassalID": "D card-Neut--Doubt.png",
     "ImageOffset": -10,
-    "ImageName": "Doubt.png"
+    "ImageName": "Doubt.png",
+    "Playtest": "No"
   },
   {
     "ID": 167,
@@ -5736,7 +5899,8 @@
     "VassalName": "Sabine Wren",
     "VassalID": "D card-Reb--Sabine Wren.png",
     "ImageOffset": 0,
-    "ImageName": "Sabine Wren.png"
+    "ImageName": "Sabine Wren.png",
+    "Playtest": "No"
   },
   {
     "ID": 169,
@@ -5762,7 +5926,8 @@
     "VassalName": "Extra Armor [Elite]",
     "VassalID": "D card-Neut--Extra Armor.png",
     "ImageOffset": -10,
-    "ImageName": "Extra Armor [Elite].png"
+    "ImageName": "Extra Armor [Elite].png",
+    "Playtest": "No"
   },
   {
     "ID": 170,
@@ -5798,7 +5963,8 @@
     "VassalName": "Hondo Ohnaka",
     "VassalID": "D card-Merc--Hondo Ohnaka.png",
     "ImageOffset": 0,
-    "ImageName": "Hondo Ohnaka.png"
+    "ImageName": "Hondo Ohnaka.png",
+    "Playtest": "No"
   },
   {
     "ID": 171,
@@ -5824,7 +5990,8 @@
     "VassalName": "Lie in Ambush",
     "VassalID": "D card-Neut--Lie in Ambush.png",
     "ImageOffset": 0,
-    "ImageName": "Lie in Ambush.png"
+    "ImageName": "Lie in Ambush.png",
+    "Playtest": "No"
   },
   {
     "ID": 172,
@@ -5852,7 +6019,8 @@
     "VassalName": "Spectre Cell",
     "VassalID": "IACP_D card-Reb--Spectre Cell Errata.jpg",
     "ImageOffset": 0,
-    "ImageName": "Spectre Cell.png"
+    "ImageName": "Spectre Cell.png",
+    "Playtest": "No"
   },
   {
     "ID": 173,
@@ -5888,7 +6056,8 @@
     "VassalName": "Thrawn",
     "VassalID": "D card-Imp--Thrawn.png",
     "ImageOffset": 0,
-    "ImageName": "Thrawn.png"
+    "ImageName": "Thrawn.png",
+    "Playtest": "No"
   },
   {
     "ID": 174,
@@ -5917,7 +6086,8 @@
     "VassalName": "Heavy Fire",
     "VassalID": "D card-Neut--Heavy Fire.png",
     "ImageOffset": -10,
-    "ImageName": "Heavy Fire.png"
+    "ImageName": "Heavy Fire.png",
+    "Playtest": "No"
   },
   {
     "ID": 175,
@@ -5956,7 +6126,8 @@
     "VassalName": "Ahsoka Tano",
     "VassalID": "IACP_D card-Reb--Ahsoka.jpg",
     "ImageOffset": -15,
-    "ImageName": "Ahsoka Tano [IACP].png"
+    "ImageName": "Ahsoka Tano [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 176,
@@ -5994,7 +6165,8 @@
     "VassalName": "BT-1",
     "VassalID": "IACP_D card-Imp--BT-1.jpg",
     "ImageOffset": -15,
-    "ImageName": "BT-1 [IACP].png"
+    "ImageName": "BT-1 [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 177,
@@ -6032,7 +6204,8 @@
     "VassalName": "Diala Passil",
     "VassalID": "D card-Reb--Diala Passil.jpg",
     "ImageOffset": -30,
-    "ImageName": "Diala Passil [IACP].png"
+    "ImageName": "Diala Passil [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 178,
@@ -6068,7 +6241,8 @@
     "VassalName": "Echo Base Trooper [Elite]",
     "VassalID": "D card-Reb--Echo Base Trooper elite.jpg",
     "ImageOffset": 15,
-    "ImageName": "Echo Base Trooper [Elite] [IACP].png"
+    "ImageName": "Echo Base Trooper [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 179,
@@ -6104,7 +6278,8 @@
     "VassalName": "Gamorrean Guard [Elite]",
     "VassalID": "IACP_D card-Merc--Gamorrean Guard elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Gamorrean Guard [Elite] [IACP].png"
+    "ImageName": "Gamorrean Guard [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 180,
@@ -6142,7 +6317,8 @@
     "VassalName": "Kanan Jarrus",
     "VassalID": "IACP_D card-Reb--Kanan Jarrus.jpg",
     "ImageOffset": -10,
-    "ImageName": "Kanan Jarrus [IACP].png"
+    "ImageName": "Kanan Jarrus [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 181,
@@ -6178,7 +6354,8 @@
     "VassalName": "Kayn Somos",
     "VassalID": "IACP_D card-Imp--Kayn Somos.jpg",
     "ImageOffset": -20,
-    "ImageName": "Kayn Somos [IACP].png"
+    "ImageName": "Kayn Somos [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 182,
@@ -6216,7 +6393,8 @@
     "VassalName": "Ko-Tun Feralo",
     "VassalID": "D card-Reb--Ko-Tun Feralo.jpg",
     "ImageOffset": 0,
-    "ImageName": "Ko-Tun Feralo [IACP].png"
+    "ImageName": "Ko-Tun Feralo [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 183,
@@ -6258,7 +6436,8 @@
     "VassalName": "Leia Organa",
     "VassalID": "D card-Reb--Leia Organa.jpg",
     "ImageOffset": 0,
-    "ImageName": "Leia Organa [IACP].png"
+    "ImageName": "Leia Organa [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": 184,
@@ -6297,7 +6476,8 @@
     "VassalName": "Luke Skywalker (HotR)",
     "VassalID": "D card-Reb--Luke Skywalker.jpg",
     "ImageOffset": 0,
-    "ImageName": "Luke Skywalker (HotR) [IACP].png"
+    "ImageName": "Luke Skywalker (HotR) [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 186,
@@ -6334,7 +6514,8 @@
     "VassalName": "Maul",
     "VassalID": "IACP_D card-Merc--Maul.jpg",
     "ImageOffset": 25,
-    "ImageName": "Maul [IACP].png"
+    "ImageName": "Maul [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 187,
@@ -6372,7 +6553,8 @@
     "VassalName": "Probe Droid [Elite]",
     "VassalID": "IACP_D card-Imp--Probe Droid elite.jpg",
     "ImageOffset": 17,
-    "ImageName": "Probe Droid [Elite] [IACP].png"
+    "ImageName": "Probe Droid [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 188,
@@ -6412,7 +6594,8 @@
     "VassalName": "Rancor [Elite]",
     "VassalID": "D card-Merc--Rancor.jpg",
     "ImageOffset": 20,
-    "ImageName": "Rancor [Elite] [IACP].png"
+    "ImageName": "Rancor [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 189,
@@ -6448,7 +6631,8 @@
     "VassalName": "Rebel Trooper [Elite]",
     "VassalID": "IACP_D card-Reb--Rebel Trooper elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Rebel Trooper [Elite] [IACP].png"
+    "ImageName": "Rebel Trooper [Elite] [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": 190,
@@ -6487,7 +6671,8 @@
     "VassalName": "Sentry Droid [Elite]",
     "VassalID": "IACP_D card-Imp--Sentry Droid elite.jpg",
     "ImageOffset": 17,
-    "ImageName": "Sentry Droid [Elite] [IACP].png"
+    "ImageName": "Sentry Droid [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 191,
@@ -6520,7 +6705,8 @@
     "VassalName": "Shyla Varad",
     "VassalID": "IACP_D card-Merc--Shyla Varad.jpg",
     "ImageOffset": 10,
-    "ImageName": "Shyla Varad [IACP].png"
+    "ImageName": "Shyla Varad [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 192,
@@ -6555,7 +6741,8 @@
     "VassalName": "Stormtrooper [Elite]",
     "VassalID": "IACP_D card-Imp--Stormtrooper elite.jpg",
     "ImageOffset": 17,
-    "ImageName": "Stormtrooper [Elite] [IACP].png"
+    "ImageName": "Stormtrooper [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 193,
@@ -6592,7 +6779,8 @@
     "VassalName": "The Grand Inquisitor",
     "VassalID": "D card-Imp--The Grand Inquisitor.jpg",
     "ImageOffset": 20,
-    "ImageName": "The Grand Inquisitor [IACP].png"
+    "ImageName": "The Grand Inquisitor [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 194,
@@ -6628,7 +6816,8 @@
     "VassalName": "Wing Guard [Elite]",
     "VassalID": "D card-Merc--Wing Guard elite.jpg",
     "ImageOffset": 15,
-    "ImageName": "Wing Guard [Elite] [IACP].png"
+    "ImageName": "Wing Guard [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 195,
@@ -6664,7 +6853,8 @@
     "VassalName": "Wookiee Warrior [Elite]",
     "VassalID": "IACP_D card-Reb--Wookiee Warrior elite.jpg",
     "ImageOffset": 15,
-    "ImageName": "Wookiee Warrior [Elite] [IACP].png"
+    "ImageName": "Wookiee Warrior [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 196,
@@ -6706,7 +6896,8 @@
     "VassalName": "Advanced Com Systems",
     "VassalID": "IACP_D card-Imp--Advanced Com Systems.jpg",
     "ImageOffset": 0,
-    "ImageName": "Advanced Com Systems [IACP].png"
+    "ImageName": "Advanced Com Systems [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 197,
@@ -6747,7 +6938,8 @@
     "VassalName": "AT-ST [Elite]",
     "VassalID": "D card-Imp--AT-ST.jpg",
     "ImageOffset": 10,
-    "ImageName": "AT-ST [Elite] [IACP].png"
+    "ImageName": "AT-ST [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 198,
@@ -6787,7 +6979,8 @@
     "VassalName": "Boba Fett",
     "VassalID": "IACP_D card-Merc--Boba Fett.jpg",
     "ImageOffset": 15,
-    "ImageName": "Boba Fett [IACP].png"
+    "ImageName": "Boba Fett [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 201,
@@ -6824,7 +7017,8 @@
     "VassalName": "Fenn Signis",
     "VassalID": "IACP_D card-Reb--Fenn Signis.jpg",
     "ImageOffset": 15,
-    "ImageName": "Fenn Signis [IACP].png"
+    "ImageName": "Fenn Signis [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 202,
@@ -6863,7 +7057,8 @@
     "VassalName": "Gaarkhan",
     "VassalID": "IACP_D card-Reb--Gaarkhan.jpg",
     "ImageOffset": 25,
-    "ImageName": "Gaarkhan [IACP].png"
+    "ImageName": "Gaarkhan [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 203,
@@ -6903,7 +7098,8 @@
     "VassalName": "General Weiss",
     "VassalID": "IACP_D card-Imp--General Weiss.jpg",
     "ImageOffset": 0,
-    "ImageName": "General Weiss [IACP].png"
+    "ImageName": "General Weiss [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 204,
@@ -6936,7 +7132,8 @@
     "VassalName": "Imperial Retrofitting",
     "VassalID": "IACP_D card-Imp--Imperial Retrofitting.png",
     "ImageOffset": 5,
-    "ImageName": "Imperial Retrofitting [IACP].png"
+    "ImageName": "Imperial Retrofitting [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 205,
@@ -6973,7 +7170,8 @@
     "VassalName": "Jyn Odan",
     "VassalID": "IACP_D card-Reb--Jyn Odan.jpg",
     "ImageOffset": 0,
-    "ImageName": "Jyn Odan [IACP].png"
+    "ImageName": "Jyn Odan [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 207,
@@ -6993,6 +7191,7 @@
     "TraitsRequired": [],
     "Color": "red",
     "UnitsRequired": [],
+    "Text": [],
     "Abilities": [
       "[SURGE]: Bleed",
       "Reach",
@@ -7012,7 +7211,8 @@
     "VassalName": "Royal Guard Champion",
     "VassalID": "IACP_D card-Imp--Royal Guard Champion.jpg",
     "ImageOffset": 0,
-    "ImageName": "Royal Guard Champion [IACP].png"
+    "ImageName": "Royal Guard Champion [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": 208,
@@ -7041,7 +7241,8 @@
     "VassalName": "Suppressive Fire [Elite]",
     "VassalID": "IACP_D card-Neut--Suppressive Fire.jpg",
     "ImageOffset": -15,
-    "ImageName": "Suppressive Fire [Elite] [IACP].png"
+    "ImageName": "Suppressive Fire [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 209,
@@ -7079,7 +7280,8 @@
     "VassalName": "4-LOM",
     "VassalID": "IACP_D card-Merc--4-LOM.jpg",
     "ImageOffset": 15,
-    "ImageName": "4-LOM [IACP].png"
+    "ImageName": "4-LOM [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 210,
@@ -7116,7 +7318,8 @@
     "VassalName": "Biv Bodhrik",
     "VassalID": "D card-Reb--Biv Bodhrik.jpg",
     "ImageOffset": 15,
-    "ImageName": "Biv Bodhrik [IACP].png"
+    "ImageName": "Biv Bodhrik [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 211,
@@ -7135,6 +7338,7 @@
     "TraitsRequired": [],
     "Color": "red",
     "UnitsRequired": [],
+    "Text": [],
     "Abilities": [
       "[SURGE]: +2[DAMAGE]",
       "+1[BLOCK]",
@@ -7151,7 +7355,8 @@
     "VassalName": "Dengar",
     "VassalID": "D card-Merc--Dengar.jpg",
     "ImageOffset": 3,
-    "ImageName": "Dengar [IACP].png"
+    "ImageName": "Dengar [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": 212,
@@ -7190,7 +7395,8 @@
     "VassalName": "Zuckuss",
     "VassalID": "IACP_D card-Merc--Zuckuss tech.png",
     "ImageOffset": 20,
-    "ImageName": "Zuckuss [IACP].png"
+    "ImageName": "Zuckuss [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 214,
@@ -7230,7 +7436,8 @@
     "VassalName": "Obi-Wan Kenobi",
     "VassalID": "IACP_D card-Reb--Obi-Wan Kenobi.jpg",
     "ImageOffset": 0,
-    "ImageName": "Obi-Wan Kenobi [IACP].png"
+    "ImageName": "Obi-Wan Kenobi [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 215,
@@ -7268,7 +7475,8 @@
     "VassalName": "Royal Guard [Elite]",
     "VassalID": "D card-Imp--Royal Guard elite.jpg",
     "ImageOffset": 17,
-    "ImageName": "Royal Guard [Elite] [IACP].png"
+    "ImageName": "Royal Guard [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 216,
@@ -7308,7 +7516,8 @@
     "VassalName": "Saska Teft",
     "VassalID": "D card-Reb--Saska Teft.jpg",
     "ImageOffset": 15,
-    "ImageName": "Saska Teft [IACP].png"
+    "ImageName": "Saska Teft [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 217,
@@ -7346,7 +7555,8 @@
     "VassalName": "SC2-M Repulsor Tank [Elite]",
     "VassalID": "IACP_D card-Imp--SC2-M Repulsor Tank.jpg",
     "ImageOffset": 0,
-    "ImageName": "SC2-M Repulsor Tank [Elite] [IACP].png"
+    "ImageName": "SC2-M Repulsor Tank [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 218,
@@ -7385,7 +7595,8 @@
     "VassalName": "Scout Trooper [Elite]",
     "VassalID": "IACP_D card-Imp--Scout Trooper.png",
     "ImageOffset": 18,
-    "ImageName": "Scout Trooper [Elite] [IACP].png"
+    "ImageName": "Scout Trooper [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 219,
@@ -7420,7 +7631,8 @@
     "VassalName": "Yoda",
     "VassalID": "IACP_D card-Reb--Yoda.jpg",
     "ImageOffset": 2,
-    "ImageName": "Yoda [IACP].png"
+    "ImageName": "Yoda [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": 220,
@@ -7456,7 +7668,8 @@
     "VassalName": "Tusken Raider [Elite]",
     "VassalID": "IACP_D card-Merc--Tusken Raider.jpg",
     "ImageOffset": 0,
-    "ImageName": "Tusken Raider [Elite] [IACP].png"
+    "ImageName": "Tusken Raider [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 221,
@@ -7493,7 +7706,8 @@
     "VassalName": "ISB Infiltrator [Elite]",
     "VassalID": "IACP_D card-Imp--ISB Infiltrator.jpg",
     "ImageOffset": 15,
-    "ImageName": "ISB Infiltrator [Elite] [IACP].png"
+    "ImageName": "ISB Infiltrator [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 222,
@@ -7531,7 +7745,8 @@
     "VassalName": "Agent Blaise",
     "VassalID": "IACP_D card-Imp--Agent Blaise.jpg",
     "ImageOffset": 20,
-    "ImageName": "Agent Blaise [IACP].png"
+    "ImageName": "Agent Blaise [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 223,
@@ -7551,6 +7766,7 @@
     "TraitsRequired": [],
     "Color": "red",
     "UnitsRequired": [],
+    "Text": [],
     "Abilities": [
       "+1[BLOCK], +2 Acc.",
       "Massive",
@@ -7570,7 +7786,8 @@
     "VassalName": "AT-RT [Elite]",
     "VassalID": "IACP_D card-Reb--AT-RT.jpg",
     "ImageOffset": 5,
-    "ImageName": "AT-RT [Elite] [IACP].png"
+    "ImageName": "AT-RT [Elite] [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": 224,
@@ -7608,7 +7825,8 @@
     "VassalName": "Bossk",
     "VassalID": "D card-Merc--Bossk.jpg",
     "ImageOffset": 25,
-    "ImageName": "Bossk [IACP].png"
+    "ImageName": "Bossk [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 225,
@@ -7647,7 +7865,8 @@
     "VassalName": "Jyn Erso",
     "VassalID": "IACP_D card-Reb--Jyn Erso.jpg",
     "ImageOffset": 25,
-    "ImageName": "Jyn Erso [IACP].png"
+    "ImageName": "Jyn Erso [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 226,
@@ -7684,7 +7903,8 @@
     "VassalName": "Director Krennic",
     "VassalID": "IACP_D card-Imp--Director Krennic.jpg",
     "ImageOffset": 15,
-    "ImageName": "Director Krennic [IACP].png"
+    "ImageName": "Director Krennic [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 227,
@@ -7722,7 +7942,8 @@
     "VassalName": "IG-11",
     "VassalID": "IACP_D card-Merc--IG-11.jpg",
     "ImageOffset": 15,
-    "ImageName": "IG-11 [IACP].png"
+    "ImageName": "IG-11 [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 228,
@@ -7760,7 +7981,8 @@
     "VassalName": "The Mandalorian",
     "VassalID": "IACP_D card-Merc--The Mandalorian Renegade Hunter.jpg",
     "ImageOffset": 15,
-    "ImageName": "The Mandalorian [IACP].png"
+    "ImageName": "The Mandalorian [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 229,
@@ -7794,7 +8016,8 @@
     "VassalName": "The Child",
     "VassalID": null,
     "ImageOffset": 10,
-    "ImageName": "The Child [IACP].png"
+    "ImageName": "The Child [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 230,
@@ -7824,7 +8047,8 @@
     "VassalName": "Clan of Two",
     "VassalID": "IACP_D card-Merc--Clan of Two.png",
     "ImageOffset": 15,
-    "ImageName": "Clan of Two [IACP].png"
+    "ImageName": "Clan of Two [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 231,
@@ -7864,7 +8088,8 @@
     "VassalName": "E-Web Engineer [Elite]",
     "VassalID": "D card-Imp--E-Web Engineer elite.jpg",
     "ImageOffset": 18,
-    "ImageName": "E-Web Engineer [Elite] [IACP].png"
+    "ImageName": "E-Web Engineer [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 232,
@@ -7901,7 +8126,8 @@
     "VassalName": "General Sorin",
     "VassalID": "D card-Imp--General Sorin.jpg",
     "ImageOffset": 15,
-    "ImageName": "General Sorin [IACP].png"
+    "ImageName": "General Sorin [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 233,
@@ -7939,7 +8165,8 @@
     "VassalName": "Lando Calrissian",
     "VassalID": "D card-Reb--Lando Calrissian.jpg",
     "ImageOffset": 15,
-    "ImageName": "Lando Calrissian [IACP].png"
+    "ImageName": "Lando Calrissian [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 234,
@@ -7976,7 +8203,8 @@
     "VassalName": "Loku Kanoloa",
     "VassalID": "IACP_D card-Reb--Loku Kanoloa.jpg",
     "ImageOffset": -10,
-    "ImageName": "Loku Kanoloa [IACP].png"
+    "ImageName": "Loku Kanoloa [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 235,
@@ -8012,7 +8240,8 @@
     "VassalName": "Shoretrooper [Elite]",
     "VassalID": "IACP_D card-Imp--Shoretrooper.png",
     "ImageOffset": 15,
-    "ImageName": "Shoretrooper [Elite] [IACP].png"
+    "ImageName": "Shoretrooper [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 236,
@@ -8053,7 +8282,8 @@
     "VassalName": "Mortar Trooper [Elite]",
     "VassalID": "IACP12_D card-Imp--Mortar Trooper.png",
     "ImageOffset": 0,
-    "ImageName": "Mortar Trooper [Elite] [IACP].png"
+    "ImageName": "Mortar Trooper [Elite] [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": 237,
@@ -8084,7 +8314,8 @@
     "VassalName": "Overwatch [Elite]",
     "VassalID": "IACP_D card-Imp--Overwatch.png",
     "ImageOffset": 15,
-    "ImageName": "Overwatch [Elite] [IACP].png"
+    "ImageName": "Overwatch [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 238,
@@ -8121,7 +8352,8 @@
     "VassalName": "Rebel Pathfinder [Elite]",
     "VassalID": "IACP_D card-Reb--Rebel Pathfinder.jpg",
     "ImageOffset": 15,
-    "ImageName": "Rebel Pathfinder [Elite] [IACP].png"
+    "ImageName": "Rebel Pathfinder [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 239,
@@ -8159,7 +8391,8 @@
     "VassalName": "Rebel Saboteur [Elite]",
     "VassalID": "IACP_D card-Reb--Rebel Saboteur.jpg",
     "ImageOffset": 0,
-    "ImageName": "Rebel Saboteur [Elite] [IACP].png"
+    "ImageName": "Rebel Saboteur [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 240,
@@ -8190,7 +8423,8 @@
     "VassalName": "The Darksaber",
     "VassalID": "IACP_D card-Neut--The Darksaber.jpg",
     "ImageOffset": -10,
-    "ImageName": "The Darksaber [IACP].png"
+    "ImageName": "The Darksaber [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 241,
@@ -8228,7 +8462,8 @@
     "VassalName": "Trandoshan Hunter [Elite]",
     "VassalID": "IACP_D card-Merc--Trandoshan Hunter.jpg",
     "ImageOffset": 17,
-    "ImageName": "Trandoshan Hunter [Elite] [IACP].png"
+    "ImageName": "Trandoshan Hunter [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 242,
@@ -8267,7 +8502,8 @@
     "VassalName": "Verena Talos",
     "VassalID": "D card-Reb--Verena Talos.jpg",
     "ImageOffset": 20,
-    "ImageName": "Verena Talos [IACP].png"
+    "ImageName": "Verena Talos [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 243,
@@ -8307,7 +8543,8 @@
     "VassalName": "Agent Kallus",
     "VassalID": "IACP_D card-Imp--Agent Kallus.png",
     "ImageOffset": 22,
-    "ImageName": "Agent Kallus [IACP].png"
+    "ImageName": "Agent Kallus [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 244,
@@ -8346,7 +8583,8 @@
     "VassalName": "Captain Terro",
     "VassalID": "D card-Imp--Captain Terro.jpg",
     "ImageOffset": 20,
-    "ImageName": "Captain Terro [IACP].png"
+    "ImageName": "Captain Terro [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 245,
@@ -8385,7 +8623,8 @@
     "VassalName": "Cassian Andor",
     "VassalID": "IACP_D card-Reb--Cassian Andor.png",
     "ImageOffset": 20,
-    "ImageName": "Cassian Andor [IACP].png"
+    "ImageName": "Cassian Andor [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 247,
@@ -8422,7 +8661,8 @@
     "VassalName": "Davith Elso",
     "VassalID": "D card-Reb--Davith Elso.jpg",
     "ImageOffset": 15,
-    "ImageName": "Davith Elso [IACP].png"
+    "ImageName": "Davith Elso [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 248,
@@ -8458,7 +8698,8 @@
     "VassalName": "Doctor Aphra",
     "VassalID": "IACP_D card-Merc--Doctor Aphra tech.png",
     "ImageOffset": 20,
-    "ImageName": "Doctor Aphra [IACP].png"
+    "ImageName": "Doctor Aphra [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 249,
@@ -8495,7 +8736,8 @@
     "VassalName": "Heavy Stormtrooper [Elite]",
     "VassalID": "D card-Imp--Heavy Stormtrooper elite.jpg",
     "ImageOffset": 18,
-    "ImageName": "Heavy Stormtrooper [Elite] [IACP].png"
+    "ImageName": "Heavy Stormtrooper [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 250,
@@ -8532,7 +8774,8 @@
     "VassalName": "HK-47",
     "VassalID": "IACP_D card-Merc--HK-47.png",
     "ImageOffset": 22,
-    "ImageName": "HK-47 [IACP].png"
+    "ImageName": "HK-47 [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 251,
@@ -8570,7 +8813,8 @@
     "VassalName": "Iden Versio",
     "VassalID": "IACP_D card-Imp--Iden Versio.png",
     "ImageOffset": 20,
-    "ImageName": "Iden Versio [IACP].png"
+    "ImageName": "Iden Versio [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 252,
@@ -8611,7 +8855,8 @@
     "VassalName": "K-2SO",
     "VassalID": "IACP_D card-Reb--K-2S0.png",
     "ImageOffset": 20,
-    "ImageName": "K-2SO [IACP].png"
+    "ImageName": "K-2SO [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 253,
@@ -8651,7 +8896,8 @@
     "VassalName": "Luke Skywalker (Jedi)",
     "VassalID": "D card-Reb--Luke Skywalker (Jedi Knight).jpg",
     "ImageOffset": 0,
-    "ImageName": "Luke Skywalker (Jedi) [IACP].png"
+    "ImageName": "Luke Skywalker (Jedi) [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 254,
@@ -8688,7 +8934,8 @@
     "VassalName": "Mara Jade",
     "VassalID": "IACP_D card-Neut--Mara Jade.png",
     "ImageOffset": 15,
-    "ImageName": "Mara Jade [IACP].png"
+    "ImageName": "Mara Jade [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 255,
@@ -8727,7 +8974,8 @@
     "VassalName": "Murne Rin",
     "VassalID": "D card-Reb--Murne Rin.jpg",
     "ImageOffset": 20,
-    "ImageName": "Murne Rin [IACP].png"
+    "ImageName": "Murne Rin [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 256,
@@ -8766,7 +9014,8 @@
     "VassalName": "Wampa [Elite]",
     "VassalID": "D card-Merc--Wampa elite.jpg",
     "ImageOffset": 15,
-    "ImageName": "Wampa [Elite] [IACP].png"
+    "ImageName": "Wampa [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 257,
@@ -8795,7 +9044,8 @@
     "VassalName": "Fury of Kashyyyk",
     "VassalID": "D card-Reb--Fury Of Kashyyyk.jpg",
     "ImageOffset": 15,
-    "ImageName": "Fury of Kashyyyk [IACP].png"
+    "ImageName": "Fury of Kashyyyk [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 258,
@@ -8824,7 +9074,8 @@
     "VassalName": "The Generals Ranks [Elite]",
     "VassalID": "D card-Imp--The General's Ranks.jpg",
     "ImageOffset": 15,
-    "ImageName": "The Generals Ranks [Elite] [IACP].png"
+    "ImageName": "The Generals Ranks [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 259,
@@ -8851,7 +9102,8 @@
     "VassalName": "Under Duress",
     "VassalID": "D card-Merc--Under Duress.jpg",
     "ImageOffset": 0,
-    "ImageName": "Under Duress [IACP].png"
+    "ImageName": "Under Duress [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 260,
@@ -8891,7 +9143,8 @@
     "VassalName": "Cara Dune",
     "VassalID": "IACP_D card-Reb--Cara Dune.png",
     "ImageOffset": 10,
-    "ImageName": "Cara Dune [IACP].png"
+    "ImageName": "Cara Dune [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 261,
@@ -8929,7 +9182,8 @@
     "VassalName": "Bib Fortuna",
     "VassalID": "IACP_D card-Merc--Bib Fortuna.png",
     "ImageOffset": 15,
-    "ImageName": "Bib Fortuna [IACP].png"
+    "ImageName": "Bib Fortuna [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 262,
@@ -8967,7 +9221,8 @@
     "VassalName": "CT-1701",
     "VassalID": "IACP_D card-Reb--CT-1701.png",
     "ImageOffset": 3,
-    "ImageName": "CT-1701 [IACP].png"
+    "ImageName": "CT-1701 [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": 263,
@@ -9004,7 +9259,8 @@
     "VassalName": "Dark Trooper Mk III [Elite]",
     "VassalID": "IACP_D card-Imp--Dark Trooper Mk III.png",
     "ImageOffset": 15,
-    "ImageName": "Dark Trooper Mk III [Elite] [IACP].png"
+    "ImageName": "Dark Trooper Mk III [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 264,
@@ -9042,7 +9298,8 @@
     "VassalName": "Dewback Rider [Elite]",
     "VassalID": "D card-Imp--Dewback Rider.jpg",
     "ImageOffset": 20,
-    "ImageName": "Dewback Rider [Elite] [IACP].png"
+    "ImageName": "Dewback Rider [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 265,
@@ -9068,7 +9325,8 @@
     "VassalName": "First Strike",
     "VassalID": "D card-Merc--First Strike.jpg",
     "ImageOffset": 25,
-    "ImageName": "First Strike [IACP].png"
+    "ImageName": "First Strike [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 266,
@@ -9103,7 +9361,8 @@
     "VassalName": "Flametrooper [Elite]",
     "VassalID": "IACP_D card-Imp--Flametrooper.png",
     "ImageOffset": 18,
-    "ImageName": "Flametrooper [Elite] [IACP].png"
+    "ImageName": "Flametrooper [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 267,
@@ -9141,7 +9400,8 @@
     "VassalName": "Migs Mayfeld",
     "VassalID": "IACP_D card-Merc--Migs Mayfeld.png",
     "ImageOffset": 25,
-    "ImageName": "Migs Mayfeld [IACP].png"
+    "ImageName": "Migs Mayfeld [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 268,
@@ -9177,7 +9437,8 @@
     "VassalName": "Moff Gideon",
     "VassalID": "010 Moff Gideon Final.png",
     "ImageOffset": 15,
-    "ImageName": "Moff Gideon [IACP].png"
+    "ImageName": "Moff Gideon [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 269,
@@ -9215,7 +9476,8 @@
     "VassalName": "Snowtrooper [Elite]",
     "VassalID": "D card-Imp--Snowtrooper elite.jpg",
     "ImageOffset": 0,
-    "ImageName": "Snowtrooper [Elite] [IACP].png"
+    "ImageName": "Snowtrooper [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 270,
@@ -9248,7 +9510,8 @@
     "VassalName": "Z-6 Trooper [Elite]",
     "VassalID": "IACP_D card-Reb--Z-6 Trooper.png",
     "ImageOffset": 15,
-    "ImageName": "Z-6 Trooper [Elite] [IACP].png"
+    "ImageName": "Z-6 Trooper [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 272,
@@ -9286,7 +9549,8 @@
     "VassalName": "Cad Bane",
     "VassalID": "IACP_D card-Merc--Cad Bane.png",
     "ImageOffset": 20,
-    "ImageName": "Cad Bane [IACP].png"
+    "ImageName": "Cad Bane [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 273,
@@ -9322,7 +9586,8 @@
     "VassalName": "Hired Gun [Elite]",
     "VassalID": "IACP_D card-Merc--Hired Gun.png",
     "ImageOffset": 15,
-    "ImageName": "Hired Gun [Elite] [IACP].png"
+    "ImageName": "Hired Gun [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 274,
@@ -9362,7 +9627,8 @@
     "VassalName": "HK Assassin Droid [Elite]",
     "VassalID": "D card-Merc--HK Assassin Driod elite.jpg",
     "ImageOffset": 18,
-    "ImageName": "HK Assassin Droid [Elite] [IACP].png"
+    "ImageName": "HK Assassin Droid [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 275,
@@ -9383,6 +9649,7 @@
     "TraitsRequired": [],
     "Color": "red",
     "UnitsRequired": [],
+    "Text": [],
     "Abilities": [
       "[SURGE]: Pierce 2",
       "[SURGE]: +1[DAMAGE]"
@@ -9399,7 +9666,8 @@
     "VassalName": "Purge Commander [Elite]",
     "VassalID": "IACP11_D card-Imp--Purge Commander.png",
     "ImageOffset": 20,
-    "ImageName": "Purge Commander [Elite] [IACP].png"
+    "ImageName": "Purge Commander [Elite] [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": 276,
@@ -9433,7 +9701,8 @@
     "VassalName": "Purge Trooper [Elite]",
     "VassalID": "IACP_D card-Imp--Purge Trooper.png",
     "ImageOffset": 20,
-    "ImageName": "Purge Trooper [Elite] [IACP].png"
+    "ImageName": "Purge Trooper [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 277,
@@ -9470,7 +9739,8 @@
     "VassalName": "Saw Gerrera",
     "VassalID": "IACP_D card-Reb--Saw Gerrerra.png",
     "ImageOffset": 15,
-    "ImageName": "Saw Gerrera [IACP].png"
+    "ImageName": "Saw Gerrera [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 278,
@@ -9510,7 +9780,8 @@
     "VassalName": "Zeb Orrelios",
     "VassalID": "IACP_D card-Reb--Zeb Orrelios.png",
     "ImageOffset": 25,
-    "ImageName": "Zeb Orrelios [IACP].png"
+    "ImageName": "Zeb Orrelios [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 279,
@@ -9549,7 +9820,8 @@
     "VassalName": "Taron Malicos",
     "VassalID": "IACP_D card-Merc--Taron Malicos.png",
     "ImageOffset": 25,
-    "ImageName": "Taron Malicos [IACP].png"
+    "ImageName": "Taron Malicos [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 280,
@@ -9580,7 +9852,8 @@
     "VassalName": "Heir to the Jedi",
     "VassalID": "IACP_D card-Reb--Heir to the Jedi.png",
     "ImageOffset": 18,
-    "ImageName": "Heir to the Jedi [IACP].png"
+    "ImageName": "Heir to the Jedi [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 281,
@@ -9606,7 +9879,8 @@
     "VassalName": "Punishing Strike",
     "VassalID": "D card-Merc--Punishing Strike.jpg",
     "ImageOffset": 20,
-    "ImageName": "Punishing Strike [IACP].png"
+    "ImageName": "Punishing Strike [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 282,
@@ -9633,7 +9907,8 @@
     "VassalName": "Smuggling Compartment",
     "VassalID": "IACP_D card-Neut--Smuggling Compartment.png",
     "ImageOffset": 20,
-    "ImageName": "Smuggling Compartment [IACP].png"
+    "ImageName": "Smuggling Compartment [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 283,
@@ -9672,7 +9947,8 @@
     "VassalName": "Dio",
     "VassalID": null,
     "ImageOffset": 15,
-    "ImageName": "Dio [IACP].png"
+    "ImageName": "Dio [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 284,
@@ -9704,7 +9980,8 @@
     "VassalName": "Electrobatons [Regular]",
     "VassalID": null,
     "ImageOffset": 0,
-    "ImageName": "Electrobatons [Regular] [IACP].png"
+    "ImageName": "Electrobatons [Regular] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 285,
@@ -9735,7 +10012,8 @@
     "VassalName": "Electrohammer [Regular]",
     "VassalID": null,
     "ImageOffset": 0,
-    "ImageName": "Electrohammer [Regular] [IACP].png"
+    "ImageName": "Electrohammer [Regular] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 286,
@@ -9767,7 +10045,8 @@
     "VassalName": "Electrostaff [Regular]",
     "VassalID": null,
     "ImageOffset": 0,
-    "ImageName": "Electrostaff [Regular] [IACP].png"
+    "ImageName": "Electrostaff [Regular] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 287,
@@ -9800,7 +10079,8 @@
     "VassalName": "Junk Droid [Regular]",
     "VassalID": null,
     "ImageOffset": 0,
-    "ImageName": "Junk Droid [Regular].png"
+    "ImageName": "Junk Droid [Regular].png",
+    "Playtest": "No"
   },
   {
     "ID": 288,
@@ -9833,7 +10113,8 @@
     "VassalName": "Scout",
     "VassalID": null,
     "ImageOffset": 0,
-    "ImageName": "Scout [IACP].png"
+    "ImageName": "Scout [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 289,
@@ -9866,7 +10147,8 @@
     "VassalName": "Scout",
     "VassalID": null,
     "ImageOffset": 0,
-    "ImageName": "Scout.png"
+    "ImageName": "Scout.png",
+    "Playtest": "No"
   },
   {
     "ID": 290,
@@ -9899,7 +10181,8 @@
     "VassalName": "Senator",
     "VassalID": null,
     "ImageOffset": 0,
-    "ImageName": "Senator [IACP].png"
+    "ImageName": "Senator [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 291,
@@ -9932,7 +10215,8 @@
     "VassalName": "Senator",
     "VassalID": null,
     "ImageOffset": 0,
-    "ImageName": "Senator.png"
+    "ImageName": "Senator.png",
+    "Playtest": "No"
   },
   {
     "ID": 292,
@@ -9966,7 +10250,8 @@
     "VassalName": "Soldier",
     "VassalID": null,
     "ImageOffset": 0,
-    "ImageName": "Soldier [IACP].png"
+    "ImageName": "Soldier [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 293,
@@ -9999,7 +10284,8 @@
     "VassalName": "Streetrat",
     "VassalID": null,
     "ImageOffset": 0,
-    "ImageName": "Streetrat.png"
+    "ImageName": "Streetrat.png",
+    "Playtest": "No"
   },
   {
     "ID": 294,
@@ -10039,7 +10325,8 @@
     "VassalName": "Baze Malbus",
     "VassalID": "IACP_D card-Reb--Baze Malbus.png",
     "ImageOffset": 10,
-    "ImageName": "Baze Malbus [IACP].png"
+    "ImageName": "Baze Malbus [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 295,
@@ -10077,7 +10364,8 @@
     "VassalName": "Cal Kestis",
     "VassalID": "IACP_D card-Reb--Cal Kestis.png",
     "ImageOffset": 25,
-    "ImageName": "Cal Kestis [IACP].png"
+    "ImageName": "Cal Kestis [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 296,
@@ -10117,7 +10405,8 @@
     "VassalName": "Chirrut Imwe",
     "VassalID": "IACP_D card-Reb--Chirrut Imwe.png",
     "ImageOffset": 20,
-    "ImageName": "Chirrut Imwe [IACP].png"
+    "ImageName": "Chirrut Imwe [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 297,
@@ -10155,7 +10444,8 @@
     "VassalName": "Del Meeko",
     "VassalID": "IACP_D card-Imp--Del Meeko.png",
     "ImageOffset": 15,
-    "ImageName": "Del Meeko [IACP].png"
+    "ImageName": "Del Meeko [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 298,
@@ -10196,7 +10486,8 @@
     "VassalName": "Gar Saxon",
     "VassalID": "IACP_D card-Merc--Gar Saxon.png",
     "ImageOffset": 0,
-    "ImageName": "Gar Saxon [IACP].png"
+    "ImageName": "Gar Saxon [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 299,
@@ -10235,7 +10526,8 @@
     "VassalName": "Kuiil",
     "VassalID": "IACP_D card-Merc--Kuiil.png",
     "ImageOffset": 25,
-    "ImageName": "Kuiil [IACP].png"
+    "ImageName": "Kuiil [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 300,
@@ -10275,7 +10567,8 @@
     "VassalName": "Nexu [Elite]",
     "VassalID": "D card-Merc--Nexu elite.jpg",
     "ImageOffset": 10,
-    "ImageName": "Nexu [Elite] [IACP].png"
+    "ImageName": "Nexu [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 301,
@@ -10304,7 +10597,8 @@
     "VassalName": "Orbital Bombardment",
     "VassalID": "IACP_D card-Neut--Orbital Bombardment.png",
     "ImageOffset": -15,
-    "ImageName": "Orbital Bombardment [IACP].png"
+    "ImageName": "Orbital Bombardment [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 302,
@@ -10343,7 +10637,8 @@
     "VassalName": "Second Sister",
     "VassalID": "IACP_D card-Imp--Second Sister.png",
     "ImageOffset": 10,
-    "ImageName": "Second Sister [IACP].png"
+    "ImageName": "Second Sister [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 303,
@@ -10384,7 +10679,8 @@
     "VassalName": "Super Commando [Elite]",
     "VassalID": "IACP_D card-Merc--Super Commando.png",
     "ImageOffset": 20,
-    "ImageName": "Super Commando [Elite] [IACP].png"
+    "ImageName": "Super Commando [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 304,
@@ -10426,7 +10722,8 @@
     "VassalName": "Technician Training",
     "VassalID": "IACP_D card-Neut--Technician Training.png",
     "ImageOffset": 15,
-    "ImageName": "Technician Training [IACP].png"
+    "ImageName": "Technician Training [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 305,
@@ -10454,7 +10751,8 @@
     "VassalName": "Vaders Finest [Elite]",
     "VassalID": ",Icon_Special Ability.png",
     "ImageOffset": 10,
-    "ImageName": "Vaders Finest [Elite] [IACP].png"
+    "ImageName": "Vaders Finest [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 306,
@@ -10490,7 +10788,8 @@
     "VassalName": "BD-1",
     "VassalID": null,
     "ImageOffset": 20,
-    "ImageName": "BD-1 [IACP].png"
+    "ImageName": "BD-1 [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 307,
@@ -10518,7 +10817,8 @@
     "VassalName": "Scavenged Walker",
     "VassalID": "IACP9_D card-Merc--Scavenged Walker.png",
     "ImageOffset": 25,
-    "ImageName": "Scavenged Walker [IACP].png"
+    "ImageName": "Scavenged Walker [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 308,
@@ -10556,7 +10856,8 @@
     "VassalName": "Ewok Warrior [Elite]",
     "VassalID": "IACP9_D card-Reb--Ewok Warrior (Elite).png",
     "ImageOffset": 10,
-    "ImageName": "Ewok Warrior [Elite] [IACP].png"
+    "ImageName": "Ewok Warrior [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 309,
@@ -10584,7 +10885,8 @@
     "VassalName": "A New Hope",
     "VassalID": "IACP9_D card-Reb--A_New_Hope.png",
     "ImageOffset": 0,
-    "ImageName": "A New Hope [IACP].png"
+    "ImageName": "A New Hope [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 310,
@@ -10623,7 +10925,8 @@
     "VassalName": "Bodhi Rook",
     "VassalID": "IACP10_D card-Reb--Bodhi Rook.png",
     "ImageOffset": 15,
-    "ImageName": "Bodhi Rook [IACP].png"
+    "ImageName": "Bodhi Rook [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 311,
@@ -10659,7 +10962,8 @@
     "VassalName": "Fennec Shand",
     "VassalID": "IACP_D card-Merc--Fennec_Shand.png",
     "ImageOffset": 25,
-    "ImageName": "Fennec Shand [IACP].png"
+    "ImageName": "Fennec Shand [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 312,
@@ -10698,7 +11002,8 @@
     "VassalName": "Fifth Brother",
     "VassalID": "IACP9_D card-Imp--Fifth Brother Agent Inquisitorious.png",
     "ImageOffset": 15,
-    "ImageName": "Fifth Brother [IACP].png"
+    "ImageName": "Fifth Brother [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 313,
@@ -10734,7 +11039,8 @@
     "VassalName": "Imperial Officer [Elite]",
     "VassalID": "D card-Imp--Imperial Officer elite.jpg",
     "ImageOffset": 18,
-    "ImageName": "Imperial Officer [Elite] [IACP].png"
+    "ImageName": "Imperial Officer [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 314,
@@ -10772,7 +11078,8 @@
     "VassalName": "Krrsantan",
     "VassalID": "IACP9_D card-Merc--Krrsantan.png",
     "ImageOffset": 25,
-    "ImageName": "Krrsantan [IACP].png"
+    "ImageName": "Krrsantan [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 315,
@@ -10812,7 +11119,8 @@
     "VassalName": "Tauntaun Rider [Elite]",
     "VassalID": "005 Tauntaun Rider Final.png",
     "ImageOffset": 20,
-    "ImageName": "Tauntaun Rider [Elite] [IACP].png"
+    "ImageName": "Tauntaun Rider [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 316,
@@ -10850,7 +11158,8 @@
     "VassalName": "Tress Hacnua",
     "VassalID": "006 Tress Hacnua Final.png",
     "ImageOffset": 20,
-    "ImageName": "Tress Hacnua [IACP].png"
+    "ImageName": "Tress Hacnua [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 317,
@@ -10877,7 +11186,8 @@
     "VassalName": "Nemiks Manifesto",
     "VassalID": "007 Nemik's Manifesto Final.png",
     "ImageOffset": 0,
-    "ImageName": "Nemiks Manifesto [IACP].png"
+    "ImageName": "Nemiks Manifesto [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 318,
@@ -10894,6 +11204,7 @@
     "TraitsRequired": [],
     "Color": "gray",
     "UnitsRequired": [],
+    "Text": [],
     "Abilities": [],
     "SpecialAbilities": [
       "Your army must include Baze Malbus, Bodhi Rook, Cassian Andor, Chirrut Imwe, Jyn Erso, and K2-SO, and cannot include other unique figures that cost 3 or less.",
@@ -10905,7 +11216,8 @@
     "VassalName": "Rogue One",
     "VassalID": "008 Rogue One Final.png",
     "ImageOffset": 0,
-    "ImageName": "Rogue One [IACP].png"
+    "ImageName": "Rogue One [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": 319,
@@ -10925,6 +11237,7 @@
     "TraitsRequired": [],
     "Color": "red",
     "UnitsRequired": [],
+    "Text": [],
     "Abilities": [
       "[SURGE]: Gain 1[EVADE TOKEN]",
       "[SURGE]: +2[DAMAGE]",
@@ -10943,7 +11256,8 @@
     "VassalName": "74-Z Speeder Bike [Elite]",
     "VassalID": "IACP12_D card-Imp--74-Z Speeder Bike.png",
     "ImageOffset": 15,
-    "ImageName": "74-Z Speeder Bike [Elite] [IACP].png"
+    "ImageName": "74-Z Speeder Bike [Elite] [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": 320,
@@ -10975,7 +11289,8 @@
     "VassalName": "Cross-Training [Elite]",
     "VassalID": "D card-Imp--Cross-Training.jpg",
     "ImageOffset": 0,
-    "ImageName": "Cross-Training [Elite] [IACP].png"
+    "ImageName": "Cross-Training [Elite] [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 321,
@@ -11015,7 +11330,8 @@
     "VassalName": "Paz Vizsla",
     "VassalID": "014 Paz Vizsla Final.png",
     "ImageOffset": 25,
-    "ImageName": "Paz Vizsla [IACP].png"
+    "ImageName": "Paz Vizsla [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 322,
@@ -11035,6 +11351,7 @@
     ],
     "Color": "gray",
     "UnitsRequired": [],
+    "Text": [],
     "Abilities": [],
     "SpecialAbilities": [
       "Each figure in this group gains:",
@@ -11046,7 +11363,8 @@
     "VassalName": "Explosive Armaments",
     "VassalID": "D card-Merc--Explosive Armaments.jpg",
     "ImageOffset": -5,
-    "ImageName": "Explosive Armaments [IACP].png"
+    "ImageName": "Explosive Armaments [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": 323,
@@ -11063,6 +11381,7 @@
     "TraitsRequired": [],
     "Color": "gray",
     "UnitsRequired": [],
+    "Text": [],
     "Abilities": [],
     "SpecialAbilities": [
       "Whenever a friendly [IMPERIAL] figure is defeated, for each power token on that figure, place a matching power token on this card.",
@@ -11074,7 +11393,8 @@
     "VassalName": "Imperial Citadel",
     "VassalID": "IACP11_D card-Imp--Imperial Citadel.png",
     "ImageOffset": 0,
-    "ImageName": "Imperial Citadel [IACP].png"
+    "ImageName": "Imperial Citadel [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": 324,
@@ -11094,6 +11414,7 @@
     "TraitsRequired": [],
     "Color": "gray",
     "UnitsRequired": [],
+    "Text": [],
     "Abilities": [],
     "SpecialAbilities": [
       "[SURGE] Critical Hit: This attack gains Pierce 2. If the target figure suffered 1 or more [DAMAGE] during this attack, the target figure may not play command cards during this round.",
@@ -11107,7 +11428,8 @@
     "VassalName": "Mak Eshka'rey",
     "VassalID": "D card-Reb--Mak Eshka'rey.jpg",
     "ImageOffset": 0,
-    "ImageName": "Mak Eshka'rey [IACP].png"
+    "ImageName": "Mak Eshka'rey [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": 327,
@@ -11127,6 +11449,7 @@
     "TraitsRequired": [],
     "Color": "red",
     "UnitsRequired": [],
+    "Text": [],
     "Abilities": [
       "[SURGE]: Focus",
       "[SURGE]: +1[DAMAGE]",
@@ -11144,7 +11467,8 @@
     "VassalName": "Dr. Royce Hemlock",
     "VassalID": "IACP11_D card-Imp--Dr Royce Hemlock.png",
     "ImageOffset": 3,
-    "ImageName": "Dr. Royce Hemlock [IACP].png"
+    "ImageName": "Dr. Royce Hemlock [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": "328",
@@ -11186,7 +11510,8 @@
     "VassalName": "Bo-Katan Kryze",
     "VassalID": "IACP12_D card-Merc--Bo-Katan Kryze.png",
     "ImageName": "Bo-Katan Kryze [IACP].png",
-    "ImageOffset": 0
+    "ImageOffset": 0,
+    "Playtest": "Yes"
   },
   {
     "ID": 329,
@@ -11226,7 +11551,8 @@
     ],
     "VassalName": "Bantha Rider [Elite]",
     "ImageName": "Bantha Rider [Elite] [IACP].png",
-    "ImageOffset": 0
+    "ImageOffset": 0,
+    "Playtest": "Yes"
   },
   {
     "ID": 330,
@@ -11266,7 +11592,8 @@
     "VassalName": "The Armorer",
     "VassalID": "IACP12_D card-Merc--The Armorer.png",
     "ImageName": "The Armorer [IACP].png",
-    "ImageOffset": 0
+    "ImageOffset": 0,
+    "Playtest": "Yes"
   },
   {
     "ID": 331,
@@ -11303,7 +11630,8 @@
     "VassalName": "KX-Series Security Droid [Elite]",
     "VassalID": "IACP12_D card-Imp--KX-Series Security Droid.png",
     "ImageName": "KX-Series Security Droid [Elite] [IACP].png",
-    "ImageOffset": 0
+    "ImageOffset": 0,
+    "Playtest": "Yes"
   },
   {
     "ID": 1001,
@@ -11328,7 +11656,8 @@
     "VassalName": "Heart of Freedom",
     "VassalID": "C card--Heart Of Freedom.jpg",
     "ImageOffset": 0,
-    "ImageName": "Heart of Freedom.png"
+    "ImageName": "Heart of Freedom.png",
+    "Playtest": "No"
   },
   {
     "ID": 1002,
@@ -11353,7 +11682,8 @@
     "VassalName": "Self-Defense",
     "VassalID": "C card--Self Defense.jpg",
     "ImageOffset": 0,
-    "ImageName": "Self-Defense.png"
+    "ImageName": "Self-Defense.png",
+    "Playtest": "No"
   },
   {
     "ID": 1004,
@@ -11380,7 +11710,8 @@
     "VassalName": "Espionage Mastery",
     "VassalID": "C card--Espionage Mastery.jpg",
     "ImageOffset": 0,
-    "ImageName": "Espionage Mastery.png"
+    "ImageName": "Espionage Mastery.png",
+    "Playtest": "No"
   },
   {
     "ID": 1005,
@@ -11407,7 +11738,8 @@
     "VassalName": "Intelligence Leak",
     "VassalID": "C card--Intelligence Leak.jpg",
     "ImageOffset": 0,
-    "ImageName": "Intelligence Leak.png"
+    "ImageName": "Intelligence Leak.png",
+    "Playtest": "No"
   },
   {
     "ID": 1006,
@@ -11434,7 +11766,8 @@
     "VassalName": "Smuggled Supplies",
     "VassalID": "C card--Smuggled Supplies.jpg",
     "ImageOffset": 0,
-    "ImageName": "Smuggled Supplies.png"
+    "ImageName": "Smuggled Supplies.png",
+    "Playtest": "No"
   },
   {
     "ID": 1007,
@@ -11461,7 +11794,8 @@
     "VassalName": "Smugglers Tricks",
     "VassalID": "C card--Smuggler's Tricks.jpg",
     "ImageOffset": 0,
-    "ImageName": "Smugglers Tricks.png"
+    "ImageName": "Smugglers Tricks.png",
+    "Playtest": "No"
   },
   {
     "ID": 1008,
@@ -11488,7 +11822,8 @@
     "VassalName": "Crush",
     "VassalID": "C card--Crush.jpg",
     "ImageOffset": 0,
-    "ImageName": "Crush.png"
+    "ImageName": "Crush.png",
+    "Playtest": "No"
   },
   {
     "ID": 1009,
@@ -11517,7 +11852,8 @@
     "VassalName": "Jundland Terror",
     "VassalID": "C card--Jundland Terror.jpg",
     "ImageOffset": 0,
-    "ImageName": "Jundland Terror.png"
+    "ImageName": "Jundland Terror.png",
+    "Playtest": "No"
   },
   {
     "ID": 1010,
@@ -11542,7 +11878,8 @@
     "VassalName": "Opportunistic",
     "VassalID": "C card--Opportunistic.jpg",
     "ImageOffset": 0,
-    "ImageName": "Opportunistic.png"
+    "ImageName": "Opportunistic.png",
+    "Playtest": "No"
   },
   {
     "ID": 1011,
@@ -11569,7 +11906,8 @@
     "VassalName": "Parting Blow",
     "VassalID": "C card--Parting Blow.jpg",
     "ImageOffset": 0,
-    "ImageName": "Parting Blow.png"
+    "ImageName": "Parting Blow.png",
+    "Playtest": "No"
   },
   {
     "ID": 1012,
@@ -11596,7 +11934,8 @@
     "VassalName": "Capture the Weary",
     "VassalID": "C card--Capture The Weary.jpg",
     "ImageOffset": 0,
-    "ImageName": "Capture the Weary.png"
+    "ImageName": "Capture the Weary.png",
+    "Playtest": "No"
   },
   {
     "ID": 1013,
@@ -11623,7 +11962,8 @@
     "VassalName": "Mandalorian Tactics",
     "VassalID": "IACP_C card--Mandalorian Tactics.jpg",
     "ImageOffset": 0,
-    "ImageName": "Mandalorian Tactics.png"
+    "ImageName": "Mandalorian Tactics.png",
+    "Playtest": "No"
   },
   {
     "ID": 1014,
@@ -11648,7 +11988,8 @@
     "VassalName": "Disorient",
     "VassalID": "C card--Disorient.jpg",
     "ImageOffset": 0,
-    "ImageName": "Disorient.png"
+    "ImageName": "Disorient.png",
+    "Playtest": "No"
   },
   {
     "ID": 1015,
@@ -11675,7 +12016,8 @@
     "VassalName": "Grisly Contest",
     "VassalID": "C card--Grisly Contest.jpg",
     "ImageOffset": 0,
-    "ImageName": "Grisly Contest.png"
+    "ImageName": "Grisly Contest.png",
+    "Playtest": "No"
   },
   {
     "ID": 1016,
@@ -11702,7 +12044,8 @@
     "VassalName": "Trandoshan Terror",
     "VassalID": "C card--Trandoshan Terror.jpg",
     "ImageOffset": 0,
-    "ImageName": "Trandoshan Terror.png"
+    "ImageName": "Trandoshan Terror.png",
+    "Playtest": "No"
   },
   {
     "ID": 1017,
@@ -11729,7 +12072,8 @@
     "VassalName": "Adrenaline",
     "VassalID": "C card--Adrenaline.jpg",
     "ImageOffset": 0,
-    "ImageName": "Adrenaline.png"
+    "ImageName": "Adrenaline.png",
+    "Playtest": "No"
   },
   {
     "ID": 1018,
@@ -11756,7 +12100,8 @@
     "VassalName": "Debts Repaid",
     "VassalID": "C card--Debts Repaid.jpg",
     "ImageOffset": 0,
-    "ImageName": "Debts Repaid.png"
+    "ImageName": "Debts Repaid.png",
+    "Playtest": "No"
   },
   {
     "ID": 1019,
@@ -11783,7 +12128,8 @@
     "VassalName": "Hold Ground",
     "VassalID": "C card--Hold Ground.png",
     "ImageOffset": 0,
-    "ImageName": "Hold Ground.png"
+    "ImageName": "Hold Ground.png",
+    "Playtest": "No"
   },
   {
     "ID": 1020,
@@ -11811,7 +12157,8 @@
     "VassalName": "Roar",
     "VassalID": "C card--Roar.jpg",
     "ImageOffset": 0,
-    "ImageName": "Roar.png"
+    "ImageName": "Roar.png",
+    "Playtest": "No"
   },
   {
     "ID": 1021,
@@ -11838,7 +12185,8 @@
     "VassalName": "Wookiee Rage",
     "VassalID": "IACP12_C card--Wookiee Rage.png",
     "ImageOffset": 0,
-    "ImageName": "Wookiee Rage.png"
+    "ImageName": "Wookiee Rage.png",
+    "Playtest": "No"
   },
   {
     "ID": 1022,
@@ -11865,7 +12213,8 @@
     "VassalName": "Burst Fire",
     "VassalID": "C card--Burst Fire.jpg",
     "ImageOffset": 0,
-    "ImageName": "Burst Fire.png"
+    "ImageName": "Burst Fire.png",
+    "Playtest": "No"
   },
   {
     "ID": 1023,
@@ -11890,7 +12239,8 @@
     "VassalName": "Celebration",
     "VassalID": "C card--Celebration.jpg",
     "ImageOffset": 0,
-    "ImageName": "Celebration.png"
+    "ImageName": "Celebration.png",
+    "Playtest": "No"
   },
   {
     "ID": 1024,
@@ -11917,7 +12267,8 @@
     "VassalName": "Close the Gap",
     "VassalID": "C card--Close the Gap.jpg",
     "ImageOffset": 0,
-    "ImageName": "Close the Gap.png"
+    "ImageName": "Close the Gap.png",
+    "Playtest": "No"
   },
   {
     "ID": 1025,
@@ -11945,7 +12296,8 @@
     "VassalName": "Covering Fire",
     "VassalID": "C card--Covering Fire.jpg",
     "ImageOffset": 0,
-    "ImageName": "Covering Fire.png"
+    "ImageName": "Covering Fire.png",
+    "Playtest": "No"
   },
   {
     "ID": 1026,
@@ -11970,7 +12322,8 @@
     "VassalName": "Deadeye",
     "VassalID": "C card--Deadeye.jpg",
     "ImageOffset": 0,
-    "ImageName": "Deadeye.png"
+    "ImageName": "Deadeye.png",
+    "Playtest": "No"
   },
   {
     "ID": 1027,
@@ -11997,7 +12350,8 @@
     "VassalName": "Deflection",
     "VassalID": "IACP_C card--Deflection.jpg",
     "ImageOffset": 0,
-    "ImageName": "Deflection.png"
+    "ImageName": "Deflection.png",
+    "Playtest": "No"
   },
   {
     "ID": 1028,
@@ -12022,7 +12376,8 @@
     "VassalName": "Element of Surprise",
     "VassalID": "C card--Element of Surprise.jpg",
     "ImageOffset": 0,
-    "ImageName": "Element of Surprise.png"
+    "ImageName": "Element of Surprise.png",
+    "Playtest": "No"
   },
   {
     "ID": 1029,
@@ -12047,7 +12402,8 @@
     "VassalName": "Expose Weakness",
     "VassalID": "C card--Expose Weakness.jpg",
     "ImageOffset": 0,
-    "ImageName": "Expose Weakness.png"
+    "ImageName": "Expose Weakness.png",
+    "Playtest": "No"
   },
   {
     "ID": 1030,
@@ -12074,7 +12430,8 @@
     "VassalName": "Ferocity",
     "VassalID": "C card--Ferocity.jpg",
     "ImageOffset": 0,
-    "ImageName": "Ferocity.png"
+    "ImageName": "Ferocity.png",
+    "Playtest": "No"
   },
   {
     "ID": 1031,
@@ -12099,7 +12456,8 @@
     "VassalName": "Fleet Footed",
     "VassalID": "C card--Fleet Footed.jpg",
     "ImageOffset": 0,
-    "ImageName": "Fleet Footed.png"
+    "ImageName": "Fleet Footed.png",
+    "Playtest": "No"
   },
   {
     "ID": 1032,
@@ -12126,7 +12484,8 @@
     "VassalName": "Force Lightning",
     "VassalID": "C card--Force Lightning.jpg",
     "ImageOffset": 0,
-    "ImageName": "Force Lightning.png"
+    "ImageName": "Force Lightning.png",
+    "Playtest": "No"
   },
   {
     "ID": 1033,
@@ -12153,7 +12512,8 @@
     "VassalName": "Furious Charge",
     "VassalID": "C card--Furious Charge.jpg",
     "ImageOffset": 0,
-    "ImageName": "Furious Charge.png"
+    "ImageName": "Furious Charge.png",
+    "Playtest": "No"
   },
   {
     "ID": 1034,
@@ -12180,7 +12540,8 @@
     "VassalName": "Guardian Stance",
     "VassalID": "C card--Guardian Stance.jpg",
     "ImageOffset": 0,
-    "ImageName": "Guardian Stance.png"
+    "ImageName": "Guardian Stance.png",
+    "Playtest": "No"
   },
   {
     "ID": 1035,
@@ -12207,7 +12568,8 @@
     "VassalName": "Hunter Protocol",
     "VassalID": "C card--Hunter Protocol.jpg",
     "ImageOffset": 0,
-    "ImageName": "Hunter Protocol.png"
+    "ImageName": "Hunter Protocol.png",
+    "Playtest": "No"
   },
   {
     "ID": 1036,
@@ -12234,7 +12596,8 @@
     "VassalName": "Knowledge and Defense",
     "VassalID": "IACP_C card--Knowledge and Defense.jpg",
     "ImageOffset": 0,
-    "ImageName": "Knowledge and Defense.png"
+    "ImageName": "Knowledge and Defense.png",
+    "Playtest": "No"
   },
   {
     "ID": 1037,
@@ -12261,7 +12624,8 @@
     "VassalName": "Lord of the Sith",
     "VassalID": "C card--Lord of the Sith.jpg",
     "ImageOffset": 0,
-    "ImageName": "Lord of the Sith.png"
+    "ImageName": "Lord of the Sith.png",
+    "Playtest": "No"
   },
   {
     "ID": 1038,
@@ -12288,7 +12652,8 @@
     "VassalName": "Lure of the Dark Side",
     "VassalID": "C card--Lure of the Dark Side.jpg",
     "ImageOffset": 0,
-    "ImageName": "Lure of the Dark Side.png"
+    "ImageName": "Lure of the Dark Side.png",
+    "Playtest": "No"
   },
   {
     "ID": 1039,
@@ -12313,7 +12678,8 @@
     "VassalName": "Marksman",
     "VassalID": "C card--Marksman.jpg",
     "ImageOffset": 0,
-    "ImageName": "Marksman.png"
+    "ImageName": "Marksman.png",
+    "Playtest": "No"
   },
   {
     "ID": 1040,
@@ -12340,7 +12706,8 @@
     "VassalName": "Maximum Firepower",
     "VassalID": "C card--Maximum Firepower.jpg",
     "ImageOffset": 0,
-    "ImageName": "Maximum Firepower.png"
+    "ImageName": "Maximum Firepower.png",
+    "Playtest": "No"
   },
   {
     "ID": 1041,
@@ -12367,7 +12734,8 @@
     "VassalName": "Meditation",
     "VassalID": "C card--Meditation.jpg",
     "ImageOffset": 0,
-    "ImageName": "Meditation.png"
+    "ImageName": "Meditation.png",
+    "Playtest": "No"
   },
   {
     "ID": 1042,
@@ -12394,7 +12762,8 @@
     "VassalName": "One in a Million",
     "VassalID": "C card--One in a Million.jpg",
     "ImageOffset": 0,
-    "ImageName": "One in a Million.png"
+    "ImageName": "One in a Million.png",
+    "Playtest": "No"
   },
   {
     "ID": 1043,
@@ -12419,7 +12788,8 @@
     "VassalName": "Planning",
     "VassalID": "C card--Planning.jpg",
     "ImageOffset": 0,
-    "ImageName": "Planning.png"
+    "ImageName": "Planning.png",
+    "Playtest": "No"
   },
   {
     "ID": 1044,
@@ -12446,7 +12816,8 @@
     "VassalName": "Price on Their Heads",
     "VassalID": "C card--Price on Their Heads.jpg",
     "ImageOffset": 0,
-    "ImageName": "Price on Their Heads.png"
+    "ImageName": "Price on Their Heads.png",
+    "Playtest": "No"
   },
   {
     "ID": 1045,
@@ -12473,7 +12844,8 @@
     "VassalName": "Pummel",
     "VassalID": "C card--Pummel.jpg",
     "ImageOffset": 0,
-    "ImageName": "Pummel.png"
+    "ImageName": "Pummel.png",
+    "Playtest": "No"
   },
   {
     "ID": 1046,
@@ -12498,7 +12870,8 @@
     "VassalName": "Rally",
     "VassalID": "C card--Rally.jpg",
     "ImageOffset": 0,
-    "ImageName": "Rally.png"
+    "ImageName": "Rally.png",
+    "Playtest": "No"
   },
   {
     "ID": 1047,
@@ -12523,7 +12896,8 @@
     "VassalName": "Recovery",
     "VassalID": "C card--Recovery.jpg",
     "ImageOffset": 0,
-    "ImageName": "Recovery.png"
+    "ImageName": "Recovery.png",
+    "Playtest": "No"
   },
   {
     "ID": 1048,
@@ -12550,7 +12924,8 @@
     "VassalName": "Regroup",
     "VassalID": "C card--Regroup.jpg",
     "ImageOffset": 0,
-    "ImageName": "Regroup.png"
+    "ImageName": "Regroup.png",
+    "Playtest": "No"
   },
   {
     "ID": 1049,
@@ -12577,7 +12952,8 @@
     "VassalName": "Shadow Ops",
     "VassalID": "C card--Shadow Ops.jpg",
     "ImageOffset": 0,
-    "ImageName": "Shadow Ops.png"
+    "ImageName": "Shadow Ops.png",
+    "Playtest": "No"
   },
   {
     "ID": 1050,
@@ -12602,7 +12978,8 @@
     "VassalName": "Sit Tight",
     "VassalID": "C card--Sit Tight.jpg",
     "ImageOffset": 0,
-    "ImageName": "Sit Tight.png"
+    "ImageName": "Sit Tight.png",
+    "Playtest": "No"
   },
   {
     "ID": 1051,
@@ -12630,7 +13007,8 @@
     "VassalName": "Son of Skywalker",
     "VassalID": "C card--Son of Skywalker.jpg",
     "ImageOffset": 0,
-    "ImageName": "Son of Skywalker.png"
+    "ImageName": "Son of Skywalker.png",
+    "Playtest": "No"
   },
   {
     "ID": 1052,
@@ -12655,7 +13033,8 @@
     "VassalName": "Take Cover",
     "VassalID": "C card--Take Cover.jpg",
     "ImageOffset": 0,
-    "ImageName": "Take Cover.png"
+    "ImageName": "Take Cover.png",
+    "Playtest": "No"
   },
   {
     "ID": 1053,
@@ -12680,7 +13059,8 @@
     "VassalName": "Take Initiative",
     "VassalID": "C card--Take Initiative.jpg",
     "ImageOffset": 0,
-    "ImageName": "Take Initiative.png"
+    "ImageName": "Take Initiative.png",
+    "Playtest": "No"
   },
   {
     "ID": 1054,
@@ -12707,7 +13087,8 @@
     "VassalName": "Take it Down",
     "VassalID": "C card--Take it Down.jpg",
     "ImageOffset": 0,
-    "ImageName": "Take it Down.png"
+    "ImageName": "Take it Down.png",
+    "Playtest": "No"
   },
   {
     "ID": 1055,
@@ -12734,7 +13115,8 @@
     "VassalName": "Telekinetic Throw",
     "VassalID": "C card--Telekinetic Throw.jpg",
     "ImageOffset": 0,
-    "ImageName": "Telekinetic Throw.png"
+    "ImageName": "Telekinetic Throw.png",
+    "Playtest": "No"
   },
   {
     "ID": 1056,
@@ -12759,7 +13141,8 @@
     "VassalName": "To the Limit",
     "VassalID": "C card--To the Limit.jpg",
     "ImageOffset": 0,
-    "ImageName": "To the Limit.png"
+    "ImageName": "To the Limit.png",
+    "Playtest": "No"
   },
   {
     "ID": 1057,
@@ -12784,7 +13167,8 @@
     "VassalName": "Urgency",
     "VassalID": "C card--Urgency.jpg",
     "ImageOffset": 0,
-    "ImageName": "Urgency.png"
+    "ImageName": "Urgency.png",
+    "Playtest": "No"
   },
   {
     "ID": 1058,
@@ -12809,7 +13193,8 @@
     "VassalName": "Brace Yourself",
     "VassalID": "C card--Brace Yourself.jpg",
     "ImageOffset": 0,
-    "ImageName": "Brace Yourself.png"
+    "ImageName": "Brace Yourself.png",
+    "Playtest": "No"
   },
   {
     "ID": 1059,
@@ -12834,7 +13219,8 @@
     "VassalName": "Dangerous Bargains",
     "VassalID": "C card--Dangerous Bargains.jpg",
     "ImageOffset": 0,
-    "ImageName": "Dangerous Bargains.png"
+    "ImageName": "Dangerous Bargains.png",
+    "Playtest": "No"
   },
   {
     "ID": 1060,
@@ -12861,7 +13247,8 @@
     "VassalName": "Payback",
     "VassalID": "C card--Payback.jpg",
     "ImageOffset": 0,
-    "ImageName": "Payback.png"
+    "ImageName": "Payback.png",
+    "Playtest": "No"
   },
   {
     "ID": 1061,
@@ -12886,7 +13273,8 @@
     "VassalName": "Against the Odds",
     "VassalID": "C card--Against The Odds.jpg",
     "ImageOffset": 0,
-    "ImageName": "Against the Odds.png"
+    "ImageName": "Against the Odds.png",
+    "Playtest": "No"
   },
   {
     "ID": 1062,
@@ -12911,7 +13299,8 @@
     "VassalName": "Efficient Travel",
     "VassalID": "C card--Efficient Travel.jpg",
     "ImageOffset": 0,
-    "ImageName": "Efficient Travel.png"
+    "ImageName": "Efficient Travel.png",
+    "Playtest": "No"
   },
   {
     "ID": 1063,
@@ -12936,7 +13325,8 @@
     "VassalName": "Hit and Run",
     "VassalID": "C card--Hit And Run.jpg",
     "ImageOffset": 0,
-    "ImageName": "Hit and Run.png"
+    "ImageName": "Hit and Run.png",
+    "Playtest": "No"
   },
   {
     "ID": 1064,
@@ -12963,7 +13353,8 @@
     "VassalName": "Field Tactician",
     "VassalID": "C card--Field Tactician.jpg",
     "ImageOffset": 0,
-    "ImageName": "Field Tactician.png"
+    "ImageName": "Field Tactician.png",
+    "Playtest": "No"
   },
   {
     "ID": 1065,
@@ -12990,7 +13381,8 @@
     "VassalName": "Fuel Upgrade",
     "VassalID": "C card--Fuel Upgrade.jpg",
     "ImageOffset": 0,
-    "ImageName": "Fuel Upgrade.png"
+    "ImageName": "Fuel Upgrade.png",
+    "Playtest": "No"
   },
   {
     "ID": 1066,
@@ -13017,7 +13409,8 @@
     "VassalName": "Optimal Bombardment",
     "VassalID": "C card--Optimal Bombardment.jpg",
     "ImageOffset": 0,
-    "ImageName": "Optimal Bombardment.png"
+    "ImageName": "Optimal Bombardment.png",
+    "Playtest": "No"
   },
   {
     "ID": 1067,
@@ -13044,7 +13437,8 @@
     "VassalName": "Endless Reserves",
     "VassalID": "C card--Endless Reserves.jpg",
     "ImageOffset": 0,
-    "ImageName": "Endless Reserves.png"
+    "ImageName": "Endless Reserves.png",
+    "Playtest": "No"
   },
   {
     "ID": 1068,
@@ -13071,7 +13465,8 @@
     "VassalName": "Explosive Weaponry",
     "VassalID": "C card--Explosive Weaponry.jpg",
     "ImageOffset": 0,
-    "ImageName": "Explosive Weaponry.png"
+    "ImageName": "Explosive Weaponry.png",
+    "Playtest": "No"
   },
   {
     "ID": 1069,
@@ -13098,7 +13493,8 @@
     "VassalName": "Heavy Armor",
     "VassalID": "C card--Heavy Armor.jpg",
     "ImageOffset": 0,
-    "ImageName": "Heavy Armor.png"
+    "ImageName": "Heavy Armor.png",
+    "Playtest": "No"
   },
   {
     "ID": 1070,
@@ -13125,7 +13521,8 @@
     "VassalName": "New Orders",
     "VassalID": "C card--New Orders.jpg",
     "ImageOffset": 0,
-    "ImageName": "New Orders.png"
+    "ImageName": "New Orders.png",
+    "Playtest": "No"
   },
   {
     "ID": 1071,
@@ -13152,7 +13549,8 @@
     "VassalName": "Overrun",
     "VassalID": "C card--Overrun.jpg",
     "ImageOffset": 0,
-    "ImageName": "Overrun.png"
+    "ImageName": "Overrun.png",
+    "Playtest": "No"
   },
   {
     "ID": 1072,
@@ -13180,7 +13578,8 @@
     "VassalName": "In the Shadows",
     "VassalID": "C card--In The Shadows.jpg",
     "ImageOffset": 0,
-    "ImageName": "In the Shadows.png"
+    "ImageName": "In the Shadows.png",
+    "Playtest": "No"
   },
   {
     "ID": 1073,
@@ -13207,7 +13606,8 @@
     "VassalName": "Primary Target",
     "VassalID": "C card--Primary Target.jpg",
     "ImageOffset": 0,
-    "ImageName": "Primary Target.png"
+    "ImageName": "Primary Target.png",
+    "Playtest": "No"
   },
   {
     "ID": 1074,
@@ -13234,7 +13634,8 @@
     "VassalName": "Stroke of Brilliance",
     "VassalID": "C card--Stroke Of Brilliance.jpg",
     "ImageOffset": 0,
-    "ImageName": "Stroke of Brilliance.png"
+    "ImageName": "Stroke of Brilliance.png",
+    "Playtest": "No"
   },
   {
     "ID": 1075,
@@ -13261,7 +13662,8 @@
     "VassalName": "Disable",
     "VassalID": "C card--Disable.jpg",
     "ImageOffset": 0,
-    "ImageName": "Disable.png"
+    "ImageName": "Disable.png",
+    "Playtest": "No"
   },
   {
     "ID": 1076,
@@ -13288,7 +13690,8 @@
     "VassalName": "I Make My Own Luck",
     "VassalID": "C card--I Make My Own Luck.jpg",
     "ImageOffset": 0,
-    "ImageName": "I Make My Own Luck.png"
+    "ImageName": "I Make My Own Luck.png",
+    "Playtest": "No"
   },
   {
     "ID": 1077,
@@ -13315,7 +13718,8 @@
     "VassalName": "Inspiring Speech",
     "VassalID": "C card--Inspiring Speech.jpg",
     "ImageOffset": 0,
-    "ImageName": "Inspiring Speech.png"
+    "ImageName": "Inspiring Speech.png",
+    "Playtest": "No"
   },
   {
     "ID": 1078,
@@ -13342,7 +13746,8 @@
     "VassalName": "Reposition",
     "VassalID": "C card--Reposition.jpg",
     "ImageOffset": 0,
-    "ImageName": "Reposition.png"
+    "ImageName": "Reposition.png",
+    "Playtest": "No"
   },
   {
     "ID": 1079,
@@ -13370,7 +13775,8 @@
     "VassalName": "Slippery Target",
     "VassalID": "C card--Slippery Target.jpg",
     "ImageOffset": 0,
-    "ImageName": "Slippery Target.png"
+    "ImageName": "Slippery Target.png",
+    "Playtest": "No"
   },
   {
     "ID": 1080,
@@ -13398,7 +13804,8 @@
     "VassalName": "Of No Importance",
     "VassalID": "C card--Of No Importance.jpg",
     "ImageOffset": 0,
-    "ImageName": "Of No Importance.png"
+    "ImageName": "Of No Importance.png",
+    "Playtest": "No"
   },
   {
     "ID": 1081,
@@ -13425,7 +13832,8 @@
     "VassalName": "Blaze of Glory",
     "VassalID": "C card--Blaze of Glory.jpg",
     "ImageOffset": 0,
-    "ImageName": "Blaze of Glory.png"
+    "ImageName": "Blaze of Glory.png",
+    "Playtest": "No"
   },
   {
     "ID": 1082,
@@ -13453,7 +13861,8 @@
     "VassalName": "Dirty Trick",
     "VassalID": "C card--Dirty Trick.jpg",
     "ImageOffset": 0,
-    "ImageName": "Dirty Trick.png"
+    "ImageName": "Dirty Trick.png",
+    "Playtest": "No"
   },
   {
     "ID": 1083,
@@ -13480,7 +13889,8 @@
     "VassalName": "Merciless",
     "VassalID": "C card--Merciless.jpg",
     "ImageOffset": 0,
-    "ImageName": "Merciless.png"
+    "ImageName": "Merciless.png",
+    "Playtest": "No"
   },
   {
     "ID": 1084,
@@ -13507,7 +13917,8 @@
     "VassalName": "Overdrive",
     "VassalID": "C card--Overdrive.jpg",
     "ImageOffset": 0,
-    "ImageName": "Overdrive.png"
+    "ImageName": "Overdrive.png",
+    "Playtest": "No"
   },
   {
     "ID": 1085,
@@ -13535,7 +13946,8 @@
     "VassalName": "Repair",
     "VassalID": "C card--Repair.jpg",
     "ImageOffset": 0,
-    "ImageName": "Repair.png"
+    "ImageName": "Repair.png",
+    "Playtest": "No"
   },
   {
     "ID": 1086,
@@ -13562,7 +13974,8 @@
     "VassalName": "Comm Disruption",
     "VassalID": "C card--Comm Disruption.jpg",
     "ImageOffset": 0,
-    "ImageName": "Comm Disruption.png"
+    "ImageName": "Comm Disruption.png",
+    "Playtest": "No"
   },
   {
     "ID": 1087,
@@ -13589,7 +14002,8 @@
     "VassalName": "Data Theft",
     "VassalID": "C card--Data Theft.jpg",
     "ImageOffset": 0,
-    "ImageName": "Data Theft.png"
+    "ImageName": "Data Theft.png",
+    "Playtest": "No"
   },
   {
     "ID": 1088,
@@ -13616,7 +14030,8 @@
     "VassalName": "Strategic Shift",
     "VassalID": "C card--Strategic Shift.jpg",
     "ImageOffset": 0,
-    "ImageName": "Strategic Shift.png"
+    "ImageName": "Strategic Shift.png",
+    "Playtest": "No"
   },
   {
     "ID": 1089,
@@ -13643,7 +14058,8 @@
     "VassalName": "Rally the Troops",
     "VassalID": "C card--Rally The Troops.jpg",
     "ImageOffset": 0,
-    "ImageName": "Rally the Troops.png"
+    "ImageName": "Rally the Troops.png",
+    "Playtest": "No"
   },
   {
     "ID": 1090,
@@ -13670,7 +14086,8 @@
     "VassalName": "Rank and File",
     "VassalID": "C card--Rank And File.jpg",
     "ImageOffset": 0,
-    "ImageName": "Rank and File.png"
+    "ImageName": "Rank and File.png",
+    "Playtest": "No"
   },
   {
     "ID": 1091,
@@ -13695,7 +14112,8 @@
     "VassalName": "Squad Swarm",
     "VassalID": "C card--Squad Swarm.jpg",
     "ImageOffset": 0,
-    "ImageName": "Squad Swarm.png"
+    "ImageName": "Squad Swarm.png",
+    "Playtest": "No"
   },
   {
     "ID": 1092,
@@ -13722,7 +14140,8 @@
     "VassalName": "Black Market Prices",
     "VassalID": "C card--Black Market Prices.jpg",
     "ImageOffset": 0,
-    "ImageName": "Black Market Prices.png"
+    "ImageName": "Black Market Prices.png",
+    "Playtest": "No"
   },
   {
     "ID": 1093,
@@ -13749,7 +14168,8 @@
     "VassalName": "Cheat to Win",
     "VassalID": "C card--Cheat To Win.jpg",
     "ImageOffset": 0,
-    "ImageName": "Cheat to Win.png"
+    "ImageName": "Cheat to Win.png",
+    "Playtest": "No"
   },
   {
     "ID": 1094,
@@ -13777,7 +14197,8 @@
     "VassalName": "Stall for Time",
     "VassalID": "C card--Stall For Time.jpg",
     "ImageOffset": 0,
-    "ImageName": "Stall for Time.png"
+    "ImageName": "Stall for Time.png",
+    "Playtest": "No"
   },
   {
     "ID": 1095,
@@ -13804,7 +14225,8 @@
     "VassalName": "Behind Enemy Lines",
     "VassalID": "C card--Behind Enemy Lines.jpg",
     "ImageOffset": 0,
-    "ImageName": "Behind Enemy Lines.png"
+    "ImageName": "Behind Enemy Lines.png",
+    "Playtest": "No"
   },
   {
     "ID": 1096,
@@ -13833,7 +14255,8 @@
     "VassalName": "I Can Feel It",
     "VassalID": "C card--I Can Feel It.jpg",
     "ImageOffset": 0,
-    "ImageName": "I Can Feel It.png"
+    "ImageName": "I Can Feel It.png",
+    "Playtest": "No"
   },
   {
     "ID": 1097,
@@ -13860,7 +14283,8 @@
     "VassalName": "There is Another",
     "VassalID": "C card--There Is Another.jpg",
     "ImageOffset": 0,
-    "ImageName": "There is Another.png"
+    "ImageName": "There is Another.png",
+    "Playtest": "No"
   },
   {
     "ID": 1098,
@@ -13887,7 +14311,8 @@
     "VassalName": "A Powerful Influence",
     "VassalID": "C card--A Powerful Influence.jpg",
     "ImageOffset": 0,
-    "ImageName": "A Powerful Influence.png"
+    "ImageName": "A Powerful Influence.png",
+    "Playtest": "No"
   },
   {
     "ID": 1099,
@@ -13914,7 +14339,8 @@
     "VassalName": "Force Surge",
     "VassalID": "C card--Force Surge.jpg",
     "ImageOffset": 0,
-    "ImageName": "Force Surge.png"
+    "ImageName": "Force Surge.png",
+    "Playtest": "No"
   },
   {
     "ID": 1100,
@@ -13941,7 +14367,8 @@
     "VassalName": "I Must Go Alone",
     "VassalID": "C card--I Must Go Alone.jpg",
     "ImageOffset": 0,
-    "ImageName": "I Must Go Alone.png"
+    "ImageName": "I Must Go Alone.png",
+    "Playtest": "No"
   },
   {
     "ID": 1101,
@@ -13968,7 +14395,8 @@
     "VassalName": "Devotion",
     "VassalID": "C card--Devotion.jpg",
     "ImageOffset": 0,
-    "ImageName": "Devotion.png"
+    "ImageName": "Devotion.png",
+    "Playtest": "No"
   },
   {
     "ID": 1102,
@@ -13995,7 +14423,8 @@
     "VassalName": "Etiquette and Protocol",
     "VassalID": "C card--Etiquette And Protocal.jpg",
     "ImageOffset": 0,
-    "ImageName": "Etiquette and Protocol.png"
+    "ImageName": "Etiquette and Protocol.png",
+    "Playtest": "No"
   },
   {
     "ID": 1103,
@@ -14020,7 +14449,8 @@
     "VassalName": "Hard to Hit",
     "VassalID": "C card--Hard To Hit.jpg",
     "ImageOffset": 0,
-    "ImageName": "Hard to Hit.png"
+    "ImageName": "Hard to Hit.png",
+    "Playtest": "No"
   },
   {
     "ID": 1104,
@@ -14045,7 +14475,8 @@
     "VassalName": "Single Purpose",
     "VassalID": "C card--Single Purpose.jpg",
     "ImageOffset": 0,
-    "ImageName": "Single Purpose.png"
+    "ImageName": "Single Purpose.png",
+    "Playtest": "No"
   },
   {
     "ID": 1105,
@@ -14072,7 +14503,8 @@
     "VassalName": "Terminal Network",
     "VassalID": "C card--Terminal Network.jpg",
     "ImageOffset": 0,
-    "ImageName": "Terminal Network.png"
+    "ImageName": "Terminal Network.png",
+    "Playtest": "No"
   },
   {
     "ID": 1106,
@@ -14097,7 +14529,8 @@
     "VassalName": "Change of Plans",
     "VassalID": "C card--Change of Plans.jpg",
     "ImageOffset": 0,
-    "ImageName": "Change of Plans.png"
+    "ImageName": "Change of Plans.png",
+    "Playtest": "No"
   },
   {
     "ID": 1107,
@@ -14124,7 +14557,8 @@
     "VassalName": "Collect Intel",
     "VassalID": "C card--Collect Intel.jpg",
     "ImageOffset": 0,
-    "ImageName": "Collect Intel.png"
+    "ImageName": "Collect Intel.png",
+    "Playtest": "No"
   },
   {
     "ID": 1108,
@@ -14149,7 +14583,8 @@
     "VassalName": "Emergency Aid",
     "VassalID": "C card--Emergency Aid.jpg",
     "ImageOffset": 0,
-    "ImageName": "Emergency Aid.png"
+    "ImageName": "Emergency Aid.png",
+    "Playtest": "No"
   },
   {
     "ID": 1109,
@@ -14176,7 +14611,8 @@
     "VassalName": "Hide in Plain Sight",
     "VassalID": "C card--Hide in Plain Sight.jpg",
     "ImageOffset": 0,
-    "ImageName": "Hide in Plain Sight.png"
+    "ImageName": "Hide in Plain Sight.png",
+    "Playtest": "No"
   },
   {
     "ID": 1110,
@@ -14203,7 +14639,8 @@
     "VassalName": "Lock On",
     "VassalID": "C card--Lock On.jpg",
     "ImageOffset": 0,
-    "ImageName": "Lock On.png"
+    "ImageName": "Lock On.png",
+    "Playtest": "No"
   },
   {
     "ID": 1111,
@@ -14228,7 +14665,8 @@
     "VassalName": "Focus",
     "VassalID": "C card--Focus.jpg",
     "ImageOffset": 0,
-    "ImageName": "Focus.png"
+    "ImageName": "Focus.png",
+    "Playtest": "No"
   },
   {
     "ID": 1112,
@@ -14255,7 +14693,8 @@
     "VassalName": "Grenadier",
     "VassalID": "C card--Grenadier.jpg",
     "ImageOffset": 0,
-    "ImageName": "Grenadier.png"
+    "ImageName": "Grenadier.png",
+    "Playtest": "No"
   },
   {
     "ID": 1113,
@@ -14282,7 +14721,8 @@
     "VassalName": "Reinforcements",
     "VassalID": "C card--Reinforcements.jpg",
     "ImageOffset": 0,
-    "ImageName": "Reinforcements.png"
+    "ImageName": "Reinforcements.png",
+    "Playtest": "No"
   },
   {
     "ID": 1114,
@@ -14307,7 +14747,8 @@
     "VassalName": "Strength in Numbers",
     "VassalID": "C card--Strength in Numbers.jpg",
     "ImageOffset": 0,
-    "ImageName": "Strength in Numbers.png"
+    "ImageName": "Strength in Numbers.png",
+    "Playtest": "No"
   },
   {
     "ID": 1115,
@@ -14334,7 +14775,8 @@
     "VassalName": "Coordinated Attack",
     "VassalID": "C card--Coordinated Attack.jpg",
     "ImageOffset": 0,
-    "ImageName": "Coordinated Attack.png"
+    "ImageName": "Coordinated Attack.png",
+    "Playtest": "No"
   },
   {
     "ID": 1116,
@@ -14359,7 +14801,8 @@
     "VassalName": "Harsh Environment",
     "VassalID": "C card--Harsh Environment.jpg",
     "ImageOffset": 0,
-    "ImageName": "Harsh Environment.png"
+    "ImageName": "Harsh Environment.png",
+    "Playtest": "No"
   },
   {
     "ID": 1117,
@@ -14386,7 +14829,8 @@
     "VassalName": "Master Operative",
     "VassalID": "C card--Master Operative.jpg",
     "ImageOffset": 0,
-    "ImageName": "Master Operative.png"
+    "ImageName": "Master Operative.png",
+    "Playtest": "No"
   },
   {
     "ID": 1118,
@@ -14413,7 +14857,8 @@
     "VassalName": "Miracle Worker",
     "VassalID": "C card--Miracle Worker.jpg",
     "ImageOffset": 0,
-    "ImageName": "Miracle Worker.png"
+    "ImageName": "Miracle Worker.png",
+    "Playtest": "No"
   },
   {
     "ID": 1119,
@@ -14438,7 +14883,8 @@
     "VassalName": "Negation",
     "VassalID": "C card--Negation.jpg",
     "ImageOffset": 0,
-    "ImageName": "Negation.png"
+    "ImageName": "Negation.png",
+    "Playtest": "No"
   },
   {
     "ID": 1120,
@@ -14465,7 +14911,8 @@
     "VassalName": "Overcharged Weapons",
     "VassalID": "C card--Overcharged Wapons.jpg",
     "ImageOffset": 0,
-    "ImageName": "Overcharged Weapons.png"
+    "ImageName": "Overcharged Weapons.png",
+    "Playtest": "No"
   },
   {
     "ID": 1121,
@@ -14490,7 +14937,8 @@
     "VassalName": "Set a Trap",
     "VassalID": "C card--Set a Trap.jpg",
     "ImageOffset": 0,
-    "ImageName": "Set a Trap.png"
+    "ImageName": "Set a Trap.png",
+    "Playtest": "No"
   },
   {
     "ID": 1122,
@@ -14517,7 +14965,8 @@
     "VassalName": "Size Advantage",
     "VassalID": "C card--Size Advantage.jpg",
     "ImageOffset": 0,
-    "ImageName": "Size Advantage.png"
+    "ImageName": "Size Advantage.png",
+    "Playtest": "No"
   },
   {
     "ID": 1123,
@@ -14544,7 +14993,8 @@
     "VassalName": "Survival Instincts",
     "VassalID": "C card--Survival Instincts.jpg",
     "ImageOffset": 0,
-    "ImageName": "Survival Instincts.png"
+    "ImageName": "Survival Instincts.png",
+    "Playtest": "No"
   },
   {
     "ID": 1124,
@@ -14571,7 +15021,8 @@
     "VassalName": "Bodyguard",
     "VassalID": "C card--Bodyguard.jpg",
     "ImageOffset": 0,
-    "ImageName": "Bodyguard.png"
+    "ImageName": "Bodyguard.png",
+    "Playtest": "No"
   },
   {
     "ID": 1125,
@@ -14598,7 +15049,8 @@
     "VassalName": "Counter Attack",
     "VassalID": "C card--Counter Attack.jpg",
     "ImageOffset": 0,
-    "ImageName": "Counter Attack.png"
+    "ImageName": "Counter Attack.png",
+    "Playtest": "No"
   },
   {
     "ID": 1126,
@@ -14626,7 +15078,8 @@
     "VassalName": "Cripple",
     "VassalID": "C card--Cripple.jpg",
     "ImageOffset": 0,
-    "ImageName": "Cripple.png"
+    "ImageName": "Cripple.png",
+    "Playtest": "No"
   },
   {
     "ID": 1127,
@@ -14653,7 +15106,8 @@
     "VassalName": "Flurry of Blades",
     "VassalID": "C card--Flurry of Blades.jpg",
     "ImageOffset": 0,
-    "ImageName": "Flurry of Blades.png"
+    "ImageName": "Flurry of Blades.png",
+    "Playtest": "No"
   },
   {
     "ID": 1128,
@@ -14678,7 +15132,8 @@
     "VassalName": "Set for Stun",
     "VassalID": "C card--Set For Stun.jpg",
     "ImageOffset": 0,
-    "ImageName": "Set for Stun.png"
+    "ImageName": "Set for Stun.png",
+    "Playtest": "No"
   },
   {
     "ID": 1129,
@@ -14705,7 +15160,8 @@
     "VassalName": "Stealth Tactics",
     "VassalID": "C card--Stealth Tactics.jpg",
     "ImageOffset": 0,
-    "ImageName": "Stealth Tactics.png"
+    "ImageName": "Stealth Tactics.png",
+    "Playtest": "No"
   },
   {
     "ID": 1130,
@@ -14730,7 +15186,8 @@
     "VassalName": "Camouflage",
     "VassalID": "C card--Camouflage.jpg",
     "ImageOffset": 0,
-    "ImageName": "Camouflage.png"
+    "ImageName": "Camouflage.png",
+    "Playtest": "No"
   },
   {
     "ID": 1131,
@@ -14757,7 +15214,8 @@
     "VassalName": "Fatal Deception",
     "VassalID": "C card--Fatal Deception.jpg",
     "ImageOffset": 0,
-    "ImageName": "Fatal Deception.png"
+    "ImageName": "Fatal Deception.png",
+    "Playtest": "No"
   },
   {
     "ID": 1132,
@@ -14784,7 +15242,8 @@
     "VassalName": "Force Illusion",
     "VassalID": "C card--Force Illusion.jpg",
     "ImageOffset": 0,
-    "ImageName": "Force Illusion.png"
+    "ImageName": "Force Illusion.png",
+    "Playtest": "No"
   },
   {
     "ID": 1133,
@@ -14811,7 +15270,8 @@
     "VassalName": "Vanish",
     "VassalID": "C card--Vanish.jpg",
     "ImageOffset": 0,
-    "ImageName": "Vanish.png"
+    "ImageName": "Vanish.png",
+    "Playtest": "No"
   },
   {
     "ID": 1134,
@@ -14838,7 +15298,8 @@
     "VassalName": "Deadly Precision",
     "VassalID": "C card--Deadly Precision.jpg",
     "ImageOffset": 0,
-    "ImageName": "Deadly Precision.png"
+    "ImageName": "Deadly Precision.png",
+    "Playtest": "No"
   },
   {
     "ID": 1135,
@@ -14865,7 +15326,8 @@
     "VassalName": "Force Rush",
     "VassalID": "C card--Force Rush.jpg",
     "ImageOffset": 0,
-    "ImageName": "Force Rush.png"
+    "ImageName": "Force Rush.png",
+    "Playtest": "No"
   },
   {
     "ID": 1136,
@@ -14892,7 +15354,8 @@
     "VassalName": "Hunt Them Down",
     "VassalID": "C card--Hunt Them Down.jpg",
     "ImageOffset": 0,
-    "ImageName": "Hunt Them Down.png"
+    "ImageName": "Hunt Them Down.png",
+    "Playtest": "No"
   },
   {
     "ID": 1137,
@@ -14918,7 +15381,8 @@
     "VassalName": "Cruel Strike",
     "VassalID": "C card--Cruel Strike.jpg",
     "ImageOffset": 0,
-    "ImageName": "Cruel Strike.png"
+    "ImageName": "Cruel Strike.png",
+    "Playtest": "No"
   },
   {
     "ID": 1138,
@@ -14945,7 +15409,8 @@
     "VassalName": "Hidden Trap",
     "VassalID": "C card--Hidden Trap.jpg",
     "ImageOffset": 0,
-    "ImageName": "Hidden Trap.png"
+    "ImageName": "Hidden Trap.png",
+    "Playtest": "No"
   },
   {
     "ID": 1139,
@@ -14972,7 +15437,8 @@
     "VassalName": "Stay Down",
     "VassalID": "C card--Stay Down.jpg",
     "ImageOffset": 0,
-    "ImageName": "Stay Down.png"
+    "ImageName": "Stay Down.png",
+    "Playtest": "No"
   },
   {
     "ID": 1140,
@@ -14997,7 +15463,8 @@
     "VassalName": "Improvised Weapons",
     "VassalID": "C card--Improvised Weapons.jpg",
     "ImageOffset": 0,
-    "ImageName": "Improvised Weapons.png"
+    "ImageName": "Improvised Weapons.png",
+    "Playtest": "No"
   },
   {
     "ID": 1141,
@@ -15025,7 +15492,8 @@
     "VassalName": "Wild Fury",
     "VassalID": "C card--Wild Fury.jpg",
     "ImageOffset": 0,
-    "ImageName": "Wild Fury.png"
+    "ImageName": "Wild Fury.png",
+    "Playtest": "No"
   },
   {
     "ID": 1142,
@@ -15050,7 +15518,8 @@
     "VassalName": "Shoot the Messenger",
     "VassalID": "C card--Shoot The Messenger.jpg",
     "ImageOffset": 0,
-    "ImageName": "Shoot the Messenger.png"
+    "ImageName": "Shoot the Messenger.png",
+    "Playtest": "No"
   },
   {
     "ID": 1143,
@@ -15077,7 +15546,8 @@
     "VassalName": "Assassinate",
     "VassalID": "C card--Assassinate.jpg",
     "ImageOffset": 0,
-    "ImageName": "Assassinate.png"
+    "ImageName": "Assassinate.png",
+    "Playtest": "No"
   },
   {
     "ID": 1144,
@@ -15104,7 +15574,8 @@
     "VassalName": "Blood Feud",
     "VassalID": "C card--Blood Feud.jpg",
     "ImageOffset": 0,
-    "ImageName": "Blood Feud.png"
+    "ImageName": "Blood Feud.png",
+    "Playtest": "No"
   },
   {
     "ID": 1145,
@@ -15131,7 +15602,8 @@
     "VassalName": "Jump Jets",
     "VassalID": "C card--Jump Jets.jpg",
     "ImageOffset": 0,
-    "ImageName": "Jump Jets.png"
+    "ImageName": "Jump Jets.png",
+    "Playtest": "No"
   },
   {
     "ID": 1146,
@@ -15156,7 +15628,8 @@
     "VassalName": "Tough Luck",
     "VassalID": "C card--Tough Luck.jpg",
     "ImageOffset": 0,
-    "ImageName": "Tough Luck.png"
+    "ImageName": "Tough Luck.png",
+    "Playtest": "No"
   },
   {
     "ID": 1147,
@@ -15181,7 +15654,8 @@
     "VassalName": "Wild Attack",
     "VassalID": "C card--Wild Attack.jpg",
     "ImageOffset": 0,
-    "ImageName": "Wild Attack.png"
+    "ImageName": "Wild Attack.png",
+    "Playtest": "No"
   },
   {
     "ID": 1148,
@@ -15208,7 +15682,8 @@
     "VassalName": "Call the Vanguard",
     "VassalID": "C card--Call The Vanguard.jpg",
     "ImageOffset": 0,
-    "ImageName": "Call the Vanguard.png"
+    "ImageName": "Call the Vanguard.png",
+    "Playtest": "No"
   },
   {
     "ID": 1149,
@@ -15235,7 +15710,8 @@
     "VassalName": "Heightened Reflexes",
     "VassalID": "C card--Heightened Reflexes.jpg",
     "ImageOffset": 0,
-    "ImageName": "Heightened Reflexes.png"
+    "ImageName": "Heightened Reflexes.png",
+    "Playtest": "No"
   },
   {
     "ID": 1150,
@@ -15260,7 +15736,8 @@
     "VassalName": "Mitigate",
     "VassalID": "C card--Mitigate.jpg",
     "ImageOffset": 0,
-    "ImageName": "Mitigate.png"
+    "ImageName": "Mitigate.png",
+    "Playtest": "No"
   },
   {
     "ID": 1151,
@@ -15287,7 +15764,8 @@
     "VassalName": "Battlefield Awareness",
     "VassalID": "C card--Battlefield Awareness.jpg",
     "ImageOffset": 0,
-    "ImageName": "Battlefield Awareness.png"
+    "ImageName": "Battlefield Awareness.png",
+    "Playtest": "No"
   },
   {
     "ID": 1152,
@@ -15314,7 +15792,8 @@
     "VassalName": "Cavalry Charge",
     "VassalID": "C card--Cavalry Charge.jpg",
     "ImageOffset": 0,
-    "ImageName": "Cavalry Charge.png"
+    "ImageName": "Cavalry Charge.png",
+    "Playtest": "No"
   },
   {
     "ID": 1153,
@@ -15341,7 +15820,8 @@
     "VassalName": "Feral Swipes",
     "VassalID": "C card--Feral Swipes.jpg",
     "ImageOffset": 0,
-    "ImageName": "Feral Swipes.png"
+    "ImageName": "Feral Swipes.png",
+    "Playtest": "No"
   },
   {
     "ID": 1154,
@@ -15366,7 +15846,8 @@
     "VassalName": "Blitz",
     "VassalID": "C card--Blitz.jpg",
     "ImageOffset": 0,
-    "ImageName": "Blitz.png"
+    "ImageName": "Blitz.png",
+    "Playtest": "No"
   },
   {
     "ID": 1155,
@@ -15394,7 +15875,8 @@
     "VassalName": "Parry",
     "VassalID": "IACP_C card--Parry.jpg",
     "ImageOffset": 0,
-    "ImageName": "Parry.png"
+    "ImageName": "Parry.png",
+    "Playtest": "No"
   },
   {
     "ID": 1156,
@@ -15419,7 +15901,8 @@
     "VassalName": "Positioning Advantage",
     "VassalID": "C card--Positioning Advantage.jpg",
     "ImageOffset": 0,
-    "ImageName": "Positioning Advantage.png"
+    "ImageName": "Positioning Advantage.png",
+    "Playtest": "No"
   },
   {
     "ID": 1157,
@@ -15446,7 +15929,8 @@
     "VassalName": "On the Lam",
     "VassalID": "IACP_C card--On the Lam.jpg",
     "ImageOffset": 0,
-    "ImageName": "On the Lam.png"
+    "ImageName": "On the Lam.png",
+    "Playtest": "No"
   },
   {
     "ID": 1158,
@@ -15474,7 +15958,8 @@
     "VassalName": "Tools for the Job",
     "VassalID": "C card--Tools For The Job.jpg",
     "ImageOffset": 0,
-    "ImageName": "Tools for the Job.png"
+    "ImageName": "Tools for the Job.png",
+    "Playtest": "No"
   },
   {
     "ID": 1159,
@@ -15501,7 +15986,8 @@
     "VassalName": "Stimulants",
     "VassalID": "IACP12_C card--Stimulants.png",
     "ImageOffset": 0,
-    "ImageName": "Stimulants.png"
+    "ImageName": "Stimulants.png",
+    "Playtest": "No"
   },
   {
     "ID": 1160,
@@ -15528,7 +16014,8 @@
     "VassalName": "Pickpocket",
     "VassalID": "C card--Pickpocket.jpg",
     "ImageOffset": 0,
-    "ImageName": "Pickpocket.png"
+    "ImageName": "Pickpocket.png",
+    "Playtest": "No"
   },
   {
     "ID": 1161,
@@ -15556,7 +16043,8 @@
     "VassalName": "Toxic Dart",
     "VassalID": "C card--Toxic Dart.jpg",
     "ImageOffset": 0,
-    "ImageName": "Toxic Dart.png"
+    "ImageName": "Toxic Dart.png",
+    "Playtest": "No"
   },
   {
     "ID": 1162,
@@ -15583,7 +16071,8 @@
     "VassalName": "Glory of the Kill",
     "VassalID": "C card--Glory Of The Kill.jpg",
     "ImageOffset": 0,
-    "ImageName": "Glory of the Kill.png"
+    "ImageName": "Glory of the Kill.png",
+    "Playtest": "No"
   },
   {
     "ID": 1163,
@@ -15610,7 +16099,8 @@
     "VassalName": "Run for Cover",
     "VassalID": "C card--Run For Cover.jpg",
     "ImageOffset": 0,
-    "ImageName": "Run for Cover.png"
+    "ImageName": "Run for Cover.png",
+    "Playtest": "No"
   },
   {
     "ID": 1164,
@@ -15637,7 +16127,8 @@
     "VassalName": "Draw",
     "VassalID": "C card--Draw.jpg",
     "ImageOffset": 0,
-    "ImageName": "Draw.png"
+    "ImageName": "Draw.png",
+    "Playtest": "No"
   },
   {
     "ID": 1165,
@@ -15664,7 +16155,8 @@
     "VassalName": "Extra Protection",
     "VassalID": "C card--Extra Protection.jpg",
     "ImageOffset": 0,
-    "ImageName": "Extra Protection.png"
+    "ImageName": "Extra Protection.png",
+    "Playtest": "No"
   },
   {
     "ID": 1166,
@@ -15691,7 +16183,8 @@
     "VassalName": "Bladestorm",
     "VassalID": "C card--Bladestorm.jpg",
     "ImageOffset": 0,
-    "ImageName": "Bladestorm.png"
+    "ImageName": "Bladestorm.png",
+    "Playtest": "No"
   },
   {
     "ID": 1167,
@@ -15718,7 +16211,8 @@
     "VassalName": "Sarlacc Sweep",
     "VassalID": "C card--Sarlacc Sweep.jpg",
     "ImageOffset": 0,
-    "ImageName": "Sarlacc Sweep.png"
+    "ImageName": "Sarlacc Sweep.png",
+    "Playtest": "No"
   },
   {
     "ID": 1168,
@@ -15746,7 +16240,8 @@
     "VassalName": "Provoke",
     "VassalID": "C card--Provoke.jpg",
     "ImageOffset": 0,
-    "ImageName": "Provoke.png"
+    "ImageName": "Provoke.png",
+    "Playtest": "No"
   },
   {
     "ID": 1169,
@@ -15775,7 +16270,8 @@
     "VassalName": "Shared Experience",
     "VassalID": "C card--Shared Experience.jpg",
     "ImageOffset": 0,
-    "ImageName": "Shared Experience.png"
+    "ImageName": "Shared Experience.png",
+    "Playtest": "No"
   },
   {
     "ID": 1170,
@@ -15803,7 +16299,8 @@
     "VassalName": "Ballistics Matrix",
     "VassalID": "C card--Ballistics Matrix.jpg",
     "ImageOffset": 0,
-    "ImageName": "Ballistics Matrix.png"
+    "ImageName": "Ballistics Matrix.png",
+    "Playtest": "No"
   },
   {
     "ID": 1171,
@@ -15830,7 +16327,8 @@
     "VassalName": "Triangulate",
     "VassalID": "C card--Triangulate.jpg",
     "ImageOffset": 0,
-    "ImageName": "Triangulate.png"
+    "ImageName": "Triangulate.png",
+    "Playtest": "No"
   },
   {
     "ID": 1172,
@@ -15857,7 +16355,8 @@
     "VassalName": "On a Mission",
     "VassalID": "C card--On a Mission.jpg",
     "ImageOffset": 0,
-    "ImageName": "On a Mission.png"
+    "ImageName": "On a Mission.png",
+    "Playtest": "No"
   },
   {
     "ID": 1174,
@@ -15884,7 +16383,8 @@
     "VassalName": "Eerie Visage",
     "VassalID": "C card--Eerie Visage.jpg",
     "ImageOffset": 0,
-    "ImageName": "Eerie Visage.png"
+    "ImageName": "Eerie Visage.png",
+    "Playtest": "No"
   },
   {
     "ID": 1175,
@@ -15912,7 +16412,8 @@
     "VassalName": "Utinni",
     "VassalID": "C card--Utinni.jpg",
     "ImageOffset": 0,
-    "ImageName": "Utinni.png"
+    "ImageName": "Utinni.png",
+    "Playtest": "No"
   },
   {
     "ID": 1176,
@@ -15940,7 +16441,8 @@
     "VassalName": "Navigation Upgrade",
     "VassalID": "C card--Navigation Upgrade.jpg",
     "ImageOffset": 0,
-    "ImageName": "Navigation Upgrade.png"
+    "ImageName": "Navigation Upgrade.png",
+    "Playtest": "No"
   },
   {
     "ID": 1177,
@@ -15967,7 +16469,8 @@
     "VassalName": "Advance Warning",
     "VassalID": "C card--Advance Warning.jpg",
     "ImageOffset": 0,
-    "ImageName": "Advance Warning.png"
+    "ImageName": "Advance Warning.png",
+    "Playtest": "No"
   },
   {
     "ID": 1178,
@@ -15997,7 +16500,8 @@
     "VassalName": "Targeting Network",
     "VassalID": "C card--Targeting Network.jpg",
     "ImageOffset": 0,
-    "ImageName": "Targeting Network.png"
+    "ImageName": "Targeting Network.png",
+    "Playtest": "No"
   },
   {
     "ID": 1179,
@@ -16024,7 +16528,8 @@
     "VassalName": "Evacuate",
     "VassalID": "C card--Evacuate.jpg",
     "ImageOffset": 0,
-    "ImageName": "Evacuate.png"
+    "ImageName": "Evacuate.png",
+    "Playtest": "No"
   },
   {
     "ID": 1180,
@@ -16051,7 +16556,8 @@
     "VassalName": "Looking for a Fight",
     "VassalID": "C card--Looking For a Fight.jpg",
     "ImageOffset": 0,
-    "ImageName": "Looking for a Fight.png"
+    "ImageName": "Looking for a Fight.png",
+    "Playtest": "No"
   },
   {
     "ID": 1181,
@@ -16078,7 +16584,8 @@
     "VassalName": "Cut Lines",
     "VassalID": "C card--Cut Lines.jpg",
     "ImageOffset": 0,
-    "ImageName": "Cut Lines.png"
+    "ImageName": "Cut Lines.png",
+    "Playtest": "No"
   },
   {
     "ID": 1182,
@@ -16103,7 +16610,8 @@
     "VassalName": "Brace for Impact",
     "VassalID": "C card--Brace For Impact.jpg",
     "ImageOffset": 0,
-    "ImageName": "Brace for Impact.png"
+    "ImageName": "Brace for Impact.png",
+    "Playtest": "No"
   },
   {
     "ID": 1183,
@@ -16132,7 +16640,8 @@
     "VassalName": "Take Position",
     "VassalID": "C card--Take Position.jpg",
     "ImageOffset": 0,
-    "ImageName": "Take Position.png"
+    "ImageName": "Take Position.png",
+    "Playtest": "No"
   },
   {
     "ID": 1184,
@@ -16159,7 +16668,8 @@
     "VassalName": "Battle Scars",
     "VassalID": "C card--Battle Scars.jpg",
     "ImageOffset": 0,
-    "ImageName": "Battle Scars.png"
+    "ImageName": "Battle Scars.png",
+    "Playtest": "No"
   },
   {
     "ID": 1185,
@@ -16186,7 +16696,8 @@
     "VassalName": "Collateral Damage",
     "VassalID": "C card--Collateral Damage.jpg",
     "ImageOffset": 0,
-    "ImageName": "Collateral Damage.png"
+    "ImageName": "Collateral Damage.png",
+    "Playtest": "No"
   },
   {
     "ID": 1186,
@@ -16214,7 +16725,8 @@
     "VassalName": "Field Supply",
     "VassalID": "C card--Field Supply.jpg",
     "ImageOffset": 0,
-    "ImageName": "Field Supply.png"
+    "ImageName": "Field Supply.png",
+    "Playtest": "No"
   },
   {
     "ID": 1187,
@@ -16241,7 +16753,8 @@
     "VassalName": "Heavy Ordnance",
     "VassalID": "C card--Heavy Ordnance.jpg",
     "ImageOffset": 0,
-    "ImageName": "Heavy Ordnance.png"
+    "ImageName": "Heavy Ordnance.png",
+    "Playtest": "No"
   },
   {
     "ID": 1188,
@@ -16269,7 +16782,8 @@
     "VassalName": "Ready Weapons",
     "VassalID": "C card--Ready Weapons.jpg",
     "ImageOffset": 0,
-    "ImageName": "Ready Weapons.png"
+    "ImageName": "Ready Weapons.png",
+    "Playtest": "No"
   },
   {
     "ID": 1189,
@@ -16296,7 +16810,8 @@
     "VassalName": "Terminal Protocol",
     "VassalID": "C card--Terminal Protocal.jpg",
     "ImageOffset": 0,
-    "ImageName": "Terminal Protocol.png"
+    "ImageName": "Terminal Protocol.png",
+    "Playtest": "No"
   },
   {
     "ID": 1191,
@@ -16321,7 +16836,8 @@
     "VassalName": "Balancing Force",
     "VassalID": "C card--Balancing Force.jpg",
     "ImageOffset": 0,
-    "ImageName": "Balancing Force.png"
+    "ImageName": "Balancing Force.png",
+    "Playtest": "No"
   },
   {
     "ID": 1192,
@@ -16346,7 +16862,8 @@
     "VassalName": "Fool Me Once",
     "VassalID": "C card--Fool Me Once.jpg",
     "ImageOffset": 0,
-    "ImageName": "Fool Me Once.png"
+    "ImageName": "Fool Me Once.png",
+    "Playtest": "No"
   },
   {
     "ID": 1193,
@@ -16373,7 +16890,8 @@
     "VassalName": "Force Jump",
     "VassalID": "C card--Force Jump.jpg",
     "ImageOffset": 0,
-    "ImageName": "Force Jump.png"
+    "ImageName": "Force Jump.png",
+    "Playtest": "No"
   },
   {
     "ID": 1194,
@@ -16400,7 +16918,8 @@
     "VassalName": "Force Push",
     "VassalID": "C card--Force Push.jpg",
     "ImageOffset": 0,
-    "ImageName": "Force Push.png"
+    "ImageName": "Force Push.png",
+    "Playtest": "No"
   },
   {
     "ID": 1195,
@@ -16427,7 +16946,8 @@
     "VassalName": "Right Back At Ya",
     "VassalID": "C card--Right Back At Ya!.jpg",
     "ImageOffset": 0,
-    "ImageName": "Right Back At Ya.png"
+    "ImageName": "Right Back At Ya.png",
+    "Playtest": "No"
   },
   {
     "ID": 1196,
@@ -16452,7 +16972,8 @@
     "VassalName": "Chaotic Force",
     "VassalID": "C card--Chaotic Force.jpg",
     "ImageOffset": 0,
-    "ImageName": "Chaotic Force.png"
+    "ImageName": "Chaotic Force.png",
+    "Playtest": "No"
   },
   {
     "ID": 1197,
@@ -16477,7 +16998,8 @@
     "VassalName": "Deathblow",
     "VassalID": "C card--Deathblow.jpg",
     "ImageOffset": 0,
-    "ImageName": "Deathblow.png"
+    "ImageName": "Deathblow.png",
+    "Playtest": "No"
   },
   {
     "ID": 1198,
@@ -16504,7 +17026,8 @@
     "VassalName": "Face to Face",
     "VassalID": "C card--Face to Face.jpg",
     "ImageOffset": 0,
-    "ImageName": "Face to Face.png"
+    "ImageName": "Face to Face.png",
+    "Playtest": "No"
   },
   {
     "ID": 1200,
@@ -16531,7 +17054,8 @@
     "VassalName": "Wreak Vengeance",
     "VassalID": "C card--Wreak Vengeance.jpg",
     "ImageOffset": 0,
-    "ImageName": "Wreak Vengeance.png"
+    "ImageName": "Wreak Vengeance.png",
+    "Playtest": "No"
   },
   {
     "ID": 1201,
@@ -16556,7 +17080,8 @@
     "VassalName": "Corrupting Force",
     "VassalID": "C card--Corrupting Force.jpg",
     "ImageOffset": 0,
-    "ImageName": "Corrupting Force.png"
+    "ImageName": "Corrupting Force.png",
+    "Playtest": "No"
   },
   {
     "ID": 1202,
@@ -16583,7 +17108,8 @@
     "VassalName": "Dark Energy",
     "VassalID": "C card--Dark Energy.jpg",
     "ImageOffset": 0,
-    "ImageName": "Dark Energy.png"
+    "ImageName": "Dark Energy.png",
+    "Playtest": "No"
   },
   {
     "ID": 1203,
@@ -16608,7 +17134,8 @@
     "VassalName": "Prepared for Battle",
     "VassalID": "C card--Prepared For Battle.jpg",
     "ImageOffset": 0,
-    "ImageName": "Prepared for Battle.png"
+    "ImageName": "Prepared for Battle.png",
+    "Playtest": "No"
   },
   {
     "ID": 1204,
@@ -16635,7 +17162,8 @@
     "VassalName": "Unlimited Power",
     "VassalID": "C card--Unlimited Power.jpg",
     "ImageOffset": 0,
-    "ImageName": "Unlimited Power.png"
+    "ImageName": "Unlimited Power.png",
+    "Playtest": "No"
   },
   {
     "ID": 1205,
@@ -16662,7 +17190,8 @@
     "VassalName": "Arcing Shot",
     "VassalID": "C card--Arcing Shot.jpg",
     "ImageOffset": 0,
-    "ImageName": "Arcing Shot.png"
+    "ImageName": "Arcing Shot.png",
+    "Playtest": "No"
   },
   {
     "ID": 1206,
@@ -16690,7 +17219,8 @@
     "VassalName": "Armed Escort",
     "VassalID": "C card--Armed Escort.jpg",
     "ImageOffset": 0,
-    "ImageName": "Armed Escort.png"
+    "ImageName": "Armed Escort.png",
+    "Playtest": "No"
   },
   {
     "ID": 1207,
@@ -16717,7 +17247,8 @@
     "VassalName": "Concentrated Fire",
     "VassalID": "C card--Concentrated Fire.jpg",
     "ImageOffset": 0,
-    "ImageName": "Concentrated Fire.png"
+    "ImageName": "Concentrated Fire.png",
+    "Playtest": "No"
   },
   {
     "ID": 1208,
@@ -16744,7 +17275,8 @@
     "VassalName": "Droid Mastery",
     "VassalID": "C card--Droid Mastery.jpg",
     "ImageOffset": 0,
-    "ImageName": "Droid Mastery.png"
+    "ImageName": "Droid Mastery.png",
+    "Playtest": "No"
   },
   {
     "ID": 1209,
@@ -16771,7 +17303,8 @@
     "VassalName": "Forward March",
     "VassalID": "C card--Forward March.jpg",
     "ImageOffset": 0,
-    "ImageName": "Forward March.png"
+    "ImageName": "Forward March.png",
+    "Playtest": "No"
   },
   {
     "ID": 1210,
@@ -16796,7 +17329,8 @@
     "VassalName": "Officer's Training",
     "VassalID": "C card--Officer's Training.jpg",
     "ImageOffset": 0,
-    "ImageName": "Officer's Training.png"
+    "ImageName": "Officer's Training.png",
+    "Playtest": "No"
   },
   {
     "ID": 1211,
@@ -16823,7 +17357,8 @@
     "VassalName": "Spinning Kick",
     "VassalID": "C card--Spinning Kick.png",
     "ImageOffset": 0,
-    "ImageName": "Spinning Kick.png"
+    "ImageName": "Spinning Kick.png",
+    "Playtest": "No"
   },
   {
     "ID": 1212,
@@ -16850,7 +17385,8 @@
     "VassalName": "Wild Fire",
     "VassalID": "IACP_C card--Wild Fire.png",
     "ImageOffset": 0,
-    "ImageName": "Wild Fire.png"
+    "ImageName": "Wild Fire.png",
+    "Playtest": "No"
   },
   {
     "ID": 1213,
@@ -16876,7 +17412,8 @@
     "VassalName": "Signal Jammer",
     "VassalID": "C card--Signal Jammer.png",
     "ImageOffset": 0,
-    "ImageName": "Signal Jammer.png"
+    "ImageName": "Signal Jammer.png",
+    "Playtest": "No"
   },
   {
     "ID": 1214,
@@ -16904,7 +17441,8 @@
     "VassalName": "Second Chance",
     "VassalID": "C card--Second Chance.png",
     "ImageOffset": 0,
-    "ImageName": "Second Chance.png"
+    "ImageName": "Second Chance.png",
+    "Playtest": "No"
   },
   {
     "ID": 1215,
@@ -16931,7 +17469,8 @@
     "VassalName": "Protect the Old Ways",
     "VassalID": "C card--Protect the Old Ways.png",
     "ImageOffset": 0,
-    "ImageName": "Protect the Old Ways.png"
+    "ImageName": "Protect the Old Ways.png",
+    "Playtest": "No"
   },
   {
     "ID": 1216,
@@ -16958,7 +17497,8 @@
     "VassalName": "Learn by Example",
     "VassalID": "C card--Learn by Example.png",
     "ImageOffset": 0,
-    "ImageName": "Learn by Example.png"
+    "ImageName": "Learn by Example.png",
+    "Playtest": "No"
   },
   {
     "ID": 1217,
@@ -16983,7 +17523,8 @@
     "VassalName": "Hour of Need",
     "VassalID": "C card--Hour of Need.png",
     "ImageOffset": 0,
-    "ImageName": "Hour of Need.png"
+    "ImageName": "Hour of Need.png",
+    "Playtest": "No"
   },
   {
     "ID": 1218,
@@ -17010,7 +17551,8 @@
     "VassalName": "Dying Lunge",
     "VassalID": "C card--Dying Lunge.png",
     "ImageOffset": 0,
-    "ImageName": "Dying Lunge.png"
+    "ImageName": "Dying Lunge.png",
+    "Playtest": "No"
   },
   {
     "ID": 1219,
@@ -17037,7 +17579,8 @@
     "VassalName": "Karabast",
     "VassalID": "IACP_C card--Karabast!.png",
     "ImageOffset": 0,
-    "ImageName": "Karabast.png"
+    "ImageName": "Karabast.png",
+    "Playtest": "No"
   },
   {
     "ID": 1220,
@@ -17062,7 +17605,8 @@
     "VassalName": "Rebel Graffiti",
     "VassalID": "C card--Rebel Graffiti.png",
     "ImageOffset": 0,
-    "ImageName": "Rebel Graffiti.png"
+    "ImageName": "Rebel Graffiti.png",
+    "Playtest": "No"
   },
   {
     "ID": 1221,
@@ -17089,7 +17633,8 @@
     "VassalName": "Veteran Instincts",
     "VassalID": "C card--Veteran Instincts.png",
     "ImageOffset": 0,
-    "ImageName": "Veteran Instincts.png"
+    "ImageName": "Veteran Instincts.png",
+    "Playtest": "No"
   },
   {
     "ID": 1222,
@@ -17114,7 +17659,8 @@
     "VassalName": "Hostile Negotiation",
     "VassalID": "C card--Hostile Negotiation.png",
     "ImageOffset": 0,
-    "ImageName": "Hostile Negotiation.png"
+    "ImageName": "Hostile Negotiation.png",
+    "Playtest": "No"
   },
   {
     "ID": 1223,
@@ -17141,7 +17687,8 @@
     "VassalName": "Lets Make a Deal",
     "VassalID": "C card--Let's Make a Deal.png",
     "ImageOffset": 0,
-    "ImageName": "Lets Make a Deal.png"
+    "ImageName": "Lets Make a Deal.png",
+    "Playtest": "No"
   },
   {
     "ID": 1224,
@@ -17166,7 +17713,8 @@
     "VassalName": "Out of Time",
     "VassalID": "C card--Out of Time.png",
     "ImageOffset": 0,
-    "ImageName": "Out of Time.png"
+    "ImageName": "Out of Time.png",
+    "Playtest": "No"
   },
   {
     "ID": 1225,
@@ -17191,7 +17739,8 @@
     "VassalName": "Worth Every Credit",
     "VassalID": "C card--Worth Every Credit.png",
     "ImageOffset": 0,
-    "ImageName": "Worth Every Credit.png"
+    "ImageName": "Worth Every Credit.png",
+    "Playtest": "No"
   },
   {
     "ID": 1226,
@@ -17218,7 +17767,8 @@
     "VassalName": "Marked Territory",
     "VassalID": "C card--Marked Territory.png",
     "ImageOffset": 0,
-    "ImageName": "Marked Territory.png"
+    "ImageName": "Marked Territory.png",
+    "Playtest": "No"
   },
   {
     "ID": 1227,
@@ -17245,7 +17795,8 @@
     "VassalName": "Pack Alpha",
     "VassalID": "C card--Pack Alpha.png",
     "ImageOffset": 0,
-    "ImageName": "Pack Alpha.png"
+    "ImageName": "Pack Alpha.png",
+    "Playtest": "No"
   },
   {
     "ID": 1228,
@@ -17270,7 +17821,8 @@
     "VassalName": "Induce Rage",
     "VassalID": "C card--Induce Rage.png",
     "ImageOffset": 0,
-    "ImageName": "Induce Rage.png"
+    "ImageName": "Induce Rage.png",
+    "Playtest": "No"
   },
   {
     "ID": 1229,
@@ -17295,7 +17847,8 @@
     "VassalName": "Price of Glory",
     "VassalID": "C card--Price of Glory.png",
     "ImageOffset": 0,
-    "ImageName": "Price of Glory.png"
+    "ImageName": "Price of Glory.png",
+    "Playtest": "No"
   },
   {
     "ID": 1230,
@@ -17322,7 +17875,8 @@
     "VassalName": "Foresee",
     "VassalID": "C card--Foresee.png",
     "ImageOffset": 0,
-    "ImageName": "Foresee.png"
+    "ImageName": "Foresee.png",
+    "Playtest": "No"
   },
   {
     "ID": 1231,
@@ -17347,7 +17901,8 @@
     "VassalName": "Combat Resupply",
     "VassalID": "C card--Combat Resupply.png",
     "ImageOffset": 0,
-    "ImageName": "Combat Resupply.png"
+    "ImageName": "Combat Resupply.png",
+    "Playtest": "No"
   },
   {
     "ID": 1232,
@@ -17372,7 +17927,8 @@
     "VassalName": "Escalating Hostility",
     "VassalID": "C card--Escalating Hostility.png",
     "ImageOffset": 0,
-    "ImageName": "Escalating Hostility.png"
+    "ImageName": "Escalating Hostility.png",
+    "Playtest": "No"
   },
   {
     "ID": 1235,
@@ -17399,7 +17955,8 @@
     "VassalName": "On the Lam",
     "VassalID": "IACP_C card--On the Lam.jpg",
     "ImageOffset": 0,
-    "ImageName": "On the Lam [IACP].png"
+    "ImageName": "On the Lam [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1236,
@@ -17426,7 +17983,8 @@
     "VassalName": "Deflection",
     "VassalID": "IACP_C card--Deflection.jpg",
     "ImageOffset": 0,
-    "ImageName": "Deflection [IACP].png"
+    "ImageName": "Deflection [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1238,
@@ -17455,7 +18013,8 @@
     "VassalName": "Mandalorian Tactics",
     "VassalID": "IACP_C card--Mandalorian Tactics.jpg",
     "ImageOffset": 0,
-    "ImageName": "Mandalorian Tactics [IACP].png"
+    "ImageName": "Mandalorian Tactics [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1239,
@@ -17484,7 +18043,8 @@
     "VassalName": "Knowledge and Defense",
     "VassalID": "IACP_C card--Knowledge and Defense.jpg",
     "ImageOffset": 0,
-    "ImageName": "Knowledge and Defense [IACP].png"
+    "ImageName": "Knowledge and Defense [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1240,
@@ -17514,7 +18074,8 @@
     "VassalName": "Close and Personal",
     "VassalID": "IACP_C card--Close and Personal.jpg",
     "ImageOffset": 0,
-    "ImageName": "Close and Personal [IACP].png"
+    "ImageName": "Close and Personal [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1241,
@@ -17541,7 +18102,8 @@
     "VassalName": "Findsman Meditation",
     "VassalID": "IACP_C card--Findsman Meditation.jpg",
     "ImageOffset": 0,
-    "ImageName": "Findsman Meditation [IACP].png"
+    "ImageName": "Findsman Meditation [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1242,
@@ -17569,7 +18131,8 @@
     "VassalName": "Get Behind Me",
     "VassalID": "IACP_C card--Get behind me.jpg",
     "ImageOffset": 0,
-    "ImageName": "Get Behind Me [IACP].png"
+    "ImageName": "Get Behind Me [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1243,
@@ -17597,7 +18160,8 @@
     "VassalName": "Parry",
     "VassalID": "IACP_C card--Parry.jpg",
     "ImageOffset": 0,
-    "ImageName": "Parry [IACP].png"
+    "ImageName": "Parry [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1244,
@@ -17624,7 +18188,8 @@
     "VassalName": "Preservation Protocol",
     "VassalID": "IACP_C card--Preservation Protocol.jpg",
     "ImageOffset": 0,
-    "ImageName": "Preservation Protocol [IACP].png"
+    "ImageName": "Preservation Protocol [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1246,
@@ -17653,7 +18218,8 @@
     "VassalName": "There Is No Try",
     "VassalID": "IACP_C card--There is No Try.jpg",
     "ImageOffset": 0,
-    "ImageName": "There Is No Try [IACP].png"
+    "ImageName": "There Is No Try [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1247,
@@ -17680,7 +18246,8 @@
     "VassalName": "Iron Will",
     "VassalID": "IACP_C card--Iron Will.jpg",
     "ImageOffset": 0,
-    "ImageName": "Iron Will [IACP].png"
+    "ImageName": "Iron Will [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1248,
@@ -17708,7 +18275,8 @@
     "VassalName": "Built on Hope",
     "VassalID": "IACP_C card--Built on Hope.jpg",
     "ImageOffset": 0,
-    "ImageName": "Built on Hope [IACP].png"
+    "ImageName": "Built on Hope [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1249,
@@ -17735,7 +18303,8 @@
     "VassalName": "Deploy the Garrison",
     "VassalID": "IACP_C card--Deploy the Garrison.png",
     "ImageOffset": 0,
-    "ImageName": "Deploy the Garrison [IACP].png"
+    "ImageName": "Deploy the Garrison [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1250,
@@ -17762,7 +18331,8 @@
     "VassalName": "Guild Programming",
     "VassalID": "IACP_C card--Guild Programming.png",
     "ImageOffset": 0,
-    "ImageName": "Guild Programming [IACP].png"
+    "ImageName": "Guild Programming [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1251,
@@ -17789,7 +18359,8 @@
     "VassalName": "Whistling Birds",
     "VassalID": "IACP_C card--Whistling Birds.jpg",
     "ImageOffset": 0,
-    "ImageName": "Whistling Birds [IACP].png"
+    "ImageName": "Whistling Birds [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1252,
@@ -17818,7 +18389,8 @@
     "VassalName": "Apex Predator",
     "VassalID": "IACP_C card--Apex Predator.png",
     "ImageOffset": 0,
-    "ImageName": "Apex Predator [IACP].png"
+    "ImageName": "Apex Predator [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1253,
@@ -17846,7 +18418,8 @@
     "VassalName": "Blend In",
     "VassalID": "IACP_C card--Blend In.png",
     "ImageOffset": 0,
-    "ImageName": "Blend In [IACP].png"
+    "ImageName": "Blend In [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1254,
@@ -17874,7 +18447,8 @@
     "VassalName": "Cavalry Charge",
     "VassalID": "C card--Cavalry Charge.jpg",
     "ImageOffset": 0,
-    "ImageName": "Cavalry Charge [IACP].png"
+    "ImageName": "Cavalry Charge [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1255,
@@ -17901,7 +18475,8 @@
     "VassalName": "Definition Love",
     "VassalID": "IACP_C card--Definition Love.png",
     "ImageOffset": 0,
-    "ImageName": "Definition Love [IACP].png"
+    "ImageName": "Definition Love [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1256,
@@ -17928,7 +18503,8 @@
     "VassalName": "Face Me",
     "VassalID": "IACP_C card--Face Me.png",
     "ImageOffset": 0,
-    "ImageName": "Face Me [IACP].png"
+    "ImageName": "Face Me [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1257,
@@ -17955,7 +18531,8 @@
     "VassalName": "Feint",
     "VassalID": "IACP_C card--Feint.png",
     "ImageOffset": 0,
-    "ImageName": "Feint [IACP].png"
+    "ImageName": "Feint [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1258,
@@ -17983,7 +18560,8 @@
     "VassalName": "Overwhelming Impact",
     "VassalID": "IACP_C card--Overwhelming Impact.png",
     "ImageOffset": 0,
-    "ImageName": "Overwhelming Impact [IACP].png"
+    "ImageName": "Overwhelming Impact [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1259,
@@ -18010,7 +18588,8 @@
     "VassalName": "Rapid Recalibration",
     "VassalID": "IACP_C card--Rapid Recalibration.png",
     "ImageOffset": 0,
-    "ImageName": "Rapid Recalibration [IACP].png"
+    "ImageName": "Rapid Recalibration [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1260,
@@ -18040,7 +18619,8 @@
     "VassalName": "Reactive Loyalties",
     "VassalID": "IACP_C card--Reactive Loyalties.png",
     "ImageOffset": 0,
-    "ImageName": "Reactive Loyalties [IACP].png"
+    "ImageName": "Reactive Loyalties [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1261,
@@ -18067,7 +18647,8 @@
     "VassalName": "Rest in Peace",
     "VassalID": "IACP_C card--Rest in Peace.png",
     "ImageOffset": 0,
-    "ImageName": "Rest in Peace [IACP].png"
+    "ImageName": "Rest in Peace [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1262,
@@ -18094,7 +18675,8 @@
     "VassalName": "Sniper Configuration",
     "VassalID": "IACP_C card--Sniper Configuration.png",
     "ImageOffset": 0,
-    "ImageName": "Sniper Configuration [IACP].png"
+    "ImageName": "Sniper Configuration [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1263,
@@ -18121,7 +18703,8 @@
     "VassalName": "Static Pulse",
     "VassalID": "IACP_C card--Static Pulse.png",
     "ImageOffset": 0,
-    "ImageName": "Static Pulse [IACP].png"
+    "ImageName": "Static Pulse [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1264,
@@ -18149,7 +18732,8 @@
     "VassalName": "Windfall",
     "VassalID": "IACP_C card--Windfall.png",
     "ImageOffset": 0,
-    "ImageName": "Windfall [IACP].png"
+    "ImageName": "Windfall [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1266,
@@ -18176,7 +18760,8 @@
     "VassalName": "Ambush",
     "VassalID": "IACP_C card--Ambush.png",
     "ImageOffset": 0,
-    "ImageName": "Ambush [IACP].png"
+    "ImageName": "Ambush [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1267,
@@ -18204,7 +18789,8 @@
     "VassalName": "Covering Fire",
     "VassalID": "C card--Covering Fire.jpg",
     "ImageOffset": 0,
-    "ImageName": "Covering Fire [IACP].png"
+    "ImageName": "Covering Fire [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1268,
@@ -18229,7 +18815,8 @@
     "VassalName": "Expose Weakness",
     "VassalID": "C card--Expose Weakness.jpg",
     "ImageOffset": 0,
-    "ImageName": "Expose Weakness [IACP].png"
+    "ImageName": "Expose Weakness [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1269,
@@ -18256,7 +18843,8 @@
     "VassalName": "Honoring the Fallen",
     "VassalID": "IACP_C card--Honoring the Fallen.png",
     "ImageOffset": 0,
-    "ImageName": "Honoring the Fallen [IACP].png"
+    "ImageName": "Honoring the Fallen [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1270,
@@ -18283,7 +18871,8 @@
     "VassalName": "Demoralizing Monologue",
     "VassalID": "IACP_C card--Demoralizing Monologue.png",
     "ImageOffset": 0,
-    "ImageName": "Demoralizing Monologue [IACP].png"
+    "ImageName": "Demoralizing Monologue [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1272,
@@ -18310,7 +18899,8 @@
     "VassalName": "Assassinate",
     "VassalID": "C card--Assassinate.jpg",
     "ImageOffset": 0,
-    "ImageName": "Assassinate [IACP].png"
+    "ImageName": "Assassinate [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1273,
@@ -18340,7 +18930,8 @@
     "VassalName": "De Wanna Wanga",
     "VassalID": "IACP_C card--De Wanna Wanga.png",
     "ImageOffset": 0,
-    "ImageName": "De Wanna Wanga [IACP].png"
+    "ImageName": "De Wanna Wanga [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1274,
@@ -18367,7 +18958,8 @@
     "VassalName": "Wild Fire",
     "VassalID": "IACP_C card--Wild Fire.png",
     "ImageOffset": 0,
-    "ImageName": "Wild Fire [IACP].png"
+    "ImageName": "Wild Fire [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1275,
@@ -18394,7 +18986,8 @@
     "VassalName": "Forbidden Knowledge",
     "VassalID": "IACP_C card--Forbidden Knowledge.png",
     "ImageOffset": 0,
-    "ImageName": "Forbidden Knowledge [IACP].png"
+    "ImageName": "Forbidden Knowledge [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1276,
@@ -18421,7 +19014,8 @@
     "VassalName": "Guerilla Warfare",
     "VassalID": "IACP_C card--Guerilla Warfare.png",
     "ImageOffset": 0,
-    "ImageName": "Guerilla Warfare [IACP].png"
+    "ImageName": "Guerilla Warfare [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1277,
@@ -18448,7 +19042,8 @@
     "VassalName": "Karabast",
     "VassalID": "IACP_C card--Karabast!.png",
     "ImageOffset": 0,
-    "ImageName": "Karabast [IACP].png"
+    "ImageName": "Karabast [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1278,
@@ -18475,7 +19070,8 @@
     "VassalName": "Lure of the Dark Side",
     "VassalID": "C card--Lure of the Dark Side.jpg",
     "ImageOffset": 0,
-    "ImageName": "Lure of the Dark Side [IACP].png"
+    "ImageName": "Lure of the Dark Side [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1279,
@@ -18503,7 +19099,8 @@
     "VassalName": "Of No Importance",
     "VassalID": "C card--Of No Importance.jpg",
     "ImageOffset": 0,
-    "ImageName": "Of No Importance [IACP].png"
+    "ImageName": "Of No Importance [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1280,
@@ -18531,7 +19128,8 @@
     "VassalName": "There is Another",
     "VassalID": "C card--There Is Another.jpg",
     "ImageOffset": 0,
-    "ImageName": "There is Another [IACP].png"
+    "ImageName": "There is Another [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1281,
@@ -18558,7 +19156,8 @@
     "VassalName": "Reduce to Rubble",
     "VassalID": "IACP_C card--Reduce to Rubble.png",
     "ImageOffset": 0,
-    "ImageName": "Reduce to Rubble [IACP].png"
+    "ImageName": "Reduce to Rubble [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1282,
@@ -18585,7 +19184,8 @@
     "VassalName": "Savage Vigor",
     "VassalID": "IACP_C card--Savage Vigor.png",
     "ImageOffset": 0,
-    "ImageName": "Savage Vigor [IACP].png"
+    "ImageName": "Savage Vigor [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1283,
@@ -18612,7 +19212,8 @@
     "VassalName": "Triangulate",
     "VassalID": "C card--Triangulate.jpg",
     "ImageOffset": 0,
-    "ImageName": "Triangulate [IACP].png"
+    "ImageName": "Triangulate [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1284,
@@ -18639,7 +19240,8 @@
     "VassalName": "Still Faster Than You",
     "VassalID": "IACP_C card--Still Faster Than You.png",
     "ImageOffset": 0,
-    "ImageName": "Still Faster Than You [IACP].png"
+    "ImageName": "Still Faster Than You [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1285,
@@ -18666,7 +19268,8 @@
     "VassalName": "All in a Days Work",
     "VassalID": "IACP_C card--All in a Days Work.png",
     "ImageOffset": 0,
-    "ImageName": "All in a Days Work [IACP].png"
+    "ImageName": "All in a Days Work [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1286,
@@ -18694,7 +19297,8 @@
     "VassalName": "Desperate Escape",
     "VassalID": "IACP_C card--Desperate Escape.png",
     "ImageOffset": 0,
-    "ImageName": "Desperate Escape [IACP].png"
+    "ImageName": "Desperate Escape [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1287,
@@ -18721,7 +19325,8 @@
     "VassalName": "Cals Buddy",
     "VassalID": "IACP_C card--Cal's Buddy.png",
     "ImageOffset": 0,
-    "ImageName": "Cals Buddy [IACP].png"
+    "ImageName": "Cals Buddy [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1288,
@@ -18750,7 +19355,8 @@
     "VassalName": "Choose a Side",
     "VassalID": "IACP_C card--Choose a Side.png",
     "ImageOffset": 0,
-    "ImageName": "Choose a Side [IACP].png"
+    "ImageName": "Choose a Side [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1289,
@@ -18778,7 +19384,8 @@
     "VassalName": "Disable",
     "VassalID": "C card--Disable.jpg",
     "ImageOffset": 0,
-    "ImageName": "Disable [IACP].png"
+    "ImageName": "Disable [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1290,
@@ -18805,7 +19412,8 @@
     "VassalName": "Double or Nothing",
     "VassalID": "IACP_C card--Double or Nothing.png",
     "ImageOffset": 0,
-    "ImageName": "Double or Nothing [IACP].png"
+    "ImageName": "Double or Nothing [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1291,
@@ -18832,7 +19440,8 @@
     "VassalName": "Elusive",
     "VassalID": "IACP_C card--Elusive.png",
     "ImageOffset": 0,
-    "ImageName": "Elusive [IACP].png"
+    "ImageName": "Elusive [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1292,
@@ -18859,7 +19468,8 @@
     "VassalName": "Field Promotion",
     "VassalID": "IACP_C card--Field Promotion.png",
     "ImageOffset": 0,
-    "ImageName": "Field Promotion [IACP].png"
+    "ImageName": "Field Promotion [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1293,
@@ -18886,7 +19496,8 @@
     "VassalName": "Final Stand",
     "VassalID": "IACP_C card--Final Stand.png",
     "ImageOffset": 0,
-    "ImageName": "Final Stand [IACP].png"
+    "ImageName": "Final Stand [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1294,
@@ -18913,7 +19524,8 @@
     "VassalName": "Force Drain",
     "VassalID": "IACP_C card--Force Drain.png",
     "ImageOffset": 0,
-    "ImageName": "Force Drain [IACP].png"
+    "ImageName": "Force Drain [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1295,
@@ -18940,7 +19552,8 @@
     "VassalName": "Just Business",
     "VassalID": "IACP_C card--Just Business.png",
     "ImageOffset": 0,
-    "ImageName": "Just Business [IACP].png"
+    "ImageName": "Just Business [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1296,
@@ -18970,7 +19583,8 @@
     "VassalName": "Lightbow",
     "VassalID": "IACP_C card--Lightbow.png",
     "ImageOffset": 0,
-    "ImageName": "Lightbow [IACP].png"
+    "ImageName": "Lightbow [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1297,
@@ -18997,7 +19611,8 @@
     "VassalName": "Personal Energy Shield",
     "VassalID": "IACP_C card--Personal Energy Shield.png",
     "ImageOffset": 0,
-    "ImageName": "Personal Energy Shield [IACP].png"
+    "ImageName": "Personal Energy Shield [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1298,
@@ -19023,7 +19638,8 @@
     "VassalName": "Repair",
     "VassalID": "C card--Repair.jpg",
     "ImageOffset": 0,
-    "ImageName": "Repair [IACP].png"
+    "ImageName": "Repair [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1299,
@@ -19050,7 +19666,8 @@
     "VassalName": "Reverse Engineer",
     "VassalID": "IACP_C card--Reverse Engineer.png",
     "ImageOffset": 0,
-    "ImageName": "Reverse Engineer [IACP].png"
+    "ImageName": "Reverse Engineer [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1300,
@@ -19077,7 +19694,8 @@
     "VassalName": "Set the Charges",
     "VassalID": "IACP_C card--Set the Charges.png",
     "ImageOffset": 0,
-    "ImageName": "Set the Charges [IACP].png"
+    "ImageName": "Set the Charges [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1301,
@@ -19104,7 +19722,8 @@
     "VassalName": "Supercharge",
     "VassalID": "IACP_C card--Supercharge.png",
     "ImageOffset": 0,
-    "ImageName": "Supercharge [IACP].png"
+    "ImageName": "Supercharge [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1302,
@@ -19131,7 +19750,8 @@
     "VassalName": "Support Specialist",
     "VassalID": "IACP_C card--Support Specialist.png",
     "ImageOffset": 0,
-    "ImageName": "Support Specialist [IACP].png"
+    "ImageName": "Support Specialist [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1303,
@@ -19158,7 +19778,8 @@
     "VassalName": "Trandoshan Terror",
     "VassalID": "C card--Trandoshan Terror.jpg",
     "ImageOffset": 0,
-    "ImageName": "Trandoshan Terror [IACP].png"
+    "ImageName": "Trandoshan Terror [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1304,
@@ -19185,7 +19806,8 @@
     "VassalName": "Disarm",
     "VassalID": "IACP9_C card--Disarm.png",
     "ImageOffset": 0,
-    "ImageName": "Disarm [IACP].png"
+    "ImageName": "Disarm [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1307,
@@ -19212,7 +19834,8 @@
     "VassalName": "Retaliation",
     "VassalID": "IACP9_C card--Retaliation.png",
     "ImageOffset": 0,
-    "ImageName": "Retaliation [IACP].png"
+    "ImageName": "Retaliation [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1308,
@@ -19239,7 +19862,8 @@
     "VassalName": "Transmit the Plans",
     "VassalID": "IACP9_C card--Transmit the Plans.png",
     "ImageOffset": 0,
-    "ImageName": "Transmit the Plans [IACP].png"
+    "ImageName": "Transmit the Plans [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1309,
@@ -19248,10 +19872,10 @@
     "CardClass": null,
     "Faction": "Empire",
     "Cost": 2,
-    "FigureCount": null,
+    "FigureCount": 1,
     "Max": 1,
-    "Health": null,
-    "Speed": null,
+    "Health": 0,
+    "Speed": 0,
     "Traits": null,
     "TraitsRequired": [],
     "Color": null,
@@ -19263,12 +19887,15 @@
       "You cannot be defeated nor recover [DAMAGE]. You ignore your HARMFUL conditions.",
       "When a hostile figure is defeated or at the end of the next round, return this card to the gamebox."
     ],
+    "Abilities": [],
+    "SpecialAbilities": [],
     "Variant": "IACP",
     "Characteristics": null,
     "VassalName": "You Will Not Deny Me",
     "VassalID": "IACP11_C card--You Will Not Deny Me.png",
     "ImageOffset": 0,
-    "ImageName": "You Will Not Deny Me [IACP].png"
+    "ImageName": "You Will Not Deny Me [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": 1310,
@@ -19295,7 +19922,8 @@
     "VassalName": "Dangerous Prey",
     "VassalID": "IACP_C card--Dangerous Prey.png",
     "ImageOffset": 0,
-    "ImageName": "Dangerous Prey [IACP].png"
+    "ImageName": "Dangerous Prey [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1311,
@@ -19322,7 +19950,8 @@
     "VassalName": "Beatdown",
     "VassalID": "IACP_C card--Beatdown.png",
     "ImageOffset": 0,
-    "ImageName": "Beatdown [IACP].png"
+    "ImageName": "Beatdown [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1312,
@@ -19348,7 +19977,8 @@
     "VassalName": "Capitalize",
     "VassalID": "001 Capitalize Final.png",
     "ImageOffset": 0,
-    "ImageName": "Capitalize [IACP].png"
+    "ImageName": "Capitalize [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1313,
@@ -19375,7 +20005,8 @@
     "VassalName": "Close the Gap",
     "VassalID": "C card--Close the Gap.jpg",
     "ImageOffset": 0,
-    "ImageName": "Close the Gap [IACP].png"
+    "ImageName": "Close the Gap [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1314,
@@ -19403,7 +20034,8 @@
     "VassalName": "Smoke Grenade",
     "VassalID": "Smoke Grenade Final.png",
     "ImageOffset": 0,
-    "ImageName": "Smoke Grenade [IACP].png"
+    "ImageName": "Smoke Grenade [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1315,
@@ -19431,7 +20063,8 @@
     "VassalName": "Take Position",
     "VassalID": "C card--Take Position.jpg",
     "ImageOffset": 0,
-    "ImageName": "Take Position [IACP].png"
+    "ImageName": "Take Position [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1316,
@@ -19460,7 +20093,8 @@
     "VassalName": "Overheated",
     "VassalID": "015 Overheated Final.png",
     "ImageOffset": 0,
-    "ImageName": "Overheated [IACP].png"
+    "ImageName": "Overheated [IACP].png",
+    "Playtest": "No"
   },
   {
     "ID": 1317,
@@ -19469,10 +20103,10 @@
     "CardClass": null,
     "Faction": "Empire",
     "Cost": 2,
-    "FigureCount": null,
+    "FigureCount": 1,
     "Max": 1,
-    "Health": null,
-    "Speed": null,
+    "Health": 0,
+    "Speed": 0,
     "Traits": null,
     "TraitsRequired": [],
     "Color": null,
@@ -19482,12 +20116,15 @@
     "Text": [
       "[SPECIAL ACTION][SPECIAL ACTION]: Choose a defeated friendly non-DROID, non-unique TROOPER with a figure cost of 4 or less and place it in an empty adjacent space."
     ],
+    "Abilities": [],
+    "SpecialAbilities": [],
     "Variant": "IACP",
     "Characteristics": null,
     "VassalName": "Cloned Reinforcements",
     "VassalID": "IACP11_C card--Cloned Reinforcements.png",
     "ImageOffset": 0,
-    "ImageName": "Cloned Reinforcements [IACP].png"
+    "ImageName": "Cloned Reinforcements [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": 1318,
@@ -19496,10 +20133,10 @@
     "CardClass": null,
     "Faction": "Rebel",
     "Cost": 1,
-    "FigureCount": null,
+    "FigureCount": 1,
     "Max": 1,
-    "Health": null,
-    "Speed": null,
+    "Health": 0,
+    "Speed": 0,
     "Traits": null,
     "TraitsRequired": [],
     "Color": null,
@@ -19509,12 +20146,15 @@
     "Text": [
       "Use when a hostile figure enters a space within 3 spaces of you to gain 3 movement points."
     ],
+    "Abilities": [],
+    "SpecialAbilities": [],
     "Variant": "IACP",
     "Characteristics": null,
     "VassalName": "Disengage",
     "VassalID": "IACP11_C card--Disengage.png",
     "ImageOffset": 0,
-    "ImageName": "Disengage [IACP].png"
+    "ImageName": "Disengage [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": 1319,
@@ -19523,10 +20163,10 @@
     "CardClass": null,
     "Faction": "Empire",
     "Cost": 3,
-    "FigureCount": null,
+    "FigureCount": 1,
     "Max": 1,
-    "Health": null,
-    "Speed": null,
+    "Health": 0,
+    "Speed": 0,
     "Traits": null,
     "TraitsRequired": [],
     "Color": null,
@@ -19536,12 +20176,15 @@
     "Text": [
       "Use when a hostile figure is defeated. If it is not your activation, you may interrupt to move up to 2 spaces, and either use \"Force Choke\" or perform an attack. When you declare this attack, remove 1 die from your attack pool."
     ],
+    "Abilities": [],
+    "SpecialAbilities": [],
     "Variant": "IACP",
     "Characteristics": null,
     "VassalName": "Lord of the Sith",
     "VassalID": "C card--Lord of the Sith.jpg",
     "ImageOffset": 0,
-    "ImageName": "Lord of the Sith [IACP].png"
+    "ImageName": "Lord of the Sith [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": 1322,
@@ -19550,10 +20193,10 @@
     "CardClass": null,
     "Faction": "Neutral",
     "Cost": 0,
-    "FigureCount": null,
+    "FigureCount": 1,
     "Max": 1,
-    "Health": null,
-    "Speed": null,
+    "Health": 0,
+    "Speed": 0,
     "Traits": null,
     "TraitsRequired": [
       "Hunter"
@@ -19563,12 +20206,15 @@
     "Text": [
       "Use when a hostile figure within 3 spaces is defeated to gain 2[BLOCK TOKENS]."
     ],
+    "Abilities": [],
+    "SpecialAbilities": [],
     "Variant": "IACP",
     "Characteristics": null,
     "VassalName": "Paid in Beskar",
     "VassalID": "IACP11_C card--Paid in Beskar.png",
     "ImageOffset": 0,
-    "ImageName": "Paid in Beskar [IACP].png"
+    "ImageName": "Paid in Beskar [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": 1323,
@@ -19577,10 +20223,10 @@
     "CardClass": null,
     "Faction": "Neutral",
     "Cost": 0,
-    "FigureCount": null,
+    "FigureCount": 1,
     "Max": 1,
-    "Health": null,
-    "Speed": null,
+    "Health": 0,
+    "Speed": 0,
     "Traits": [
       "Droid"
     ],
@@ -19593,12 +20239,15 @@
       "Use during your activation to place this card on your Deployment card.",
       "You gain the DROID trait. While attacking, you may reroll one attack die."
     ],
+    "Abilities": [],
+    "SpecialAbilities": [],
     "Variant": "IACP",
     "Characteristics": null,
     "VassalName": "Self-Augmentation",
     "VassalID": "IACP11_C card--Self-Augmentation.png",
     "ImageOffset": 0,
-    "ImageName": "Self-Augmentation [IACP].png"
+    "ImageName": "Self-Augmentation [IACP].png",
+    "Playtest": "Yes"
   },
   {
     "ID": 1324,
@@ -19626,7 +20275,8 @@
     "Variant": "IACP",
     "VassalName": "Stimulants",
     "ImageName": "Stimulants [IACP].png",
-    "ImageOffset": 0
+    "ImageOffset": 0,
+    "Playtest": "Yes"
   },
   {
     "ID": 1325,
@@ -19654,7 +20304,8 @@
     "VassalName": "Mandalorian Steel",
     "VassalID": "IACP12_C card--Mandalorian Steel.png",
     "ImageName": "Mandalorian Steel [IACP].png",
-    "ImageOffset": -5
+    "ImageOffset": -5,
+    "Playtest": "Yes"
   },
   {
     "ID": 1326,
@@ -19680,7 +20331,8 @@
     "VassalName": "Eye on the Prize",
     "VassalID": "IACP12_C card--Eye on the Prize.png",
     "ImageName": "Eye on the Prize [IACP].png",
-    "ImageOffset": 0
+    "ImageOffset": 0,
+    "Playtest": "Yes"
   },
   {
     "ID": 1327,
@@ -19708,7 +20360,8 @@
     "VassalName": "Gauntlet Blade",
     "VassalID": "IACP12_C card--Gauntlet Blade.png",
     "ImageName": "Gauntlet Blade [IACP].png",
-    "ImageOffset": 0
+    "ImageOffset": 0,
+    "Playtest": "Yes"
   },
   {
     "ID": 1328,
@@ -19737,7 +20390,8 @@
     "VassalName": "Dioxis Fumes",
     "VassalID": "IACP12_C card--Dioxis Fumes.png",
     "ImageName": "Dioxis Fumes [IACP].png",
-    "ImageOffset": 0
+    "ImageOffset": 0,
+    "Playtest": "Yes"
   },
   {
     "ID": 1329,
@@ -19764,6 +20418,7 @@
     "Variant": "IACP",
     "VassalName": "Wookiee Rage",
     "ImageName": "Wookiee Rage [IACP].png",
-    "ImageOffset": 0
+    "ImageOffset": 0,
+    "Playtest": "Yes"
   }
 ]

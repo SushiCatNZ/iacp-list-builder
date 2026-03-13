@@ -260,7 +260,8 @@ function CardList({ cards, onAdd, list, onSelect, type, iacpLogo, showIACP, fact
                   <img 
                     src={iacpLogo}
                     alt="IACP"
-                    className="card-iacp-icon"
+                    className={`card-iacp-icon${card.Playtest === "Yes" ? " playtest" : ""}`}
+                    title={card.Playtest === "Yes" ? "Playtesting" : undefined}
                   />
                 )}
               </span>

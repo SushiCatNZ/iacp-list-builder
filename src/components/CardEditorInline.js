@@ -315,6 +315,7 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
       Abilities: [],
       SpecialAbilities: [],
       Variant: "IACP",
+      Playtest: "No",
     });
   }, []); // Empty dependency array means this runs once on mount
 
@@ -346,6 +347,7 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
       Abilities: [],
       SpecialAbilities: [],
       Variant: "IACP",
+      Playtest: "No",
     });
   }
 
@@ -551,6 +553,7 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
           Abilities: [],
           SpecialAbilities: [],
           Variant: "IACP",
+          Playtest: "No",
         });
         if (typeof setSelectedCard === 'function') setSelectedCard(null);
       } else {
@@ -985,8 +988,8 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
             />
           </div>
         </div>
-        <div className="form-row">
-          <div style={{ flex: 1 }}>
+        <div className="form-row" style={{ display: "flex", gap: "16px", alignItems: "center" }}>
+          <div>
             <label style={{ display: "block" }}>Image Offset:</label>
             <input
               type="number"
@@ -994,6 +997,16 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
               onChange={e => handleFieldChange("ImageOffset", Number(e.target.value))}
               style={{ width: "100px" }}
             />
+          </div>
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <label style={{ display: "flex", alignItems: "center", gap: "6px", cursor: "pointer" }}>
+              <input
+                type="checkbox"
+                checked={(safeEditCard?.Playtest ?? "No") === "Yes"}
+                onChange={e => handleFieldChange("Playtest", e.target.checked ? "Yes" : "No")}
+              />
+              Playtest
+            </label>
           </div>
         </div>
       </form>
