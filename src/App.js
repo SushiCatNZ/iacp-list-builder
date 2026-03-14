@@ -1180,12 +1180,8 @@ Traits: ${traitDetails || 'None'}
                   }
                 }}
                 onAddMultipleCommandCards={cards => {
-                  // Only add cards that are not already present
-                  const newCards = cards.filter(
-                    card => !commandList.some(c => c.ID === card.ID) 
-                  );
-                  if (newCards.length > 0) {
-                    setCommandList([...commandList, ...newCards]);
+                  if (cards.length > 0) {
+                    setCommandList([...commandList, ...cards]);
                   }
                 }}
                 allCommandCards={commandCards}

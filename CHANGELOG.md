@@ -47,6 +47,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Card editor:** Replaced `AllText` with `Text`, `Abilities`, and `SpecialAbilities`. Fixed multiline editing so spaces/newlines are preserved while typing, and normalized whitespace on save.
 - **Card editor:** Normalize numeric fields on save so `ID`, `Cost`, `FigureCount`, `Max`, `Health`, `Speed`, and `ImageOffset` are stored as numbers (not strings).
 - **App:** Normalize numeric fields when loading cards from the server to prevent string concatenation issues in point totals.
+- **CMD button:** Adds up to the maximum allowed copies of each eligible command card (respects each card's `Max`). Tooltip shows how many of each will be added (e.g. "Add: Jundland Terror (2)"); when at max, tooltip shows "No additional command cards (at max)" and the button stays visible.
+- **Sabine Wren:** Special case so her deployment card shows a CMD button that adds Rebel Graffiti (code-only; Rebel Graffiti's `UnitsRequired` unchanged).
+- **Card editor:** "Wookie" corrected to "Wookiee" in Traits / Traits Required options.
 
 ### Removed
 - The Armorer deployment card and command card; Ventress deployment card and command card; Test [IACP] deployment image and thumbnail.

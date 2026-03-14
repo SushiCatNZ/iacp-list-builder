@@ -134,14 +134,29 @@ function ListSection({
           });
 
           // Find associated command cards for this deployment card
-          const associatedCommandCards = commandCards.filter(cmd =>
+          let associatedCommandCards = commandCards.filter(cmd =>
             cmd.UnitsRequired && cmd.UnitsRequired.includes(card.Name)
           );
+          // Special case: Sabine Wren gets Rebel Graffiti (no UnitsRequired on the command card)
+          if (card.Name === "Sabine Wren") {
+            const rebelGraffiti = allCommandCards.find(c => c.Name === "Rebel Graffiti");
+            if (rebelGraffiti && !associatedCommandCards.some(c => c.ID === rebelGraffiti.ID)) {
+              associatedCommandCards = [...associatedCommandCards, rebelGraffiti];
+            }
+          }
 
-          // Create a tooltip string
-          const cmdTooltip = associatedCommandCards.length
-            ? `Add: ${associatedCommandCards.map(cmd => cmd.Name).join(", ")}`
-            : "No associated command cards";
+          // For each eligible command card, how many can we add (up to Max)?
+          const cmdAddCounts = associatedCommandCards.map(cmd => {
+            const currentCount = commandList.filter(c => c.ID === cmd.ID).length;
+            const maxAllowed = cmd.Max ?? 1;
+            const toAddCount = Math.max(0, maxAllowed - currentCount);
+            return { cmd, toAddCount };
+          });
+          const cmdTooltip = cmdAddCounts.some(({ toAddCount }) => toAddCount > 0)
+            ? `Add: ${cmdAddCounts.filter(({ toAddCount }) => toAddCount > 0).map(({ cmd, toAddCount }) => `${cmd.Name} (${toAddCount})`).join(", ")}`
+            : associatedCommandCards.length
+              ? "No additional command cards (at max)"
+              : "No associated command cards";
 
           // Use thumbnail for card art background - dynamic API loading with refresh key
           let thumbPath = '';
@@ -271,19 +286,14 @@ function ListSection({
                   />
                 )}
               </div>
-              {allCommandCards && allCommandCards.some(
-                c => Array.isArray(c.UnitsRequired) && c.UnitsRequired.includes(card.Name)
-              ) && (
+              {allCommandCards && associatedCommandCards.length > 0 && (
                 <button
                   className="add-command-button"
                   onClick={() => {
-                    const toAdd = allCommandCards
-                      .filter(
-                        c =>
-                          Array.isArray(c.UnitsRequired) &&
-                          c.UnitsRequired.includes(card.Name) &&
-                          !commandList.some(cmd => cmd.ID === c.ID)
-                      );
+                    const toAdd = [];
+                    cmdAddCounts.forEach(({ cmd, toAddCount }) => {
+                      for (let i = 0; i < toAddCount; i++) toAdd.push(cmd);
+                    });
                     if (toAdd.length > 0) {
                       onAddMultipleCommandCards(toAdd);
                     }

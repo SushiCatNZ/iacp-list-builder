@@ -7,7 +7,7 @@ const CARD_GROUPS = [
   "Deployment", "Skirmish Upgrade", "Companion", "Auxiliary", "Squad Upgrade", "Command"
 ];
 const TRAIT_OPTIONS = [
-  "Wookie", "Spy", "Technician", "Trooper", "Vehicle", "Heavy Weapon", "Hunter", "Leader", "Smuggler", "Creature", "Droid", "Force User", "Guardian", "Brawler"
+  "Wookiee", "Spy", "Technician", "Trooper", "Vehicle", "Heavy Weapon", "Hunter", "Leader", "Smuggler", "Creature", "Droid", "Force User", "Guardian", "Brawler"
 ].map(trait => ({ value: trait, label: trait }));
 
 const CHARACTERISTIC_OPTIONS = [
