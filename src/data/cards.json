@@ -6621,7 +6621,8 @@
     ],
     "SpecialAbilities": [
       "[SPECIAL ACTION] [SPECIAL ACTION] Get into Position: Move up to 4 spaces and become Focused.",
-      "Aim: While attacking during your activation, if the target has suffered [DAMAGE] during this group's activation, apply +1[DAMAGE] and +2 Accuracy to the attack results."
+      "Get Ready: At the start of your activation, another figure in your group may interrupt to move 1 space.",
+      "Aim: If you have not exited your space during this activation, apply +1[DAMAGE] and +2 Accuracy to your attack results."
     ],
     "Variant": "IACP",
     "Characteristics": [
@@ -8265,9 +8266,8 @@
     ],
     "Text": [],
     "Abilities": [
-      "[SURGE]: +2 Accuracy",
-      "[SURGE]: +2[DAMAGE]",
-      "+2 Accuracy"
+      "[SURGE]: +3 Accuracy",
+      "[SURGE]: +2[DAMAGE]"
     ],
     "SpecialAbilities": [
       "[SPECIAL ACTION][SPECIAL ACTION] Fire Mission: Perform an attack targeting a figure or object that another figure in your group attacked during its activation. Ignore line of sight when performing this attack, and it gains Blast 1[DAMAGE].",
@@ -11542,7 +11542,7 @@
     "SpecialAbilities": [
       "[SPECIAL ACTION] Trample: Choose up to 3 adjacent hostile figures and roll 1 red die. Each of those figures suffers [DAMAGE] equal to the [DAMAGE] results.",
       "Stampede: When you end your movement in spaces that contain other figures, each hostile figure in your spaces suffers 1[DAMAGE].",
-      "Wild Beast: When you would perform an attack, you may perform a [SPECIAL ACTION] instead."
+      "Wild Beast: When you would perform an attack, you may perform a [SPECIAL ACTION] instead without spending an action. Limit once per activation and once per Status Phase."
     ],
     "Variant": "IACP",
     "Characteristics": [
@@ -11575,13 +11575,12 @@
     "UnitsRequired": [],
     "Text": [],
     "Abilities": [
-      "Mobile",
       "[SURGE]: +1[DAMAGE], Pierce 1",
       "[SURGE]: Cleave 2[DAMAGE]",
       "[SURGE]: Gain 1[BLOCK TOKEN]"
     ],
     "SpecialAbilities": [
-      "Beskar Armor: After deployment, you gain 2 [BLOCK TOKENS]",
+      "Beskar Armor: After deployment, you gain 2 [BLOCK TOKEN]",
       "This is the Way: When a friendly figure within 4 space resolves and attack, if the defender was defeated, that figure gains 1 [BLOCK TOKEN]",
       "Survival is Strength: While a friendly figure within 4 spaces is defending, if it spent a [BLOCK TOKEN], it may reroll one attack die."
     ],
@@ -11620,7 +11619,7 @@
       "[SURGE]: Weaken"
     ],
     "SpecialAbilities": [
-      "[SPECIAL ACTION] Shoulder Rush: Move up to 2 spaces and choose an adjacent hostile figure. If that figure is small, push it 1 space and enter the space it exited. Then, perform an attack targeting the chosen figure.",
+      "[SPECIAL ACTION][SPECIAL ACTION] Shoulder Rush: Move up to 6 spaces and choose an adjacent hostile figure. If that figure is small, push it 1 space and enter the space it exited. Then, perform an attack targeting the chosen figure.",
       "Deference Protocol: Once per round, when a friendly LEADER enters an adjacent space, you may gain 1[BLOCK TOKEN]."
     ],
     "Variant": "IACP",
@@ -18125,7 +18124,7 @@
     "Color": null,
     "UnitsRequired": [],
     "Text": [
-      "Use when an attack is declared targeting another friendly small figure with a figure cost of 10 or less within 3 spaces. Move up to 3 spaces into a space adjacent to that figure that can be targeted by the attack. The attack targets you instead, if able."
+      "Use when an attack is declared targeting another friendly small figure with a figure cost of 10 or less within X+1 spaces. Move up to X spaces into a space adjacent to that figure that is targetable by the attack. X is the number of dice in your printed attack pool. The attack targets you instead, if able."
     ],
     "Variant": "IACP",
     "Characteristics": null,
@@ -20383,7 +20382,7 @@
     "Color": null,
     "UnitsRequired": [],
     "Text": [
-      "Use at the start of your activation. Each non-DROID figure suffers 1[DAMAGE]. Until the end of the round, non-DROID figures cannot recover [DAMAGE]."
+      "Use at the start of your activation. Roll 1 yellow die. Each non-DROID figure suffers 1[STRAIN] equal to the [SURGE] results. Until the end of the round, non-DROID figures cannot recover [DAMAGE]."
     ],
     "Abilities": [],
     "SpecialAbilities": [],
@@ -20407,7 +20406,7 @@
     "Speed": 0,
     "Traits": [],
     "TraitsRequired": [
-      "Wookie"
+      "Wookiee"
     ],
     "Color": null,
     "UnitsRequired": [],
