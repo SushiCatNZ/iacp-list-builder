@@ -354,16 +354,28 @@ async function git(args, extraEnv = {}) {
   });
 }
 
-function withGithubToken(remoteUrl, token) {
-  if (!token) {
-    return remoteUrl;
+async function getPushUrl() {
+  const token = process.env.GITHUB_TOKEN;
+  const repo = String(process.env.GITHUB_REPO || 'SushiCatNZ/iacp-list-builder')
+    .trim()
+    .replace(/^https?:\/\/github\.com\//i, '')
+    .replace(/\.git$/i, '');
+
+  if (token) {
+    return `https://x-access-token:${token}@github.com/${repo}.git`;
   }
-  const match = remoteUrl.trim().match(/github\.com[:/](.+?)(?:\.git)?$/i);
-  if (!match) {
-    return remoteUrl;
+
+  try {
+    const remote = await git(['remote', 'get-url', 'origin']);
+    const url = String(remote.stdout || '').trim();
+    if (url) {
+      return url;
+    }
+  } catch (err) {
+    // Render checkouts often have no origin remote.
   }
-  const repoPath = match[1].replace(/\.git$/i, '');
-  return `https://x-access-token:${token}@github.com/${repoPath}.git`;
+
+  throw new Error('Publish is not configured. Set GITHUB_TOKEN on Render (and GITHUB_REPO if the repo is not SushiCatNZ/iacp-list-builder).');
 }
 
 app.post('/api/publish', async (req, res) => {
@@ -405,8 +417,7 @@ app.post('/api/publish', async (req, res) => {
     const commitSubject = trimmedDescription.split(/\r?\n/).find((line) => line.trim()) || 'Publish card editor changes';
     await git(['commit', '-m', commitSubject], gitEnv);
 
-    const remote = await git(['remote', 'get-url', 'origin']);
-    const pushUrl = withGithubToken(remote.stdout.trim(), process.env.GITHUB_TOKEN);
+    const pushUrl = await getPushUrl();
     await git(['push', pushUrl, `HEAD:${branch}`], gitEnv);
 
     res.json({ success: true, message: 'Published to GitHub. Render will rebuild shortly.' });

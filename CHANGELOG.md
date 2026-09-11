@@ -40,6 +40,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **PT filter button:** Toggle beside FFG/IACP/ALL to show only playtest cards; turns AUTO off when enabled and restores AUTO when disabled. Tooltip: "Isolate Playtesting Cards".
 
 ### Changed
+- **Card editor Publish:** Push to GitHub using `GITHUB_TOKEN` and `GITHUB_REPO` so it works on Render when `origin` is missing.
 - **Share:** Share output now includes cost prefix for deployment cards; [E]/[R] suffix for Elite/Regular; IACP suffix for IACP variant cards (deployment and command); Traits on its own line (no blank line above).
 - **cards.json:** Removed "Guardian" trait from Fennec. Removed The Armorer deployment card and its associated command card. Removed Asajj Ventress deployment card and its associated command card.
 - Updated images for: You Will Not Deny Me [IACP], Moff Gideon [IACP], Purge Commander [Elite] [IACP].
