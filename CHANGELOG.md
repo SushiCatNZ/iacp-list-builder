@@ -51,7 +51,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **CMD button:** Adds up to the maximum allowed copies of each eligible command card (respects each card's `Max`). Tooltip shows how many of each will be added (e.g. "Add: Jundland Terror (2)"); when at max, tooltip shows "No additional command cards (at max)" and the button stays visible.
 - **Sabine Wren:** Special case so her deployment card shows a CMD button that adds Rebel Graffiti (code-only; Rebel Graffiti's `UnitsRequired` unchanged).
 - **Card editor:** "Wookie" corrected to "Wookiee" in Traits / Traits Required options.
+- **Season 11/12 IACP updates:** Graduated remaining playtest cards (`Playtest` set to No). Updated `cards.json` rules, stats, and image offsets for Season 11/12 cards, including Leia Organa, Dengar, Mortar Trooper, CT-1701, Purge Commander, Imperial Citadel, Mak Eshka'rey, Bo-Katan Kryze, Bantha Rider, Get Behind Me, Gauntlet Blade, and Dioxis Fumes. Added Leader trait to General Weiss. Refreshed matching IACP card images and thumbnails.
 
 ### Removed
 - The Armorer deployment card and command card; Ventress deployment card and command card; Test [IACP] deployment image and thumbnail.
 - Removed a duplicate FFG version of \"Take Position\" from `cards.json`.
+- Removed the Eye on the Prize command card, images, thumbnail, and Vassal mapping.

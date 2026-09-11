@@ -201,6 +201,7 @@
     "Speed": 4,
     "Traits": [
       "Vehicle",
+      "Leader",
       "Heavy Weapon"
     ],
     "TraitsRequired": [],
@@ -6405,7 +6406,7 @@
     "Cost": 8,
     "FigureCount": 1,
     "Max": 1,
-    "Health": 10,
+    "Health": 11,
     "Speed": 5,
     "Traits": [
       "Leader",
@@ -6426,7 +6427,7 @@
     ],
     "SpecialAbilities": [
       "[SPECIAL ACTION] Battlefield Leadership: Perform an attack, then choose another friendly figure within 3 spaces. That figure may interrupt to move up to 1 space and then perform an attack with the same target.",
-      "[SURGE}: Military Efficiency: Choose 1 Command card in your discard pile and shuffle it into your Command deck."
+      "[SURGE}: Military Efficiency: After you resolve an attack, you may choose 1 Command card in your discard pile and shuffle it into your Command deck."
     ],
     "Variant": "IACP",
     "Characteristics": [
@@ -6435,9 +6436,9 @@
     ],
     "VassalName": "Leia Organa",
     "VassalID": "D card-Reb--Leia Organa.jpg",
-    "ImageOffset": 0,
+    "ImageOffset": 10,
     "ImageName": "Leia Organa [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 184,
@@ -6631,9 +6632,9 @@
     ],
     "VassalName": "Rebel Trooper [Elite]",
     "VassalID": "IACP_D card-Reb--Rebel Trooper elite.jpg",
-    "ImageOffset": 0,
+    "ImageOffset": 20,
     "ImageName": "Rebel Trooper [Elite] [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 190,
@@ -7211,9 +7212,9 @@
     ],
     "VassalName": "Royal Guard Champion",
     "VassalID": "IACP_D card-Imp--Royal Guard Champion.jpg",
-    "ImageOffset": 0,
+    "ImageOffset": 25,
     "ImageName": "Royal Guard Champion [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 208,
@@ -7331,7 +7332,7 @@
     "Cost": 7,
     "FigureCount": 1,
     "Max": 1,
-    "Health": 12,
+    "Health": 11,
     "Speed": 4,
     "Traits": [
       "Hunter"
@@ -7355,9 +7356,9 @@
     ],
     "VassalName": "Dengar",
     "VassalID": "D card-Merc--Dengar.jpg",
-    "ImageOffset": 3,
+    "ImageOffset": 20,
     "ImageName": "Dengar [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 212,
@@ -7631,9 +7632,9 @@
     ],
     "VassalName": "Yoda",
     "VassalID": "IACP_D card-Reb--Yoda.jpg",
-    "ImageOffset": 2,
+    "ImageOffset": 28,
     "ImageName": "Yoda [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 220,
@@ -7786,9 +7787,9 @@
     ],
     "VassalName": "AT-RT [Elite]",
     "VassalID": "IACP_D card-Reb--AT-RT.jpg",
-    "ImageOffset": 5,
+    "ImageOffset": 20,
     "ImageName": "AT-RT [Elite] [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 224,
@@ -8266,12 +8267,13 @@
     ],
     "Text": [],
     "Abilities": [
-      "[SURGE]: +3 Accuracy",
+      "+1 Accuracy",
+      "[SURGE]: +2 Accuracy",
       "[SURGE]: +2[DAMAGE]"
     ],
     "SpecialAbilities": [
       "[SPECIAL ACTION][SPECIAL ACTION] Fire Mission: Perform an attack targeting a figure or object that another figure in your group attacked during its activation. Ignore line of sight when performing this attack, and it gains Blast 1[DAMAGE].",
-      "Guidance Systems: While attacking, you may apply -1[DAMAGE] and +2 Accuracy to the attack results. This ability may be used multiple times per attack.",
+      "Guidance Systems: While attacking, you may apply -1[DAMAGE] and +2 Accuracy to the attack results.",
       "Haul: While moving, treat blocking and impassable terrain as difficult terrain."
     ],
     "Variant": "IACP",
@@ -8283,7 +8285,7 @@
     "VassalID": "IACP12_D card-Imp--Mortar Trooper.png",
     "ImageOffset": 0,
     "ImageName": "Mortar Trooper [Elite] [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 237,
@@ -9212,7 +9214,7 @@
     ],
     "SpecialAbilities": [
       "[SPECIAL ACTION] Barrage: Perform 2 attacks. The target of the second attack must be within 3 spaces of the first target space and adds 1 white die to the defense pool.",
-      "Cover Fire: After you resolve an attack, distribute 1[BLOCK TOKEN] to a friendly figure within 3 spaces. Then, if it did not miss, you may discard 1 condition or power token from the target. Limit once per round."
+      "Cover Fire: After you resolve an attack, you may distribute 1[BLOCK TOKEN] to a friendly figure within 3 spaces. Then, if it did not miss, you may discard 1 condition or power token from the target. Limit once per round."
     ],
     "Variant": "IACP",
     "Characteristics": [
@@ -9221,9 +9223,9 @@
     ],
     "VassalName": "CT-1701",
     "VassalID": "IACP_D card-Reb--CT-1701.png",
-    "ImageOffset": 3,
+    "ImageOffset": 20,
     "ImageName": "CT-1701 [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 263,
@@ -9657,7 +9659,7 @@
     ],
     "SpecialAbilities": [
       "[SPECIAL ACTION] Shock Grenade: Choose a space within 3 spaces and roll 1 green die. Each other figure on or adjacent to that space suffers [DAMAGE] equal to the [DAMAGE] results. If you rolled a [SURGE], those figures become Weakened.",
-      "Coordinated Hunt: While a friendly HUNTER is attacking a figure in your line of sight, it may reroll 1 attack die. Limit one “Coordinated Hunt\" per attack."
+      "Coordinated Hunt: While you or a friendly HUNTER in your line of sight is attacking, it may reroll 1 attack die. Limit one “Coordinated Hunt\" per attack."
     ],
     "Variant": "IACP",
     "Characteristics": [
@@ -9668,7 +9670,7 @@
     "VassalID": "IACP11_D card-Imp--Purge Commander.png",
     "ImageOffset": 20,
     "ImageName": "Purge Commander [Elite] [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 276,
@@ -11140,6 +11142,7 @@
     "TraitsRequired": [],
     "Color": "red",
     "UnitsRequired": [],
+    "Text": [],
     "Abilities": [
       "[SURGE]: +l[DAMAGE], Weaken",
       "[SURGE]: +l[DAMAGE], Stun",
@@ -11218,7 +11221,7 @@
     "VassalID": "008 Rogue One Final.png",
     "ImageOffset": 0,
     "ImageName": "Rogue One [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 319,
@@ -11256,9 +11259,9 @@
     ],
     "VassalName": "74-Z Speeder Bike [Elite]",
     "VassalID": "IACP12_D card-Imp--74-Z Speeder Bike.png",
-    "ImageOffset": 15,
+    "ImageOffset": 20,
     "ImageName": "74-Z Speeder Bike [Elite] [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 320,
@@ -11365,7 +11368,7 @@
     "VassalID": "D card-Merc--Explosive Armaments.jpg",
     "ImageOffset": -5,
     "ImageName": "Explosive Armaments [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 323,
@@ -11387,15 +11390,15 @@
     "SpecialAbilities": [
       "Whenever a friendly [IMPERIAL] figure is defeated, for each power token on that figure, place a matching power token on this card.",
       "At the start of a friendly [IMPERIAL] figure's activation, it may gain 1 power token from this card.",
-      "At the start of each round, place 1[DAMAGE TOKEN]"
+      "At the start of each round, place 1[DAMAGE TOKEN] or [BLOCK TOKEN] on this card."
     ],
     "Variant": "IACP",
     "Characteristics": [],
     "VassalName": "Imperial Citadel",
     "VassalID": "IACP11_D card-Imp--Imperial Citadel.png",
-    "ImageOffset": 0,
+    "ImageOffset": -35,
     "ImageName": "Imperial Citadel [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 324,
@@ -11416,7 +11419,11 @@
     "Color": "gray",
     "UnitsRequired": [],
     "Text": [],
-    "Abilities": [],
+    "Abilities": [
+      "Priority Target",
+      "[SURGE]: +1[DAMAGE]",
+      "[SURGE]: +1 Accuracy"
+    ],
     "SpecialAbilities": [
       "[SURGE] Critical Hit: This attack gains Pierce 2. If the target figure suffered 1 or more [DAMAGE] during this attack, the target figure may not play command cards during this round.",
       "Camouflage: Hostile figures 4 or may spaces away cannot draw line of sight to you. You do not block line of sight for those figures."
@@ -11428,9 +11435,9 @@
     ],
     "VassalName": "Mak Eshka'rey",
     "VassalID": "D card-Reb--Mak Eshka'rey.jpg",
-    "ImageOffset": 0,
+    "ImageOffset": 15,
     "ImageName": "Mak Eshka'rey [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 327,
@@ -11467,12 +11474,12 @@
     ],
     "VassalName": "Dr. Royce Hemlock",
     "VassalID": "IACP11_D card-Imp--Dr Royce Hemlock.png",
-    "ImageOffset": 3,
+    "ImageOffset": 10,
     "ImageName": "Dr. Royce Hemlock [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
-    "ID": "328",
+    "ID": 328,
     "CardGroup": "Deployment",
     "Name": "Bo-Katan Kryze",
     "CardClass": "Unique",
@@ -11497,9 +11504,9 @@
       "[SURGE]: Pierce 1, Hide"
     ],
     "SpecialAbilities": [
+      "Beskar Armor: After deployment, you gain 2[BLOCK TOKEN].",
       "Personal Combat Shield: Whenever you spend a [BLOCK TOKEN] while defending, apply +1[EVADE] to the defense results.",
-      "Defensive Fire: After resolving a [RANGED] attack, gain 1 [BLOCK TOKEN]",
-      "Dual-Wield Pistols: After resolving a [RANGED] attack, you may perform a [RANGED] attack without spending an action. Limit once per round.",
+      "Dual-Wield Pistols: After resolving a [RANGED] attack, you may gain 2 [BLOCK TOKEN] and perform a [RANGED] attack without spending an action. Limit once per round.",
       "Last Wielder of the Darksaber: You may include \"The Darksaber\" in your army. At the start of the round, you may attach it to this group."
     ],
     "Variant": "IACP",
@@ -11511,8 +11518,8 @@
     "VassalName": "Bo-Katan Kryze",
     "VassalID": "IACP12_D card-Merc--Bo-Katan Kryze.png",
     "ImageName": "Bo-Katan Kryze [IACP].png",
-    "ImageOffset": 0,
-    "Playtest": "Yes"
+    "ImageOffset": 25,
+    "Playtest": "No"
   },
   {
     "ID": 329,
@@ -11536,13 +11543,12 @@
     "Abilities": [
       "[SURGE]: +2 Accuracy",
       "Massive",
-      "Habitat: Desert",
       "[SURGE]: Pierce 2"
     ],
     "SpecialAbilities": [
       "[SPECIAL ACTION] Trample: Choose up to 3 adjacent hostile figures and roll 1 red die. Each of those figures suffers [DAMAGE] equal to the [DAMAGE] results.",
       "Stampede: When you end your movement in spaces that contain other figures, each hostile figure in your spaces suffers 1[DAMAGE].",
-      "Wild Beast: When you would perform an attack, you may perform a [SPECIAL ACTION] instead without spending an action. Limit once per activation and once per Status Phase."
+      "Wild Beast: When you would perform an attack, you may interrupt to perform an action instead. Limit once per activation and once per Status Phase."
     ],
     "Variant": "IACP",
     "Characteristics": [
@@ -11552,8 +11558,8 @@
     ],
     "VassalName": "Bantha Rider [Elite]",
     "ImageName": "Bantha Rider [Elite] [IACP].png",
-    "ImageOffset": 0,
-    "Playtest": "Yes"
+    "ImageOffset": 30,
+    "Playtest": "No"
   },
   {
     "ID": 330,
@@ -11592,8 +11598,8 @@
     "VassalName": "The Armorer",
     "VassalID": "IACP12_D card-Merc--The Armorer.png",
     "ImageName": "The Armorer [IACP].png",
-    "ImageOffset": 0,
-    "Playtest": "Yes"
+    "ImageOffset": 25,
+    "Playtest": "No"
   },
   {
     "ID": 331,
@@ -11631,7 +11637,7 @@
     "VassalID": "IACP12_D card-Imp--KX-Series Security Droid.png",
     "ImageName": "KX-Series Security Droid [Elite] [IACP].png",
     "ImageOffset": 0,
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 1001,
@@ -18112,10 +18118,10 @@
     "CardClass": null,
     "Faction": "Neutral",
     "Cost": 2,
-    "FigureCount": null,
+    "FigureCount": 1,
     "Max": 1,
-    "Health": null,
-    "Speed": null,
+    "Health": 0,
+    "Speed": 0,
     "Traits": null,
     "TraitsRequired": [
       "Guardian",
@@ -18124,8 +18130,10 @@
     "Color": null,
     "UnitsRequired": [],
     "Text": [
-      "Use when an attack is declared targeting another friendly small figure with a figure cost of 10 or less within X+1 spaces. Move up to X spaces into a space adjacent to that figure that is targetable by the attack. X is the number of dice in your printed attack pool. The attack targets you instead, if able."
+      "Use when an attack is declared targeting another friendly small figure with a figure cost of 10 or less within 3 spaces. Move up to 3 spaces to a space adjacent to that figure that can be targeted by the attack. The attack targets you instead, if able."
     ],
+    "Abilities": [],
+    "SpecialAbilities": [],
     "Variant": "IACP",
     "Characteristics": null,
     "VassalName": "Get Behind Me",
@@ -19895,7 +19903,7 @@
     "VassalID": "IACP11_C card--You Will Not Deny Me.png",
     "ImageOffset": 0,
     "ImageName": "You Will Not Deny Me [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 1310,
@@ -20124,7 +20132,7 @@
     "VassalID": "IACP11_C card--Cloned Reinforcements.png",
     "ImageOffset": 0,
     "ImageName": "Cloned Reinforcements [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 1318,
@@ -20154,7 +20162,7 @@
     "VassalID": "IACP11_C card--Disengage.png",
     "ImageOffset": 0,
     "ImageName": "Disengage [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 1319,
@@ -20184,7 +20192,7 @@
     "VassalID": "C card--Lord of the Sith.jpg",
     "ImageOffset": 0,
     "ImageName": "Lord of the Sith [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 1322,
@@ -20214,7 +20222,7 @@
     "VassalID": "IACP11_C card--Paid in Beskar.png",
     "ImageOffset": 0,
     "ImageName": "Paid in Beskar [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 1323,
@@ -20245,9 +20253,9 @@
     "Characteristics": null,
     "VassalName": "Self-Augmentation",
     "VassalID": "IACP11_C card--Self-Augmentation.png",
-    "ImageOffset": 0,
+    "ImageOffset": -10,
     "ImageName": "Self-Augmentation [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 1324,
@@ -20275,8 +20283,8 @@
     "Variant": "IACP",
     "VassalName": "Stimulants",
     "ImageName": "Stimulants [IACP].png",
-    "ImageOffset": 0,
-    "Playtest": "Yes"
+    "ImageOffset": 5,
+    "Playtest": "No"
   },
   {
     "ID": 1325,
@@ -20304,35 +20312,8 @@
     "VassalName": "Mandalorian Steel",
     "VassalID": "IACP12_C card--Mandalorian Steel.png",
     "ImageName": "Mandalorian Steel [IACP].png",
-    "ImageOffset": -5,
-    "Playtest": "Yes"
-  },
-  {
-    "ID": 1326,
-    "CardGroup": "Command",
-    "Name": "Eye on the Prize",
-    "CardClass": null,
-    "Faction": "Mercenary",
-    "Cost": 1,
-    "FigureCount": 1,
-    "Max": 1,
-    "Health": 0,
-    "Speed": 0,
-    "Traits": [],
-    "TraitsRequired": [],
-    "Color": null,
-    "UnitsRequired": [],
-    "Text": [
-      "Use at the start of a round if your affiliation is [MERCENARY]. Each friendly figure that is carrying or controlling a crate or mission token may either recover 1[DAMAGE], or gain 1[BLOCK TOKEN], or discard 1 HARMFUL condition."
-    ],
-    "Abilities": [],
-    "SpecialAbilities": [],
-    "Variant": "IACP",
-    "VassalName": "Eye on the Prize",
-    "VassalID": "IACP12_C card--Eye on the Prize.png",
-    "ImageName": "Eye on the Prize [IACP].png",
     "ImageOffset": 0,
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 1327,
@@ -20352,7 +20333,7 @@
       "Bo-Katan Kryze"
     ],
     "Text": [
-      "Use after an attack targeting you resolves. Choose an adjacent hostile figure suffers [DAMAGE] equal to the [DAMAGE] results. Then, if you rolled a [SURGE], gain a [BLOCK TOKEN]."
+      "Use after an attack targeting you resolves. Choose an adjacent hostile figure and roll 1 green die. That figure suffers [DAMAGE] equal to the [DAMAGE] results. Then, if you rolled a [SURGE], gain a [BLOCK TOKEN]."
     ],
     "Abilities": [],
     "SpecialAbilities": [],
@@ -20361,7 +20342,7 @@
     "VassalID": "IACP12_C card--Gauntlet Blade.png",
     "ImageName": "Gauntlet Blade [IACP].png",
     "ImageOffset": 0,
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 1328,
@@ -20382,7 +20363,7 @@
     "Color": null,
     "UnitsRequired": [],
     "Text": [
-      "Use at the start of your activation. Roll 1 yellow die. Each non-DROID figure suffers 1[STRAIN] equal to the [SURGE] results. Until the end of the round, non-DROID figures cannot recover [DAMAGE]."
+      "Use at the start of your activation. Each non-DROID figure suffers 1[STRAIN]. Until the end of the round, non-DROID figures cannot recover [DAMAGE]."
     ],
     "Abilities": [],
     "SpecialAbilities": [],
@@ -20390,8 +20371,8 @@
     "VassalName": "Dioxis Fumes",
     "VassalID": "IACP12_C card--Dioxis Fumes.png",
     "ImageName": "Dioxis Fumes [IACP].png",
-    "ImageOffset": 0,
-    "Playtest": "Yes"
+    "ImageOffset": 5,
+    "Playtest": "No"
   },
   {
     "ID": 1329,
@@ -20418,7 +20399,7 @@
     "Variant": "IACP",
     "VassalName": "Wookiee Rage",
     "ImageName": "Wookiee Rage [IACP].png",
-    "ImageOffset": 0,
-    "Playtest": "Yes"
+    "ImageOffset": -5,
+    "Playtest": "No"
   }
 ]
