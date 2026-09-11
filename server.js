@@ -1,8 +1,12 @@
 const express = require('express');
 const fs = require('fs');
-const { exec } = require('child_process');
+const crypto = require('crypto');
+const { exec, execFile } = require('child_process');
 const path = require('path');
+const util = require('util');
 const multer = require('multer');
+
+const execFileAsync = util.promisify(execFile);
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -296,6 +300,121 @@ app.post('/api/delete-vassal-txt', (req, res) => {
     }
     res.json({ success: true });
   });
+});
+
+function passwordsMatch(provided, expected) {
+  const a = Buffer.from(String(provided || ''), 'utf8');
+  const b = Buffer.from(String(expected || ''), 'utf8');
+  if (a.length !== b.length || a.length === 0) {
+    return false;
+  }
+  return crypto.timingSafeEqual(a, b);
+}
+
+function appendUnreleasedChangelog(description) {
+  const changelogPath = path.join(__dirname, 'CHANGELOG.md');
+  if (!fs.existsSync(changelogPath)) {
+    throw new Error('CHANGELOG.md not found');
+  }
+
+  const date = new Date().toISOString().slice(0, 10);
+  const bullets = description
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line) => `- ${line} (${date})\n`)
+    .join('');
+
+  const text = fs.readFileSync(changelogPath, 'utf8');
+  const unreleasedIdx = text.indexOf('## [Unreleased]');
+  if (unreleasedIdx === -1) {
+    throw new Error('CHANGELOG.md is missing an ## [Unreleased] section');
+  }
+
+  const changedHeader = '### Changed';
+  const changedIdx = text.indexOf(changedHeader, unreleasedIdx);
+  if (changedIdx === -1) {
+    throw new Error('CHANGELOG.md Unreleased section is missing ### Changed');
+  }
+
+  let insertAt = changedIdx + changedHeader.length;
+  if (text[insertAt] === '\r') insertAt += 1;
+  if (text[insertAt] === '\n') insertAt += 1;
+  const updated = `${text.slice(0, insertAt)}${bullets}${text.slice(insertAt)}`;
+  fs.writeFileSync(changelogPath, updated, 'utf8');
+}
+
+async function git(args, extraEnv = {}) {
+  return execFileAsync('git', ['-c', `safe.directory=${__dirname}`, ...args], {
+    cwd: __dirname,
+    env: { ...process.env, ...extraEnv },
+    timeout: 120000,
+    maxBuffer: 10 * 1024 * 1024,
+    windowsHide: true,
+  });
+}
+
+function withGithubToken(remoteUrl, token) {
+  if (!token) {
+    return remoteUrl;
+  }
+  const match = remoteUrl.trim().match(/github\.com[:/](.+?)(?:\.git)?$/i);
+  if (!match) {
+    return remoteUrl;
+  }
+  const repoPath = match[1].replace(/\.git$/i, '');
+  return `https://x-access-token:${token}@github.com/${repoPath}.git`;
+}
+
+app.post('/api/publish', async (req, res) => {
+  const expectedPassword = process.env.PUBLISH_PASSWORD;
+  if (!expectedPassword) {
+    return res.status(503).json({ success: false, error: 'Publish is not configured (PUBLISH_PASSWORD).' });
+  }
+
+  const { password, description } = req.body || {};
+  if (!passwordsMatch(password, expectedPassword)) {
+    return res.status(401).json({ success: false, error: 'Incorrect password.' });
+  }
+
+  const trimmedDescription = String(description || '').trim();
+  if (!trimmedDescription) {
+    return res.status(400).json({ success: false, error: 'A change description is required.' });
+  }
+
+  const branch = process.env.PUBLISH_BRANCH || 'main';
+  const authorName = process.env.GIT_AUTHOR_NAME || 'IACP Card Editor';
+  const authorEmail = process.env.GIT_AUTHOR_EMAIL || 'card-editor@local';
+  const gitEnv = {
+    GIT_AUTHOR_NAME: authorName,
+    GIT_AUTHOR_EMAIL: authorEmail,
+    GIT_COMMITTER_NAME: authorName,
+    GIT_COMMITTER_EMAIL: authorEmail,
+  };
+
+  try {
+    appendUnreleasedChangelog(trimmedDescription);
+
+    await git(['add', '-A', '--', 'src/data/cards.json', 'src/images', 'src/utils', 'CHANGELOG.md']);
+
+    const status = await git(['status', '--porcelain', '--', 'src/data/cards.json', 'src/images', 'src/utils', 'CHANGELOG.md']);
+    if (!String(status.stdout || '').trim()) {
+      return res.json({ success: true, message: 'Nothing to publish.' });
+    }
+
+    const commitSubject = trimmedDescription.split(/\r?\n/).find((line) => line.trim()) || 'Publish card editor changes';
+    await git(['commit', '-m', commitSubject], gitEnv);
+
+    const remote = await git(['remote', 'get-url', 'origin']);
+    const pushUrl = withGithubToken(remote.stdout.trim(), process.env.GITHUB_TOKEN);
+    await git(['push', pushUrl, `HEAD:${branch}`], gitEnv);
+
+    res.json({ success: true, message: 'Published to GitHub. Render will rebuild shortly.' });
+  } catch (err) {
+    console.error('[PUBLISH] Failed:', err);
+    const detail = (err.stderr && String(err.stderr).trim()) || err.message || 'Publish failed';
+    res.status(500).json({ success: false, error: detail });
+  }
 });
 
 app.get('/api/test', (req, res) => {

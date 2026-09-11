@@ -32,6 +32,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+- **Card editor Publish:** Live-site Publish button commits `cards.json`, `src/images`, `src/utils`, and `CHANGELOG.md` to GitHub (password + change description) so Render can redeploy.
 - All Season 12 cards added to `cards.json`.
 - Added structured card rules fields (`Text`, `Abilities`, `SpecialAbilities`) to `cards.json` to support richer search over card text.
 - Added internal documentation describing options for separating card text into a dedicated JSON file and for adding a simple view counter.

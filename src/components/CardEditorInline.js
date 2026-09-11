@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 import Select from "react-select";
 import CreatableSelect from "react-select/creatable";
+import PublishPrompt from "./PublishPrompt";
 
 const FACTIONS = ["Rebel", "Empire", "Mercenary", "Neutral"];
 const CARD_GROUPS = [
@@ -289,6 +290,9 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
   const safeEditCard = editCard || {};
   const fileInputRef = useRef();
   const vassalFileInputRef = useRef();
+  const [showPublishPrompt, setShowPublishPrompt] = useState(false);
+  const [publishBusy, setPublishBusy] = useState(false);
+  const [publishError, setPublishError] = useState('');
 
   const isCardSaved = (card) => {
     return cardData.some(existingCard => existingCard.ID === card.ID);
@@ -680,8 +684,52 @@ function CardEditorInline({ cardData, setCardData, editCard, setEditCard, setSho
           style={{ display: "none" }}
           onChange={handleVassalFileUpload}
         />
+        <button
+          type="button"
+          onClick={() => {
+            setPublishError('');
+            setShowPublishPrompt(true);
+          }}
+          style={{ padding: "4px 8px" }}
+        >
+          Publish
+        </button>
         <button type="button" onClick={() => setShowCardEditor(false)} style={{ padding: "4px 8px" }}>Close Editor</button>
       </div>
+      {showPublishPrompt && (
+        <PublishPrompt
+          busy={publishBusy}
+          error={publishError}
+          onCancel={() => {
+            if (!publishBusy) {
+              setShowPublishPrompt(false);
+              setPublishError('');
+            }
+          }}
+          onSubmit={async ({ password, description }) => {
+            setPublishBusy(true);
+            setPublishError('');
+            try {
+              const response = await fetch('/api/publish', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ password, description }),
+              });
+              const result = await response.json().catch(() => ({}));
+              if (!response.ok || !result.success) {
+                setPublishError(result.error || 'Publish failed.');
+                return;
+              }
+              setShowPublishPrompt(false);
+              window.alert(result.message || 'Published.');
+            } catch (err) {
+              setPublishError(err.message || 'Publish failed.');
+            } finally {
+              setPublishBusy(false);
+            }
+          }}
+        />
+      )}
       <form onSubmit={handleSave}>
         <div className="form-row">
           <div style={{ flex: "none", maxWidth: "60px" }}>

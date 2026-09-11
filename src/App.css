@@ -1495,6 +1495,22 @@ body, html, #root, .app-container {
   color: white;
 }
 
+.publish-prompt {
+  width: 420px;
+  max-width: 90vw;
+}
+
+.publish-prompt textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
 /* Section title box for list titles - compact and only top right rounded */
 .section-title-box {
   background: #888;
