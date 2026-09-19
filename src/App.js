@@ -11,6 +11,10 @@ import IALogo from "./images/icons/IA Logo.png";
 import './App.css';
 import CardEditorInline from "./components/CardEditorInline";
 import PasswordPrompt from './components/PasswordPrompt';
+import PreBuiltPanel, {
+  listsMatchArmy,
+  resolvePrebuiltCards,
+} from "./components/PreBuiltPanel";
 import BrawlerIcon from './images/icons/brawler.png';
 import CreatureIcon from './images/icons/creature.png';
 import DroidIcon from './images/icons/droid.png';
@@ -82,7 +86,15 @@ function App() {
   const [imageRefreshKey, setImageRefreshKey] = useState(0);
   const [isCardEditorAuthenticated, setIsCardEditorAuthenticated] = useState(false);
   const [showPasswordPrompt, setShowPasswordPrompt] = useState(false);
+  const [passwordIntent, setPasswordIntent] = useState(null);
   const [showTraitsGrid, setShowTraitsGrid] = useState(false);
+  const [showPreBuilt, setShowPreBuilt] = useState(false);
+  const [prebuiltLists, setPrebuiltLists] = useState([]);
+  const [selectedPrebuiltTitle, setSelectedPrebuiltTitle] = useState(null);
+  const [isPrebuiltAdmin, setIsPrebuiltAdmin] = useState(false);
+  const [prebuiltEditMode, setPrebuiltEditMode] = useState(null);
+  const [prebuiltDraft, setPrebuiltDraft] = useState({ originalTitle: "", Title: "", Description: "", Type: "" });
+  const [pendingPrebuiltAction, setPendingPrebuiltAction] = useState(null);
 
   // Ref for the traits dropdown container
   const traitsDropdownRef = useRef(null);
@@ -132,6 +144,21 @@ function App() {
   }, []);
 
   useEffect(() => {
+    const loadPrebuiltLists = async () => {
+      try {
+        const response = await fetch('/api/prebuilt-lists');
+        if (!response.ok) throw new Error(`Failed to load prebuilt lists: ${response.status}`);
+        const lists = await response.json();
+        setPrebuiltLists(Array.isArray(lists) ? lists : []);
+      } catch (error) {
+        console.error('[APP] Error loading prebuilt lists:', error);
+        setPrebuiltLists([]);
+      }
+    };
+    loadPrebuiltLists();
+  }, []);
+
+  useEffect(() => {
     function handleClickOutside(event) {
       if (traitsDropdownRef.current && !traitsDropdownRef.current.contains(event.target)) {
         setShowTraitsGrid(false);
@@ -145,6 +172,14 @@ function App() {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [traitsDropdownRef]);
+
+  useEffect(() => {
+    if (!selectedPrebuiltTitle || prebuiltEditMode) return;
+    const list = prebuiltLists.find((item) => item.Title === selectedPrebuiltTitle);
+    if (!list || !listsMatchArmy(list, deploymentList, commandList, baseFaction, cardData)) {
+      setSelectedPrebuiltTitle(null);
+    }
+  }, [deploymentList, commandList, baseFaction, selectedPrebuiltTitle, prebuiltEditMode, prebuiltLists, cardData]);
 
   const getCommonCommandCardNames = () => {
     const baseCards = [
@@ -815,6 +850,7 @@ function App() {
     setBaseFaction("Rebel");
     setAutoFilter(true);
     setIacpMode("IACP");
+    setSelectedPrebuiltTitle(null);
   };
 
   const handleCardClick = (card) => {
@@ -826,6 +862,7 @@ function App() {
 
   const handleCardEditorToggle = () => {
     if (!showCardEditor && !isCardEditorAuthenticated) {
+      setPasswordIntent('editor');
       setShowPasswordPrompt(true);
     } else {
       setShowCardEditor(!showCardEditor);
@@ -836,13 +873,189 @@ function App() {
   };
 
   const handlePasswordSubmit = () => {
+    if (passwordIntent === 'prebuilt') {
+      setIsPrebuiltAdmin(true);
+      setShowPasswordPrompt(false);
+      const action = pendingPrebuiltAction;
+      setPendingPrebuiltAction(null);
+      setPasswordIntent(null);
+      if (action === 'add') startPrebuiltAdd();
+      else if (action === 'update') startPrebuiltUpdate();
+      else if (action === 'delete') confirmPrebuiltDelete();
+      return;
+    }
     setIsCardEditorAuthenticated(true);
     setShowPasswordPrompt(false);
+    setPasswordIntent(null);
     setShowCardEditor(true);
   };
 
   const handlePasswordCancel = () => {
     setShowPasswordPrompt(false);
+    setPasswordIntent(null);
+    setPendingPrebuiltAction(null);
+  };
+
+  const normalizePrebuiltTitle = (title) => String(title || "").trim().toLowerCase();
+
+  const findPrebuiltByTitle = (title) =>
+    prebuiltLists.find(list => normalizePrebuiltTitle(list.Title) === normalizePrebuiltTitle(title));
+
+  const persistPrebuiltLists = async (nextLists) => {
+    const response = await fetch('/api/save-prebuilt-lists', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ lists: nextLists }),
+    });
+    if (!response.ok) {
+      const data = await response.json().catch(() => ({}));
+      throw new Error(data.error || 'Failed to save pre-built lists.');
+    }
+    setPrebuiltLists(nextLists);
+  };
+
+  const applyPrebuiltList = (list, { confirmIfEditing } = {}) => {
+    if (prebuiltEditMode) {
+      if (confirmIfEditing === false) return;
+      const ok = window.confirm('Load this list and lose unsaved pre-built changes?');
+      if (!ok) return;
+      setPrebuiltEditMode(null);
+      setPrebuiltDraft({ originalTitle: "", Title: "", Description: "", Type: "" });
+    }
+
+    const dep = resolvePrebuiltCards(list.DeploymentIDs, cardData);
+    const cmd = resolvePrebuiltCards(list.CommandIDs, cardData);
+    const missing = [...dep.missing, ...cmd.missing];
+    if (missing.length > 0 && isPrebuiltAdmin) {
+      alert(`${missing.length} card${missing.length === 1 ? '' : 's'} in this list no longer exist and were skipped.`);
+    }
+    setDeploymentList(dep.cards);
+    setCommandList(cmd.cards);
+    setArmyName(list.Title || "");
+    if (list.BaseFaction) setBaseFaction(list.BaseFaction);
+    setSelectedPrebuiltTitle(list.Title);
+  };
+
+  const requirePrebuiltAdmin = (action) => {
+    if (isPrebuiltAdmin) {
+      if (action === 'add') startPrebuiltAdd();
+      else if (action === 'update') startPrebuiltUpdate();
+      else if (action === 'delete') confirmPrebuiltDelete();
+      return;
+    }
+    setPendingPrebuiltAction(action);
+    setPasswordIntent('prebuilt');
+    setShowPasswordPrompt(true);
+  };
+
+  const startPrebuiltAdd = () => {
+    if (prebuiltEditMode) return;
+    setShowPreBuilt(true);
+    setPrebuiltEditMode('add');
+    setPrebuiltDraft({
+      originalTitle: "",
+      Title: armyName || "",
+      Description: "",
+      Type: "",
+    });
+  };
+
+  const startPrebuiltUpdate = () => {
+    if (prebuiltEditMode || !selectedPrebuiltTitle) return;
+    const list = findPrebuiltByTitle(selectedPrebuiltTitle);
+    if (!list) return;
+    setPrebuiltEditMode('update');
+    setPrebuiltDraft({
+      originalTitle: list.Title,
+      Title: list.Title,
+      Description: list.Description || "",
+      Type: list.Type || "",
+    });
+  };
+
+  const confirmPrebuiltDelete = async () => {
+    if (prebuiltEditMode || !selectedPrebuiltTitle) return;
+    const list = findPrebuiltByTitle(selectedPrebuiltTitle);
+    if (!list) return;
+    if (!window.confirm(`Delete "${list.Title}"?`)) return;
+    try {
+      const nextLists = prebuiltLists.filter(
+        (item) => normalizePrebuiltTitle(item.Title) !== normalizePrebuiltTitle(list.Title)
+      );
+      await persistPrebuiltLists(nextLists);
+      setSelectedPrebuiltTitle(null);
+    } catch (error) {
+      alert(error.message);
+    }
+  };
+
+  const cancelPrebuiltEdit = () => {
+    setPrebuiltEditMode(null);
+    setPrebuiltDraft({ originalTitle: "", Title: "", Description: "", Type: "" });
+  };
+
+  const savePrebuiltEdit = async () => {
+    const title = String(prebuiltDraft.Title || "").trim();
+    const description = String(prebuiltDraft.Description || "").trim();
+    const type = String(prebuiltDraft.Type || "").trim();
+    if (!title) {
+      alert('A title is required.');
+      return;
+    }
+    if (!type) {
+      alert('A type is required.');
+      return;
+    }
+    if (deploymentList.length === 0 && commandList.length === 0) {
+      alert('Build an army before saving a pre-built list.');
+      return;
+    }
+    const duplicate = prebuiltLists.some((item) => {
+      if (
+        prebuiltEditMode === 'update' &&
+        normalizePrebuiltTitle(item.Title) === normalizePrebuiltTitle(prebuiltDraft.originalTitle)
+      ) {
+        return false;
+      }
+      return normalizePrebuiltTitle(item.Title) === normalizePrebuiltTitle(title);
+    });
+    if (duplicate) {
+      alert('A pre-built list with that title already exists.');
+      return;
+    }
+
+    const entry = {
+      Title: title,
+      Description: description,
+      Type: type,
+      BaseFaction: baseFaction,
+      DeploymentIDs: deploymentList.map((card) => card.ID),
+      CommandIDs: commandList.map((card) => card.ID),
+    };
+
+    let nextLists;
+    if (prebuiltEditMode === 'update') {
+      nextLists = prebuiltLists.map((item) =>
+        normalizePrebuiltTitle(item.Title) === normalizePrebuiltTitle(prebuiltDraft.originalTitle)
+          ? entry
+          : item
+      );
+    } else {
+      nextLists = [...prebuiltLists, entry];
+    }
+
+    try {
+      await persistPrebuiltLists(nextLists);
+      setArmyName(title);
+      setSelectedPrebuiltTitle(title);
+      cancelPrebuiltEdit();
+    } catch (error) {
+      alert(error.message);
+    }
+  };
+
+  const handlePrebuiltSelect = (list) => {
+    applyPrebuiltList(list, { confirmIfEditing: true });
   };
 
   const handleShareList = async () => {
@@ -1070,6 +1283,12 @@ Traits: ${traitDetails || 'None'}
             Clear
           </button>
           <button
+            className={`army-list-button${showPreBuilt ? " prebuilt-toggle-active" : ""}`}
+            onClick={() => setShowPreBuilt((open) => !open)}
+          >
+            Pre-Built
+          </button>
+          <button
             className="army-list-button card-editor-button"
             onClick={handleCardEditorToggle}
           >
@@ -1205,6 +1424,25 @@ Traits: ${traitDetails || 'None'}
                 showAddCommonButton={true}
                 imageRefreshKey={imageRefreshKey}
               />
+              {showPreBuilt && (
+                <PreBuiltPanel
+                  lists={prebuiltLists}
+                  cardData={cardData}
+                  iacpMode={iacpMode}
+                  selectedTitle={selectedPrebuiltTitle}
+                  editMode={prebuiltEditMode}
+                  draft={prebuiltDraft}
+                  setDraft={setPrebuiltDraft}
+                  factionIcons={factionIcons}
+                  imageRefreshKey={imageRefreshKey}
+                  onSelect={handlePrebuiltSelect}
+                  onAdd={() => requirePrebuiltAdmin('add')}
+                  onUpdate={() => requirePrebuiltAdmin('update')}
+                  onDelete={() => requirePrebuiltAdmin('delete')}
+                  onSave={savePrebuiltEdit}
+                  onCancel={cancelPrebuiltEdit}
+                />
+              )}
             </>
           )}
           {showCardEditor && (

@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.0] - 2024-03-19
 
 ### Added
+
 - Initial project setup
 - Basic React application structure
 - Express server implementation
@@ -15,23 +16,29 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Image processing capabilities
 
 ### Changed
+
 - None
 
 ### Deprecated
+
 - None
 
 ### Removed
+
 - None
 
 ### Fixed
+
 - None
 
 ### Security
-- None 
+
+- None
 
 ## [Unreleased]
 
 ### Added
+
 - **Card editor Publish:** Live-site Publish button commits `cards.json`, `src/images`, `src/utils`, and `CHANGELOG.md` to GitHub (password + change description) so Render can redeploy.
 - All Season 12 cards added to `cards.json`.
 - Added structured card rules fields (`Text`, `Abilities`, `SpecialAbilities`) to `cards.json` to support richer search over card text.
@@ -40,9 +47,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **PT filter button:** Toggle beside FFG/IACP/ALL to show only playtest cards; turns AUTO off when enabled and restores AUTO when disabled. Tooltip: "Isolate Playtesting Cards".
 
 ### Changed
+<<<<<<< HEAD
 - Changed Mortar Trooper to Attachment (2026-09-13)
 - Removed test card (2026-09-11)
 - TEST (2026-09-11)
+=======
+
+>>>>>>> 1e4e426 (Added Pre-Built List Feature)
 - **Card editor Publish:** Push to GitHub using `GITHUB_TOKEN` and `GITHUB_REPO` so it works on Render when `origin` is missing.
 - **Share:** Share output now includes cost prefix for deployment cards; [E]/[R] suffix for Elite/Regular; IACP suffix for IACP variant cards (deployment and command); Traits on its own line (no blank line above).
 - **cards.json:** Removed "Guardian" trait from Fennec. Removed The Armorer deployment card and its associated command card. Removed Asajj Ventress deployment card and its associated command card.
@@ -57,8 +68,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Sabine Wren:** Special case so her deployment card shows a CMD button that adds Rebel Graffiti (code-only; Rebel Graffiti's `UnitsRequired` unchanged).
 - **Card editor:** "Wookie" corrected to "Wookiee" in Traits / Traits Required options.
 - **Season 11/12 IACP updates:** Graduated remaining playtest cards (`Playtest` set to No). Updated `cards.json` rules, stats, and image offsets for Season 11/12 cards, including Leia Organa, Dengar, Mortar Trooper, CT-1701, Purge Commander, Imperial Citadel, Mak Eshka'rey, Bo-Katan Kryze, Bantha Rider, Get Behind Me, Gauntlet Blade, and Dioxis Fumes. Added Leader trait to General Weiss. Refreshed matching IACP card images and thumbnails.
+- **Added Pre-built list feature**
 
 ### Removed
+
 - The Armorer deployment card and command card; Ventress deployment card and command card; Test [IACP] deployment image and thumbnail.
-- Removed a duplicate FFG version of \"Take Position\" from `cards.json`.
+- Removed a duplicate FFG version of Take Position from `cards.json`.
 - Removed the Eye on the Prize command card, images, thumbnail, and Vassal mapping.
+

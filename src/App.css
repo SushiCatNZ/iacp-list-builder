@@ -1388,6 +1388,9 @@ body, html, #root, .app-container {
     max-height: 250px;
     height: auto;
   }
+  .prebuilt-list-window {
+    max-height: 250px;
+  }
   .card-preview {
     max-width: 250px;
     margin-left: auto;
@@ -1422,6 +1425,9 @@ body, html, #root, .app-container {
   .cards-container {
     max-height: 300px;
     height: auto;
+  }
+  .prebuilt-list-window {
+    max-height: 300px;
   }
   .card-preview {
     max-width: 200px;
@@ -1661,4 +1667,158 @@ body, html, #root, .app-container {
   white-space: nowrap;
   z-index: 1000;
   margin-bottom: 4px;
+}
+
+.prebuilt-toggle-active {
+  background: #2ecc71;
+  color: #fff;
+}
+
+.prebuilt-panel {
+  width: 100%;
+  margin-top: 8px;
+}
+
+.prebuilt-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  gap: 8px;
+}
+
+.prebuilt-admin-buttons {
+  display: flex;
+  gap: 6px;
+  margin-right: 10px;
+  margin-bottom: 2px;
+}
+
+.prebuilt-list-window {
+  background: transparent;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%;
+  max-height: 500px;
+  box-sizing: border-box;
+  color: #222;
+  scrollbar-width: thin;
+  scrollbar-color: #bbb #222;
+}
+
+.prebuilt-list-window::-webkit-scrollbar {
+  width: 10px;
+  background: rgba(30, 30, 60, 0.2);
+  border-radius: 8px;
+}
+
+.prebuilt-list-window::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #bbb 0%, #888 100%);
+  border-radius: 8px;
+}
+
+.prebuilt-group-heading {
+  font-family: var(--font-main);
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #f0f0f0;
+  padding: 8px 4px 2px 4px;
+  letter-spacing: 0.5px;
+}
+
+.prebuilt-empty {
+  color: #ccc;
+  padding: 12px 8px;
+  font-family: var(--font-main);
+}
+
+.prebuilt-row {
+  position: relative;
+  overflow: hidden;
+  padding-left: 8px;
+  padding-right: 0;
+}
+
+.prebuilt-row.prebuilt-selected {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+.prebuilt-row-content {
+  position: relative;
+  z-index: 2;
+  padding-right: 8px;
+}
+
+.prebuilt-thumb-strip {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 240px;
+  height: 100%;
+  background-color: #fff;
+  gap: 3px;
+  z-index: 1;
+  pointer-events: none;
+  overflow: hidden;
+  display: flex;
+}
+
+.prebuilt-thumb-slice {
+  flex: 1 1 0;
+  /* min-width: 40px; */
+  width: 33.333%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  position: relative; /* added */
+  overflow: hidden;
+}
+
+.prebuilt-thumb-slice.empty {
+  background: transparent;
+}
+
+.prebuilt-thumb-fade {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, rgba(0,0,0,0.3) 0%, rgba(255,255,255,0) 95%, #fff 100%);
+}
+
+.prebuilt-edit-row {
+  height: auto;
+  min-height: 40px;
+  align-items: stretch;
+  padding: 8px;
+  cursor: default;
+}
+
+.prebuilt-edit-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+  z-index: 2;
+}
+
+.prebuilt-edit-input {
+  font-family: var(--font-main);
+  font-size: 1.1rem;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #222;
+}
+
+.prebuilt-edit-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.prebuilt-admin-buttons button:disabled {
+  opacity: 0.45;
+  cursor: default;
 }

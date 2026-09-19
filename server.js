@@ -407,9 +407,10 @@ app.post('/api/publish', async (req, res) => {
   try {
     appendUnreleasedChangelog(trimmedDescription);
 
-    await git(['add', '-A', '--', 'src/data/cards.json', 'src/images', 'src/utils', 'CHANGELOG.md']);
+    const publishPaths = ['src/data/cards.json', 'src/data/prebuilt_lists.json', 'src/images', 'src/utils', 'CHANGELOG.md'];
+    await git(['add', '-A', '--', ...publishPaths]);
 
-    const status = await git(['status', '--porcelain', '--', 'src/data/cards.json', 'src/images', 'src/utils', 'CHANGELOG.md']);
+    const status = await git(['status', '--porcelain', '--', ...publishPaths]);
     if (!String(status.stdout || '').trim()) {
       return res.json({ success: true, message: 'Nothing to publish.' });
     }
@@ -430,6 +431,35 @@ app.post('/api/publish', async (req, res) => {
 
 app.get('/api/test', (req, res) => {
   res.json({ message: 'Proxy is working!' });
+});
+
+const prebuiltListsPath = path.join(__dirname, 'src', 'data', 'prebuilt_lists.json');
+
+app.get('/api/prebuilt-lists', (req, res) => {
+  try {
+    if (!fs.existsSync(prebuiltListsPath)) {
+      return res.json([]);
+    }
+    const data = JSON.parse(fs.readFileSync(prebuiltListsPath, 'utf-8'));
+    res.json(Array.isArray(data) ? data : []);
+  } catch (error) {
+    console.error('[PREBUILT] Error loading lists:', error);
+    res.status(500).json({ error: 'Failed to load prebuilt lists' });
+  }
+});
+
+app.post('/api/save-prebuilt-lists', (req, res) => {
+  const lists = req.body && req.body.lists;
+  if (!Array.isArray(lists)) {
+    return res.status(400).json({ success: false, error: 'lists array required' });
+  }
+  try {
+    fs.writeFileSync(prebuiltListsPath, `${JSON.stringify(lists, null, 2)}\n`, 'utf-8');
+    res.json({ success: true });
+  } catch (error) {
+    console.error('[PREBUILT] Error saving lists:', error);
+    res.status(500).json({ success: false, error: error.message || 'Failed to save prebuilt lists' });
+  }
 });
 
 app.get('/api/cards', (req, res) => {
