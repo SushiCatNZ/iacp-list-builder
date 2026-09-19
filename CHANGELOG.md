@@ -47,6 +47,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **PT filter button:** Toggle beside FFG/IACP/ALL to show only playtest cards; turns AUTO off when enabled and restores AUTO when disabled. Tooltip: "Isolate Playtesting Cards".
 
 ### Changed
+- Added 3 new Pre-Built lists (2026-09-19)
 <<<<<<< HEAD
 - Changed Mortar Trooper to Attachment (2026-09-13)
 - Removed test card (2026-09-11)
