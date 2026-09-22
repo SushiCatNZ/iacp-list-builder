@@ -7789,7 +7789,7 @@
     "VassalID": "IACP_D card-Reb--AT-RT.jpg",
     "ImageOffset": 20,
     "ImageName": "AT-RT [Elite] [IACP].png",
-    "Playtest": "No"
+    "Playtest": "Yes"
   },
   {
     "ID": 224,
@@ -11416,7 +11416,7 @@
       "Technician"
     ],
     "TraitsRequired": [],
-    "Color": "gray",
+    "Color": "Red",
     "UnitsRequired": [],
     "Text": [],
     "Abilities": [
@@ -11519,7 +11519,7 @@
     "VassalID": "IACP12_D card-Merc--Bo-Katan Kryze.png",
     "ImageName": "Bo-Katan Kryze [IACP].png",
     "ImageOffset": 25,
-    "Playtest": "No"
+    "Playtest": "Yes"
   },
   {
     "ID": 329,
@@ -11637,7 +11637,7 @@
     "VassalID": "IACP12_D card-Imp--KX-Series Security Droid.png",
     "ImageName": "KX-Series Security Droid [Elite] [IACP].png",
     "ImageOffset": 0,
-    "Playtest": "No"
+    "Playtest": "Yes"
   },
   {
     "ID": 1001,
@@ -19903,7 +19903,7 @@
     "VassalID": "IACP11_C card--You Will Not Deny Me.png",
     "ImageOffset": 0,
     "ImageName": "You Will Not Deny Me [IACP].png",
-    "Playtest": "No"
+    "Playtest": "Yes"
   },
   {
     "ID": 1310,
@@ -20342,7 +20342,7 @@
     "VassalID": "IACP12_C card--Gauntlet Blade.png",
     "ImageName": "Gauntlet Blade [IACP].png",
     "ImageOffset": 0,
-    "Playtest": "No"
+    "Playtest": "Yes"
   },
   {
     "ID": 1328,

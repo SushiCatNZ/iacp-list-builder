@@ -98,5 +98,76 @@
       1272,
       1214
     ]
+  },
+  {
+    "Title": "Droid Uprising",
+    "Description": "High activation droid list. Drawing 'Overdrive' is key. Suffers from low damage output and card draw.",
+    "Type": "Droid",
+    "BaseFaction": "Empire",
+    "DeploymentIDs": [
+      187,
+      187,
+      331,
+      331,
+      133,
+      176,
+      263,
+      263,
+      92,
+      26,
+      196
+    ],
+    "CommandIDs": [
+      1084,
+      1328,
+      1259,
+      1169,
+      1283,
+      1176,
+      1178,
+      1035,
+      1229,
+      1119,
+      1028,
+      1043,
+      1053,
+      1174,
+      1114
+    ]
+  },
+  {
+    "Title": "Double Rancor",
+    "Description": "Extend your Rancor's life with 'Survival Instincts' then re-activate by eating a Jawa or two. HK's can shoot through Rancors with Priority Target",
+    "Type": "Brawler",
+    "BaseFaction": "Mercenary",
+    "DeploymentIDs": [
+      188,
+      188,
+      274,
+      248,
+      134,
+      134,
+      261,
+      121,
+      95,
+      126
+    ],
+    "CommandIDs": [
+      1225,
+      1119,
+      1010,
+      1023,
+      1043,
+      1053,
+      1057,
+      1252,
+      1282,
+      1123,
+      1141,
+      1312,
+      1149,
+      1180,
+      1243
+    ]
   }
 ]
