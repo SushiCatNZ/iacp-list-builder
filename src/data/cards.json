@@ -9668,7 +9668,7 @@
     ],
     "VassalName": "Purge Commander [Elite]",
     "VassalID": "IACP11_D card-Imp--Purge Commander.png",
-    "ImageOffset": 20,
+    "ImageOffset": 10,
     "ImageName": "Purge Commander [Elite] [IACP].png",
     "Playtest": "No"
   },

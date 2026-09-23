@@ -47,6 +47,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **PT filter button:** Toggle beside FFG/IACP/ALL to show only playtest cards; turns AUTO off when enabled and restores AUTO when disabled. Tooltip: "Isolate Playtesting Cards".
 
 ### Changed
+- Updated Purge Commander Artwork (2026-09-23)
 - Updated final S11 & S12 cards. Moved: KX, Bo-Katan, AT-RT, Gauntlet B, YWNDM to continued testing. Deleted: Eye on the Prize (2026-09-22)
 - Added 3 new Pre-Built lists (2026-09-19)
 <<<<<<< HEAD
