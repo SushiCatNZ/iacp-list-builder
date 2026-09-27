@@ -11589,7 +11589,7 @@
     "SpecialAbilities": [
       "Beskar Armor: After deployment, you gain 2 [BLOCK TOKEN]",
       "This is the Way: When a friendly figure within 4 space resolves and attack, if the defender was defeated, that figure gains 1 [BLOCK TOKEN]",
-      "Survival is Strength: While a friendly figure within 4 spaces is defending, if it spent a [BLOCK TOKEN], it may reroll one attack die."
+      "Survival is Strength: While a friendly figure within 4 spaces is defending, if it spent a [BLOCK TOKEN], you may choose one attack die. Your opponent must reroll that die."
     ],
     "Variant": "IACP",
     "Characteristics": [

@@ -47,6 +47,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **PT filter button:** Toggle beside FFG/IACP/ALL to show only playtest cards; turns AUTO off when enabled and restores AUTO when disabled. Tooltip: "Isolate Playtesting Cards".
 
 ### Changed
+- Updated The Armorer text (2026-09-27)
 - Updated The Armorer last ability text. (2026-09-27)
 - Corrected Paz Vizsla card defence die (was white). (2026-09-26)
 - Updated Purge Commander Artwork (2026-09-23)
