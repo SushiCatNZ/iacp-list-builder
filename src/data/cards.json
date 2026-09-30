@@ -5147,6 +5147,7 @@
     "TraitsRequired": [],
     "Color": "gray",
     "UnitsRequired": [],
+    "Text": [],
     "Abilities": [],
     "SpecialAbilities": [
       "Shape. When you are deployed, you may gain 1 Form card of your choice from the supply.",
@@ -5361,6 +5362,7 @@
     "TraitsRequired": [],
     "Color": "red",
     "UnitsRequired": [],
+    "Text": [],
     "Abilities": [],
     "SpecialAbilities": [
       "Shape. When you are deployed, you may gain 1 Form card of your choice from the supply.",
@@ -7770,14 +7772,14 @@
     "UnitsRequired": [],
     "Text": [],
     "Abilities": [
-      "+1[BLOCK], +2 Acc.",
+      "+1[BLOCK]",
       "Massive",
       "[SURGE]: +2[DAMAGE]",
       "[SURGE]: Pierce 2"
     ],
     "SpecialAbilities": [
-      "Mortar Launcher: At the end of the round, you may move up to 2 spaces. Then, choose a space within 3 spaces that contains a hostile figure and roll 1 red die. Each figure on or adjacent to that space suffers [DAMAGE] equal to the [DAMAGE] results.",
-      "Vanguard: While attacking a figure within 3 spaces, you may replace one die in your attack pool with 1 red die."
+      "Vanguard: While attacking, if the target is within 3 spaces of you, you may replace 1 die in your attack pool with 1 red die.",
+      "Run And Gun: While attacking during your activation, you may reroll up to 1 attack die unless you are occupying a space you were occupying at the start of your activation."
     ],
     "Variant": "IACP",
     "Characteristics": [
@@ -7787,9 +7789,9 @@
     ],
     "VassalName": "AT-RT [Elite]",
     "VassalID": "IACP_D card-Reb--AT-RT.jpg",
-    "ImageOffset": 20,
+    "ImageOffset": 30,
     "ImageName": "AT-RT [Elite] [IACP].png",
-    "Playtest": "Yes"
+    "Playtest": "No"
   },
   {
     "ID": 224,
@@ -11639,6 +11641,114 @@
     "ImageName": "KX-Series Security Droid [Elite] [IACP].png",
     "ImageOffset": 0,
     "Playtest": "Yes"
+  },
+  {
+    "ID": 332,
+    "CardGroup": "Deployment",
+    "Name": "Clawdite Shapeshifter",
+    "CardClass": "Elite",
+    "Faction": "Mercenary",
+    "Cost": 6,
+    "FigureCount": 1,
+    "Max": 2,
+    "Health": 8,
+    "Speed": 4,
+    "Traits": [
+      "Hunter",
+      "Spy"
+    ],
+    "TraitsRequired": [],
+    "Color": "Red",
+    "UnitsRequired": [],
+    "Text": [],
+    "Abilities": [],
+    "SpecialAbilities": [
+      "Shape. When you are deployed, you may gain 1 Form card of your choice from the supply.",
+      "Shift: At the start of each round, you may switch your Form card with 1 other Form card of your choice."
+    ],
+    "Variant": "IACP",
+    "Characteristics": [
+      "Small",
+      "Ranged"
+    ],
+    "VassalName": "Clawdite Shapeshifter [Elite]",
+    "Playtest": "No",
+    "ImageOffset": 0,
+    "ImageName": "Clawdite Shapeshifter [Elite] [IACP].png"
+  },
+  {
+    "ID": 333,
+    "CardGroup": "Deployment",
+    "Name": "Clawdite Shapeshifter",
+    "CardClass": "Regular",
+    "Faction": "Mercenary",
+    "Cost": 4,
+    "FigureCount": 1,
+    "Max": 4,
+    "Health": 6,
+    "Speed": 4,
+    "Traits": [
+      "Hunter",
+      "Spy"
+    ],
+    "TraitsRequired": [],
+    "Color": "Gray",
+    "UnitsRequired": [],
+    "Text": [],
+    "Abilities": [],
+    "SpecialAbilities": [
+      "Shape. When you are deployed, you may gain 1 Form card of your choice from the supply.",
+      "Shift: At the start of each round, you may switch your Form card with 1 other Form card of your choice."
+    ],
+    "Variant": "IACP",
+    "Characteristics": [
+      "Small",
+      "Ranged"
+    ],
+    "VassalName": "Clawdite Shapeshifter [Regular]",
+    "Playtest": "No",
+    "ImageOffset": 0,
+    "ImageName": "Clawdite Shapeshifter [Regular] [IACP].png"
+  },
+  {
+    "ID": 334,
+    "CardGroup": "Deployment",
+    "Name": "AT-RT ",
+    "CardClass": "Elite",
+    "Faction": "Rebel",
+    "Cost": 8,
+    "FigureCount": 1,
+    "Max": 2,
+    "Health": 13,
+    "Speed": 5,
+    "Traits": [
+      "Trooper",
+      "Vehicle"
+    ],
+    "TraitsRequired": [],
+    "Color": "Red",
+    "UnitsRequired": [],
+    "Text": [],
+    "Abilities": [
+      "+1[BLOCK], +2 Acc.",
+      "Massive",
+      "[SURGE]: +2[DAMAGE]",
+      "[SURGE]: Pierce 2"
+    ],
+    "SpecialAbilities": [
+      "Mortar Launcher: At the end of the round, you may move up to 2 spaces. Then, choose a space within 3 spaces that contains a hostile figure and roll 1 red die. Each figure on or adjacent to that space suffers [DAMAGE] equal to the [DAMAGE] results.",
+      "Vanguard: While attacking a figure within 3 spaces, you may replace one die in your attack pool with 1 red die."
+    ],
+    "Variant": "IACP",
+    "Characteristics": [
+      "Large",
+      "Massive",
+      "Ranged"
+    ],
+    "VassalName": "AT-RT  [Elite]",
+    "Playtest": "Yes",
+    "ImageOffset": 20,
+    "ImageName": "AT-RT  [Elite] [IACP].png"
   },
   {
     "ID": 1001,
