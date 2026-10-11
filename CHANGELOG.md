@@ -47,6 +47,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **PT filter button:** Toggle beside FFG/IACP/ALL to show only playtest cards; turns AUTO off when enabled and restores AUTO when disabled. Tooltip: "Isolate Playtesting Cards".
 
 ### Changed
+- Updated the Vassal files for many deployment cards (IACP S9 onward) (2026-10-11)
 - Updated Vassal files for FFG Clawdites (2026-10-04)
 - Added approved version of AT_RT in addition to playtest version. (2026-09-30)
 - Added IACP versions of clawdites to work better with Vassal versions. (2026-09-30)

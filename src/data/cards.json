@@ -147,7 +147,7 @@
       "Ranged"
     ],
     "VassalName": "Rebel Trooper [Elite]",
-    "VassalID": "IACP12_D card-Reb--Rebel Trooper.png",
+    "VassalID": "IACP_D card-Reb--Rebel Trooper.png",
     "ImageOffset": 0,
     "ImageName": "Rebel Trooper [Elite].png",
     "Playtest": "No"
@@ -457,7 +457,7 @@
       "Ranged"
     ],
     "VassalName": "Bantha Rider [Elite]",
-    "VassalID": "IACP12_D card-Merc--Bantha Rider.png",
+    "VassalID": "IACP_D card-Merc--Bantha Rider.png",
     "ImageOffset": 0,
     "ImageName": "Bantha Rider [Elite].png",
     "Playtest": "No"
@@ -1075,7 +1075,7 @@
       "Ranged"
     ],
     "VassalName": "Mak Eshka'rey",
-    "VassalID": "D card-Reb--Mak Eshka'rey.jpg",
+    "VassalID": "IACP_D card-Reb--Mak Eshkarey.png",
     "ImageOffset": 0,
     "ImageName": "Mak Eshka'rey.png",
     "Playtest": "No"
@@ -1415,7 +1415,7 @@
       "Ranged"
     ],
     "VassalName": "Dengar",
-    "VassalID": "D card-Merc--Dengar.jpg",
+    "VassalID": "IACP_D card-Merc--Dengar.png",
     "ImageOffset": 5,
     "ImageName": "Dengar.png",
     "Playtest": "No"
@@ -2249,7 +2249,7 @@
       "Ranged"
     ],
     "VassalName": "Leia Organa",
-    "VassalID": "IACP12_D card-Reb--Leia Organa.png",
+    "VassalID": "IACP_D card-Reb--Leia Organa.png",
     "ImageOffset": 0,
     "ImageName": "Leia Organa.png",
     "Playtest": "No"
@@ -2899,7 +2899,7 @@
       "Melee"
     ],
     "VassalName": "Royal Guard Champion",
-    "VassalID": "IACP_D card-Imp--Royal Guard Champion.jpg",
+    "VassalID": "IACP_D card-Imp--Royal Guard Champion.png",
     "ImageOffset": 0,
     "ImageName": "Royal Guard Champion.png",
     "Playtest": "No"
@@ -3086,7 +3086,7 @@
       "Ranged"
     ],
     "VassalName": "Wing Guard [Elite]",
-    "VassalID": "D card-Merc--Wing Guard elite.jpg",
+    "VassalID": "IACP_D card-Reb--Wing Guard.png",
     "ImageOffset": 0,
     "ImageName": "Wing Guard [Elite].png",
     "Playtest": "No"
@@ -3610,7 +3610,7 @@
     "Variant": "FFG",
     "Characteristics": [],
     "VassalName": "Explosive Armaments",
-    "VassalID": "D card-Merc--Explosive Armaments.jpg",
+    "VassalID": "IACP_D card-Merc--Explosive Armaments.png",
     "ImageOffset": 0,
     "ImageName": "Explosive Armaments.png",
     "Playtest": "No"
@@ -4033,7 +4033,7 @@
     "Variant": "FFG",
     "Characteristics": [],
     "VassalName": "Cross-Training [Elite]",
-    "VassalID": "D card-Imp--Cross-Training.jpg",
+    "VassalID": "IACP_D card-Imp--Cross Training.png",
     "ImageOffset": 0,
     "ImageName": "Cross-Training [Elite].png",
     "Playtest": "No"
@@ -5159,7 +5159,7 @@
       "Ranged"
     ],
     "VassalName": "Clawdite Shapeshifter [Regular]",
-    "VassalID": "D card-Merc--Clawdite Shapeshifter regular.png",
+    "VassalID": "IACP_D card-Merc--Clawdite Shapeshifter regular.png",
     "ImageOffset": 0,
     "ImageName": "Clawdite Shapeshifter [Regular].png",
     "Playtest": "No"
@@ -5374,7 +5374,7 @@
       "Ranged"
     ],
     "VassalName": "Clawdite Shapeshifter [Elite]",
-    "VassalID": "D card-Merc--Clawdite Shapeshifter elite.jpg",
+    "VassalID": "IACP_D card-Merc--Clawdite Shapeshifter elite.png",
     "ImageOffset": 0,
     "ImageName": "Clawdite Shapeshifter [Elite].png",
     "Playtest": "No"
@@ -5566,7 +5566,7 @@
       "Melee"
     ],
     "VassalName": "Tress Hacnua",
-    "VassalID": "006 Tress Hacnua Final.png",
+    "VassalID": "IACP_D card-Reb--Tress Hacnua.png",
     "ImageOffset": 0,
     "ImageName": "Tress Hacnua.png",
     "Playtest": "No"
@@ -5678,7 +5678,7 @@
       "Ranged"
     ],
     "VassalName": "CT-1701",
-    "VassalID": "IACP12_D card-Reb--CT-1701.png",
+    "VassalID": "IACP_D card-Reb--CT-1701.png",
     "ImageOffset": 0,
     "ImageName": "CT-1701.png",
     "Playtest": "No"
@@ -7633,7 +7633,7 @@
       "Non-Combatant"
     ],
     "VassalName": "Yoda",
-    "VassalID": "IACP_D card-Reb--Yoda.jpg",
+    "VassalID": "IACP_D card-Reb--Yoda.png",
     "ImageOffset": 28,
     "ImageName": "Yoda [IACP].png",
     "Playtest": "No"
@@ -7788,7 +7788,7 @@
       "Ranged"
     ],
     "VassalName": "AT-RT [Elite]",
-    "VassalID": "IACP_D card-Reb--AT-RT.jpg",
+    "VassalID": "IACP13_D card-Reb--AT-RT.png",
     "ImageOffset": 30,
     "ImageName": "AT-RT [Elite] [IACP].png",
     "Playtest": "No"
@@ -8284,7 +8284,7 @@
       "Ranged"
     ],
     "VassalName": "Mortar Trooper [Elite]",
-    "VassalID": "IACP12_D card-Imp--Mortar Trooper.png",
+    "VassalID": "IACP_D card-Imp--Mortar Trooper.png",
     "ImageOffset": 0,
     "ImageName": "Mortar Trooper [Elite] [IACP].png",
     "Playtest": "No"
@@ -8701,7 +8701,7 @@
       "Ranged"
     ],
     "VassalName": "Doctor Aphra",
-    "VassalID": "IACP_D card-Merc--Doctor Aphra tech.png",
+    "VassalID": "IACP_D card-Merc--Doctor Aphra.png",
     "ImageOffset": 20,
     "ImageName": "Doctor Aphra [IACP].png",
     "Playtest": "No"
@@ -9440,7 +9440,7 @@
       "Melee"
     ],
     "VassalName": "Moff Gideon",
-    "VassalID": "010 Moff Gideon Final.png",
+    "VassalID": "IACP_D card-Imp--Moff Gideon.png",
     "ImageOffset": 15,
     "ImageName": "Moff Gideon [IACP].png",
     "Playtest": "No"
@@ -10859,7 +10859,7 @@
       "Ranged"
     ],
     "VassalName": "Ewok Warrior [Elite]",
-    "VassalID": "IACP9_D card-Reb--Ewok Warrior (Elite).png",
+    "VassalID": "IACP_D card-Reb--Ewok Warrior.png",
     "ImageOffset": 10,
     "ImageName": "Ewok Warrior [Elite] [IACP].png",
     "Playtest": "No"
@@ -10888,7 +10888,7 @@
     "Variant": "IACP",
     "Characteristics": [],
     "VassalName": "A New Hope",
-    "VassalID": "IACP9_D card-Reb--A_New_Hope.png",
+    "VassalID": "IACP_D card-Reb--A New Hope.png",
     "ImageOffset": 0,
     "ImageName": "A New Hope [IACP].png",
     "Playtest": "No"
@@ -10928,7 +10928,7 @@
       "Ranged"
     ],
     "VassalName": "Bodhi Rook",
-    "VassalID": "IACP10_D card-Reb--Bodhi Rook.png",
+    "VassalID": "IACP_D card-Reb--Bodhi Rook.png",
     "ImageOffset": 15,
     "ImageName": "Bodhi Rook [IACP].png",
     "Playtest": "No"
@@ -10965,7 +10965,7 @@
       "Ranged"
     ],
     "VassalName": "Fennec Shand",
-    "VassalID": "IACP_D card-Merc--Fennec_Shand.png",
+    "VassalID": "IACP_D card-Merc--Fennec Shand.png",
     "ImageOffset": 25,
     "ImageName": "Fennec Shand [IACP].png",
     "Playtest": "No"
@@ -11005,7 +11005,7 @@
       "Melee"
     ],
     "VassalName": "Fifth Brother",
-    "VassalID": "IACP9_D card-Imp--Fifth Brother Agent Inquisitorious.png",
+    "VassalID": "IACP_D card-Imp--Fifth Brother.png",
     "ImageOffset": 15,
     "ImageName": "Fifth Brother [IACP].png",
     "Playtest": "No"
@@ -11081,7 +11081,7 @@
       "Ranged"
     ],
     "VassalName": "Krrsantan",
-    "VassalID": "IACP9_D card-Merc--Krrsantan.png",
+    "VassalID": "IACP_D card-Merc--Krrsantan.png",
     "ImageOffset": 25,
     "ImageName": "Krrsantan [IACP].png",
     "Playtest": "No"
@@ -11122,7 +11122,7 @@
       "Ranged"
     ],
     "VassalName": "Tauntaun Rider [Elite]",
-    "VassalID": "005 Tauntaun Rider Final.png",
+    "VassalID": "IACP_D card-Reb--Tauntaun Rider.png",
     "ImageOffset": 20,
     "ImageName": "Tauntaun Rider [Elite] [IACP].png",
     "Playtest": "No"
@@ -11190,7 +11190,7 @@
     "Variant": "IACP",
     "Characteristics": [],
     "VassalName": "Nemiks Manifesto",
-    "VassalID": "007 Nemik's Manifesto Final.png",
+    "VassalID": "IACP_D card-Reb--Nemik's Manifesto.png",
     "ImageOffset": 0,
     "ImageName": "Nemiks Manifesto [IACP].png",
     "Playtest": "No"
@@ -11220,7 +11220,7 @@
     "Variant": "IACP",
     "Characteristics": [],
     "VassalName": "Rogue One",
-    "VassalID": "008 Rogue One Final.png",
+    "VassalID": "IACP_D card-Reb--Rogue One.png",
     "ImageOffset": 0,
     "ImageName": "Rogue One [IACP].png",
     "Playtest": "No"
@@ -11260,7 +11260,7 @@
       "Ranged"
     ],
     "VassalName": "74-Z Speeder Bike [Elite]",
-    "VassalID": "IACP12_D card-Imp--74-Z Speeder Bike.png",
+    "VassalID": "IACP_D card-Imp--74-Z Speeder Bike.png",
     "ImageOffset": 20,
     "ImageName": "74-Z Speeder Bike [Elite] [IACP].png",
     "Playtest": "No"
@@ -11335,7 +11335,7 @@
       "Ranged"
     ],
     "VassalName": "Paz Vizsla",
-    "VassalID": "014 Paz Vizsla Final.png",
+    "VassalID": "IACP_D card-Merc--Paz Vizsla.png",
     "ImageOffset": 25,
     "ImageName": "Paz Vizsla [IACP].png",
     "Playtest": "No"
@@ -11398,7 +11398,7 @@
     "Variant": "IACP",
     "Characteristics": [],
     "VassalName": "Imperial Citadel",
-    "VassalID": "IACP11_D card-Imp--Imperial Citadel.png",
+    "VassalID": "IACP_D card-Imp--Imperial Citadel.png",
     "ImageOffset": -35,
     "ImageName": "Imperial Citadel [IACP].png",
     "Playtest": "No"
@@ -11476,7 +11476,7 @@
       "Ranged"
     ],
     "VassalName": "Dr. Royce Hemlock",
-    "VassalID": "IACP11_D card-Imp--Dr Royce Hemlock.png",
+    "VassalID": "IACP_D card-Imp--Dr Royce Hemlock.png",
     "ImageOffset": 10,
     "ImageName": "Dr. Royce Hemlock [IACP].png",
     "Playtest": "No"
@@ -11519,7 +11519,7 @@
       "Mobile"
     ],
     "VassalName": "Bo-Katan Kryze",
-    "VassalID": "IACP12_D card-Merc--Bo-Katan Kryze.png",
+    "VassalID": "IACP_D card-Merc--Bo-Katan Kryze.png",
     "ImageName": "Bo-Katan Kryze [IACP].png",
     "ImageOffset": 25,
     "Playtest": "Yes"
@@ -11599,7 +11599,7 @@
       "Small"
     ],
     "VassalName": "The Armorer",
-    "VassalID": "IACP12_D card-Merc--The Armorer.png",
+    "VassalID": "IACP_D card-Merc--The Armorer.png",
     "ImageName": "The Armorer [IACP].png",
     "ImageOffset": 25,
     "Playtest": "No"
@@ -11637,7 +11637,7 @@
       "Melee"
     ],
     "VassalName": "KX-Series Security Droid [Elite]",
-    "VassalID": "IACP12_D card-Imp--KX-Series Security Droid.png",
+    "VassalID": "IACP_D card-Imp--KX-Series Security Droid.png",
     "ImageName": "KX-Series Security Droid [Elite] [IACP].png",
     "ImageOffset": 0,
     "Playtest": "Yes"
@@ -11748,7 +11748,8 @@
     "VassalName": "AT-RT  [Elite]",
     "Playtest": "Yes",
     "ImageOffset": 20,
-    "ImageName": "AT-RT  [Elite] [IACP].png"
+    "ImageName": "AT-RT  [Elite] [IACP].png",
+    "VassalID": "IACP13_D card-Reb--AT-RT.png"
   },
   {
     "ID": 1001,
