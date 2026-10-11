@@ -10820,7 +10820,7 @@
     "Variant": "IACP",
     "Characteristics": [],
     "VassalName": "Scavenged Walker",
-    "VassalID": "IACP9_D card-Merc--Scavenged Walker.png",
+    "VassalID": "IACP_D card-Merc--Scavenged Walker.png",
     "ImageOffset": 25,
     "ImageName": "Scavenged Walker [IACP].png",
     "Playtest": "No"
@@ -12383,7 +12383,7 @@
     "Variant": "FFG",
     "Characteristics": null,
     "VassalName": "Close the Gap",
-    "VassalID": "C card--Close the Gap.jpg",
+    "VassalID": "IACP_C card--Close the Gap.png",
     "ImageOffset": 0,
     "ImageName": "Close the Gap.png",
     "Playtest": "No"
@@ -12740,7 +12740,7 @@
     "Variant": "FFG",
     "Characteristics": null,
     "VassalName": "Lord of the Sith",
-    "VassalID": "C card--Lord of the Sith.jpg",
+    "VassalID": "IACP_C card--Lord of the Sith.png",
     "ImageOffset": 0,
     "ImageName": "Lord of the Sith.png",
     "Playtest": "No"
@@ -16102,7 +16102,7 @@
     "Variant": "FFG",
     "Characteristics": null,
     "VassalName": "Stimulants",
-    "VassalID": "IACP12_C card--Stimulants.png",
+    "VassalID": "IACP_C card--Stimulants.png",
     "ImageOffset": 0,
     "ImageName": "Stimulants.png",
     "Playtest": "No"
@@ -16756,7 +16756,7 @@
     "Variant": "FFG",
     "Characteristics": null,
     "VassalName": "Take Position",
-    "VassalID": "C card--Take Position.jpg",
+    "VassalID": "IACP_C card--Take Position.png",
     "ImageOffset": 0,
     "ImageName": "Take Position.png",
     "Playtest": "No"
@@ -18249,7 +18249,7 @@
     "Variant": "IACP",
     "Characteristics": null,
     "VassalName": "Get Behind Me",
-    "VassalID": "IACP_C card--Get behind me.jpg",
+    "VassalID": "IACP_C card--Get Behind Me.png",
     "ImageOffset": 0,
     "ImageName": "Get Behind Me [IACP].png",
     "Playtest": "No"
@@ -19924,7 +19924,7 @@
     "Variant": "IACP",
     "Characteristics": null,
     "VassalName": "Disarm",
-    "VassalID": "IACP9_C card--Disarm.png",
+    "VassalID": "IACP_C card--Disarm.png",
     "ImageOffset": 0,
     "ImageName": "Disarm [IACP].png",
     "Playtest": "No"
@@ -19952,7 +19952,7 @@
     "Variant": "IACP",
     "Characteristics": null,
     "VassalName": "Retaliation",
-    "VassalID": "IACP9_C card--Retaliation.png",
+    "VassalID": "IACP_C card--Retaliation.png",
     "ImageOffset": 0,
     "ImageName": "Retaliation [IACP].png",
     "Playtest": "No"
@@ -19980,7 +19980,7 @@
     "Variant": "IACP",
     "Characteristics": null,
     "VassalName": "Transmit the Plans",
-    "VassalID": "IACP9_C card--Transmit the Plans.png",
+    "VassalID": "IACP_C card--Transmit the Plans.png",
     "ImageOffset": 0,
     "ImageName": "Transmit the Plans [IACP].png",
     "Playtest": "No"
@@ -20012,7 +20012,7 @@
     "Variant": "IACP",
     "Characteristics": null,
     "VassalName": "You Will Not Deny Me",
-    "VassalID": "IACP11_C card--You Will Not Deny Me.png",
+    "VassalID": "IACP_C card--You Will Not Deny Me.png",
     "ImageOffset": 0,
     "ImageName": "You Will Not Deny Me [IACP].png",
     "Playtest": "Yes"
@@ -20095,7 +20095,7 @@
     "Variant": "IACP",
     "Characteristics": null,
     "VassalName": "Capitalize",
-    "VassalID": "001 Capitalize Final.png",
+    "VassalID": "IACP_C card--Capitalize.png",
     "ImageOffset": 0,
     "ImageName": "Capitalize [IACP].png",
     "Playtest": "No"
@@ -20152,7 +20152,7 @@
     "Variant": "IACP",
     "Characteristics": null,
     "VassalName": "Smoke Grenade",
-    "VassalID": "Smoke Grenade Final.png",
+    "VassalID": "IACP_C card--Smoke Grenade.png",
     "ImageOffset": 0,
     "ImageName": "Smoke Grenade [IACP].png",
     "Playtest": "No"
@@ -20241,7 +20241,7 @@
     "Variant": "IACP",
     "Characteristics": null,
     "VassalName": "Cloned Reinforcements",
-    "VassalID": "IACP11_C card--Cloned Reinforcements.png",
+    "VassalID": "IACP_C card--Cloned Reinforcements.png",
     "ImageOffset": 0,
     "ImageName": "Cloned Reinforcements [IACP].png",
     "Playtest": "No"
@@ -20271,7 +20271,7 @@
     "Variant": "IACP",
     "Characteristics": null,
     "VassalName": "Disengage",
-    "VassalID": "IACP11_C card--Disengage.png",
+    "VassalID": "IACP_C card--Disengage.png",
     "ImageOffset": 0,
     "ImageName": "Disengage [IACP].png",
     "Playtest": "No"
@@ -20331,7 +20331,7 @@
     "Variant": "IACP",
     "Characteristics": null,
     "VassalName": "Paid in Beskar",
-    "VassalID": "IACP11_C card--Paid in Beskar.png",
+    "VassalID": "IACP_C card--Paid in Beskar.png",
     "ImageOffset": 0,
     "ImageName": "Paid in Beskar [IACP].png",
     "Playtest": "No"
@@ -20364,7 +20364,7 @@
     "Variant": "IACP",
     "Characteristics": null,
     "VassalName": "Self-Augmentation",
-    "VassalID": "IACP11_C card--Self-Augmentation.png",
+    "VassalID": "IACP_C card--Self-Augmentation.png",
     "ImageOffset": -10,
     "ImageName": "Self-Augmentation [IACP].png",
     "Playtest": "No"
@@ -20422,7 +20422,7 @@
     "SpecialAbilities": [],
     "Variant": "IACP",
     "VassalName": "Mandalorian Steel",
-    "VassalID": "IACP12_C card--Mandalorian Steel.png",
+    "VassalID": "IACP_C card--Mandalorian Steel.png",
     "ImageName": "Mandalorian Steel [IACP].png",
     "ImageOffset": 0,
     "Playtest": "No"
@@ -20451,7 +20451,7 @@
     "SpecialAbilities": [],
     "Variant": "IACP",
     "VassalName": "Gauntlet Blade",
-    "VassalID": "IACP12_C card--Gauntlet Blade.png",
+    "VassalID": "IACP_C card--Gauntlet Blade.png",
     "ImageName": "Gauntlet Blade [IACP].png",
     "ImageOffset": 0,
     "Playtest": "Yes"
