@@ -47,6 +47,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **PT filter button:** Toggle beside FFG/IACP/ALL to show only playtest cards; turns AUTO off when enabled and restores AUTO when disabled. Tooltip: "Isolate Playtesting Cards".
 
 ### Changed
+- More premade lists (2026-10-13)
 - Added test prebuilt list (2026-10-12)
 - Updated dioxis fumes vassal file. (2026-10-11)
 - Updated Vassal files for Overheated CC (2026-10-11)
