@@ -47,6 +47,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **PT filter button:** Toggle beside FFG/IACP/ALL to show only playtest cards; turns AUTO off when enabled and restores AUTO when disabled. Tooltip: "Isolate Playtesting Cards".
 
 ### Changed
+- more premade (2026-10-22)
 - updated Vassal file for Wookiee Rage Command card (2026-10-16)
 - more premades (2026-10-13)
 - More premade lists (2026-10-13)
